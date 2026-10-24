@@ -2,7 +2,14 @@
 
 Tek dosyalık (tarayıcıda çalışan) bir hızlı okuma ve göz egzersizi uygulaması. Kişisel kullanım için yapıldı: bir öğretmen ve yeğeni.
 
-**Uygulamayı aç:** GitHub Pages bağlantısı (depo sayfasının sağ üstünde, "About" bölümünde).
+**Uygulamayı aç:** https://matmehmed47-cmyk.github.io/goz-takibi-metronomu/
+
+## Uygulama gibi yükle (ana ekrana ekle)
+- **Android (Chrome):** sayfayı aç, sağ üstteki üç nokta menüsünden "Uygulamayı yükle" ya da "Ana ekrana ekle".
+- **iPhone / iPad (Safari):** Paylaş düğmesi, sonra "Ana Ekrana Ekle".
+- **Bilgisayar (Chrome / Edge):** adres çubuğunun sağındaki yükleme simgesi.
+
+Yüklendikten sonra tam ekran açılır, internet olmadan da çalışır (ilk açılıştan sonra). İnternet varken her açılışta en yeni sürümü alır. Egzersiz çalışırken ekranın kararmasını engellemeye çalışır (tarayıcı destekliyorsa).
 
 ## İçerik
 - Göz Takibi Metronomu ve Öbek okuma
@@ -18,6 +25,7 @@ Egzersizlerde kişinin o egzersizdeki başarısı artar. Bunun genel zekâya ya 
 
 ## Yapı
 - `index.html`: yayınlanan, derlenmiş uygulama
+- `manifest.webmanifest`, `sw.js`, `simge/`: uygulama gibi yükleme, çevrimdışı çalışma ve simgeler
 - `kaynak/sablon.html`: uygulamanın şablonu (kod)
 - `kaynak/build.py`: şablona metin, kelime ve soruları yerleştirir
 - `veri/`: metinler, sınıf atamaları, sorular, kelime listeleri (JSON)
@@ -28,7 +36,13 @@ Yeniden derlemek için (Python 3):
 python3 kaynak/build.py kaynak veri
 ```
 
-Çıktı `kaynak/metronom.html` olarak yazılır; yayın için `index.html` yerine kopyalanır.
+Çıktı `kaynak/metronom.html` olarak yazılır. Sonra yüklenebilir sürümü üretmek için:
+
+```
+python3 kaynak/pwa_yap.py
+```
+
+Bu, `index.html`, `manifest.webmanifest` ve `sw.js` dosyalarını yeniden yazar (`SURUM=70 python3 kaynak/pwa_yap.py` ile önbellek adı güncellenir). Simgeleri yeniden üretmek için `python3 kaynak/ikon_yap.py` (PIL gerekir).
 
 ## Kaynaklar ve telif
 Metinlerin bir kısmı MEB ders kitaplarından, halk edebiyatından, Vikipedi ve Vikikaynak gibi açık kaynaklardan alınmış ya da bu proje için yazılmıştır. Her metnin kaynağı veri dosyalarında `kaynak` alanında yer alır. Ders kitabı parçalarının ve diğer metinlerin hakları ilgili sahiplerine aittir; bu depo ticari amaçla kullanılmamalıdır. Bir hak sahibi kaldırılmasını isterse ilgili metin çıkarılır.
