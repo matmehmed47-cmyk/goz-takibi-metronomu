@@ -1,0 +1,6911 @@
+{
+ "kategoriler": {
+  "Evcil hayvanlar": [
+   {
+    "k": "kedi",
+    "e": "🐱"
+   },
+   {
+    "k": "köpek",
+    "e": "🐶"
+   },
+   {
+    "k": "kuş",
+    "e": "🐦"
+   },
+   {
+    "k": "balık",
+    "e": "🐟"
+   },
+   {
+    "k": "tavşan",
+    "e": "🐰"
+   },
+   {
+    "k": "hamster",
+    "e": "🐹"
+   },
+   {
+    "k": "kaplumbağa",
+    "e": "🐢"
+   },
+   {
+    "k": "papağan",
+    "e": "🦜"
+   },
+   {
+    "k": "kanarya"
+   },
+   {
+    "k": "muhabbet"
+   },
+   {
+    "k": "at",
+    "e": "🐴"
+   },
+   {
+    "k": "eşek"
+   },
+   {
+    "k": "inek",
+    "e": "🐮"
+   },
+   {
+    "k": "koyun",
+    "e": "🐑"
+   },
+   {
+    "k": "keçi",
+    "e": "🐐"
+   },
+   {
+    "k": "tavuk",
+    "e": "🐔"
+   },
+   {
+    "k": "horoz",
+    "e": "🐓"
+   },
+   {
+    "k": "ördek",
+    "e": "🦆"
+   },
+   {
+    "k": "kaz"
+   },
+   {
+    "k": "hindi",
+    "e": "🦃"
+   },
+   {
+    "k": "civciv",
+    "e": "🐤"
+   },
+   {
+    "k": "kuzu"
+   },
+   {
+    "k": "oğlak"
+   },
+   {
+    "k": "buzağı"
+   },
+   {
+    "k": "yavru"
+   },
+   {
+    "k": "güvercin"
+   }
+  ],
+  "Orman hayvanları": [
+   {
+    "k": "ayı",
+    "e": "🐻"
+   },
+   {
+    "k": "kurt",
+    "e": "🐺"
+   },
+   {
+    "k": "tilki",
+    "e": "🦊"
+   },
+   {
+    "k": "geyik",
+    "e": "🦌"
+   },
+   {
+    "k": "sincap",
+    "e": "🐿️"
+   },
+   {
+    "k": "tavşan",
+    "e": "🐇"
+   },
+   {
+    "k": "kirpi",
+    "e": "🦔"
+   },
+   {
+    "k": "porsuk"
+   },
+   {
+    "k": "baykuş",
+    "e": "🦉"
+   },
+   {
+    "k": "kartal",
+    "e": "🦅"
+   },
+   {
+    "k": "şahin"
+   },
+   {
+    "k": "karaca"
+   },
+   {
+    "k": "leylek"
+   },
+   {
+    "k": "gelincik"
+   },
+   {
+    "k": "köstebek"
+   },
+   {
+    "k": "kunduz"
+   },
+   {
+    "k": "vaşak"
+   },
+   {
+    "k": "sansar"
+   },
+   {
+    "k": "karıncayiyen"
+   },
+   {
+    "k": "fare",
+    "e": "🐭"
+   },
+   {
+    "k": "ağaçkakan"
+   },
+   {
+    "k": "guguk"
+   },
+   {
+    "k": "keklik"
+   },
+   {
+    "k": "rakun"
+   },
+   {
+    "k": "puma"
+   },
+   {
+    "k": "samur"
+   }
+  ],
+  "Vahşi hayvanlar": [
+   {
+    "k": "aslan",
+    "e": "🦁"
+   },
+   {
+    "k": "kaplan",
+    "e": "🐯"
+   },
+   {
+    "k": "fil",
+    "e": "🐘"
+   },
+   {
+    "k": "zürafa",
+    "e": "🦒"
+   },
+   {
+    "k": "zebra",
+    "e": "🦓"
+   },
+   {
+    "k": "gergedan",
+    "e": "🦏"
+   },
+   {
+    "k": "begemot"
+   },
+   {
+    "k": "leopar",
+    "e": "🐆"
+   },
+   {
+    "k": "çita"
+   },
+   {
+    "k": "maymun",
+    "e": "🐒"
+   },
+   {
+    "k": "goril",
+    "e": "🦍"
+   },
+   {
+    "k": "panda",
+    "e": "🐼"
+   },
+   {
+    "k": "kanguru",
+    "e": "🦘"
+   },
+   {
+    "k": "koala",
+    "e": "🐨"
+   },
+   {
+    "k": "deve",
+    "e": "🐪"
+   },
+   {
+    "k": "şempanze"
+   },
+   {
+    "k": "bizon"
+   },
+   {
+    "k": "antilop"
+   },
+   {
+    "k": "jaguar"
+   },
+   {
+    "k": "lemur"
+   },
+   {
+    "k": "ceylan"
+   },
+   {
+    "k": "flamingo",
+    "e": "🦩"
+   },
+   {
+    "k": "devekuşu"
+   },
+   {
+    "k": "pelikan"
+   },
+   {
+    "k": "tukan"
+   },
+   {
+    "k": "penguen",
+    "e": "🐧"
+   },
+   {
+    "k": "yunus",
+    "e": "🐬"
+   },
+   {
+    "k": "fok"
+   },
+   {
+    "k": "morsa"
+   }
+  ],
+  "Kuşlar": [
+   {
+    "k": "serçe"
+   },
+   {
+    "k": "kartal",
+    "e": "🦅"
+   },
+   {
+    "k": "güvercin",
+    "e": "🕊️"
+   },
+   {
+    "k": "papağan",
+    "e": "🦜"
+   },
+   {
+    "k": "baykuş",
+    "e": "🦉"
+   },
+   {
+    "k": "leylek"
+   },
+   {
+    "k": "turna"
+   },
+   {
+    "k": "kaz"
+   },
+   {
+    "k": "ördek",
+    "e": "🦆"
+   },
+   {
+    "k": "kuğu",
+    "e": "🦢"
+   },
+   {
+    "k": "martı"
+   },
+   {
+    "k": "karga"
+   },
+   {
+    "k": "kumru"
+   },
+   {
+    "k": "bülbül"
+   },
+   {
+    "k": "kanarya"
+   },
+   {
+    "k": "saksağan"
+   },
+   {
+    "k": "hüthüt"
+   },
+   {
+    "k": "şahin"
+   },
+   {
+    "k": "atmaca"
+   },
+   {
+    "k": "keklik"
+   },
+   {
+    "k": "tavus",
+    "e": "🦚"
+   },
+   {
+    "k": "penguen",
+    "e": "🐧"
+   },
+   {
+    "k": "flamingo",
+    "e": "🦩"
+   },
+   {
+    "k": "pelikan"
+   },
+   {
+    "k": "sığırcık"
+   },
+   {
+    "k": "kırlangıç"
+   },
+   {
+    "k": "ağaçkakan"
+   },
+   {
+    "k": "kuş",
+    "e": "🐦"
+   },
+   {
+    "k": "horoz",
+    "e": "🐓"
+   },
+   {
+    "k": "tavuk",
+    "e": "🐔"
+   },
+   {
+    "k": "civciv",
+    "e": "🐤"
+   },
+   {
+    "k": "akbaba"
+   },
+   {
+    "k": "çaylak"
+   },
+   {
+    "k": "guguk"
+   }
+  ],
+  "Deniz canlıları": [
+   {
+    "k": "balık",
+    "e": "🐟"
+   },
+   {
+    "k": "yunus",
+    "e": "🐬"
+   },
+   {
+    "k": "balina",
+    "e": "🐳"
+   },
+   {
+    "k": "ahtapot",
+    "e": "🐙"
+   },
+   {
+    "k": "yengeç",
+    "e": "🦀"
+   },
+   {
+    "k": "karides",
+    "e": "🦐"
+   },
+   {
+    "k": "midye"
+   },
+   {
+    "k": "istiridye"
+   },
+   {
+    "k": "denizatı"
+   },
+   {
+    "k": "mercan"
+   },
+   {
+    "k": "hamsi"
+   },
+   {
+    "k": "palamut"
+   },
+   {
+    "k": "levrek"
+   },
+   {
+    "k": "çipura"
+   },
+   {
+    "k": "istavrit"
+   },
+   {
+    "k": "uskumru"
+   },
+   {
+    "k": "kalkan"
+   },
+   {
+    "k": "somon"
+   },
+   {
+    "k": "orkinos"
+   },
+   {
+    "k": "morina"
+   },
+   {
+    "k": "sardalye"
+   },
+   {
+    "k": "lüfer"
+   },
+   {
+    "k": "kefal"
+   },
+   {
+    "k": "alabalık"
+   },
+   {
+    "k": "turna"
+   },
+   {
+    "k": "sazan"
+   },
+   {
+    "k": "yılanbalığı"
+   },
+   {
+    "k": "fok"
+   },
+   {
+    "k": "morsa"
+   },
+   {
+    "k": "yosun"
+   }
+  ],
+  "Böcekler ve küçük canlılar": [
+   {
+    "k": "karınca",
+    "e": "🐜"
+   },
+   {
+    "k": "arı",
+    "e": "🐝"
+   },
+   {
+    "k": "kelebek",
+    "e": "🦋"
+   },
+   {
+    "k": "sinek"
+   },
+   {
+    "k": "uğurböceği",
+    "e": "🐞"
+   },
+   {
+    "k": "sivrisinek"
+   },
+   {
+    "k": "cırcırböceği"
+   },
+   {
+    "k": "çekirge"
+   },
+   {
+    "k": "hamamböceği"
+   },
+   {
+    "k": "kınkanat"
+   },
+   {
+    "k": "yusufçuk"
+   },
+   {
+    "k": "güve"
+   },
+   {
+    "k": "tırtıl",
+    "e": "🐛"
+   },
+   {
+    "k": "salyangoz",
+    "e": "🐌"
+   },
+   {
+    "k": "solucan"
+   },
+   {
+    "k": "böcek"
+   },
+   {
+    "k": "ateşböceği"
+   },
+   {
+    "k": "bal"
+   },
+   {
+    "k": "arısı"
+   },
+   {
+    "k": "eşekarısı"
+   },
+   {
+    "k": "bombus"
+   },
+   {
+    "k": "ağustosböceği"
+   },
+   {
+    "k": "kriket"
+   },
+   {
+    "k": "kurbağa",
+    "e": "🐸"
+   },
+   {
+    "k": "kertenkele"
+   }
+  ],
+  "Çiftlik": [
+   {
+    "k": "inek",
+    "e": "🐮"
+   },
+   {
+    "k": "koyun",
+    "e": "🐑"
+   },
+   {
+    "k": "keçi",
+    "e": "🐐"
+   },
+   {
+    "k": "at",
+    "e": "🐴"
+   },
+   {
+    "k": "eşek"
+   },
+   {
+    "k": "tavuk",
+    "e": "🐔"
+   },
+   {
+    "k": "horoz",
+    "e": "🐓"
+   },
+   {
+    "k": "ördek",
+    "e": "🦆"
+   },
+   {
+    "k": "kaz"
+   },
+   {
+    "k": "hindi",
+    "e": "🦃"
+   },
+   {
+    "k": "kuzu"
+   },
+   {
+    "k": "buzağı"
+   },
+   {
+    "k": "civciv",
+    "e": "🐤"
+   },
+   {
+    "k": "ağıl"
+   },
+   {
+    "k": "ahır"
+   },
+   {
+    "k": "samanlık"
+   },
+   {
+    "k": "traktör",
+    "e": "🚜"
+   },
+   {
+    "k": "tarla"
+   },
+   {
+    "k": "çiftçi"
+   },
+   {
+    "k": "buğday"
+   },
+   {
+    "k": "saman"
+   },
+   {
+    "k": "yem"
+   },
+   {
+    "k": "süt",
+    "e": "🥛"
+   },
+   {
+    "k": "yumurta",
+    "e": "🥚"
+   },
+   {
+    "k": "peynir"
+   },
+   {
+    "k": "yün"
+   },
+   {
+    "k": "kümes"
+   },
+   {
+    "k": "çoban"
+   },
+   {
+    "k": "köpek",
+    "e": "🐕"
+   },
+   {
+    "k": "çit"
+   }
+  ],
+  "Meyveler": [
+   {
+    "k": "elma",
+    "e": "🍎"
+   },
+   {
+    "k": "armut",
+    "e": "🍐"
+   },
+   {
+    "k": "muz",
+    "e": "🍌"
+   },
+   {
+    "k": "portakal",
+    "e": "🍊"
+   },
+   {
+    "k": "mandalina"
+   },
+   {
+    "k": "limon",
+    "e": "🍋"
+   },
+   {
+    "k": "çilek",
+    "e": "🍓"
+   },
+   {
+    "k": "kiraz",
+    "e": "🍒"
+   },
+   {
+    "k": "üzüm",
+    "e": "🍇"
+   },
+   {
+    "k": "karpuz",
+    "e": "🍉"
+   },
+   {
+    "k": "kavun"
+   },
+   {
+    "k": "şeftali",
+    "e": "🍑"
+   },
+   {
+    "k": "kayısı"
+   },
+   {
+    "k": "erik"
+   },
+   {
+    "k": "incir"
+   },
+   {
+    "k": "nar"
+   },
+   {
+    "k": "vişne"
+   },
+   {
+    "k": "ananas",
+    "e": "🍍"
+   },
+   {
+    "k": "kivi",
+    "e": "🥝"
+   },
+   {
+    "k": "hurma"
+   },
+   {
+    "k": "muşmula"
+   },
+   {
+    "k": "dut"
+   },
+   {
+    "k": "böğürtlen"
+   },
+   {
+    "k": "ahududu"
+   },
+   {
+    "k": "turunç"
+   },
+   {
+    "k": "greyfurt"
+   },
+   {
+    "k": "ayva"
+   },
+   {
+    "k": "mango"
+   }
+  ],
+  "Sebzeler": [
+   {
+    "k": "domates",
+    "e": "🍅"
+   },
+   {
+    "k": "salatalık"
+   },
+   {
+    "k": "biber"
+   },
+   {
+    "k": "patlıcan",
+    "e": "🍆"
+   },
+   {
+    "k": "havuç",
+    "e": "🥕"
+   },
+   {
+    "k": "patates",
+    "e": "🥔"
+   },
+   {
+    "k": "soğan"
+   },
+   {
+    "k": "sarımsak",
+    "e": "🧄"
+   },
+   {
+    "k": "marul"
+   },
+   {
+    "k": "ıspanak"
+   },
+   {
+    "k": "kabak"
+   },
+   {
+    "k": "lahana"
+   },
+   {
+    "k": "karnabahar"
+   },
+   {
+    "k": "brokoli",
+    "e": "🥦"
+   },
+   {
+    "k": "mısır",
+    "e": "🌽"
+   },
+   {
+    "k": "bezelye"
+   },
+   {
+    "k": "fasulye"
+   },
+   {
+    "k": "turp"
+   },
+   {
+    "k": "pazı"
+   },
+   {
+    "k": "pırasa"
+   },
+   {
+    "k": "kereviz"
+   },
+   {
+    "k": "semizotu"
+   },
+   {
+    "k": "maydanoz"
+   },
+   {
+    "k": "dereotu"
+   },
+   {
+    "k": "nane"
+   },
+   {
+    "k": "enginar"
+   },
+   {
+    "k": "bamya"
+   },
+   {
+    "k": "pancar"
+   }
+  ],
+  "Yiyecekler": [
+   {
+    "k": "ekmek",
+    "e": "🍞"
+   },
+   {
+    "k": "peynir",
+    "e": "🧀"
+   },
+   {
+    "k": "yumurta",
+    "e": "🥚"
+   },
+   {
+    "k": "zeytin"
+   },
+   {
+    "k": "makarna"
+   },
+   {
+    "k": "pilav"
+   },
+   {
+    "k": "çorba"
+   },
+   {
+    "k": "et"
+   },
+   {
+    "k": "tavuk"
+   },
+   {
+    "k": "köfte"
+   },
+   {
+    "k": "börek"
+   },
+   {
+    "k": "pide"
+   },
+   {
+    "k": "lahmacun"
+   },
+   {
+    "k": "kebap"
+   },
+   {
+    "k": "tost"
+   },
+   {
+    "k": "simit"
+   },
+   {
+    "k": "pasta"
+   },
+   {
+    "k": "bal"
+   },
+   {
+    "k": "reçel"
+   },
+   {
+    "k": "yoğurt"
+   },
+   {
+    "k": "tereyağı"
+   },
+   {
+    "k": "mercimek"
+   },
+   {
+    "k": "nohut"
+   },
+   {
+    "k": "salata"
+   },
+   {
+    "k": "hamburger",
+    "e": "🍔"
+   },
+   {
+    "k": "sosis"
+   },
+   {
+    "k": "pizza",
+    "e": "🍕"
+   },
+   {
+    "k": "patates",
+    "e": "🥔"
+   },
+   {
+    "k": "omlet"
+   }
+  ],
+  "Kahvaltı": [
+   {
+    "k": "ekmek",
+    "e": "🍞"
+   },
+   {
+    "k": "peynir",
+    "e": "🧀"
+   },
+   {
+    "k": "zeytin"
+   },
+   {
+    "k": "yumurta",
+    "e": "🥚"
+   },
+   {
+    "k": "domates",
+    "e": "🍅"
+   },
+   {
+    "k": "salatalık"
+   },
+   {
+    "k": "reçel"
+   },
+   {
+    "k": "bal"
+   },
+   {
+    "k": "tereyağı"
+   },
+   {
+    "k": "süt",
+    "e": "🥛"
+   },
+   {
+    "k": "simit"
+   },
+   {
+    "k": "çay",
+    "e": "🍵"
+   },
+   {
+    "k": "kaymak"
+   },
+   {
+    "k": "sucuk"
+   },
+   {
+    "k": "menemen"
+   },
+   {
+    "k": "börek"
+   },
+   {
+    "k": "poğaça"
+   },
+   {
+    "k": "pişi"
+   },
+   {
+    "k": "gözleme"
+   },
+   {
+    "k": "yoğurt"
+   },
+   {
+    "k": "tahin"
+   },
+   {
+    "k": "pekmez"
+   },
+   {
+    "k": "omlet"
+   },
+   {
+    "k": "ceviz"
+   },
+   {
+    "k": "tost"
+   },
+   {
+    "k": "kruvasan",
+    "e": "🥐"
+   },
+   {
+    "k": "bisküvi"
+   },
+   {
+    "k": "mısır"
+   },
+   {
+    "k": "gevrek"
+   }
+  ],
+  "Renkler": [
+   {
+    "k": "kırmızı"
+   },
+   {
+    "k": "mavi"
+   },
+   {
+    "k": "sarı"
+   },
+   {
+    "k": "yeşil"
+   },
+   {
+    "k": "turuncu"
+   },
+   {
+    "k": "mor"
+   },
+   {
+    "k": "pembe"
+   },
+   {
+    "k": "siyah"
+   },
+   {
+    "k": "beyaz"
+   },
+   {
+    "k": "gri"
+   },
+   {
+    "k": "kahverengi"
+   },
+   {
+    "k": "lacivert"
+   },
+   {
+    "k": "turkuaz"
+   },
+   {
+    "k": "bordo"
+   },
+   {
+    "k": "krem"
+   },
+   {
+    "k": "bej"
+   },
+   {
+    "k": "altın"
+   },
+   {
+    "k": "gümüş"
+   },
+   {
+    "k": "eflatun"
+   },
+   {
+    "k": "mercan"
+   },
+   {
+    "k": "haki"
+   },
+   {
+    "k": "fıstık"
+   },
+   {
+    "k": "kiremit"
+   },
+   {
+    "k": "toprak"
+   },
+   {
+    "k": "ten"
+   },
+   {
+    "k": "açık"
+   },
+   {
+    "k": "koyu"
+   },
+   {
+    "k": "parlak"
+   },
+   {
+    "k": "soluk"
+   },
+   {
+    "k": "renkli"
+   }
+  ],
+  "Şekiller": [
+   {
+    "k": "daire"
+   },
+   {
+    "k": "üçgen"
+   },
+   {
+    "k": "kare"
+   },
+   {
+    "k": "dikdörtgen"
+   },
+   {
+    "k": "yıldız",
+    "e": "⭐"
+   },
+   {
+    "k": "kalp",
+    "e": "❤️"
+   },
+   {
+    "k": "elips"
+   },
+   {
+    "k": "beşgen"
+   },
+   {
+    "k": "altıgen"
+   },
+   {
+    "k": "sekizgen"
+   },
+   {
+    "k": "yamuk"
+   },
+   {
+    "k": "küre"
+   },
+   {
+    "k": "silindir"
+   },
+   {
+    "k": "küp"
+   },
+   {
+    "k": "koni"
+   },
+   {
+    "k": "prizma"
+   },
+   {
+    "k": "piramit"
+   },
+   {
+    "k": "çizgi"
+   },
+   {
+    "k": "nokta"
+   },
+   {
+    "k": "eğri"
+   },
+   {
+    "k": "açı"
+   },
+   {
+    "k": "ok"
+   },
+   {
+    "k": "halka"
+   },
+   {
+    "k": "oval"
+   },
+   {
+    "k": "spiral"
+   },
+   {
+    "k": "kavis"
+   },
+   {
+    "k": "zikzak"
+   }
+  ],
+  "Meslekler": [
+   {
+    "k": "doktor",
+    "e": "👨‍⚕️"
+   },
+   {
+    "k": "öğretmen",
+    "e": "👨‍🏫"
+   },
+   {
+    "k": "polis",
+    "e": "👮"
+   },
+   {
+    "k": "itfaiyeci",
+    "e": "👨‍🚒"
+   },
+   {
+    "k": "pilot",
+    "e": "👨‍✈️"
+   },
+   {
+    "k": "aşçı",
+    "e": "👨‍🍳"
+   },
+   {
+    "k": "çiftçi",
+    "e": "👨‍🌾"
+   },
+   {
+    "k": "terzi"
+   },
+   {
+    "k": "berber"
+   },
+   {
+    "k": "avukat"
+   },
+   {
+    "k": "hakim"
+   },
+   {
+    "k": "mühendis"
+   },
+   {
+    "k": "mimar"
+   },
+   {
+    "k": "ressam"
+   },
+   {
+    "k": "şoför"
+   },
+   {
+    "k": "bakkal"
+   },
+   {
+    "k": "kasap"
+   },
+   {
+    "k": "fırıncı"
+   },
+   {
+    "k": "manav"
+   },
+   {
+    "k": "marangoz"
+   },
+   {
+    "k": "tesisatçı"
+   },
+   {
+    "k": "elektrikçi"
+   },
+   {
+    "k": "hemşire"
+   },
+   {
+    "k": "dişçi"
+   },
+   {
+    "k": "eczacı"
+   },
+   {
+    "k": "gazeteci"
+   },
+   {
+    "k": "yazar"
+   },
+   {
+    "k": "şair"
+   },
+   {
+    "k": "sporcu"
+   },
+   {
+    "k": "futbolcu"
+   }
+  ],
+  "Ülkeler": [
+   {
+    "k": "Türkiye"
+   },
+   {
+    "k": "Almanya"
+   },
+   {
+    "k": "Fransa"
+   },
+   {
+    "k": "İtalya"
+   },
+   {
+    "k": "İspanya"
+   },
+   {
+    "k": "İngiltere"
+   },
+   {
+    "k": "Rusya"
+   },
+   {
+    "k": "Japonya"
+   },
+   {
+    "k": "Çin"
+   },
+   {
+    "k": "Hindistan"
+   },
+   {
+    "k": "Brezilya"
+   },
+   {
+    "k": "Mısır"
+   },
+   {
+    "k": "Yunanistan"
+   },
+   {
+    "k": "Bulgaristan"
+   },
+   {
+    "k": "Gürcistan"
+   },
+   {
+    "k": "Kanada"
+   },
+   {
+    "k": "Meksika"
+   },
+   {
+    "k": "Avustralya"
+   },
+   {
+    "k": "Hollanda"
+   },
+   {
+    "k": "Belçika"
+   },
+   {
+    "k": "İsviçre"
+   },
+   {
+    "k": "Portekiz"
+   },
+   {
+    "k": "Norveç"
+   },
+   {
+    "k": "İsveç"
+   },
+   {
+    "k": "Polonya"
+   },
+   {
+    "k": "Macaristan"
+   },
+   {
+    "k": "Azerbaycan"
+   },
+   {
+    "k": "Kazakistan"
+   },
+   {
+    "k": "Arjantin"
+   }
+  ],
+  "Şehirler": [
+   {
+    "k": "Ankara"
+   },
+   {
+    "k": "İstanbul"
+   },
+   {
+    "k": "İzmir"
+   },
+   {
+    "k": "Bursa"
+   },
+   {
+    "k": "Antalya"
+   },
+   {
+    "k": "Adana"
+   },
+   {
+    "k": "Konya"
+   },
+   {
+    "k": "Trabzon"
+   },
+   {
+    "k": "Samsun"
+   },
+   {
+    "k": "Erzurum"
+   },
+   {
+    "k": "Kayseri"
+   },
+   {
+    "k": "Mersin"
+   },
+   {
+    "k": "Eskişehir"
+   },
+   {
+    "k": "Gaziantep"
+   },
+   {
+    "k": "Diyarbakır"
+   },
+   {
+    "k": "Malatya"
+   },
+   {
+    "k": "Sivas"
+   },
+   {
+    "k": "Van"
+   },
+   {
+    "k": "Muğla"
+   },
+   {
+    "k": "Aydın"
+   },
+   {
+    "k": "Denizli"
+   },
+   {
+    "k": "Edirne"
+   },
+   {
+    "k": "Çanakkale"
+   },
+   {
+    "k": "Rize"
+   },
+   {
+    "k": "Ordu"
+   },
+   {
+    "k": "Tokat"
+   },
+   {
+    "k": "Bolu"
+   },
+   {
+    "k": "Hatay"
+   },
+   {
+    "k": "Isparta"
+   },
+   {
+    "k": "Sinop"
+   },
+   {
+    "k": "Kars"
+   }
+  ],
+  "Akraba ve aile": [
+   {
+    "k": "anne",
+    "e": "👩"
+   },
+   {
+    "k": "baba",
+    "e": "👨"
+   },
+   {
+    "k": "abla"
+   },
+   {
+    "k": "ağabey"
+   },
+   {
+    "k": "kardeş"
+   },
+   {
+    "k": "dede"
+   },
+   {
+    "k": "nine"
+   },
+   {
+    "k": "babaanne"
+   },
+   {
+    "k": "anneanne"
+   },
+   {
+    "k": "amca"
+   },
+   {
+    "k": "dayı"
+   },
+   {
+    "k": "hala"
+   },
+   {
+    "k": "teyze"
+   },
+   {
+    "k": "kuzen"
+   },
+   {
+    "k": "yeğen"
+   },
+   {
+    "k": "torun"
+   },
+   {
+    "k": "eş"
+   },
+   {
+    "k": "oğul"
+   },
+   {
+    "k": "kız"
+   },
+   {
+    "k": "bebek",
+    "e": "👶"
+   },
+   {
+    "k": "çocuk",
+    "e": "🧒"
+   },
+   {
+    "k": "gelin"
+   },
+   {
+    "k": "damat"
+   },
+   {
+    "k": "enişte"
+   },
+   {
+    "k": "yenge"
+   },
+   {
+    "k": "görümce"
+   },
+   {
+    "k": "kayınvalide"
+   },
+   {
+    "k": "aile"
+   },
+   {
+    "k": "komşu"
+   },
+   {
+    "k": "arkadaş"
+   }
+  ],
+  "Vücut": [
+   {
+    "k": "baş"
+   },
+   {
+    "k": "el",
+    "e": "✋"
+   },
+   {
+    "k": "ayak",
+    "e": "🦶"
+   },
+   {
+    "k": "göz",
+    "e": "👁️"
+   },
+   {
+    "k": "kulak",
+    "e": "👂"
+   },
+   {
+    "k": "burun",
+    "e": "👃"
+   },
+   {
+    "k": "ağız",
+    "e": "👄"
+   },
+   {
+    "k": "diş",
+    "e": "🦷"
+   },
+   {
+    "k": "dil",
+    "e": "👅"
+   },
+   {
+    "k": "saç"
+   },
+   {
+    "k": "boyun"
+   },
+   {
+    "k": "omuz"
+   },
+   {
+    "k": "kol"
+   },
+   {
+    "k": "dirsek"
+   },
+   {
+    "k": "bilek"
+   },
+   {
+    "k": "parmak"
+   },
+   {
+    "k": "tırnak"
+   },
+   {
+    "k": "bacak"
+   },
+   {
+    "k": "diz"
+   },
+   {
+    "k": "kalça"
+   },
+   {
+    "k": "sırt"
+   },
+   {
+    "k": "göğüs"
+   },
+   {
+    "k": "karın"
+   },
+   {
+    "k": "kalp"
+   },
+   {
+    "k": "kaş"
+   },
+   {
+    "k": "kirpik"
+   },
+   {
+    "k": "yanak"
+   },
+   {
+    "k": "çene"
+   },
+   {
+    "k": "alın"
+   },
+   {
+    "k": "deri"
+   },
+   {
+    "k": "kemik"
+   },
+   {
+    "k": "kas"
+   }
+  ],
+  "Giysiler": [
+   {
+    "k": "gömlek"
+   },
+   {
+    "k": "tişört"
+   },
+   {
+    "k": "pantolon"
+   },
+   {
+    "k": "etek"
+   },
+   {
+    "k": "elbise"
+   },
+   {
+    "k": "ceket"
+   },
+   {
+    "k": "mont"
+   },
+   {
+    "k": "kazak"
+   },
+   {
+    "k": "hırka"
+   },
+   {
+    "k": "şort"
+   },
+   {
+    "k": "çorap",
+    "e": "🧦"
+   },
+   {
+    "k": "ayakkabı",
+    "e": "👟"
+   },
+   {
+    "k": "bot"
+   },
+   {
+    "k": "terlik"
+   },
+   {
+    "k": "eldiven",
+    "e": "🧤"
+   },
+   {
+    "k": "şapka",
+    "e": "🧢"
+   },
+   {
+    "k": "atkı"
+   },
+   {
+    "k": "bere"
+   },
+   {
+    "k": "kemer"
+   },
+   {
+    "k": "kravat"
+   },
+   {
+    "k": "pijama"
+   },
+   {
+    "k": "mayo"
+   },
+   {
+    "k": "palto"
+   },
+   {
+    "k": "yelek"
+   },
+   {
+    "k": "tayt"
+   },
+   {
+    "k": "takım"
+   },
+   {
+    "k": "önlük"
+   },
+   {
+    "k": "forma"
+   },
+   {
+    "k": "eşofman"
+   }
+  ],
+  "Ev eşyaları": [
+   {
+    "k": "masa"
+   },
+   {
+    "k": "sandalye"
+   },
+   {
+    "k": "koltuk"
+   },
+   {
+    "k": "yatak"
+   },
+   {
+    "k": "dolap"
+   },
+   {
+    "k": "halı"
+   },
+   {
+    "k": "perde"
+   },
+   {
+    "k": "lamba",
+    "e": "💡"
+   },
+   {
+    "k": "ayna"
+   },
+   {
+    "k": "saat",
+    "e": "⏰"
+   },
+   {
+    "k": "televizyon",
+    "e": "📺"
+   },
+   {
+    "k": "buzdolabı"
+   },
+   {
+    "k": "telefon",
+    "e": "📱"
+   },
+   {
+    "k": "vazo"
+   },
+   {
+    "k": "tablo"
+   },
+   {
+    "k": "yastık"
+   },
+   {
+    "k": "yorgan"
+   },
+   {
+    "k": "battaniye"
+   },
+   {
+    "k": "çarşaf"
+   },
+   {
+    "k": "kapı"
+   },
+   {
+    "k": "pencere"
+   },
+   {
+    "k": "merdiven"
+   },
+   {
+    "k": "süpürge"
+   },
+   {
+    "k": "ütü"
+   },
+   {
+    "k": "fırın"
+   },
+   {
+    "k": "soba"
+   },
+   {
+    "k": "radyatör"
+   },
+   {
+    "k": "kitaplık"
+   },
+   {
+    "k": "sehpa"
+   }
+  ],
+  "Mutfak": [
+   {
+    "k": "tabak"
+   },
+   {
+    "k": "bardak"
+   },
+   {
+    "k": "kaşık",
+    "e": "🥄"
+   },
+   {
+    "k": "çatal"
+   },
+   {
+    "k": "bıçak",
+    "e": "🔪"
+   },
+   {
+    "k": "tencere"
+   },
+   {
+    "k": "tava"
+   },
+   {
+    "k": "kazan"
+   },
+   {
+    "k": "çaydanlık"
+   },
+   {
+    "k": "demlik"
+   },
+   {
+    "k": "fincan"
+   },
+   {
+    "k": "sürahi"
+   },
+   {
+    "k": "kavanoz"
+   },
+   {
+    "k": "tepsi"
+   },
+   {
+    "k": "leğen"
+   },
+   {
+    "k": "kevgir"
+   },
+   {
+    "k": "süzgeç"
+   },
+   {
+    "k": "rende"
+   },
+   {
+    "k": "tahta"
+   },
+   {
+    "k": "fırın"
+   },
+   {
+    "k": "ocak"
+   },
+   {
+    "k": "sahan"
+   },
+   {
+    "k": "kase"
+   },
+   {
+    "k": "havlu"
+   },
+   {
+    "k": "önlük"
+   },
+   {
+    "k": "bulaşık"
+   },
+   {
+    "k": "çorbalık"
+   },
+   {
+    "k": "sepet"
+   },
+   {
+    "k": "şişe"
+   }
+  ],
+  "Okul eşyaları": [
+   {
+    "k": "kalem",
+    "e": "✏️"
+   },
+   {
+    "k": "defter",
+    "e": "📓"
+   },
+   {
+    "k": "kitap",
+    "e": "📖"
+   },
+   {
+    "k": "silgi"
+   },
+   {
+    "k": "cetvel",
+    "e": "📏"
+   },
+   {
+    "k": "makas",
+    "e": "✂️"
+   },
+   {
+    "k": "çanta",
+    "e": "🎒"
+   },
+   {
+    "k": "pergel"
+   },
+   {
+    "k": "kalemtıraş"
+   },
+   {
+    "k": "boya"
+   },
+   {
+    "k": "pastel"
+   },
+   {
+    "k": "yapıştırıcı"
+   },
+   {
+    "k": "tahta"
+   },
+   {
+    "k": "sıra"
+   },
+   {
+    "k": "masa"
+   },
+   {
+    "k": "harita"
+   },
+   {
+    "k": "küre"
+   },
+   {
+    "k": "bayrak"
+   },
+   {
+    "k": "zil"
+   },
+   {
+    "k": "önlük"
+   },
+   {
+    "k": "sözlük"
+   },
+   {
+    "k": "atlas"
+   },
+   {
+    "k": "not"
+   },
+   {
+    "k": "ders"
+   },
+   {
+    "k": "ödev"
+   },
+   {
+    "k": "sınav"
+   },
+   {
+    "k": "karne"
+   }
+  ],
+  "Sınıf ve okul": [
+   {
+    "k": "sınıf"
+   },
+   {
+    "k": "okul"
+   },
+   {
+    "k": "öğretmen"
+   },
+   {
+    "k": "öğrenci"
+   },
+   {
+    "k": "müdür"
+   },
+   {
+    "k": "tahta"
+   },
+   {
+    "k": "sıra"
+   },
+   {
+    "k": "kürsü"
+   },
+   {
+    "k": "teneffüs"
+   },
+   {
+    "k": "ders"
+   },
+   {
+    "k": "zil"
+   },
+   {
+    "k": "bahçe"
+   },
+   {
+    "k": "kantin"
+   },
+   {
+    "k": "kütüphane"
+   },
+   {
+    "k": "laboratuvar"
+   },
+   {
+    "k": "koridor"
+   },
+   {
+    "k": "merdiven"
+   },
+   {
+    "k": "kapı"
+   },
+   {
+    "k": "pencere"
+   },
+   {
+    "k": "harita"
+   },
+   {
+    "k": "yoklama"
+   },
+   {
+    "k": "ödev"
+   },
+   {
+    "k": "sınav"
+   },
+   {
+    "k": "karne"
+   },
+   {
+    "k": "not"
+   },
+   {
+    "k": "rehber"
+   },
+   {
+    "k": "nöbetçi"
+   },
+   {
+    "k": "kayıt"
+   },
+   {
+    "k": "gezi"
+   }
+  ],
+  "Taşıtlar": [
+   {
+    "k": "araba",
+    "e": "🚗"
+   },
+   {
+    "k": "otobüs",
+    "e": "🚌"
+   },
+   {
+    "k": "tren",
+    "e": "🚆"
+   },
+   {
+    "k": "uçak",
+    "e": "✈️"
+   },
+   {
+    "k": "gemi",
+    "e": "🚢"
+   },
+   {
+    "k": "bisiklet",
+    "e": "🚲"
+   },
+   {
+    "k": "motosiklet",
+    "e": "🏍️"
+   },
+   {
+    "k": "kamyon",
+    "e": "🚚"
+   },
+   {
+    "k": "taksi",
+    "e": "🚕"
+   },
+   {
+    "k": "metro",
+    "e": "🚇"
+   },
+   {
+    "k": "tramvay",
+    "e": "🚋"
+   },
+   {
+    "k": "helikopter",
+    "e": "🚁"
+   },
+   {
+    "k": "roket",
+    "e": "🚀"
+   },
+   {
+    "k": "vapur"
+   },
+   {
+    "k": "kayık"
+   },
+   {
+    "k": "minibüs"
+   },
+   {
+    "k": "ambulans",
+    "e": "🚑"
+   },
+   {
+    "k": "traktör",
+    "e": "🚜"
+   },
+   {
+    "k": "tır"
+   },
+   {
+    "k": "dolmuş"
+   },
+   {
+    "k": "balon"
+   },
+   {
+    "k": "yelkenli",
+    "e": "⛵"
+   },
+   {
+    "k": "denizaltı"
+   },
+   {
+    "k": "otomobil"
+   },
+   {
+    "k": "paten"
+   },
+   {
+    "k": "kızak"
+   },
+   {
+    "k": "paraşüt"
+   },
+   {
+    "k": "teleferik"
+   }
+  ],
+  "Doğa": [
+   {
+    "k": "dağ"
+   },
+   {
+    "k": "deniz"
+   },
+   {
+    "k": "göl"
+   },
+   {
+    "k": "nehir"
+   },
+   {
+    "k": "dere"
+   },
+   {
+    "k": "orman"
+   },
+   {
+    "k": "çöl"
+   },
+   {
+    "k": "ova"
+   },
+   {
+    "k": "vadi"
+   },
+   {
+    "k": "mağara"
+   },
+   {
+    "k": "şelale"
+   },
+   {
+    "k": "ada"
+   },
+   {
+    "k": "plaj"
+   },
+   {
+    "k": "kıyı"
+   },
+   {
+    "k": "tepe"
+   },
+   {
+    "k": "yayla"
+   },
+   {
+    "k": "bulut",
+    "e": "☁️"
+   },
+   {
+    "k": "güneş",
+    "e": "☀️"
+   },
+   {
+    "k": "ay"
+   },
+   {
+    "k": "yıldız",
+    "e": "⭐"
+   },
+   {
+    "k": "toprak"
+   },
+   {
+    "k": "taş"
+   },
+   {
+    "k": "kaya"
+   },
+   {
+    "k": "kum"
+   },
+   {
+    "k": "çiçek"
+   },
+   {
+    "k": "ağaç"
+   },
+   {
+    "k": "çimen"
+   },
+   {
+    "k": "yaprak"
+   }
+  ],
+  "Hava olayları": [
+   {
+    "k": "yağmur",
+    "e": "🌧️"
+   },
+   {
+    "k": "kar",
+    "e": "❄️"
+   },
+   {
+    "k": "rüzgar"
+   },
+   {
+    "k": "fırtına"
+   },
+   {
+    "k": "şimşek",
+    "e": "⚡"
+   },
+   {
+    "k": "gökgürültüsü"
+   },
+   {
+    "k": "bulut",
+    "e": "☁️"
+   },
+   {
+    "k": "sis"
+   },
+   {
+    "k": "dolu"
+   },
+   {
+    "k": "çiğ"
+   },
+   {
+    "k": "kırağı"
+   },
+   {
+    "k": "güneş",
+    "e": "☀️"
+   },
+   {
+    "k": "gökkuşağı",
+    "e": "🌈"
+   },
+   {
+    "k": "sağanak"
+   },
+   {
+    "k": "çisenti"
+   },
+   {
+    "k": "poyraz"
+   },
+   {
+    "k": "lodos"
+   },
+   {
+    "k": "buz"
+   },
+   {
+    "k": "don"
+   },
+   {
+    "k": "nem"
+   },
+   {
+    "k": "sıcak"
+   },
+   {
+    "k": "soğuk"
+   },
+   {
+    "k": "ılık"
+   },
+   {
+    "k": "serin"
+   },
+   {
+    "k": "bulutlu"
+   },
+   {
+    "k": "açık"
+   }
+  ],
+  "Zaman, aylar ve günler": [
+   {
+    "k": "ilkbahar"
+   },
+   {
+    "k": "yaz"
+   },
+   {
+    "k": "sonbahar"
+   },
+   {
+    "k": "kış"
+   },
+   {
+    "k": "sabah"
+   },
+   {
+    "k": "öğle"
+   },
+   {
+    "k": "akşam"
+   },
+   {
+    "k": "gece"
+   },
+   {
+    "k": "gündüz"
+   },
+   {
+    "k": "saat"
+   },
+   {
+    "k": "dakika"
+   },
+   {
+    "k": "saniye"
+   },
+   {
+    "k": "hafta"
+   },
+   {
+    "k": "ay"
+   },
+   {
+    "k": "yıl"
+   },
+   {
+    "k": "bugün"
+   },
+   {
+    "k": "yarın"
+   },
+   {
+    "k": "dün"
+   },
+   {
+    "k": "şimdi"
+   },
+   {
+    "k": "sonra"
+   },
+   {
+    "k": "önce"
+   },
+   {
+    "k": "erken"
+   },
+   {
+    "k": "geç"
+   },
+   {
+    "k": "bayram"
+   },
+   {
+    "k": "tatil"
+   },
+   {
+    "k": "mevsim"
+   },
+   {
+    "k": "takvim"
+   },
+   {
+    "k": "gün"
+   },
+   {
+    "k": "ocak"
+   },
+   {
+    "k": "şubat"
+   },
+   {
+    "k": "mart"
+   },
+   {
+    "k": "nisan"
+   },
+   {
+    "k": "mayıs"
+   },
+   {
+    "k": "haziran"
+   },
+   {
+    "k": "temmuz"
+   },
+   {
+    "k": "ağustos"
+   },
+   {
+    "k": "eylül"
+   },
+   {
+    "k": "ekim"
+   },
+   {
+    "k": "kasım"
+   },
+   {
+    "k": "aralık"
+   },
+   {
+    "k": "pazartesi"
+   },
+   {
+    "k": "salı"
+   },
+   {
+    "k": "çarşamba"
+   },
+   {
+    "k": "perşembe"
+   },
+   {
+    "k": "cuma"
+   },
+   {
+    "k": "cumartesi"
+   },
+   {
+    "k": "pazar"
+   }
+  ],
+  "Müzik aletleri": [
+   {
+    "k": "piyano",
+    "e": "🎹"
+   },
+   {
+    "k": "gitar",
+    "e": "🎸"
+   },
+   {
+    "k": "keman",
+    "e": "🎻"
+   },
+   {
+    "k": "davul",
+    "e": "🥁"
+   },
+   {
+    "k": "flüt"
+   },
+   {
+    "k": "trompet",
+    "e": "🎺"
+   },
+   {
+    "k": "saz"
+   },
+   {
+    "k": "ud"
+   },
+   {
+    "k": "kanun"
+   },
+   {
+    "k": "ney"
+   },
+   {
+    "k": "klarnet"
+   },
+   {
+    "k": "akordeon"
+   },
+   {
+    "k": "zurna"
+   },
+   {
+    "k": "bağlama"
+   },
+   {
+    "k": "arp"
+   },
+   {
+    "k": "org"
+   },
+   {
+    "k": "mızıka"
+   },
+   {
+    "k": "tef"
+   },
+   {
+    "k": "zil"
+   },
+   {
+    "k": "darbuka"
+   },
+   {
+    "k": "çello"
+   },
+   {
+    "k": "trombon"
+   },
+   {
+    "k": "obua"
+   },
+   {
+    "k": "banjo"
+   },
+   {
+    "k": "ksilofon"
+   },
+   {
+    "k": "tulum"
+   },
+   {
+    "k": "kaval"
+   },
+   {
+    "k": "def"
+   }
+  ],
+  "Sporlar": [
+   {
+    "k": "futbol",
+    "e": "⚽"
+   },
+   {
+    "k": "basketbol",
+    "e": "🏀"
+   },
+   {
+    "k": "voleybol",
+    "e": "🏐"
+   },
+   {
+    "k": "tenis",
+    "e": "🎾"
+   },
+   {
+    "k": "yüzme"
+   },
+   {
+    "k": "atletizm"
+   },
+   {
+    "k": "koşu"
+   },
+   {
+    "k": "jimnastik"
+   },
+   {
+    "k": "güreş"
+   },
+   {
+    "k": "judo"
+   },
+   {
+    "k": "boks"
+   },
+   {
+    "k": "okçuluk"
+   },
+   {
+    "k": "eskrim"
+   },
+   {
+    "k": "golf"
+   },
+   {
+    "k": "hentbol"
+   },
+   {
+    "k": "badminton"
+   },
+   {
+    "k": "kayak"
+   },
+   {
+    "k": "bisiklet"
+   },
+   {
+    "k": "binicilik"
+   },
+   {
+    "k": "yelken"
+   },
+   {
+    "k": "kürek"
+   },
+   {
+    "k": "halter"
+   },
+   {
+    "k": "dart"
+   },
+   {
+    "k": "bowling"
+   },
+   {
+    "k": "paten"
+   },
+   {
+    "k": "tırmanış"
+   }
+  ],
+  "Oyun ve oyuncaklar": [
+   {
+    "k": "top"
+   },
+   {
+    "k": "bebek"
+   },
+   {
+    "k": "ayıcık"
+   },
+   {
+    "k": "lego"
+   },
+   {
+    "k": "puzzle"
+   },
+   {
+    "k": "zar"
+   },
+   {
+    "k": "kart"
+   },
+   {
+    "k": "satranç"
+   },
+   {
+    "k": "tavla"
+   },
+   {
+    "k": "domino"
+   },
+   {
+    "k": "misket"
+   },
+   {
+    "k": "uçurtma"
+   },
+   {
+    "k": "topaç"
+   },
+   {
+    "k": "ip"
+   },
+   {
+    "k": "yoyo"
+   },
+   {
+    "k": "balon",
+    "e": "🎈"
+   },
+   {
+    "k": "kukla"
+   },
+   {
+    "k": "robot"
+   },
+   {
+    "k": "araba"
+   },
+   {
+    "k": "tren"
+   },
+   {
+    "k": "çıngırak"
+   },
+   {
+    "k": "oyun"
+   },
+   {
+    "k": "kutu"
+   },
+   {
+    "k": "boncuk"
+   },
+   {
+    "k": "hamur"
+   },
+   {
+    "k": "kum"
+   },
+   {
+    "k": "kale"
+   },
+   {
+    "k": "salıncak"
+   },
+   {
+    "k": "kaydırak"
+   }
+  ],
+  "Ağaçlar": [
+   {
+    "k": "çam"
+   },
+   {
+    "k": "meşe"
+   },
+   {
+    "k": "kavak"
+   },
+   {
+    "k": "çınar"
+   },
+   {
+    "k": "ceviz"
+   },
+   {
+    "k": "fındık"
+   },
+   {
+    "k": "badem"
+   },
+   {
+    "k": "elma"
+   },
+   {
+    "k": "armut"
+   },
+   {
+    "k": "kiraz"
+   },
+   {
+    "k": "erik"
+   },
+   {
+    "k": "incir"
+   },
+   {
+    "k": "dut"
+   },
+   {
+    "k": "zeytin"
+   },
+   {
+    "k": "okaliptüs"
+   },
+   {
+    "k": "servi"
+   },
+   {
+    "k": "ladin"
+   },
+   {
+    "k": "köknar"
+   },
+   {
+    "k": "ıhlamur"
+   },
+   {
+    "k": "kestane"
+   },
+   {
+    "k": "akasya"
+   },
+   {
+    "k": "söğüt"
+   },
+   {
+    "k": "huş"
+   },
+   {
+    "k": "şimşir"
+   },
+   {
+    "k": "defne"
+   },
+   {
+    "k": "palmiye",
+    "e": "🌴"
+   },
+   {
+    "k": "gürgen"
+   },
+   {
+    "k": "kayın"
+   },
+   {
+    "k": "dişbudak"
+   }
+  ],
+  "Çiçekler": [
+   {
+    "k": "gül",
+    "e": "🌹"
+   },
+   {
+    "k": "lale",
+    "e": "🌷"
+   },
+   {
+    "k": "papatya"
+   },
+   {
+    "k": "karanfil"
+   },
+   {
+    "k": "zambak"
+   },
+   {
+    "k": "sümbül"
+   },
+   {
+    "k": "menekşe"
+   },
+   {
+    "k": "nergis"
+   },
+   {
+    "k": "orkide"
+   },
+   {
+    "k": "kasımpatı"
+   },
+   {
+    "k": "ayçiçeği",
+    "e": "🌻"
+   },
+   {
+    "k": "gelincik"
+   },
+   {
+    "k": "yasemin"
+   },
+   {
+    "k": "fulya"
+   },
+   {
+    "k": "leylak"
+   },
+   {
+    "k": "begonya"
+   },
+   {
+    "k": "sardunya"
+   },
+   {
+    "k": "çiğdem"
+   },
+   {
+    "k": "kardelen"
+   },
+   {
+    "k": "hanımeli"
+   },
+   {
+    "k": "petunya"
+   },
+   {
+    "k": "mimoza"
+   },
+   {
+    "k": "şebboy"
+   },
+   {
+    "k": "kaktüs",
+    "e": "🌵"
+   },
+   {
+    "k": "çuha"
+   }
+  ],
+  "Madenler": [
+   {
+    "k": "altın"
+   },
+   {
+    "k": "gümüş"
+   },
+   {
+    "k": "bakır"
+   },
+   {
+    "k": "demir"
+   },
+   {
+    "k": "çelik"
+   },
+   {
+    "k": "bronz"
+   },
+   {
+    "k": "kurşun"
+   },
+   {
+    "k": "çinko"
+   },
+   {
+    "k": "alüminyum"
+   },
+   {
+    "k": "elmas"
+   },
+   {
+    "k": "yakut"
+   },
+   {
+    "k": "zümrüt"
+   },
+   {
+    "k": "inci"
+   },
+   {
+    "k": "safir"
+   },
+   {
+    "k": "kömür"
+   },
+   {
+    "k": "mermer"
+   },
+   {
+    "k": "granit"
+   },
+   {
+    "k": "kuvars"
+   },
+   {
+    "k": "akik"
+   },
+   {
+    "k": "opal"
+   },
+   {
+    "k": "nikel"
+   },
+   {
+    "k": "tuz"
+   },
+   {
+    "k": "petrol"
+   },
+   {
+    "k": "kireç"
+   },
+   {
+    "k": "cıva"
+   }
+  ],
+  "Duygular": [
+   {
+    "k": "sevinç"
+   },
+   {
+    "k": "mutluluk"
+   },
+   {
+    "k": "üzüntü"
+   },
+   {
+    "k": "öfke"
+   },
+   {
+    "k": "heyecan"
+   },
+   {
+    "k": "merak"
+   },
+   {
+    "k": "sevgi"
+   },
+   {
+    "k": "utanç"
+   },
+   {
+    "k": "gurur"
+   },
+   {
+    "k": "şaşkınlık"
+   },
+   {
+    "k": "kıskançlık"
+   },
+   {
+    "k": "umut"
+   },
+   {
+    "k": "hüzün"
+   },
+   {
+    "k": "neşe"
+   },
+   {
+    "k": "sıkıntı"
+   },
+   {
+    "k": "endişe"
+   },
+   {
+    "k": "huzur"
+   },
+   {
+    "k": "özlem"
+   },
+   {
+    "k": "şefkat"
+   },
+   {
+    "k": "cesaret"
+   },
+   {
+    "k": "kızgınlık"
+   },
+   {
+    "k": "memnuniyet"
+   },
+   {
+    "k": "mutlu"
+   },
+   {
+    "k": "mutsuz"
+   },
+   {
+    "k": "kaygı"
+   },
+   {
+    "k": "sakinlik"
+   }
+  ],
+  "Hareketler": [
+   {
+    "k": "koşmak"
+   },
+   {
+    "k": "yürümek"
+   },
+   {
+    "k": "atlamak"
+   },
+   {
+    "k": "zıplamak"
+   },
+   {
+    "k": "yüzmek"
+   },
+   {
+    "k": "oturmak"
+   },
+   {
+    "k": "kalkmak"
+   },
+   {
+    "k": "uyumak"
+   },
+   {
+    "k": "yemek"
+   },
+   {
+    "k": "içmek"
+   },
+   {
+    "k": "okumak"
+   },
+   {
+    "k": "yazmak"
+   },
+   {
+    "k": "çizmek"
+   },
+   {
+    "k": "gülmek"
+   },
+   {
+    "k": "ağlamak"
+   },
+   {
+    "k": "konuşmak"
+   },
+   {
+    "k": "dinlemek"
+   },
+   {
+    "k": "bakmak"
+   },
+   {
+    "k": "gelmek"
+   },
+   {
+    "k": "gitmek"
+   },
+   {
+    "k": "açmak"
+   },
+   {
+    "k": "kapamak"
+   },
+   {
+    "k": "vermek"
+   },
+   {
+    "k": "almak"
+   },
+   {
+    "k": "dönmek"
+   },
+   {
+    "k": "sürünmek"
+   },
+   {
+    "k": "tırmanmak"
+   }
+  ],
+  "Sıfatlar": [
+   {
+    "k": "büyük"
+   },
+   {
+    "k": "küçük"
+   },
+   {
+    "k": "uzun"
+   },
+   {
+    "k": "kısa"
+   },
+   {
+    "k": "kalın"
+   },
+   {
+    "k": "ince"
+   },
+   {
+    "k": "geniş"
+   },
+   {
+    "k": "dar"
+   },
+   {
+    "k": "hızlı"
+   },
+   {
+    "k": "yavaş"
+   },
+   {
+    "k": "sıcak"
+   },
+   {
+    "k": "soğuk"
+   },
+   {
+    "k": "temiz"
+   },
+   {
+    "k": "kirli"
+   },
+   {
+    "k": "yeni"
+   },
+   {
+    "k": "eski"
+   },
+   {
+    "k": "güzel"
+   },
+   {
+    "k": "çirkin"
+   },
+   {
+    "k": "ağır"
+   },
+   {
+    "k": "hafif"
+   },
+   {
+    "k": "tatlı"
+   },
+   {
+    "k": "ekşi"
+   },
+   {
+    "k": "sert"
+   },
+   {
+    "k": "yumuşak"
+   },
+   {
+    "k": "parlak"
+   },
+   {
+    "k": "karanlık"
+   }
+  ],
+  "Zıt anlamlılar": [
+   {
+    "k": "ak"
+   },
+   {
+    "k": "kara"
+   },
+   {
+    "k": "gece"
+   },
+   {
+    "k": "gündüz"
+   },
+   {
+    "k": "iyi"
+   },
+   {
+    "k": "kötü"
+   },
+   {
+    "k": "var"
+   },
+   {
+    "k": "yok"
+   },
+   {
+    "k": "açık"
+   },
+   {
+    "k": "kapalı"
+   },
+   {
+    "k": "alt"
+   },
+   {
+    "k": "üst"
+   },
+   {
+    "k": "ön"
+   },
+   {
+    "k": "arka"
+   },
+   {
+    "k": "sağ"
+   },
+   {
+    "k": "sol"
+   },
+   {
+    "k": "içeri"
+   },
+   {
+    "k": "dışarı"
+   },
+   {
+    "k": "kolay"
+   },
+   {
+    "k": "zor"
+   },
+   {
+    "k": "doğru"
+   },
+   {
+    "k": "yanlış"
+   },
+   {
+    "k": "ileri"
+   },
+   {
+    "k": "geri"
+   },
+   {
+    "k": "tok"
+   },
+   {
+    "k": "aç"
+   }
+  ],
+  "Odalar ve yerler": [
+   {
+    "k": "salon"
+   },
+   {
+    "k": "mutfak"
+   },
+   {
+    "k": "banyo"
+   },
+   {
+    "k": "balkon"
+   },
+   {
+    "k": "bahçe"
+   },
+   {
+    "k": "oda"
+   },
+   {
+    "k": "yatak"
+   },
+   {
+    "k": "çatı"
+   },
+   {
+    "k": "bodrum"
+   },
+   {
+    "k": "garaj"
+   },
+   {
+    "k": "koridor"
+   },
+   {
+    "k": "hol"
+   },
+   {
+    "k": "tuvalet"
+   },
+   {
+    "k": "kiler"
+   },
+   {
+    "k": "teras"
+   },
+   {
+    "k": "avlu"
+   },
+   {
+    "k": "giriş"
+   },
+   {
+    "k": "merdiven"
+   },
+   {
+    "k": "asansör"
+   },
+   {
+    "k": "cadde"
+   },
+   {
+    "k": "sokak"
+   },
+   {
+    "k": "köprü"
+   },
+   {
+    "k": "park"
+   },
+   {
+    "k": "depo"
+   },
+   {
+    "k": "ambar"
+   },
+   {
+    "k": "sundurma"
+   },
+   {
+    "k": "veranda"
+   },
+   {
+    "k": "daire"
+   },
+   {
+    "k": "kat"
+   },
+   {
+    "k": "tavan"
+   },
+   {
+    "k": "zemin"
+   }
+  ],
+  "Bahçe": [
+   {
+    "k": "çiçek"
+   },
+   {
+    "k": "ağaç"
+   },
+   {
+    "k": "çim"
+   },
+   {
+    "k": "toprak"
+   },
+   {
+    "k": "fidan"
+   },
+   {
+    "k": "tohum"
+   },
+   {
+    "k": "kürek"
+   },
+   {
+    "k": "tırmık"
+   },
+   {
+    "k": "bahçıvan"
+   },
+   {
+    "k": "çit"
+   },
+   {
+    "k": "havuz"
+   },
+   {
+    "k": "çardak"
+   },
+   {
+    "k": "hortum"
+   },
+   {
+    "k": "saksı"
+   },
+   {
+    "k": "yaprak"
+   },
+   {
+    "k": "dal"
+   },
+   {
+    "k": "kök"
+   },
+   {
+    "k": "meyve"
+   },
+   {
+    "k": "sebze"
+   },
+   {
+    "k": "salıncak"
+   },
+   {
+    "k": "kuş"
+   },
+   {
+    "k": "yuva"
+   },
+   {
+    "k": "böcek"
+   },
+   {
+    "k": "solucan"
+   },
+   {
+    "k": "gübre"
+   },
+   {
+    "k": "kapı"
+   }
+  ],
+  "Market": [
+   {
+    "k": "süt"
+   },
+   {
+    "k": "ekmek"
+   },
+   {
+    "k": "peynir"
+   },
+   {
+    "k": "yumurta"
+   },
+   {
+    "k": "yağ"
+   },
+   {
+    "k": "un"
+   },
+   {
+    "k": "şeker"
+   },
+   {
+    "k": "tuz"
+   },
+   {
+    "k": "çay"
+   },
+   {
+    "k": "makarna"
+   },
+   {
+    "k": "pirinç"
+   },
+   {
+    "k": "bakliyat"
+   },
+   {
+    "k": "sebze"
+   },
+   {
+    "k": "meyve"
+   },
+   {
+    "k": "et"
+   },
+   {
+    "k": "su"
+   },
+   {
+    "k": "sabun"
+   },
+   {
+    "k": "deterjan"
+   },
+   {
+    "k": "şampuan"
+   },
+   {
+    "k": "çikolata"
+   },
+   {
+    "k": "bisküvi"
+   },
+   {
+    "k": "dondurma"
+   },
+   {
+    "k": "kasa"
+   },
+   {
+    "k": "sepet"
+   },
+   {
+    "k": "poşet"
+   },
+   {
+    "k": "reçel"
+   },
+   {
+    "k": "zeytin"
+   }
+  ],
+  "Gökyüzü ve uzay": [
+   {
+    "k": "güneş",
+    "e": "☀️"
+   },
+   {
+    "k": "ay",
+    "e": "🌙"
+   },
+   {
+    "k": "yıldız",
+    "e": "⭐"
+   },
+   {
+    "k": "gezegen"
+   },
+   {
+    "k": "dünya",
+    "e": "🌍"
+   },
+   {
+    "k": "mars"
+   },
+   {
+    "k": "venüs"
+   },
+   {
+    "k": "jüpiter"
+   },
+   {
+    "k": "satürn"
+   },
+   {
+    "k": "merkür"
+   },
+   {
+    "k": "uranüs"
+   },
+   {
+    "k": "neptün"
+   },
+   {
+    "k": "uzay"
+   },
+   {
+    "k": "roket",
+    "e": "🚀"
+   },
+   {
+    "k": "uydu"
+   },
+   {
+    "k": "astronot"
+   },
+   {
+    "k": "teleskop"
+   },
+   {
+    "k": "gökyüzü"
+   },
+   {
+    "k": "ışık"
+   },
+   {
+    "k": "galaksi"
+   },
+   {
+    "k": "meteor"
+   },
+   {
+    "k": "bulut"
+   },
+   {
+    "k": "yağmur"
+   },
+   {
+    "k": "evren"
+   },
+   {
+    "k": "yörünge"
+   },
+   {
+    "k": "ufuk"
+   },
+   {
+    "k": "şafak"
+   }
+  ],
+  "Sayılar": [
+   {
+    "k": "bir"
+   },
+   {
+    "k": "iki"
+   },
+   {
+    "k": "üç"
+   },
+   {
+    "k": "dört"
+   },
+   {
+    "k": "beş"
+   },
+   {
+    "k": "altı"
+   },
+   {
+    "k": "yedi"
+   },
+   {
+    "k": "sekiz"
+   },
+   {
+    "k": "dokuz"
+   },
+   {
+    "k": "on"
+   },
+   {
+    "k": "yirmi"
+   },
+   {
+    "k": "otuz"
+   },
+   {
+    "k": "kırk"
+   },
+   {
+    "k": "elli"
+   },
+   {
+    "k": "altmış"
+   },
+   {
+    "k": "yetmiş"
+   },
+   {
+    "k": "seksen"
+   },
+   {
+    "k": "doksan"
+   },
+   {
+    "k": "yüz"
+   },
+   {
+    "k": "bin"
+   },
+   {
+    "k": "sıfır"
+   },
+   {
+    "k": "birinci"
+   },
+   {
+    "k": "ikinci"
+   },
+   {
+    "k": "üçüncü"
+   },
+   {
+    "k": "yarım"
+   },
+   {
+    "k": "çeyrek"
+   },
+   {
+    "k": "çift"
+   },
+   {
+    "k": "tek"
+   },
+   {
+    "k": "düzine"
+   }
+  ],
+  "Baharatlar ve otlar": [
+   {
+    "k": "tuz"
+   },
+   {
+    "k": "karabiber"
+   },
+   {
+    "k": "kimyon"
+   },
+   {
+    "k": "nane"
+   },
+   {
+    "k": "kekik"
+   },
+   {
+    "k": "tarçın"
+   },
+   {
+    "k": "zencefil"
+   },
+   {
+    "k": "safran"
+   },
+   {
+    "k": "sumak"
+   },
+   {
+    "k": "yenibahar"
+   },
+   {
+    "k": "defne"
+   },
+   {
+    "k": "maydanoz"
+   },
+   {
+    "k": "dereotu"
+   },
+   {
+    "k": "fesleğen"
+   },
+   {
+    "k": "kişniş"
+   },
+   {
+    "k": "biberiye"
+   },
+   {
+    "k": "zerdeçal"
+   },
+   {
+    "k": "karanfil"
+   },
+   {
+    "k": "vanilya"
+   },
+   {
+    "k": "çemen"
+   },
+   {
+    "k": "anason"
+   },
+   {
+    "k": "rezene"
+   },
+   {
+    "k": "kuşkonmaz"
+   },
+   {
+    "k": "isot"
+   },
+   {
+    "k": "tere"
+   },
+   {
+    "k": "roka"
+   }
+  ],
+  "Aletler": [
+   {
+    "k": "çekiç"
+   },
+   {
+    "k": "testere"
+   },
+   {
+    "k": "tornavida"
+   },
+   {
+    "k": "pense"
+   },
+   {
+    "k": "matkap"
+   },
+   {
+    "k": "makas"
+   },
+   {
+    "k": "çivi"
+   },
+   {
+    "k": "vida"
+   },
+   {
+    "k": "cıvata"
+   },
+   {
+    "k": "anahtar"
+   },
+   {
+    "k": "metre"
+   },
+   {
+    "k": "balta"
+   },
+   {
+    "k": "kürek"
+   },
+   {
+    "k": "tırmık"
+   },
+   {
+    "k": "fırça"
+   },
+   {
+    "k": "boya"
+   },
+   {
+    "k": "merdiven"
+   },
+   {
+    "k": "iğne"
+   },
+   {
+    "k": "ip"
+   },
+   {
+    "k": "eğe"
+   },
+   {
+    "k": "rende"
+   },
+   {
+    "k": "keski"
+   },
+   {
+    "k": "mala"
+   },
+   {
+    "k": "çapa"
+   },
+   {
+    "k": "bıçak"
+   },
+   {
+    "k": "orak"
+   },
+   {
+    "k": "saban"
+   },
+   {
+    "k": "kova"
+   },
+   {
+    "k": "hortum"
+   },
+   {
+    "k": "tel"
+   },
+   {
+    "k": "çit"
+   }
+  ],
+  "Banyo": [
+   {
+    "k": "sabun"
+   },
+   {
+    "k": "şampuan"
+   },
+   {
+    "k": "havlu"
+   },
+   {
+    "k": "fırça"
+   },
+   {
+    "k": "macun"
+   },
+   {
+    "k": "tarak"
+   },
+   {
+    "k": "duş"
+   },
+   {
+    "k": "lavabo"
+   },
+   {
+    "k": "küvet"
+   },
+   {
+    "k": "ayna"
+   },
+   {
+    "k": "musluk"
+   },
+   {
+    "k": "bornoz"
+   },
+   {
+    "k": "terlik"
+   },
+   {
+    "k": "sünger"
+   },
+   {
+    "k": "leğen"
+   },
+   {
+    "k": "kese"
+   },
+   {
+    "k": "krem"
+   },
+   {
+    "k": "tuvalet"
+   },
+   {
+    "k": "tıraş"
+   },
+   {
+    "k": "parfüm"
+   },
+   {
+    "k": "havluluk"
+   },
+   {
+    "k": "kova"
+   },
+   {
+    "k": "peştamal"
+   },
+   {
+    "k": "sabunluk"
+   },
+   {
+    "k": "pamuk"
+   }
+  ],
+  "Takı ve aksesuar": [
+   {
+    "k": "yüzük"
+   },
+   {
+    "k": "kolye"
+   },
+   {
+    "k": "küpe"
+   },
+   {
+    "k": "bilezik"
+   },
+   {
+    "k": "saat"
+   },
+   {
+    "k": "gözlük"
+   },
+   {
+    "k": "şapka"
+   },
+   {
+    "k": "kemer"
+   },
+   {
+    "k": "çanta"
+   },
+   {
+    "k": "cüzdan"
+   },
+   {
+    "k": "broş"
+   },
+   {
+    "k": "toka"
+   },
+   {
+    "k": "kravat"
+   },
+   {
+    "k": "atkı"
+   },
+   {
+    "k": "eldiven"
+   },
+   {
+    "k": "bere"
+   },
+   {
+    "k": "tarak"
+   },
+   {
+    "k": "taç"
+   },
+   {
+    "k": "kordon"
+   },
+   {
+    "k": "bileklik"
+   },
+   {
+    "k": "madalya"
+   },
+   {
+    "k": "yaka"
+   },
+   {
+    "k": "şemsiye",
+    "e": "☂️"
+   },
+   {
+    "k": "bandana"
+   },
+   {
+    "k": "fular"
+   },
+   {
+    "k": "eşarp"
+   }
+  ],
+  "Mobilya": [
+   {
+    "k": "koltuk"
+   },
+   {
+    "k": "kanepe"
+   },
+   {
+    "k": "masa"
+   },
+   {
+    "k": "sandalye"
+   },
+   {
+    "k": "dolap"
+   },
+   {
+    "k": "yatak"
+   },
+   {
+    "k": "komodin"
+   },
+   {
+    "k": "sehpa"
+   },
+   {
+    "k": "kitaplık"
+   },
+   {
+    "k": "vitrin"
+   },
+   {
+    "k": "gardırop"
+   },
+   {
+    "k": "şifonyer"
+   },
+   {
+    "k": "puf"
+   },
+   {
+    "k": "tabure"
+   },
+   {
+    "k": "sıra"
+   },
+   {
+    "k": "beşik"
+   },
+   {
+    "k": "portmanto"
+   },
+   {
+    "k": "raf"
+   },
+   {
+    "k": "askı"
+   },
+   {
+    "k": "bank"
+   },
+   {
+    "k": "çekyat"
+   },
+   {
+    "k": "perde"
+   },
+   {
+    "k": "halı"
+   },
+   {
+    "k": "yorgan"
+   },
+   {
+    "k": "ranza"
+   }
+  ],
+  "Teknoloji ve bilim": [
+   {
+    "k": "bilgisayar"
+   },
+   {
+    "k": "telefon",
+    "e": "📱"
+   },
+   {
+    "k": "televizyon",
+    "e": "📺"
+   },
+   {
+    "k": "radyo"
+   },
+   {
+    "k": "kamera"
+   },
+   {
+    "k": "tablet"
+   },
+   {
+    "k": "klavye"
+   },
+   {
+    "k": "fare"
+   },
+   {
+    "k": "ekran"
+   },
+   {
+    "k": "yazıcı"
+   },
+   {
+    "k": "kulaklık"
+   },
+   {
+    "k": "hoparlör"
+   },
+   {
+    "k": "şarj"
+   },
+   {
+    "k": "pil"
+   },
+   {
+    "k": "lamba"
+   },
+   {
+    "k": "internet"
+   },
+   {
+    "k": "robot"
+   },
+   {
+    "k": "oyun"
+   },
+   {
+    "k": "saat"
+   },
+   {
+    "k": "fotoğraf"
+   },
+   {
+    "k": "video"
+   },
+   {
+    "k": "uygulama"
+   },
+   {
+    "k": "makine"
+   },
+   {
+    "k": "motor"
+   },
+   {
+    "k": "deney"
+   },
+   {
+    "k": "mikroskop"
+   },
+   {
+    "k": "teleskop"
+   },
+   {
+    "k": "atom"
+   },
+   {
+    "k": "hücre"
+   },
+   {
+    "k": "enerji"
+   },
+   {
+    "k": "ışık"
+   },
+   {
+    "k": "ısı"
+   },
+   {
+    "k": "ses"
+   },
+   {
+    "k": "elektrik"
+   },
+   {
+    "k": "mıknatıs"
+   },
+   {
+    "k": "devre"
+   },
+   {
+    "k": "bilim"
+   }
+  ],
+  "Su ve kara biçimleri": [
+   {
+    "k": "dağ"
+   },
+   {
+    "k": "tepe"
+   },
+   {
+    "k": "vadi"
+   },
+   {
+    "k": "ova"
+   },
+   {
+    "k": "yayla"
+   },
+   {
+    "k": "göl"
+   },
+   {
+    "k": "nehir"
+   },
+   {
+    "k": "dere"
+   },
+   {
+    "k": "deniz"
+   },
+   {
+    "k": "şelale"
+   },
+   {
+    "k": "pınar"
+   },
+   {
+    "k": "çeşme"
+   },
+   {
+    "k": "havuz"
+   },
+   {
+    "k": "kaynak"
+   },
+   {
+    "k": "ırmak"
+   },
+   {
+    "k": "okyanus"
+   },
+   {
+    "k": "kıyı"
+   },
+   {
+    "k": "koy"
+   },
+   {
+    "k": "körfez"
+   },
+   {
+    "k": "ada"
+   },
+   {
+    "k": "yarımada"
+   },
+   {
+    "k": "boğaz"
+   },
+   {
+    "k": "kanal"
+   },
+   {
+    "k": "bataklık"
+   },
+   {
+    "k": "gölet"
+   },
+   {
+    "k": "baraj"
+   }
+  ],
+  "Sağlık": [
+   {
+    "k": "doktor"
+   },
+   {
+    "k": "hemşire"
+   },
+   {
+    "k": "ilaç"
+   },
+   {
+    "k": "aşı"
+   },
+   {
+    "k": "hastane"
+   },
+   {
+    "k": "ateş"
+   },
+   {
+    "k": "öksürük"
+   },
+   {
+    "k": "nezle"
+   },
+   {
+    "k": "grip"
+   },
+   {
+    "k": "yara"
+   },
+   {
+    "k": "bandaj"
+   },
+   {
+    "k": "termometre"
+   },
+   {
+    "k": "reçete"
+   },
+   {
+    "k": "muayene"
+   },
+   {
+    "k": "hasta"
+   },
+   {
+    "k": "sağlık"
+   },
+   {
+    "k": "vitamin"
+   },
+   {
+    "k": "sargı"
+   },
+   {
+    "k": "serum"
+   },
+   {
+    "k": "ambulans"
+   },
+   {
+    "k": "dişçi"
+   },
+   {
+    "k": "eczane"
+   },
+   {
+    "k": "diyet"
+   },
+   {
+    "k": "spor"
+   },
+   {
+    "k": "uyku"
+   },
+   {
+    "k": "dinlenme"
+   },
+   {
+    "k": "temizlik"
+   }
+  ],
+  "Yönler ve konumlar": [
+   {
+    "k": "sağ"
+   },
+   {
+    "k": "sol"
+   },
+   {
+    "k": "ön"
+   },
+   {
+    "k": "arka"
+   },
+   {
+    "k": "alt"
+   },
+   {
+    "k": "üst"
+   },
+   {
+    "k": "yan"
+   },
+   {
+    "k": "orta"
+   },
+   {
+    "k": "kuzey"
+   },
+   {
+    "k": "güney"
+   },
+   {
+    "k": "doğu"
+   },
+   {
+    "k": "batı"
+   },
+   {
+    "k": "yukarı"
+   },
+   {
+    "k": "aşağı"
+   },
+   {
+    "k": "içeri"
+   },
+   {
+    "k": "dışarı"
+   },
+   {
+    "k": "ileri"
+   },
+   {
+    "k": "geri"
+   },
+   {
+    "k": "karşı"
+   },
+   {
+    "k": "uzak"
+   },
+   {
+    "k": "yakın"
+   },
+   {
+    "k": "köşe"
+   },
+   {
+    "k": "kenar"
+   },
+   {
+    "k": "merkez"
+   },
+   {
+    "k": "çapraz"
+   }
+  ],
+  "Günlük eylemler": [
+   {
+    "k": "boyamak"
+   },
+   {
+    "k": "kesmek"
+   },
+   {
+    "k": "yapıştırmak"
+   },
+   {
+    "k": "katlamak"
+   },
+   {
+    "k": "toplamak"
+   },
+   {
+    "k": "dağıtmak"
+   },
+   {
+    "k": "taşımak"
+   },
+   {
+    "k": "itmek"
+   },
+   {
+    "k": "çekmek"
+   },
+   {
+    "k": "kaldırmak"
+   },
+   {
+    "k": "koymak"
+   },
+   {
+    "k": "bulmak"
+   },
+   {
+    "k": "aramak"
+   },
+   {
+    "k": "saklamak"
+   },
+   {
+    "k": "göstermek"
+   },
+   {
+    "k": "öğrenmek"
+   },
+   {
+    "k": "öğretmek"
+   },
+   {
+    "k": "düşünmek"
+   },
+   {
+    "k": "hatırlamak"
+   },
+   {
+    "k": "giymek"
+   },
+   {
+    "k": "soymak"
+   },
+   {
+    "k": "taramak"
+   },
+   {
+    "k": "yıkamak"
+   },
+   {
+    "k": "silmek"
+   },
+   {
+    "k": "süpürmek"
+   },
+   {
+    "k": "sulamak"
+   },
+   {
+    "k": "biçmek"
+   },
+   {
+    "k": "yapmak"
+   },
+   {
+    "k": "bozmak"
+   },
+   {
+    "k": "onarmak"
+   },
+   {
+    "k": "asmak"
+   },
+   {
+    "k": "çıkarmak"
+   },
+   {
+    "k": "dökmek"
+   },
+   {
+    "k": "doldurmak"
+   }
+  ],
+  "Hamur işleri": [
+   {
+    "k": "börek"
+   },
+   {
+    "k": "poğaça"
+   },
+   {
+    "k": "simit"
+   },
+   {
+    "k": "pide"
+   },
+   {
+    "k": "lahmacun"
+   },
+   {
+    "k": "gözleme"
+   },
+   {
+    "k": "mantı"
+   },
+   {
+    "k": "makarna"
+   },
+   {
+    "k": "ekmek"
+   },
+   {
+    "k": "pita"
+   },
+   {
+    "k": "açma"
+   },
+   {
+    "k": "çörek"
+   },
+   {
+    "k": "kurabiye"
+   },
+   {
+    "k": "pasta"
+   },
+   {
+    "k": "kek"
+   },
+   {
+    "k": "baklava"
+   },
+   {
+    "k": "kadayıf"
+   },
+   {
+    "k": "pizza"
+   },
+   {
+    "k": "erişte"
+   },
+   {
+    "k": "yufka"
+   },
+   {
+    "k": "bazlama"
+   },
+   {
+    "k": "mıhlama"
+   },
+   {
+    "k": "pişi"
+   },
+   {
+    "k": "lokma"
+   },
+   {
+    "k": "lavaş"
+   },
+   {
+    "k": "galeta"
+   },
+   {
+    "k": "kraker"
+   }
+  ],
+  "Yemekler": [
+   {
+    "k": "mercimek"
+   },
+   {
+    "k": "ezogelin"
+   },
+   {
+    "k": "tarhana"
+   },
+   {
+    "k": "yayla"
+   },
+   {
+    "k": "düğün"
+   },
+   {
+    "k": "şehriye"
+   },
+   {
+    "k": "kurufasulye"
+   },
+   {
+    "k": "nohut"
+   },
+   {
+    "k": "pilav"
+   },
+   {
+    "k": "makarna"
+   },
+   {
+    "k": "köfte"
+   },
+   {
+    "k": "karnıyarık"
+   },
+   {
+    "k": "dolma"
+   },
+   {
+    "k": "sarma"
+   },
+   {
+    "k": "mantı"
+   },
+   {
+    "k": "kebap"
+   },
+   {
+    "k": "menemen"
+   },
+   {
+    "k": "karnabahar"
+   },
+   {
+    "k": "turşu"
+   },
+   {
+    "k": "yaprak"
+   },
+   {
+    "k": "güveç"
+   },
+   {
+    "k": "kızartma"
+   },
+   {
+    "k": "haşlama"
+   },
+   {
+    "k": "ızgara"
+   },
+   {
+    "k": "cacık"
+   },
+   {
+    "k": "türlü"
+   },
+   {
+    "k": "çiğköfte"
+   },
+   {
+    "k": "tost"
+   },
+   {
+    "k": "salata"
+   },
+   {
+    "k": "pizza",
+    "e": "🍕"
+   },
+   {
+    "k": "sandviç"
+   }
+  ],
+  "Gidilen yerler": [
+   {
+    "k": "okul"
+   },
+   {
+    "k": "park"
+   },
+   {
+    "k": "hastane"
+   },
+   {
+    "k": "kütüphane"
+   },
+   {
+    "k": "müze"
+   },
+   {
+    "k": "sinema"
+   },
+   {
+    "k": "tiyatro"
+   },
+   {
+    "k": "market"
+   },
+   {
+    "k": "bakkal"
+   },
+   {
+    "k": "fırın"
+   },
+   {
+    "k": "cami"
+   },
+   {
+    "k": "postane"
+   },
+   {
+    "k": "banka"
+   },
+   {
+    "k": "otogar"
+   },
+   {
+    "k": "havalimanı"
+   },
+   {
+    "k": "stadyum"
+   },
+   {
+    "k": "havuz"
+   },
+   {
+    "k": "bahçe"
+   },
+   {
+    "k": "lunapark"
+   },
+   {
+    "k": "meydan"
+   },
+   {
+    "k": "çarşı"
+   },
+   {
+    "k": "restoran"
+   },
+   {
+    "k": "kafe"
+   },
+   {
+    "k": "berber"
+   },
+   {
+    "k": "kuaför"
+   },
+   {
+    "k": "otel"
+   },
+   {
+    "k": "çiftlik"
+   },
+   {
+    "k": "plaj"
+   },
+   {
+    "k": "sirk"
+   }
+  ],
+  "Bitkiler": [
+   {
+    "k": "ağaç"
+   },
+   {
+    "k": "çiçek"
+   },
+   {
+    "k": "yaprak"
+   },
+   {
+    "k": "dal"
+   },
+   {
+    "k": "kök"
+   },
+   {
+    "k": "gövde"
+   },
+   {
+    "k": "tohum"
+   },
+   {
+    "k": "meyve"
+   },
+   {
+    "k": "çimen"
+   },
+   {
+    "k": "ot"
+   },
+   {
+    "k": "fidan"
+   },
+   {
+    "k": "filiz"
+   },
+   {
+    "k": "çalı"
+   },
+   {
+    "k": "sarmaşık"
+   },
+   {
+    "k": "kaktüs"
+   },
+   {
+    "k": "yosun"
+   },
+   {
+    "k": "mantar"
+   },
+   {
+    "k": "çam"
+   },
+   {
+    "k": "lale"
+   },
+   {
+    "k": "gül"
+   },
+   {
+    "k": "papatya"
+   },
+   {
+    "k": "bitki"
+   },
+   {
+    "k": "saksı"
+   },
+   {
+    "k": "bahçe"
+   },
+   {
+    "k": "orman"
+   }
+  ],
+  "Kırtasiye": [
+   {
+    "k": "kalem"
+   },
+   {
+    "k": "defter"
+   },
+   {
+    "k": "kitap"
+   },
+   {
+    "k": "silgi"
+   },
+   {
+    "k": "cetvel"
+   },
+   {
+    "k": "makas"
+   },
+   {
+    "k": "kalemlik"
+   },
+   {
+    "k": "kalemtıraş"
+   },
+   {
+    "k": "boya"
+   },
+   {
+    "k": "pastel"
+   },
+   {
+    "k": "yapıştırıcı"
+   },
+   {
+    "k": "dosya"
+   },
+   {
+    "k": "klasör"
+   },
+   {
+    "k": "ataç"
+   },
+   {
+    "k": "zımba"
+   },
+   {
+    "k": "delgeç"
+   },
+   {
+    "k": "bant"
+   },
+   {
+    "k": "kâğıt"
+   },
+   {
+    "k": "pergel"
+   },
+   {
+    "k": "fosforlu"
+   },
+   {
+    "k": "mürekkep"
+   },
+   {
+    "k": "tebeşir"
+   },
+   {
+    "k": "kartuş"
+   },
+   {
+    "k": "şablon"
+   },
+   {
+    "k": "etiket"
+   },
+   {
+    "k": "pano"
+   }
+  ],
+  "Tarım": [
+   {
+    "k": "tarla"
+   },
+   {
+    "k": "buğday"
+   },
+   {
+    "k": "arpa"
+   },
+   {
+    "k": "mısır"
+   },
+   {
+    "k": "pamuk"
+   },
+   {
+    "k": "çay"
+   },
+   {
+    "k": "fındık"
+   },
+   {
+    "k": "pancar"
+   },
+   {
+    "k": "ayçiçeği"
+   },
+   {
+    "k": "tohum"
+   },
+   {
+    "k": "traktör"
+   },
+   {
+    "k": "orak"
+   },
+   {
+    "k": "saban"
+   },
+   {
+    "k": "kürek"
+   },
+   {
+    "k": "sulama"
+   },
+   {
+    "k": "hasat"
+   },
+   {
+    "k": "bağ"
+   },
+   {
+    "k": "bahçe"
+   },
+   {
+    "k": "fide"
+   },
+   {
+    "k": "gübre"
+   },
+   {
+    "k": "ürün"
+   },
+   {
+    "k": "çiftçi"
+   },
+   {
+    "k": "bostan"
+   },
+   {
+    "k": "ekin"
+   },
+   {
+    "k": "ekim"
+   },
+   {
+    "k": "çapalama"
+   },
+   {
+    "k": "ağıl"
+   }
+  ],
+  "Bina ve yapılar": [
+   {
+    "k": "ev"
+   },
+   {
+    "k": "apartman"
+   },
+   {
+    "k": "bina"
+   },
+   {
+    "k": "okul"
+   },
+   {
+    "k": "kule"
+   },
+   {
+    "k": "köprü"
+   },
+   {
+    "k": "cami"
+   },
+   {
+    "k": "saray"
+   },
+   {
+    "k": "kale"
+   },
+   {
+    "k": "baraj"
+   },
+   {
+    "k": "tünel"
+   },
+   {
+    "k": "yol"
+   },
+   {
+    "k": "cadde"
+   },
+   {
+    "k": "sokak"
+   },
+   {
+    "k": "duvar"
+   },
+   {
+    "k": "çatı"
+   },
+   {
+    "k": "kapı"
+   },
+   {
+    "k": "pencere"
+   },
+   {
+    "k": "temel"
+   },
+   {
+    "k": "kat"
+   },
+   {
+    "k": "balkon"
+   },
+   {
+    "k": "merdiven"
+   },
+   {
+    "k": "çardak"
+   },
+   {
+    "k": "müze"
+   },
+   {
+    "k": "otel"
+   },
+   {
+    "k": "han"
+   },
+   {
+    "k": "çeşme"
+   }
+  ],
+  "Güzel davranışlar": [
+   {
+    "k": "saygı"
+   },
+   {
+    "k": "sevgi"
+   },
+   {
+    "k": "nezaket"
+   },
+   {
+    "k": "dürüstlük"
+   },
+   {
+    "k": "yardım"
+   },
+   {
+    "k": "paylaşım"
+   },
+   {
+    "k": "sabır"
+   },
+   {
+    "k": "hoşgörü"
+   },
+   {
+    "k": "özür"
+   },
+   {
+    "k": "teşekkür"
+   },
+   {
+    "k": "selam"
+   },
+   {
+    "k": "bağış"
+   },
+   {
+    "k": "çalışkan"
+   },
+   {
+    "k": "dostluk"
+   },
+   {
+    "k": "iyilik"
+   },
+   {
+    "k": "cömert"
+   },
+   {
+    "k": "adalet"
+   },
+   {
+    "k": "barış"
+   },
+   {
+    "k": "merhamet"
+   },
+   {
+    "k": "dinlemek"
+   },
+   {
+    "k": "paylaşmak"
+   },
+   {
+    "k": "gülümsemek"
+   },
+   {
+    "k": "sarılmak"
+   },
+   {
+    "k": "selamlamak"
+   },
+   {
+    "k": "affetmek"
+   }
+  ],
+  "Peri masalı": [
+   {
+    "k": "prenses"
+   },
+   {
+    "k": "prens"
+   },
+   {
+    "k": "peri"
+   },
+   {
+    "k": "cüce"
+   },
+   {
+    "k": "dev"
+   },
+   {
+    "k": "ejderha"
+   },
+   {
+    "k": "büyücü"
+   },
+   {
+    "k": "kral"
+   },
+   {
+    "k": "kraliçe"
+   },
+   {
+    "k": "şato"
+   },
+   {
+    "k": "saray"
+   },
+   {
+    "k": "hazine"
+   },
+   {
+    "k": "sihir"
+   },
+   {
+    "k": "asa"
+   },
+   {
+    "k": "taç"
+   },
+   {
+    "k": "kule"
+   },
+   {
+    "k": "yıldız"
+   },
+   {
+    "k": "masal"
+   },
+   {
+    "k": "kahraman"
+   },
+   {
+    "k": "şövalye"
+   },
+   {
+    "k": "kılıç"
+   },
+   {
+    "k": "yüzük"
+   },
+   {
+    "k": "ayna"
+   },
+   {
+    "k": "anahtar"
+   },
+   {
+    "k": "çizme"
+   },
+   {
+    "k": "kuğu"
+   }
+  ],
+  "Eğlence ve kutlama": [
+   {
+    "k": "sirk"
+   },
+   {
+    "k": "palyaço"
+   },
+   {
+    "k": "lunapark"
+   },
+   {
+    "k": "atlıkarınca"
+   },
+   {
+    "k": "sihirbaz"
+   },
+   {
+    "k": "akrobat"
+   },
+   {
+    "k": "balon"
+   },
+   {
+    "k": "dondurma"
+   },
+   {
+    "k": "müzik"
+   },
+   {
+    "k": "şenlik"
+   },
+   {
+    "k": "konser"
+   },
+   {
+    "k": "tiyatro"
+   },
+   {
+    "k": "sahne"
+   },
+   {
+    "k": "perde"
+   },
+   {
+    "k": "bilet"
+   },
+   {
+    "k": "oyuncak"
+   },
+   {
+    "k": "pasta"
+   },
+   {
+    "k": "mum"
+   },
+   {
+    "k": "hediye"
+   },
+   {
+    "k": "parti"
+   },
+   {
+    "k": "kutlama"
+   },
+   {
+    "k": "konfeti"
+   },
+   {
+    "k": "davet"
+   },
+   {
+    "k": "kart"
+   },
+   {
+    "k": "yılbaşı"
+   },
+   {
+    "k": "bayram"
+   },
+   {
+    "k": "şeker"
+   },
+   {
+    "k": "çocuk"
+   }
+  ],
+  "Tatil ve mevsim": [
+   {
+    "k": "kar"
+   },
+   {
+    "k": "kızak"
+   },
+   {
+    "k": "bere"
+   },
+   {
+    "k": "atkı"
+   },
+   {
+    "k": "eldiven"
+   },
+   {
+    "k": "soba"
+   },
+   {
+    "k": "şömine"
+   },
+   {
+    "k": "kartopu"
+   },
+   {
+    "k": "buz"
+   },
+   {
+    "k": "don"
+   },
+   {
+    "k": "soğuk"
+   },
+   {
+    "k": "mont"
+   },
+   {
+    "k": "çorba"
+   },
+   {
+    "k": "sıcak"
+   },
+   {
+    "k": "yorgan"
+   },
+   {
+    "k": "kalın"
+   },
+   {
+    "k": "deniz"
+   },
+   {
+    "k": "kum"
+   },
+   {
+    "k": "plaj"
+   },
+   {
+    "k": "güneş"
+   },
+   {
+    "k": "şemsiye"
+   },
+   {
+    "k": "mayo"
+   },
+   {
+    "k": "dondurma"
+   },
+   {
+    "k": "karpuz"
+   },
+   {
+    "k": "tatil"
+   },
+   {
+    "k": "yüzme"
+   },
+   {
+    "k": "gölge"
+   },
+   {
+    "k": "kova"
+   },
+   {
+    "k": "kürek"
+   },
+   {
+    "k": "şezlong"
+   },
+   {
+    "k": "terlik"
+   },
+   {
+    "k": "sepet"
+   },
+   {
+    "k": "örtü"
+   },
+   {
+    "k": "ekmek"
+   },
+   {
+    "k": "peynir"
+   },
+   {
+    "k": "domates"
+   },
+   {
+    "k": "meyve"
+   },
+   {
+    "k": "su"
+   },
+   {
+    "k": "çim"
+   },
+   {
+    "k": "ağaç"
+   },
+   {
+    "k": "top"
+   },
+   {
+    "k": "uçurtma"
+   },
+   {
+    "k": "termos"
+   },
+   {
+    "k": "tabak"
+   },
+   {
+    "k": "bardak"
+   },
+   {
+    "k": "kaşık"
+   },
+   {
+    "k": "çatal"
+   }
+  ],
+  "Dünya ve harita": [
+   {
+    "k": "dünya"
+   },
+   {
+    "k": "kıta"
+   },
+   {
+    "k": "okyanus"
+   },
+   {
+    "k": "deniz"
+   },
+   {
+    "k": "ülke"
+   },
+   {
+    "k": "şehir"
+   },
+   {
+    "k": "köy"
+   },
+   {
+    "k": "harita"
+   },
+   {
+    "k": "küre"
+   },
+   {
+    "k": "dağ"
+   },
+   {
+    "k": "nehir"
+   },
+   {
+    "k": "göl"
+   },
+   {
+    "k": "ada"
+   },
+   {
+    "k": "çöl"
+   },
+   {
+    "k": "orman"
+   },
+   {
+    "k": "kutup"
+   },
+   {
+    "k": "ekvator"
+   },
+   {
+    "k": "Asya"
+   },
+   {
+    "k": "Avrupa"
+   },
+   {
+    "k": "Afrika"
+   },
+   {
+    "k": "Amerika"
+   },
+   {
+    "k": "Antarktika"
+   },
+   {
+    "k": "Pasifik"
+   },
+   {
+    "k": "Atlantik"
+   },
+   {
+    "k": "Akdeniz"
+   },
+   {
+    "k": "Karadeniz"
+   },
+   {
+    "k": "Ege"
+   },
+   {
+    "k": "Marmara"
+   },
+   {
+    "k": "Hazar"
+   }
+  ],
+  "Para ve alışveriş": [
+   {
+    "k": "para"
+   },
+   {
+    "k": "kuruş"
+   },
+   {
+    "k": "lira"
+   },
+   {
+    "k": "bozuk"
+   },
+   {
+    "k": "banka"
+   },
+   {
+    "k": "cüzdan"
+   },
+   {
+    "k": "fiyat"
+   },
+   {
+    "k": "indirim"
+   },
+   {
+    "k": "kasa"
+   },
+   {
+    "k": "fiş"
+   },
+   {
+    "k": "alışveriş"
+   },
+   {
+    "k": "pazar"
+   },
+   {
+    "k": "market"
+   },
+   {
+    "k": "satıcı"
+   },
+   {
+    "k": "müşteri"
+   },
+   {
+    "k": "sepet"
+   },
+   {
+    "k": "hesap"
+   },
+   {
+    "k": "tasarruf"
+   },
+   {
+    "k": "kumbara"
+   },
+   {
+    "k": "maaş"
+   },
+   {
+    "k": "ücret"
+   },
+   {
+    "k": "fatura"
+   },
+   {
+    "k": "harcama"
+   },
+   {
+    "k": "kazanç"
+   },
+   {
+    "k": "gelir"
+   },
+   {
+    "k": "gider"
+   },
+   {
+    "k": "borç"
+   }
+  ],
+  "Sanat ve yazı": [
+   {
+    "k": "şarkı"
+   },
+   {
+    "k": "ezgi"
+   },
+   {
+    "k": "nota"
+   },
+   {
+    "k": "melodi"
+   },
+   {
+    "k": "müzik"
+   },
+   {
+    "k": "koro"
+   },
+   {
+    "k": "orkestra"
+   },
+   {
+    "k": "konser"
+   },
+   {
+    "k": "şarkıcı"
+   },
+   {
+    "k": "çalgı"
+   },
+   {
+    "k": "ritim"
+   },
+   {
+    "k": "ses"
+   },
+   {
+    "k": "mikrofon"
+   },
+   {
+    "k": "kulaklık"
+   },
+   {
+    "k": "dans"
+   },
+   {
+    "k": "hoparlör"
+   },
+   {
+    "k": "resim"
+   },
+   {
+    "k": "boya"
+   },
+   {
+    "k": "fırça"
+   },
+   {
+    "k": "tuval"
+   },
+   {
+    "k": "heykel"
+   },
+   {
+    "k": "müze"
+   },
+   {
+    "k": "sergi"
+   },
+   {
+    "k": "tiyatro"
+   },
+   {
+    "k": "sinema"
+   },
+   {
+    "k": "bale"
+   },
+   {
+    "k": "şiir"
+   },
+   {
+    "k": "roman"
+   },
+   {
+    "k": "masal"
+   },
+   {
+    "k": "sanat"
+   },
+   {
+    "k": "harf"
+   },
+   {
+    "k": "kelime"
+   },
+   {
+    "k": "cümle"
+   },
+   {
+    "k": "paragraf"
+   },
+   {
+    "k": "yazı"
+   },
+   {
+    "k": "satır"
+   },
+   {
+    "k": "sayfa"
+   },
+   {
+    "k": "kitap"
+   },
+   {
+    "k": "defter"
+   },
+   {
+    "k": "kalem"
+   },
+   {
+    "k": "not"
+   },
+   {
+    "k": "hikaye"
+   },
+   {
+    "k": "mektup"
+   },
+   {
+    "k": "başlık"
+   },
+   {
+    "k": "nokta"
+   },
+   {
+    "k": "virgül"
+   }
+  ],
+  "Tatlılar ve içecekler": [
+   {
+    "k": "baklava"
+   },
+   {
+    "k": "dondurma",
+    "e": "🍦"
+   },
+   {
+    "k": "pasta",
+    "e": "🎂"
+   },
+   {
+    "k": "kek",
+    "e": "🧁"
+   },
+   {
+    "k": "lokum"
+   },
+   {
+    "k": "çikolata",
+    "e": "🍫"
+   },
+   {
+    "k": "şeker",
+    "e": "🍬"
+   },
+   {
+    "k": "helva"
+   },
+   {
+    "k": "sütlaç"
+   },
+   {
+    "k": "kazandibi"
+   },
+   {
+    "k": "aşure"
+   },
+   {
+    "k": "kurabiye"
+   },
+   {
+    "k": "bisküvi",
+    "e": "🍪"
+   },
+   {
+    "k": "gofret"
+   },
+   {
+    "k": "kadayıf"
+   },
+   {
+    "k": "revani"
+   },
+   {
+    "k": "tulumba"
+   },
+   {
+    "k": "lokma"
+   },
+   {
+    "k": "profiterol"
+   },
+   {
+    "k": "puding"
+   },
+   {
+    "k": "muhallebi"
+   },
+   {
+    "k": "sakız"
+   },
+   {
+    "k": "jelibon"
+   },
+   {
+    "k": "kalburabastı"
+   },
+   {
+    "k": "şekerpare"
+   },
+   {
+    "k": "tatlı"
+   },
+   {
+    "k": "simit"
+   },
+   {
+    "k": "su",
+    "e": "💧"
+   },
+   {
+    "k": "süt",
+    "e": "🥛"
+   },
+   {
+    "k": "çay",
+    "e": "🍵"
+   },
+   {
+    "k": "kahve",
+    "e": "☕"
+   },
+   {
+    "k": "ayran"
+   },
+   {
+    "k": "limonata"
+   },
+   {
+    "k": "gazoz"
+   },
+   {
+    "k": "komposto"
+   },
+   {
+    "k": "şerbet"
+   },
+   {
+    "k": "kakao"
+   },
+   {
+    "k": "soda"
+   },
+   {
+    "k": "salep"
+   },
+   {
+    "k": "boza"
+   },
+   {
+    "k": "şalgam"
+   },
+   {
+    "k": "kola"
+   },
+   {
+    "k": "kefir"
+   },
+   {
+    "k": "limon"
+   },
+   {
+    "k": "portakal"
+   },
+   {
+    "k": "çilek"
+   },
+   {
+    "k": "vişne"
+   },
+   {
+    "k": "nane"
+   }
+  ]
+ },
+ "benzerler": [
+  [
+   "kar",
+   "kor",
+   "kır",
+   "kâr"
+  ],
+  [
+   "kal",
+   "kul",
+   "kol",
+   "kel"
+  ],
+  [
+   "bal",
+   "bel",
+   "bil",
+   "bol"
+  ],
+  [
+   "dal",
+   "dil",
+   "dol"
+  ],
+  [
+   "sal",
+   "sel",
+   "sil",
+   "sol"
+  ],
+  [
+   "tel",
+   "til",
+   "tül"
+  ],
+  [
+   "tuz",
+   "toz"
+  ],
+  [
+   "gül",
+   "göl"
+  ],
+  [
+   "gün",
+   "gön"
+  ],
+  [
+   "kuş",
+   "kış",
+   "kaş"
+  ],
+  [
+   "baş",
+   "beş",
+   "boş"
+  ],
+  [
+   "dur",
+   "dar"
+  ],
+  [
+   "yan",
+   "yün"
+  ],
+  [
+   "yaz",
+   "yüz"
+  ],
+  [
+   "yol",
+   "yıl",
+   "yal",
+   "yel"
+  ],
+  [
+   "yağ",
+   "yay",
+   "yat",
+   "yan"
+  ],
+  [
+   "kat",
+   "kot",
+   "kıt"
+  ],
+  [
+   "kat",
+   "kaz",
+   "kar",
+   "kap"
+  ],
+  [
+   "kaz",
+   "kız",
+   "koz"
+  ],
+  [
+   "kapı",
+   "kapak"
+  ],
+  [
+   "dere",
+   "tere"
+  ],
+  [
+   "kedi",
+   "keçi"
+  ],
+  [
+   "elma",
+   "elmas"
+  ],
+  [
+   "ara",
+   "arı"
+  ],
+  [
+   "at",
+   "et",
+   "ot",
+   "it"
+  ],
+  [
+   "ek",
+   "ok",
+   "ak"
+  ],
+  [
+   "al",
+   "el",
+   "ol"
+  ],
+  [
+   "ay",
+   "oy",
+   "ey"
+  ],
+  [
+   "iş",
+   "eş"
+  ],
+  [
+   "ses",
+   "sis",
+   "süs",
+   "sus"
+  ],
+  [
+   "saç",
+   "seç"
+  ],
+  [
+   "soy",
+   "say"
+  ],
+  [
+   "son",
+   "san",
+   "sen",
+   "sin"
+  ],
+  [
+   "tam",
+   "dam"
+  ],
+  [
+   "taş",
+   "tuş"
+  ],
+  [
+   "tat",
+   "tut"
+  ],
+  [
+   "tuş",
+   "duş",
+   "düş",
+   "dış"
+  ],
+  [
+   "ben",
+   "bin"
+  ],
+  [
+   "bir",
+   "bor"
+  ],
+  [
+   "bay",
+   "boy",
+   "bey"
+  ],
+  [
+   "bez",
+   "boz",
+   "biz"
+  ],
+  [
+   "bit",
+   "bat",
+   "bot",
+   "but"
+  ],
+  [
+   "bot",
+   "kot"
+  ],
+  [
+   "can",
+   "cin"
+  ],
+  [
+   "çam",
+   "çim"
+  ],
+  [
+   "çal",
+   "çul"
+  ],
+  [
+   "çek",
+   "çok",
+   "çık",
+   "çak"
+  ],
+  [
+   "çit",
+   "çat"
+  ],
+  [
+   "dam",
+   "dem"
+  ],
+  [
+   "dön",
+   "dün",
+   "don"
+  ],
+  [
+   "düz",
+   "diz"
+  ],
+  [
+   "fil",
+   "fal"
+  ],
+  [
+   "fön",
+   "fan",
+   "fen"
+  ],
+  [
+   "göz",
+   "güz",
+   "gez"
+  ],
+  [
+   "gaz",
+   "göz"
+  ],
+  [
+   "iz",
+   "öz",
+   "üz",
+   "az"
+  ],
+  [
+   "köy",
+   "koy",
+   "kay",
+   "kıy"
+  ],
+  [
+   "kum",
+   "kam",
+   "kim"
+  ],
+  [
+   "kök",
+   "kek"
+  ],
+  [
+   "mal",
+   "mil"
+  ],
+  [
+   "nar",
+   "nur"
+  ],
+  [
+   "pas",
+   "pes",
+   "pis"
+  ],
+  [
+   "pul",
+   "pil",
+   "pal"
+  ],
+  [
+   "rey",
+   "ray"
+  ],
+  [
+   "ter",
+   "tur",
+   "tır"
+  ],
+  [
+   "top",
+   "tip",
+   "tap"
+  ],
+  [
+   "tay",
+   "toy"
+  ],
+  [
+   "un",
+   "in",
+   "an",
+   "ün"
+  ],
+  [
+   "var",
+   "ver",
+   "vur"
+  ],
+  [
+   "yar",
+   "yer",
+   "yur"
+  ],
+  [
+   "yat",
+   "yut"
+  ],
+  [
+   "yok",
+   "yük",
+   "yak",
+   "yık"
+  ],
+  [
+   "zar",
+   "zor"
+  ],
+  [
+   "kara",
+   "kare",
+   "kira",
+   "kura"
+  ],
+  [
+   "kasa",
+   "kese",
+   "kısa"
+  ],
+  [
+   "masa",
+   "masal"
+  ],
+  [
+   "sana",
+   "sene",
+   "sona"
+  ],
+  [
+   "dana",
+   "dene",
+   "dona"
+  ],
+  [
+   "ekmek",
+   "eğmek"
+  ],
+  [
+   "gelmek",
+   "gülmek"
+  ],
+  [
+   "bulmak",
+   "bilmek",
+   "bölmek"
+  ],
+  [
+   "tutmak",
+   "tatmak"
+  ],
+  [
+   "dalmak",
+   "dolmak"
+  ],
+  [
+   "yazmak",
+   "yüzmek"
+  ],
+  [
+   "kesmek",
+   "kısmak",
+   "kasmak"
+  ],
+  [
+   "sürmek",
+   "sormak",
+   "sarmak"
+  ],
+  [
+   "atmak",
+   "etmek",
+   "itmek"
+  ],
+  [
+   "yatmak",
+   "yutmak"
+  ],
+  [
+   "kurmak",
+   "kırmak"
+  ],
+  [
+   "vermek",
+   "varmak",
+   "vurmak"
+  ],
+  [
+   "çekmek",
+   "çakmak",
+   "çıkmak"
+  ],
+  [
+   "bakmak",
+   "bükmek"
+  ],
+  [
+   "dikmek",
+   "dökmek"
+  ],
+  [
+   "açmak",
+   "uçmak",
+   "içmek"
+  ],
+  [
+   "kapmak",
+   "kapamak"
+  ],
+  [
+   "düşmek",
+   "düzmek"
+  ],
+  [
+   "kitap",
+   "kitaplık"
+  ],
+  [
+   "kalem",
+   "kalemlik"
+  ],
+  [
+   "tuz",
+   "tuzluk"
+  ],
+  [
+   "ağaç",
+   "ağaçlık"
+  ],
+  [
+   "balık",
+   "balıkçı"
+  ],
+  [
+   "süt",
+   "sütçü"
+  ],
+  [
+   "göz",
+   "gözlük"
+  ],
+  [
+   "çay",
+   "çaylak"
+  ],
+  [
+   "kuş",
+   "kuşak"
+  ],
+  [
+   "kar",
+   "karın"
+  ],
+  [
+   "kol",
+   "kolay"
+  ],
+  [
+   "dil",
+   "dilek"
+  ],
+  [
+   "ev",
+   "evet"
+  ],
+  [
+   "gün",
+   "güney"
+  ],
+  [
+   "sar",
+   "sarı"
+  ],
+  [
+   "yol",
+   "yolcu"
+  ],
+  [
+   "bal",
+   "balon",
+   "balkon"
+  ],
+  [
+   "kar",
+   "karga"
+  ],
+  [
+   "çam",
+   "çamur"
+  ],
+  [
+   "top",
+   "topuk"
+  ],
+  [
+   "su",
+   "sus"
+  ],
+  [
+   "al",
+   "ala"
+  ],
+  [
+   "dar",
+   "darı"
+  ],
+  [
+   "sac",
+   "saç"
+  ],
+  [
+   "ayak",
+   "kaya"
+  ],
+  [
+   "kuru",
+   "kurt",
+   "kurum",
+   "kurul"
+  ],
+  [
+   "kalın",
+   "kalan"
+  ],
+  [
+   "doğa",
+   "doğu"
+  ],
+  [
+   "kayık",
+   "kayıt",
+   "kayın"
+  ],
+  [
+   "kilit",
+   "kilim",
+   "kilo"
+  ],
+  [
+   "pazar",
+   "pazı"
+  ],
+  [
+   "kutu",
+   "kuru",
+   "kuzu"
+  ],
+  [
+   "çanta",
+   "çatal",
+   "çatı"
+  ],
+  [
+   "kafe",
+   "kafa",
+   "kafes"
+  ],
+  [
+   "tavan",
+   "tavuk",
+   "tavla"
+  ],
+  [
+   "limon",
+   "liman"
+  ],
+  [
+   "uçak",
+   "uçuk"
+  ],
+  [
+   "şiş",
+   "şaş"
+  ],
+  [
+   "ışık",
+   "ışın"
+  ],
+  [
+   "ışık",
+   "eşik"
+  ],
+  [
+   "eşek",
+   "eşik",
+   "eşit"
+  ],
+  [
+   "kuzu",
+   "kuzey"
+  ],
+  [
+   "ağız",
+   "ağıl",
+   "ağır"
+  ],
+  [
+   "çorap",
+   "çorba"
+  ],
+  [
+   "mera",
+   "merak"
+  ],
+  [
+   "sabah",
+   "sabır",
+   "sabun"
+  ],
+  [
+   "yatak",
+   "yatık"
+  ],
+  [
+   "yazı",
+   "yazın",
+   "yazar"
+  ],
+  [
+   "hava",
+   "havuz",
+   "havlu"
+  ],
+  [
+   "sepet",
+   "sebep"
+  ],
+  [
+   "tarak",
+   "tarla",
+   "tarif"
+  ],
+  [
+   "tek",
+   "tok",
+   "tık",
+   "tak"
+  ],
+  [
+   "ton",
+   "tan",
+   "ten"
+  ],
+  [
+   "oda",
+   "ada"
+  ],
+  [
+   "uzun",
+   "uzak"
+  ],
+  [
+   "yürek",
+   "yürük"
+  ],
+  [
+   "kulak",
+   "kulaç"
+  ],
+  [
+   "bölüm",
+   "bölük"
+  ],
+  [
+   "sevgi",
+   "sevgili"
+  ]
+ ]
+}

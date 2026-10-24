@@ -1,0 +1,602 @@
+{
+ "c01": [
+  "Kışın arılar ne yapar?",
+  "Kovanda toplanıp birbirini ısıtırlar",
+  "Başka ülkelere göç ederler",
+  "Çiçeklerin içinde uyurlar"
+ ],
+ "c02": [
+  "Elif'in kalemini kim buldu?",
+  "Kerem",
+  "Defne",
+  "Babası"
+ ],
+ "c03": [
+  "Su buharı yukarı çıkınca soğur ve neye dönüşür?",
+  "Küçük damlalara",
+  "Buza",
+  "Dumana"
+ ],
+ "c04": [
+  "Ertesi gün kaleyi neden denizden uzağa kurdular?",
+  "Dalga yine bozmasın diye",
+  "Deniz çok uzaklaştığı için",
+  "Kum orada daha ince olduğu için"
+ ],
+ "c05": [
+  "Sonbaharda yapraklar renk değiştirdikten sonra ne olur?",
+  "Dallardan düşerler",
+  "Yeniden yeşerirler",
+  "Ağaçta daha uzun kalırlar"
+ ],
+ "c06": [
+  "Pamuk'un burnunda ne vardı?",
+  "Bir domates parçası",
+  "Bir çorba damlası",
+  "Bir ekmek kırıntısı"
+ ],
+ "c09": [
+  "Hamurun kabarmasını ne sağlar?",
+  "Maya",
+  "Tuz",
+  "Su"
+ ],
+ "c21": [
+  "Mutlu bir kedinin bıyıkları nasıl durur?",
+  "Rahatça öne bakar",
+  "Yüzüne yaklaşır",
+  "Aşağı sarkar"
+ ],
+ "c23": [
+  "Ağaçkakan ağaç gövdesine neden vurur?",
+  "Böcek aramak ve yuva yapmak için",
+  "Ağacı devirmek ve yere yıkmak için",
+  "Gagasını bilemek için"
+ ],
+ "c24": [
+  "Zeynep zil çalınca neden şaşırdı?",
+  "Zaman çok hızlı geçmişti",
+  "Dersi anlamamıştı",
+  "Annesi onu almaya gelmişti"
+ ],
+ "c25": [
+  "Tohum uyanınca önce ne uzatır?",
+  "Küçük bir kök",
+  "Yeşil bir yaprak",
+  "Sarı bir çiçek"
+ ],
+ "c26": [
+  "Kardan adamın burnu için ne taktılar?",
+  "Havuç",
+  "Taş",
+  "Düğme"
+ ],
+ "c13": [
+  "Fırıncının günü genellikle ne zaman başlar?",
+  "Gece yarısına doğru",
+  "Sabah erkenden",
+  "Öğleden sonra"
+ ],
+ "c14": [
+  "Bora ile Selin kampa nasıl döndü?",
+  "Pusulaya bakıp güneye yürüdüler",
+  "Kuşları takip ettiler",
+  "Geldikleri yoldan geri gittiler"
+ ],
+ "c16": [
+  "Zeynep kitabı bitirince neden kendi notunu yazdı?",
+  "Kâğıttaki isteği yerine getirmek için",
+  "Kitabın sonunu unutmamak için",
+  "Kütüphaneciye ödev olarak vermek için"
+ ],
+ "c18": [
+  "Emre yarışta neden altıncı oldu?",
+  "Düşen yarışmacıya yardım etmek için durdu",
+  "Bisikletinin lastiği patladı",
+  "Yolu şaşırdı"
+ ],
+ "c20": [
+  "Ece'nin elleri titremesi ne zaman geçti?",
+  "Birkaç ölçü çaldıktan sonra",
+  "Sahneye çıkmadan önce",
+  "Öğretmeni omzuna dokununca"
+ ],
+ "c32": [
+  "Hocanın \"Her taşın zamanı vardır\" sözü ne anlama gelir?",
+  "Her hamle için uygun zamanı beklemek gerekir",
+  "Önce en güçlü taşı oynamak gerekir",
+  "Maçlarda mümkün olduğunca hızlı oynamak gerekir"
+ ],
+ "c34": [
+  "Elif yeni komşusundan ne istedi?",
+  "Ona da piyano öğretmesini",
+  "Saatleri değiştirmesini",
+  "Müziği kısmasını"
+ ],
+ "c36": [
+  "Arda'nın ilk resmi ona neden güzel gelmedi?",
+  "Düz ve cansız bir maviydi",
+  "Boyaları bitmişti",
+  "Fırçası kırılmıştı"
+ ],
+ "c38": [
+  "Burak büyükannesinden ne aldı?",
+  "Küçük bir şeker",
+  "Harçlık",
+  "Bayramlık bir gömlek"
+ ],
+ "c40": [
+  "Deniz'in babası musluğu tamir etmeye neden razı oldu?",
+  "Kabın bir bardaktan fazla dolduğunu görünce",
+  "Annesi ona kızınca",
+  "Faturada fark görünce"
+ ],
+ "y16": [
+  "Metne göre birikimi ne zaman ayırmak daha etkilidir?",
+  "Gelir geldiği gün",
+  "Ayın sonunda kalan parayla",
+  "Yılın sonunda"
+ ],
+ "y10": [
+  "Metne göre bildirim sesleri neden üretilmiştir?",
+  "Dikkat çekmek için",
+  "Pili korumak için",
+  "Telefonu hızlandırmak için"
+ ],
+ "y12": [
+  "Metne göre biri konuşurken çoğu zaman ne yaparız?",
+  "Kendi cevabımızı hazırlarız",
+  "Not alırız",
+  "Sessizce bekleriz"
+ ],
+ "y15": [
+  "Okuma alışkanlığı edinmek isteyenlere verilen yaygın öğüt nedir?",
+  "Küçük başla",
+  "Hızlı oku",
+  "Her kitabı mutlaka bitir"
+ ],
+ "y09": [
+  "Metne göre hareketi alışkanlığa çevirmenin sırrı nedir?",
+  "İşi küçük tutmak",
+  "Her gün bir saat spor yapmak",
+  "Yalnızca salonda çalışmak"
+ ],
+ "y04": [
+  "Toprağa sızan su nerede birikir?",
+  "Kayaçların arasındaki boşluklarda",
+  "Bulutların içinde",
+  "Yaprakların üzerinde"
+ ],
+ "y18": [
+  "Metne göre iyi bir ders çoğu zaman ne zaman kazanılır?",
+  "Dersten önceki saatlerde",
+  "Zil çaldıktan sonra",
+  "Sınav haftasında"
+ ],
+ "y19": [
+  "Metne göre bir seyahatin en güzel anları çoğu zaman nelerdir?",
+  "Planda olmayanlar",
+  "Önceden ayarlananlar",
+  "Müze ziyaretleri"
+ ],
+ "y11": [
+  "Metne göre zaman yönetimi yerine neyi yönetebiliriz?",
+  "Dikkatimizi ve önceliklerimizi",
+  "Günün uzunluğunu",
+  "Saatlerimizi"
+ ],
+ "y03": [
+  "Metne göre hatırlama nasıl işler?",
+  "Beyin anıyı her seferinde parçalardan yeniden kurar",
+  "Anılar rafta olduğu gibi saklanır",
+  "Yalnızca duygusal anılar saklanır"
+ ],
+ "y01": [
+  "Notu kendi cümlelerinle yazmanın amacı nedir?",
+  "Bilgi üzerinde düşünmeyi sağlamak",
+  "Sayfayı daha hızlı doldurmak",
+  "Yazıyı güzelleştirmek"
+ ],
+ "y02": [
+  "Uyku döngüleri yaklaşık kaç dakikadır?",
+  "Doksan dakika",
+  "Otuz dakika",
+  "Yüz yirmi dakika"
+ ],
+ "n01": [
+  "Bahar gelince yuvaya önce hangisi gelir?",
+  "Erkek leylek",
+  "Dişi leylek",
+  "Yavru leylekler"
+ ],
+ "n02": [
+  "Bilge kış boyunca nerede uyur?",
+  "Toprağın altında",
+  "Bir ağaç kovuğunda",
+  "Taş yığınının üstünde"
+ ],
+ "n03": [
+  "Değirmenin kaç kanadı vardır?",
+  "Dört",
+  "Altı",
+  "Üç"
+ ],
+ "n04": [
+  "Balığı neden suya geri bıraktılar?",
+  "Büyüsün de yine buluşsunlar diye",
+  "Dedem balık yemeyi sevmediği için",
+  "Kovada balığa yer kalmadığı için"
+ ],
+ "n05": [
+  "Annem pazarda önce ne aldı?",
+  "Peynir",
+  "Elma",
+  "Bal"
+ ],
+ "n06": [
+  "Gökkuşağını görmek için güneşe nasıl durmalısın?",
+  "Sırtını dönerek",
+  "Yüzünü dönerek",
+  "Yan durarak"
+ ],
+ "n07": [
+  "Kuzu neden meleyerek bağırmaya başladı?",
+  "Yolunu şaşırdığı için",
+  "Acıktığı için",
+  "Annesi kızdığı için"
+ ],
+ "n08": [
+  "Çamaşırlar yıkanmadan önce ne yapılır?",
+  "Beyazlar ve renkliler ayrılır",
+  "Mandallar takılır",
+  "Giysiler balkondaki ipe asılır"
+ ],
+ "n09": [
+  "Top bulunduktan sonra ne oldu?",
+  "Maç yeniden başladı",
+  "Maç bitti",
+  "Çocuklar eve gitti"
+ ],
+ "n10": [
+  "Çocuklar okula neden kayıkla geçer?",
+  "Nehirde köprü yoktur",
+  "Kayık yürümekten çok daha hızlı olduğu için",
+  "Okul nehrin ortasındaki bir adadadır"
+ ],
+ "n11": [
+  "Ses üç saniyede yaklaşık ne kadar yol gider?",
+  "Bir kilometre",
+  "Yüz metre",
+  "On kilometre"
+ ],
+ "n12": [
+  "Küçük serçe kocaman çekirdeği gagalamaya çalışınca ne yapar?",
+  "Ağır gelse de vazgeçmez",
+  "Çekirdeği bırakıp uçar",
+  "Başka serçeleri çağırır"
+ ],
+ "n13": [
+  "Süt ılınınca anneannem içine ne katar?",
+  "Bir kaşık yoğurt",
+  "Bir kaşık bal",
+  "Bir tutam tuz"
+ ],
+ "n14": [
+  "Eskiden insanlar yıldızlara bakarak ne yapardı?",
+  "Yol bulurdu",
+  "Saati öğrenirdi",
+  "Yağmuru beklerdi"
+ ],
+ "n15": [
+  "Yazar kavalı ilk denediğinde ne çıktı?",
+  "Sadece hava sesi",
+  "İnce bir ses",
+  "Güzel bir türkü"
+ ],
+ "n16": [
+  "Ayşe kaç kez atladı?",
+  "Kırk kez",
+  "Yirmi kez",
+  "Elli kez"
+ ],
+ "n17": [
+  "Odunlar taşındıktan sonra ne yapılır?",
+  "Hep birlikte sıcak çorba içilir",
+  "Odunlar pazara götürülüp satılır",
+  "Kavanozlara yeniden reçel konur"
+ ],
+ "n18": [
+  "Sis ne zaman dağılmaya başlar?",
+  "Güneş yükselince",
+  "Rüzgâr dinince",
+  "Akşam olunca"
+ ],
+ "n19": [
+  "Mehmet Amca günün ilk işi olarak ne yapar?",
+  "İneklerini sağar",
+  "Tarlayı sular",
+  "Ekmek yapar"
+ ],
+ "n20": [
+  "Çeşmeyi kim yapmış?",
+  "Usta Hasan",
+  "Usta Ahmet",
+  "Usta Selim"
+ ],
+ "n21": [
+  "Atkının ipleri ne renk?",
+  "Mavi",
+  "Kırmızı",
+  "Yeşil"
+ ],
+ "n22": [
+  "Yürüyüşte nerede dinlendiler?",
+  "Çınar ağacının gölgesinde",
+  "Bir pınarın başında",
+  "Büyük bir kayanın üstünde"
+ ],
+ "n23": [
+  "Kirpi neleri yer?",
+  "Böcek ve salyangoz",
+  "Ot ve kök",
+  "Tohum ve fındık"
+ ],
+ "n24": [
+  "Yük kütüklerin üstüne konunca ne oldu?",
+  "İtmek kolaylaştı",
+  "Yük daha da ağırlaştı",
+  "Kütükler kırıldı"
+ ],
+ "n25": [
+  "Babam elmalara nasıl ulaşır?",
+  "Merdivenle çıkar",
+  "Sopayla düşürür",
+  "Ağaca tırmanır"
+ ],
+ "n26": [
+  "Kırlangıçlar bahçeler ve tarlalar için neden yararlıdır?",
+  "Çok sayıda böcek yakaladıkları için",
+  "Toprağı sürüp havalandırdıkları için",
+  "Tohumları uzaklara taşıdıkları için"
+ ],
+ "n27": [
+  "Güneş tutulmasına bakmak için hangisi önerilir?",
+  "Özel gözlükler",
+  "Siyah bir bez",
+  "Dürbün"
+ ],
+ "n28": [
+  "Bazı kervansaraylarda yolculara ne ücretsizdi?",
+  "Konaklama",
+  "Yemek",
+  "Yeni deve"
+ ],
+ "n29": [
+  "Zeytin toplarken ağacın altına ne serilir?",
+  "Büyük bir bez",
+  "Hasır bir örtü",
+  "Kalın bir halı"
+ ],
+ "n30": [
+  "Çay toplayıcılar hangi yaprakları koparır?",
+  "En genç, üstteki yaprakları",
+  "En büyük yaprakları",
+  "Kurumuş yaprakları"
+ ],
+ "n31": [
+  "Hedefte en çok puanı hangi daire verir?",
+  "Ortadaki sarı daire",
+  "En dıştaki kırmızı daire",
+  "Ortadaki mavi daire"
+ ],
+ "n32": [
+  "Bağlama genellikle hangi ağaçtan yapılır?",
+  "Dut ağacından",
+  "Ceviz ağacından",
+  "Kayın ağacından"
+ ],
+ "n33": [
+  "Yolda ilk olarak nerenin önünden geçerler?",
+  "Fırının",
+  "Bakkalın",
+  "Çeşmenin"
+ ],
+ "n34": [
+  "Rüzgâr gülünün oku neyi gösterir?",
+  "Rüzgârın geldiği yönü",
+  "Rüzgârın gittiği yönü",
+  "Yağmurun yağacağı yeri"
+ ],
+ "n35": [
+  "Yağlı tencereleri ne zaman yıkadılar?",
+  "En son",
+  "İlk olarak",
+  "Bardaklardan hemen sonra"
+ ],
+ "n36": [
+  "Ayşe'nin ailesi binanın kaçıncı katında oturuyor?",
+  "Yedinci katında",
+  "Üçüncü katında",
+  "Onuncu katında"
+ ],
+ "n37": [
+  "Ahmet'in matematik notu neden yükseldi?",
+  "Bütün dönem her gün soru çözdüğü için",
+  "Öğretmen notu yükselttiği için",
+  "Sınav çok kolay olduğu için"
+ ],
+ "n38": [
+  "Sızan su toprağın altında neyin üstünde birikir?",
+  "Su geçirmeyen kayaların",
+  "Kum yığınlarının",
+  "Ağaç köklerinin"
+ ],
+ "n39": [
+  "Kar tanelerinin hepsinin kaç köşesi vardır?",
+  "Altı",
+  "Dört",
+  "Sekiz"
+ ],
+ "n40": [
+  "Kaybolan birini arayan köpek neyin kokusunu alır?",
+  "Ona ait bir eşyanın",
+  "Ayak izlerinin",
+  "Bir yiyeceğin"
+ ],
+ "n41": [
+  "Ağaçta halka kurak yıllarda nasıl olur?",
+  "Dar kalır",
+  "Geniş olur",
+  "Hiç oluşmaz"
+ ],
+ "n42": [
+  "Tuz Gölü'nün suyu nasıl azalır?",
+  "Buharlaşarak",
+  "Denize akarak",
+  "Toprağa sızarak"
+ ],
+ "n43": [
+  "Hatice Teyze'nin evinde ne oldu?",
+  "Su borusu patladı",
+  "Çatı aktı",
+  "Kapı kilitlendi"
+ ],
+ "n44": [
+  "Güneş'in ışığı Dünya'ya yaklaşık kaç dakikada ulaşır?",
+  "Sekiz dakikada",
+  "Bir dakikada",
+  "Yirmi dakikada"
+ ],
+ "n45": [
+  "Dayı o gün nerede ot biçeceğini söyledi?",
+  "Çayırda",
+  "Bahçede",
+  "Dere kenarında"
+ ],
+ "n46": [
+  "Kokunun bir kaynağı olarak ne anlatılıyor?",
+  "Toprakta yaşayan, gözle görülmeyen canlılar",
+  "Yağmurdaki tuz",
+  "Çürüyen yapraklar"
+ ],
+ "n47": [
+  "Likya Yolu hangi işaretlerle belirlenmiştir?",
+  "Kırmızı beyaz boya",
+  "Mavi oklar",
+  "Taş yığınları"
+ ],
+ "n48": [
+  "Çiftçiler mercimekle sırayla hangi bitkiyi eker?",
+  "Buğdayı",
+  "Mısırı",
+  "Pamuğu"
+ ],
+ "n49": [
+  "Cemal Amca kaç yaşındaydı?",
+  "Yetmiş iki",
+  "Altmış beş",
+  "Seksen"
+ ],
+ "n50": [
+  "Araştırmalara göre yeni doğan bebekler neyi ayırt edebilir?",
+  "Anne sesini",
+  "Renkleri",
+  "Kokuları"
+ ],
+ "c27": [
+  "Solungaçlar balığın vücudunun neresindedir?",
+  "Başın iki yanında",
+  "Karnın altında",
+  "Kuyruğun yanında"
+ ],
+ "c08": [
+  "Ozan şutunu çekmeden hemen önce ne oldu?",
+  "Deniz topu ona uzattı",
+  "Can kaleden çıkıp topu kendisi aldı",
+  "Rakipler topu kaleye gönderdi"
+ ],
+ "c33": [
+  "Sarkaçlı saatler zamanı neden daha doğru ölçtü?",
+  "Sarkaç düzenli gidip geldiği için",
+  "Sarkaç çok hızlı döndüğü için",
+  "Güneşin yerine bakıldığı için"
+ ],
+ "c39": [
+  "Metne göre çocuklarda büyüme ne zaman hızlanır?",
+  "Uykuda",
+  "Yemekten sonra",
+  "Spor yaparken"
+ ],
+ "c19": [
+  "Metne göre geri dönüşümün yararlarından biri hangisidir?",
+  "Çöplüklere giden atık miktarı azalır",
+  "Doğal kaynaklar daha çok harcanır",
+  "Yeni atıklar daha çok üretilir"
+ ],
+ "c17": [
+  "Kuzey yarım küre Güneş'e doğru eğilince ne olur?",
+  "Işınlar daha dik gelir ve günler uzar",
+  "Işınlar daha eğik gelir ve günler kısalır",
+  "Gündüzle gece birbirine eşit olur"
+ ],
+ "c31": [
+  "Mühendisler köprüyü neden biraz esnek tasarlar?",
+  "Rüzgârda sallanıp kırılmasın diye",
+  "Daha az malzeme harcansın diye",
+  "Köprü daha hafif görünsün diye"
+ ],
+ "c11": [
+  "Kâğıt, kil tabletlere ve deri parçalarına göre neden daha kullanışlıydı?",
+  "Hafif, ucuz ve üretmesi kolay olduğu için",
+  "Çok daha ağır ve sağlam olduğu için",
+  "Yalnızca Çin'de üretilebildiği için"
+ ],
+ "y05": [
+  "İlk yazının asıl amacı neydi?",
+  "Tahıl, koyun ve vergi kaydı tutmak",
+  "Destan yazmak",
+  "Mektuplaşmak"
+ ],
+ "y06": [
+  "Güneş'ten Dünya'ya ışığın ulaşması yaklaşık ne kadar sürer?",
+  "Sekiz dakika",
+  "Sekiz saniye",
+  "Sekiz saat"
+ ],
+ "y08": [
+  "Buzdolabı olmayan dönemlerde kışı çıkarmak için hangi yöntemler geliştirildi?",
+  "Turşu, kurutma, salamura",
+  "Dondurma, vakumlama",
+  "Kızartma, haşlama"
+ ],
+ "y13": [
+  "Metne göre iklim neyi anlatır?",
+  "Uzun yıllar boyunca görülen ortalama durumu",
+  "Bugünkü hava durumunu",
+  "Yalnızca yağış miktarını"
+ ],
+ "y14": [
+  "Bazı bilim insanlarına göre müzik neyden önce ortaya çıkmış olabilir?",
+  "Dilden",
+  "Yazıdan",
+  "Tarımdan"
+ ],
+ "y17": [
+  "Metne göre kalıcı sağlık etkisi çoğunlukla nereden gelir?",
+  "Küçük ve düzenli alışkanlıklardan",
+  "Ağır diyetlerden",
+  "Katı kurallardan"
+ ],
+ "y20": [
+  "Arıların dansı diğer arılara neyi anlatır?",
+  "Çiçek kaynağının yerini",
+  "Kovanın tehlikede olduğunu",
+  "Kraliçenin nerede olduğunu"
+ ],
+ "y21": [
+  "Geleneksel konutlarda kalın taş duvarlar ne sağlar?",
+  "Yazın serinlik, kışın ısı tutma",
+  "Yalnızca ses yalıtımı",
+  "Daha çok gün ışığı"
+ ]
+}

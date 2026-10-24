@@ -1,0 +1,2986 @@
+{
+ "c01": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.1 kelime)."
+ },
+ "c02": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.2 kelime)."
+ },
+ "c03": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 4.4 kelime)."
+ },
+ "c04": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.8 kelime)."
+ },
+ "c05": {
+  "grup": "3-4",
+  "gerekce": "C turu: Soyut sözcükler (bereketli, göç eder) ve 92 kelime; yz-s1-028 ile aynı konu/ilk cümle, o daha sade."
+ },
+ "c06": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.4 kelime)."
+ },
+ "c07": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.2 kelime)."
+ },
+ "c08": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.2 kelime)."
+ },
+ "c09": {
+  "grup": "3-4",
+  "gerekce": "C turu: Öğütür, yoğrulur, israf, emek gibi ağır sözcükler; 1-2 için soyut."
+ },
+ "c10": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "c11": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.2 kelime)."
+ },
+ "c12": {
+  "grup": "3-4",
+  "gerekce": "C turu: Kısa cümleli, çocuksu ev deneyi hikâyesi; sonu dolgulu."
+ },
+ "c13": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.2 kelime)."
+ },
+ "c14": {
+  "grup": "3-4",
+  "gerekce": "C turu: Ortalama cümle 5.3 kelime, basit olay örgüsü, sonda dolgu paragrafı."
+ },
+ "c15": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.9 kelime)."
+ },
+ "c16": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.8 kelime)."
+ },
+ "c17": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Ortalama cümle ~8 kelime, temel fen bilgisi; 4-5. sınıf düzeyi, sonu da dolgu."
+ },
+ "c18": {
+  "grup": "3-4",
+  "gerekce": "C turu: Ortalama cümle 4.9 kelime, çok basit ahlak hikâyesi."
+ },
+ "c19": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.6 kelime)."
+ },
+ "c20": {
+  "grup": "3-4",
+  "gerekce": "C turu: Kısa cümleler (5.4), basit duygu hikâyesi, dolgulu son paragraf."
+ },
+ "c21": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.8 kelime)."
+ },
+ "c22": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.5 kelime)."
+ },
+ "c23": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "c24": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.4 kelime)."
+ },
+ "c25": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.1 kelime)."
+ },
+ "c26": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.5 kelime)."
+ },
+ "c27": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.1 kelime)."
+ },
+ "c28": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.0 kelime)."
+ },
+ "c29": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "c30": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.0 kelime)."
+ },
+ "c31": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Kısa basit cümleler, temel bilgi; 4-5. sınıf düzeyi, sonu dolgu."
+ },
+ "c32": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.8 kelime)."
+ },
+ "c33": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.0 kelime)."
+ },
+ "c34": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.6 kelime)."
+ },
+ "c35": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Kısa basit cümleler, basit içerik; 5-6. sınıf düzeyi, sonu dolgu."
+ },
+ "c36": {
+  "grup": "3-4",
+  "gerekce": "C turu: Ortalama cümle 4.6 kelime, çok basit resim hikâyesi."
+ },
+ "c37": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.5 kelime)."
+ },
+ "c38": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.8 kelime)."
+ },
+ "c39": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Kısa basit cümleler, basit içerik; 4-5. sınıf düzeyi, sonu dolgu."
+ },
+ "c40": {
+  "grup": "3-4",
+  "gerekce": "C turu: Ortalama cümle 4.7 kelime, basit tasarruf hikâyesi."
+ },
+ "ch06": {
+  "grup": "7-8",
+  "gerekce": "C turu: Felis catus, etobur, anatomik, frekans, refleks gibi terimler ve 14 kelimelik cümleler ağır."
+ },
+ "ch07": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): Vikipedi tarzı madde, 'Testudines/Triyas' gibi terimler; 5-6 düzeyi."
+ },
+ "ch08": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): Vikipedi tarzı bulut maddesi, bilimsel tanım cümleleri; 5-6 düzeyi."
+ },
+ "ch09": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): Vikipedi tarzı lale maddesi, botanik terimli; 5-6 düzeyi."
+ },
+ "ch10": {
+  "grup": "7-8",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): Vikipedi tarzı, Latince adlar, çok uzun ve terimli cümleler; 7-8 düzeyi."
+ },
+ "ch11": {
+  "grup": "7-8",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): Vikipedi tarzı, 'biyotop, gevişgetiren' gibi terimler; 7-8 düzeyi."
+ },
+ "ch12": {
+  "grup": "7-8",
+  "gerekce": "C turu: Takım/familya terimleri, damar yapısı ve kg istatistikleri 5-6 için ağır ve kuru."
+ },
+ "ch13": {
+  "grup": "7-8",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): Vikipedi tarzı, Latince adlar ve çok uzun cümleler; 7-8 düzeyi."
+ },
+ "ch14": {
+  "grup": "7-8",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): Vikipedi tarzı, çok uzun tek cümleler (ort. 22 kelime); 7-8 düzeyi."
+ },
+ "ch15": {
+  "grup": "7-8",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): Vikipedi tarzı, tarım/arkeoloji terimli ve uzun cümleli; 7-8 düzeyi."
+ },
+ "ch16": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı karınca maddesi, taksonomi ve evrim terimleri; 7-8 düzeyi."
+ },
+ "ch17": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı penguen maddesi, sayı ve tür bilgisi yoğun; 7-8 düzeyi."
+ },
+ "ch18": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı zürafa maddesi, uzun cümleli ve terimli; 7-8 düzeyi."
+ },
+ "ch19": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı fil maddesi, takım/tür terimleri; 7-8 düzeyi (içinde tekrar eden cümle var)."
+ },
+ "ch20": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı leylek maddesi, çok sayıda ölçü ve terim; 7-8 düzeyi."
+ },
+ "ch21": {
+  "grup": "cikar",
+  "gerekce": "Çocuğa fazla teknik: Satürn maddesinde manyetik moment, AU, metalik hidrojen gibi ifadeler var."
+ },
+ "ch22": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı Dünya maddesi, uzun cümleli ve terimli (litosfer, hidrosfer); 7-8 düzeyi."
+ },
+ "ch23": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı Mars maddesi, tarih/ölçü/proje adları yoğun; 7-8 düzeyi."
+ },
+ "ch24": {
+  "grup": "cikar",
+  "gerekce": "Çocuğa fazla teknik: Güneş maddesinde bilimsel gösterim, element listeleri, ışık yılı hesapları var."
+ },
+ "ch25": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı yağmur maddesi, soyut meteoroloji kavramları; 7-8 düzeyinin üst ucu."
+ },
+ "ch26": {
+  "grup": "cikar",
+  "gerekce": "Çocuğa fazla teknik: yanardağ maddesinde mafik/felsik, silikat oranı gibi jeoloji terimleri var."
+ },
+ "ch27": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı sığır maddesi, sınıflandırma terimli ve liste gibi cümleler; 7-8 düzeyi."
+ },
+ "ch28": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı köpek maddesi, evrim ve genetik kavramları; 7-8 düzeyi."
+ },
+ "ch29": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı yaban tavşanı maddesi, Latince terimler ve çiftleşme davranışı notu; 7-8 düzeyi."
+ },
+ "ch30": {
+  "grup": "7-8",
+  "gerekce": "C turu: Etimoloji, familya adı ve yaprak ölçüleri 5-6 için kuru ve ağır."
+ },
+ "ck002": {
+  "grup": "7-8",
+  "gerekce": "C turu: Kalkerli kabuk, ünite, koloni fertleri, sürgün şeklinde üreme gibi ağır terimler."
+ },
+ "ck005": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): geyik maddesi parçası, boynuz gelişimi anlatımı; 5-6 düzeyi."
+ },
+ "ck008": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): keçi maddesi parçası, kısa ve bilgi ağırlıklı; 5-6 düzeyi."
+ },
+ "ck011": {
+  "grup": "7-8",
+  "gerekce": "C turu: 18 kelimelik soyut cümleler, yarım küre/eksen eğimi anlatımı ve bozuk ifadeler (yeğin) ağır."
+ },
+ "ck014": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): baykuş maddesi, görece kısa cümleli bilgi metni; 5-6 düzeyi."
+ },
+ "ck017": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): gergedan maddesi parçası, fosil ve yaşam alanı bilgisi; 5-6 düzeyi."
+ },
+ "ck020": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): şimşek maddesi, elektrik yükü gibi fen kavramları; 5-6 düzeyi."
+ },
+ "ck035": {
+  "grup": "5-6",
+  "gerekce": "Goril maddesi, sade ama bilgi yoğun; 5-6 düzeyi."
+ },
+ "ck036": {
+  "grup": "5-6",
+  "gerekce": "Papağan maddesi parçası, anatomik betimleme; 5-6 düzeyi."
+ },
+ "ck037": {
+  "grup": "7-8",
+  "gerekce": "Mercan maddesi parçası, üreme biyolojisi terimleri (polip, larva, atol); 7-8 düzeyi."
+ },
+ "ck038": {
+  "grup": "5-6",
+  "gerekce": "Gitar maddesi, müzik terimli ama somut; 5-6 düzeyi."
+ },
+ "ck039": {
+  "grup": "5-6",
+  "gerekce": "Geyik maddesi parçası, yaşam bilgisi; 5-6 düzeyi."
+ },
+ "ck040": {
+  "grup": "5-6",
+  "gerekce": "Ayı maddesi, ölçü ve tür bilgisi; 5-6 düzeyi."
+ },
+ "ck041": {
+  "grup": "5-6",
+  "gerekce": "Martı maddesi, davranış bilgisi; 5-6 düzeyi."
+ },
+ "ck045": {
+  "grup": "5-6",
+  "gerekce": "İlkbahar maddesi parçası, mevsim ve iklim bilgisi; 5-6 düzeyi."
+ },
+ "ck046": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.6 kelime)."
+ },
+ "ck047": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.5 kelime)."
+ },
+ "ck048": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.7 kelime)."
+ },
+ "ck049": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 14.9 kelime)."
+ },
+ "ck050": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.5 kelime)."
+ },
+ "ck051": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.8 kelime)."
+ },
+ "ck052": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.9 kelime)."
+ },
+ "ck053": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.2 kelime)."
+ },
+ "ck054": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.4 kelime)."
+ },
+ "ck055": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.9 kelime)."
+ },
+ "ck056": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.6 kelime)."
+ },
+ "ck057": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.9 kelime)."
+ },
+ "ck058": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.7 kelime)."
+ },
+ "ck060": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.0 kelime)."
+ },
+ "ck061": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.8 kelime)."
+ },
+ "ck062": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.3 kelime)."
+ },
+ "ck063": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.2 kelime)."
+ },
+ "ck064": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.2 kelime)."
+ },
+ "ck065": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.9 kelime)."
+ },
+ "ck066": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 15.0 kelime)."
+ },
+ "ck067": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 15.7 kelime)."
+ },
+ "ck068": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.0 kelime)."
+ },
+ "ck069": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.9 kelime)."
+ },
+ "ck070": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.8 kelime)."
+ },
+ "ck071": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.6 kelime)."
+ },
+ "ck072": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.4 kelime)."
+ },
+ "ck073": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.8 kelime)."
+ },
+ "ck074": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.5 kelime)."
+ },
+ "ck077": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.1 kelime)."
+ },
+ "ck078": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.2 kelime)."
+ },
+ "ck079": {
+  "grup": "5-6",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.1 kelime)."
+ },
+ "ck080": {
+  "grup": "7-8",
+  "gerekce": "Vikipedi tarzı ansiklopedi maddesi; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.5 kelime)."
+ },
+ "n01": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.5 kelime)."
+ },
+ "n02": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.6 kelime)."
+ },
+ "n03": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "n04": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.1 kelime)."
+ },
+ "n05": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.5 kelime)."
+ },
+ "n06": {
+  "grup": "1-2",
+  "gerekce": "C2 turu: Çok kısa cümleli, basit ve 84 kelimelik metin 1-2. sınıf düzeyinde."
+ },
+ "n07": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.3 kelime)."
+ },
+ "n08": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.5 kelime)."
+ },
+ "n09": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.3 kelime)."
+ },
+ "n10": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.9 kelime)."
+ },
+ "n11": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.7 kelime)."
+ },
+ "n12": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "n13": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "n14": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.4 kelime)."
+ },
+ "n15": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.7 kelime)."
+ },
+ "n16": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.2 kelime)."
+ },
+ "n17": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.0 kelime)."
+ },
+ "n18": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 4.2 kelime)."
+ },
+ "n19": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "n20": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.7 kelime)."
+ },
+ "n21": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.5 kelime)."
+ },
+ "n22": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.2 kelime)."
+ },
+ "n23": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.4 kelime)."
+ },
+ "n24": {
+  "grup": "1-2",
+  "gerekce": "C2 turu: Çok kısa ve basit cümleli, 81 kelimelik metin 1-2. sınıf düzeyinde."
+ },
+ "n25": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 4.8 kelime)."
+ },
+ "n26": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.2 kelime)."
+ },
+ "n27": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Kısa basit cümleler ve somut temel içerik, 4-6. sınıf düzeyinde."
+ },
+ "n28": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.5 kelime)."
+ },
+ "n29": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.0 kelime)."
+ },
+ "n30": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.5 kelime)."
+ },
+ "n31": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.6 kelime)."
+ },
+ "n32": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.1 kelime)."
+ },
+ "n33": {
+  "grup": "3-4",
+  "gerekce": "C turu: Ortalama cümle 5.8, çok basit ve günlük okul yolu anlatısı."
+ },
+ "n34": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Kısa basit cümleler ve somut temel içerik, 4-6. sınıf düzeyinde."
+ },
+ "n35": {
+  "grup": "3-4",
+  "gerekce": "C turu: Ortalama cümle 5.1, basit aile içi olay."
+ },
+ "n36": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.4 kelime)."
+ },
+ "n37": {
+  "grup": "3-4",
+  "gerekce": "C turu: Ortalama cümle 5.0, basit karne hikâyesi, dolgu cümleler."
+ },
+ "n38": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.8 kelime)."
+ },
+ "n39": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Kısa basit cümleler ve somut temel içerik, 4-6. sınıf düzeyinde."
+ },
+ "n40": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.2 kelime)."
+ },
+ "meb-s1-02": {
+  "grup": "cikar",
+  "gerekce": "OCR hatası: satırlar karışmış, metin okunamaz hâlde (Düş Gezgini)."
+ },
+ "meb-s1-04": {
+  "grup": "3-4",
+  "gerekce": "C turu: 112 kelime, tupturuncu/nefis gibi ağır sözcükler ve uzun cümleler."
+ },
+ "meb-s1-06": {
+  "grup": "cikar",
+  "gerekce": "OCR hatası: cümleler iç içe geçmiş, kelimeler bölünmüş (Büyüleyici Büyüteç)."
+ },
+ "meb-s1-07": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; teknolojik kavram içeriyor, ufak OCR düzensizliği var ama okunabilir."
+ },
+ "meb-s1-08": {
+  "grup": "cikar",
+  "gerekce": "OCR hatası: satır ve cümleler karışmış (Gökyüzü Okulu)."
+ },
+ "meb-s1-10": {
+  "grup": "3-4",
+  "gerekce": "C turu: 138 kelime, noktalı virgüllü uzun cümleler, emanet gibi soyut sözcük."
+ },
+ "meb-s1-11": {
+  "grup": "3-4",
+  "gerekce": "C turu: 190 kelime; çok uzun, çok konuşmalı ve öğüt ağırlıklı."
+ },
+ "meb-s1-15": {
+  "grup": "3-4",
+  "gerekce": "C turu: Uzun, dolaylı ve mecazlı cümleler (güneşimi parlatırım); soyut."
+ },
+ "meb-s1-16": {
+  "grup": "3-4",
+  "gerekce": "C turu: 113 kelime, diyalog dizimi ve çevre bilinci konusu; 1-2 için uzun."
+ },
+ "meb-s1-17": {
+  "grup": "3-4",
+  "gerekce": "C turu: Dünya'nın mektubu soyut ve ağır (atık, görev, kirlenme)."
+ },
+ "meb-s2-02": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "meb-s2-03": {
+  "grup": "3-4",
+  "gerekce": "C turu: 161 kelime, uzun ve soyut ahlak dersi."
+ },
+ "meb-s2-04": {
+  "grup": "3-4",
+  "gerekce": "C turu: 160 kelime, uzun ve soyut (sorumluluk, yılmamak)."
+ },
+ "meb-s2-05": {
+  "grup": "3-4",
+  "gerekce": "C turu: 162 kelime, tarih konusu (zafer, mücadele) 1-2 için ağır."
+ },
+ "meb-s2-06": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.6 kelime)."
+ },
+ "meb-s2-08": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.0 kelime)."
+ },
+ "meb-s2-09-p1": {
+  "grup": "3-4",
+  "gerekce": "C turu: 133 kelime, uzun cümleli; bölüm olarak da yarım."
+ },
+ "meb-s2-09-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s2-09-p1 ile birleştirildi."
+ },
+ "meb-s2-10-p1": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.1 kelime)."
+ },
+ "meb-s2-10-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s2-10-p1 ile birleştirildi."
+ },
+ "meb-s2-12": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 11.7 kelime)."
+ },
+ "meb-s2-13": {
+  "grup": "cikar",
+  "gerekce": "OCR hatası: konuşma satırları ve cümleler karışmış, anlam bozuk (Kitap Okumayı Seviyorum)."
+ },
+ "meb-s2-14": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.9 kelime)."
+ },
+ "meb-s2-16": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.5 kelime)."
+ },
+ "meb-s2-17": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.6 kelime)."
+ },
+ "meb-s2-18": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.2 kelime)."
+ },
+ "meb-s2-19": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.3 kelime)."
+ },
+ "meb-s2-20-p1": {
+  "grup": "3-4",
+  "gerekce": "C turu: Oyun tarifi, 104 kelime; tavsiye/mesafe gibi sözcükler, ayrıca madde 3'te yarım kalıyor."
+ },
+ "meb-s2-20-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s2-20-p1 ile birleştirildi."
+ },
+ "meb-s2-21": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.1 kelime)."
+ },
+ "meb-s2-23": {
+  "grup": "3-4",
+  "gerekce": "C turu: 183 kelime; çok uzun, soyut ve karmaşık cümleler."
+ },
+ "meb-s2-24": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.5 kelime)."
+ },
+ "meb-s2-26-p1": {
+  "grup": "3-4",
+  "gerekce": "C turu: 114 kelime, bölüm olarak yarım; robot/rüya kurgusu uzun."
+ },
+ "meb-s2-26-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s2-26-p1 ile birleştirildi."
+ },
+ "meb-s2-27": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 13.4 kelime)."
+ },
+ "meb-s2-29": {
+  "grup": "cikar",
+  "gerekce": "OCR hatası: konuşma parçaları karışmış, hikâyenin akışı bozuk (Bir Bayram Sürprizi)."
+ },
+ "meb-s2-31-p1": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.0 kelime)."
+ },
+ "meb-s2-31-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s2-31-p1 ile birleştirildi."
+ },
+ "meb-s2-32": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.9 kelime)."
+ },
+ "meb-s2-33": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.6 kelime)."
+ },
+ "meb-s2-34-p1": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.6 kelime)."
+ },
+ "meb-s2-34-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s2-34-p1 ile birleştirildi."
+ },
+ "meb-s2-36": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: Hikâye yarıda; sonu bir yazma etkinliğine ('yazarak anlatmak istiyordu') bırakılmış, çözümü yok."
+ },
+ "meb-s2-37": {
+  "grup": "3-4",
+  "gerekce": "C turu: 121 kelime, çocuk hakları/proje gibi soyut kavramlar."
+ },
+ "meb-s3-01": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.1 kelime)."
+ },
+ "meb-s3-03-p1": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.5 kelime)."
+ },
+ "meb-s3-03-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s3-03-p1 ile birleştirildi."
+ },
+ "meb-s3-04-p1": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.4 kelime)."
+ },
+ "meb-s3-04-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s3-04-p1 ile birleştirildi."
+ },
+ "meb-s3-05": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 11.5 kelime)."
+ },
+ "meb-s3-07": {
+  "grup": "3-4",
+  "gerekce": "C turu: 3. sınıf Türkçe kitabı anısı; çocuksu anlatım."
+ },
+ "meb-s3-08": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: Çocuğun sözü yarım kalmış ('Atatürk’üm,') ve metinde etkinlik soruları var; ayrıca meb-s2-08 ile aynı Atatürk sözünü tekrar ediyor."
+ },
+ "meb-s3-09-p1": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 13.4 kelime)."
+ },
+ "meb-s3-09-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s3-09-p1 ile birleştirildi."
+ },
+ "meb-s3-11-p1": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.4 kelime)."
+ },
+ "meb-s3-11-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s3-11-p1 ile birleştirildi."
+ },
+ "meb-s3-13-p1": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.7 kelime)."
+ },
+ "meb-s3-13-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s3-13-p1 ile birleştirildi."
+ },
+ "meb-s3-15": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.2 kelime)."
+ },
+ "meb-s3-17-p1": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.2 kelime)."
+ },
+ "meb-s3-17-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s3-17-p1 ile birleştirildi."
+ },
+ "meb-s3-18-p1": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.2 kelime)."
+ },
+ "meb-s3-18-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s3-18-p1 ile birleştirildi."
+ },
+ "meb-s3-20-p1": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.4 kelime)."
+ },
+ "meb-s3-20-p2": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: 2. bölüm tek başına eksik bağlamlı; içeriği meb-s3-20-p1 ile birleştirildi."
+ },
+ "meb-s3-21": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): e-atık konusu, uzun cümleler ve 'kurşun, zehirli gaz' gibi bilgiler; 5-6 düzeyi."
+ },
+ "meb-s3-22-p1": {
+  "grup": "3-4",
+  "gerekce": "Metin; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.2 kelime)."
+ },
+ "meb-s3-22-p2": {
+  "grup": "3-4",
+  "gerekce": "Metin; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.3 kelime)."
+ },
+ "meb-s3-24": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.9 kelime)."
+ },
+ "meb-s3-25": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.2 kelime)."
+ },
+ "meb-s3-26-p1": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 12.0 kelime)."
+ },
+ "meb-s3-26-p2": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 13.6 kelime)."
+ },
+ "meb-s3-27-p1": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.4 kelime)."
+ },
+ "meb-s3-27-p2": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 11.8 kelime)."
+ },
+ "meb-s3-29-p1": {
+  "grup": "3-4",
+  "gerekce": "Metin; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.7 kelime)."
+ },
+ "meb-s3-29-p2": {
+  "grup": "3-4",
+  "gerekce": "Metin; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.7 kelime)."
+ },
+ "meb-s3-30": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.1 kelime)."
+ },
+ "meb-s3-31": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.4 kelime)."
+ },
+ "meb-s5-01-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.6 kelime)."
+ },
+ "meb-s5-01-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.4 kelime)."
+ },
+ "meb-s5-02-p1": {
+  "grup": "5-6",
+  "gerekce": "Metin; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.3 kelime)."
+ },
+ "meb-s5-02-p2": {
+  "grup": "5-6",
+  "gerekce": "Metin; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.6 kelime)."
+ },
+ "meb-s5-03-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.5 kelime)."
+ },
+ "meb-s5-03-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.1 kelime)."
+ },
+ "meb-s5-03-p3": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.2 kelime)."
+ },
+ "meb-s5-05-p1": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: MEB 5. sınıf mektup metni, basit anlatım; 5-6 düzeyi."
+ },
+ "meb-s5-05-p2": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: MEB 5. sınıf mektup metni, kısa cümleler; 5-6 düzeyi."
+ },
+ "meb-s5-06-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.1 kelime)."
+ },
+ "meb-s5-06-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.5 kelime)."
+ },
+ "meb-s5-06-p3": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.9 kelime)."
+ },
+ "meb-s5-07-p1": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.9 kelime)."
+ },
+ "meb-s5-07-p2": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 17.5 kelime)."
+ },
+ "meb-s5-08": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.1 kelime)."
+ },
+ "meb-s5-09": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: MEB 5. sınıf, basit ve çocuksu duygular konusu."
+ },
+ "meb-s5-10-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.1 kelime)."
+ },
+ "meb-s5-10-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.0 kelime)."
+ },
+ "meb-s5-12-p1": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.3 kelime)."
+ },
+ "meb-s5-12-p2": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.5 kelime)."
+ },
+ "meb-s5-13": {
+  "grup": "cikar",
+  "gerekce": "Soru denetiminde bozuk/yarım metin çıktı"
+ },
+ "meb-s5-14-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.4 kelime)."
+ },
+ "meb-s5-14-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.1 kelime)."
+ },
+ "meb-s5-15": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.4 kelime)."
+ },
+ "meb-s5-16": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 16.6 kelime)."
+ },
+ "meb-s5-17": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.9 kelime)."
+ },
+ "meb-s5-18-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.5 kelime)."
+ },
+ "meb-s5-18-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.1 kelime)."
+ },
+ "meb-s5-19-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.1 kelime)."
+ },
+ "meb-s5-19-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.1 kelime)."
+ },
+ "meb-s5-21-p1": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.4 kelime)."
+ },
+ "meb-s5-21-p2": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 10.7 kelime)."
+ },
+ "meb-s5-21-p3": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.1 kelime)."
+ },
+ "meb-s5-22-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.7 kelime)."
+ },
+ "meb-s5-22-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.2 kelime)."
+ },
+ "meb-s5-24": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.1 kelime)."
+ },
+ "meb-s5-25-p1": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 14.3 kelime)."
+ },
+ "meb-s5-25-p2": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 18.2 kelime)."
+ },
+ "meb-s5-26-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.2 kelime)."
+ },
+ "meb-s5-26-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.0 kelime)."
+ },
+ "meb-s5-26-p3": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.5 kelime)."
+ },
+ "meb-s5-27-p1": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: MEB 5. sınıf, basit sağlık bilgisi."
+ },
+ "meb-s5-27-p2": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: MEB 5. sınıf, basit öğütler."
+ },
+ "meb-s5-28-p1": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.8 kelime)."
+ },
+ "meb-s5-28-p2": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.1 kelime)."
+ },
+ "meb-s5-28-p3": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.9 kelime)."
+ },
+ "meb-s5-29": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Basit biyografik bilgi, kısa cümleler."
+ },
+ "meb-s5-30": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 25.1 kelime)."
+ },
+ "meb-s6-01-p1": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Kısa cümleli basit hikâye; 5-6 düzeyi."
+ },
+ "meb-s6-01-p2": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Kısa cümleli basit hikâye; 5-6 düzeyi."
+ },
+ "meb-s6-02-p1": {
+  "grup": "7-8",
+  "gerekce": "Edebî-şiirsel ve arkaik anlatım, 13. yüzyıl Anadolu'su üzerine; 7-8 düzeyi (okunması zor, sınırda)."
+ },
+ "meb-s6-02-p2": {
+  "grup": "7-8",
+  "gerekce": "Metin; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 20.7 kelime)."
+ },
+ "meb-s6-05-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.5 kelime)."
+ },
+ "meb-s6-05-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.8 kelime)."
+ },
+ "meb-s6-05-p3": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.1 kelime)."
+ },
+ "meb-s6-05-p4": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.5 kelime)."
+ },
+ "meb-s6-07": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.5 kelime)."
+ },
+ "meb-s6-10": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.9 kelime)."
+ },
+ "meb-s6-11-p1": {
+  "grup": "cikar",
+  "gerekce": "OCR hatası: sözlükçe kutuları ve yan sütun metni ana cümlelerin ortasına karışmış, cümleler bölünmüş."
+ },
+ "meb-s6-11-p2": {
+  "grup": "cikar",
+  "gerekce": "OCR hatası: cümleler ortadan bölünüp başka satırlarla birleşmiş ('bekistan'ı', 'hazine- Biraz daha yakına, mizin')."
+ },
+ "meb-s6-12": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.0 kelime)."
+ },
+ "meb-s6-13": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 16.8 kelime)."
+ },
+ "meb-s6-14": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.4 kelime)."
+ },
+ "meb-s6-15": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.0 kelime)."
+ },
+ "meb-s6-16-p1": {
+  "grup": "5-6",
+  "gerekce": "Gezi anlatımı; kolyenin 'dünyada yapılamaz' iddiası şüpheli bilgi içeriyor ama atıldığı için çıkarılmadı (şüpheli nokta); 5-6 düzeyi."
+ },
+ "meb-s6-16-p2": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.3 kelime)."
+ },
+ "meb-s6-16-p3": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.7 kelime)."
+ },
+ "meb-s6-17-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.0 kelime)."
+ },
+ "meb-s6-17-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.2 kelime)."
+ },
+ "meb-s6-18-p1": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.2 kelime)."
+ },
+ "meb-s6-18-p2": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.8 kelime)."
+ },
+ "meb-s6-22": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.1 kelime)."
+ },
+ "meb-s6-23-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.6 kelime)."
+ },
+ "meb-s6-23-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.6 kelime)."
+ },
+ "meb-s6-23-p3": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.4 kelime)."
+ },
+ "meb-s6-24": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.5 kelime)."
+ },
+ "meb-s6-25-p1": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.3 kelime)."
+ },
+ "meb-s6-25-p2": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.9 kelime)."
+ },
+ "meb-s6-25-p3": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.3 kelime)."
+ },
+ "meb-s6-27-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.2 kelime)."
+ },
+ "meb-s6-27-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.6 kelime)."
+ },
+ "meb-s6-28": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.7 kelime)."
+ },
+ "meb-s6-29": {
+  "grup": "cikar",
+  "gerekce": "OCR hatası: satırlar ve kenar yazıları karışmış, kelimeler yarım ('Televizdı', 'radda oldu'), anlam bozuk."
+ },
+ "meb-s6-30": {
+  "grup": "cikar",
+  "gerekce": "Yarım kalmış metin: araştırma sonuçları anlatılmadan bitiyor ('Araştırma sonuçlarına göre…')."
+ },
+ "meb-s6-31": {
+  "grup": "cikar",
+  "gerekce": "OCR hatası: manzum metin satırları karışmış, okunamaz hâlde (Kavuk)."
+ },
+ "meb-s6-32": {
+  "grup": "7-8",
+  "gerekce": "Haber metni; uzun bileşik cümleler, resmî dil, yabancı özel adlar; 7-8 düzeyi."
+ },
+ "meb-s7-01-p1": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.1 kelime)."
+ },
+ "meb-s7-01-p2": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 10.4 kelime)."
+ },
+ "meb-s7-01-p3": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.0 kelime)."
+ },
+ "meb-s7-02-p1": {
+  "grup": "7-8",
+  "gerekce": "Metin; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 16.4 kelime)."
+ },
+ "meb-s7-02-p2": {
+  "grup": "7-8",
+  "gerekce": "Metin; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.2 kelime)."
+ },
+ "meb-s7-03-p1": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.3 kelime)."
+ },
+ "meb-s7-03-p2": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.3 kelime)."
+ },
+ "meb-s7-05": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.9 kelime)."
+ },
+ "meb-s7-06-p1": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 10.1 kelime)."
+ },
+ "meb-s7-06-p2": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.3 kelime)."
+ },
+ "meb-s7-06-p3": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.7 kelime)."
+ },
+ "meb-s7-08": {
+  "grup": "cikar",
+  "gerekce": "Soru denetiminde bozuk/yarım metin çıktı"
+ },
+ "meb-s7-09-p1": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.0 kelime)."
+ },
+ "meb-s7-09-p2": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.4 kelime)."
+ },
+ "meb-s7-09-p3": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.1 kelime)."
+ },
+ "meb-s7-10-p1": {
+  "grup": "7-8",
+  "gerekce": "Metin; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.1 kelime)."
+ },
+ "meb-s7-10-p2": {
+  "grup": "7-8",
+  "gerekce": "Metin; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.7 kelime)."
+ },
+ "meb-s7-13-p1": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.0 kelime)."
+ },
+ "meb-s7-13-p2": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.2 kelime)."
+ },
+ "meb-s7-14-p1": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.8 kelime)."
+ },
+ "meb-s7-14-p2": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.0 kelime)."
+ },
+ "meb-s7-16": {
+  "grup": "7-8",
+  "gerekce": "Çok uzun/soyut cümleler (ort. 24 kelime), eğitim felsefesi; 7-8 düzeyinin en zor ucu, sınırda çıkarılabilir."
+ },
+ "meb-s7-17-p1": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.8 kelime)."
+ },
+ "meb-s7-17-p2": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.5 kelime)."
+ },
+ "meb-s7-18-p1": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.0 kelime)."
+ },
+ "meb-s7-18-p2": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.1 kelime)."
+ },
+ "meb-s7-18-p3": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.6 kelime)."
+ },
+ "meb-s7-20": {
+  "grup": "7-8",
+  "gerekce": "Metin; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.7 kelime)."
+ },
+ "meb-s7-21-p1": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.5 kelime)."
+ },
+ "meb-s7-21-p2": {
+  "grup": "7-8",
+  "gerekce": "Metin; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.8 kelime)."
+ },
+ "meb-s7-21-p3": {
+  "grup": "7-8",
+  "gerekce": "Metin; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.7 kelime)."
+ },
+ "meb-s7-22-p1": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.0 kelime)."
+ },
+ "meb-s7-22-p2": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.6 kelime)."
+ },
+ "meb-s7-23-p1": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 19.1 kelime)."
+ },
+ "meb-s7-23-p2": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 10.8 kelime)."
+ },
+ "meb-s7-23-p3": {
+  "grup": "7-8",
+  "gerekce": "Hikâye; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.4 kelime)."
+ },
+ "meb-s7-25": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.1 kelime)."
+ },
+ "meb-s7-26": {
+  "grup": "cikar",
+  "gerekce": "C2 turu: Bakanlık projesi (Yeşil Vatan) tanıtımı/reklam niteliğinde, bilgi değeri düşük slogan metni."
+ },
+ "meb3-fen3-01": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.5 kelime)."
+ },
+ "meb3-fen3-02": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.3 kelime)."
+ },
+ "meb3-fen3-03": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.0 kelime)."
+ },
+ "meb3-fen3-04": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 11.1 kelime)."
+ },
+ "meb3-fen3-05": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 11.5 kelime)."
+ },
+ "meb3-fen3-06": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.3 kelime)."
+ },
+ "meb3-fen3-07": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 12.9 kelime)."
+ },
+ "meb3-fen3-08": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.9 kelime)."
+ },
+ "meb3-fen3-09": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.2 kelime)."
+ },
+ "meb3-fen3-10": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.9 kelime)."
+ },
+ "meb3-fen3-11": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.6 kelime)."
+ },
+ "meb3-fen5-01": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.4 kelime)."
+ },
+ "meb3-fen5-02": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.8 kelime)."
+ },
+ "meb3-fen5-03": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.5 kelime)."
+ },
+ "meb3-fen5-04": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.5 kelime)."
+ },
+ "meb3-fen5-05": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.4 kelime)."
+ },
+ "meb3-fen5-06": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: 5. sınıf müfredat düzeyinde, temel kavramlı ve somut örnekli bilgi metni."
+ },
+ "meb3-fen5-07": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.8 kelime)."
+ },
+ "meb3-fen5-08": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.7 kelime)."
+ },
+ "meb3-fen5-09": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.2 kelime)."
+ },
+ "meb3-fen5-10": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.8 kelime)."
+ },
+ "meb3-fen5-11": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 16.2 kelime)."
+ },
+ "meb3-fen5-12": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.0 kelime)."
+ },
+ "meb3-fen5-13": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.1 kelime)."
+ },
+ "meb3-fen5-14": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.2 kelime)."
+ },
+ "meb3-fen5-15": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: 5. sınıf müfredat düzeyinde, temel kavramlı ve somut örnekli bilgi metni."
+ },
+ "meb3-fen5-16": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: 5. sınıf müfredat düzeyinde, temel kavramlı ve somut örnekli bilgi metni."
+ },
+ "meb3-fen5-17": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.0 kelime)."
+ },
+ "meb3-fen5-18": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.7 kelime)."
+ },
+ "meb3-fen5-19": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.1 kelime)."
+ },
+ "meb3-fen5-20": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.1 kelime)."
+ },
+ "meb3-fen5-21": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.7 kelime)."
+ },
+ "meb3-fen5-22": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.6 kelime)."
+ },
+ "meb3-fen5-23": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.3 kelime)."
+ },
+ "meb3-fen5-24": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.7 kelime)."
+ },
+ "meb3-fen5-25": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.8 kelime)."
+ },
+ "meb3-fen5-26": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 14.5 kelime)."
+ },
+ "meb3-fen5-27": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.4 kelime)."
+ },
+ "meb3-fen6-02": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.7 kelime)."
+ },
+ "meb3-fen6-03": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 19.2 kelime)."
+ },
+ "meb3-fen6-04": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.0 kelime)."
+ },
+ "meb3-fen6-05": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.5 kelime)."
+ },
+ "meb3-fen6-06": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.9 kelime)."
+ },
+ "meb3-fen6-07": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.7 kelime)."
+ },
+ "meb3-fen6-08": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.0 kelime)."
+ },
+ "meb3-fen6-09": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.0 kelime)."
+ },
+ "meb3-fen6-10": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.2 kelime)."
+ },
+ "meb3-fen6-11": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.3 kelime)."
+ },
+ "meb3-fen6-12": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 15.6 kelime)."
+ },
+ "meb3-fen6-13": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.4 kelime)."
+ },
+ "meb3-fen6-14": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.0 kelime)."
+ },
+ "meb3-fen6-15": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.8 kelime)."
+ },
+ "meb3-fen6-16": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 17.0 kelime)."
+ },
+ "meb3-fen6-17": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 17.3 kelime)."
+ },
+ "meb3-fen6-18": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.3 kelime)."
+ },
+ "meb3-fen7-01": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.1 kelime)."
+ },
+ "meb3-fen7-02": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 10.6 kelime)."
+ },
+ "meb3-fen7-03": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 25.8 kelime)."
+ },
+ "meb3-fen7-04": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 19.8 kelime)."
+ },
+ "meb3-fen7-05": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.5 kelime)."
+ },
+ "meb3-fen7-06": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.4 kelime)."
+ },
+ "meb3-fen7-07": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.6 kelime)."
+ },
+ "meb3-fen7-08": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.1 kelime)."
+ },
+ "meb3-fen7-09": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.4 kelime)."
+ },
+ "meb3-fen7-10": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.3 kelime)."
+ },
+ "meb3-fen7-11": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 17.5 kelime)."
+ },
+ "meb3-fen7-12": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.0 kelime)."
+ },
+ "meb3-fen7-13": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.0 kelime)."
+ },
+ "meb3-fen7-14": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 17.2 kelime)."
+ },
+ "meb3-fen7-15": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.3 kelime)."
+ },
+ "meb3-fen7-16": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.1 kelime)."
+ },
+ "meb3-fen7-17": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 15.4 kelime)."
+ },
+ "meb3-fen7-18": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 15.1 kelime)."
+ },
+ "meb3-fen7-19": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 15.5 kelime)."
+ },
+ "meb3-fen7-20": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.1 kelime)."
+ },
+ "meb3-fen7-21": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.5 kelime)."
+ },
+ "meb3-fen7-22": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.0 kelime)."
+ },
+ "meb3-fen7-23": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 17.4 kelime)."
+ },
+ "meb3-fen7-24": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.6 kelime)."
+ },
+ "meb3-hb1-01": {
+  "grup": "3-4",
+  "gerekce": "C turu: 112 kelime; 1-2 için uzun."
+ },
+ "meb3-hb1-02": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.7 kelime)."
+ },
+ "meb3-hb1-03": {
+  "grup": "3-4",
+  "gerekce": "C turu: 126 kelime, geri dönüşüm/üretim süreci soyut."
+ },
+ "meb3-hb1-04": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.0 kelime)."
+ },
+ "meb3-hb2-01": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "meb3-hb2-02": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 22.0 kelime)."
+ },
+ "meb3-hb2-03": {
+  "grup": "3-4",
+  "gerekce": "C turu: Ortaokul dönemi anlatımı, can kulağıyla/hayranlık gibi sözcükler; konu 1-2'ye uzak."
+ },
+ "meb3-hb2-04": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.3 kelime)."
+ },
+ "meb3-hb2-05": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): 'değişim ve süreklilik' gibi soyut kavramlar ve uzun cümleler; 5-6 düzeyi."
+ },
+ "meb3-hb2-06": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.5 kelime)."
+ },
+ "meb3-hb3-01": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.1 kelime)."
+ },
+ "meb3-hb3-02": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.3 kelime)."
+ },
+ "meb3-hb3-03": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.3 kelime)."
+ },
+ "meb3-hb3-04": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.0 kelime)."
+ },
+ "meb3-hb3-05": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.3 kelime)."
+ },
+ "meb3-hb3-06": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.0 kelime)."
+ },
+ "meb3-hb3-07": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 12.1 kelime)."
+ },
+ "meb3-hb3-08": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.0 kelime)."
+ },
+ "meb3-hb3-09": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.2 kelime)."
+ },
+ "meb3-hb3-10": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 10.1 kelime)."
+ },
+ "meb3-hb3-11": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 14.3 kelime)."
+ },
+ "meb3-hb3-12": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.3 kelime)."
+ },
+ "meb3-hb3-13": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 11.8 kelime)."
+ },
+ "meb3-hb3-14": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): 'sürdürülebilirlik, sosyal sorumluluk' gibi soyut ve uzun kelimeler; 5-6 düzeyi."
+ },
+ "meb3-hb3-15": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 4.2 kelime)."
+ },
+ "meb3-hb3-16": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 12.4 kelime)."
+ },
+ "meb3-hb3-17": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): 'dijital ayak izi, robotik cerrahi, MR' gibi teknik kavramlar, uzun cümleler; 5-6 düzeyi."
+ },
+ "meb3-hb3-18": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 16.4 kelime)."
+ },
+ "meb3-sos5-01": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.9 kelime)."
+ },
+ "meb3-sos5-02": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 19.2 kelime)."
+ },
+ "meb3-sos5-03": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.1 kelime)."
+ },
+ "meb3-sos5-04": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.2 kelime)."
+ },
+ "meb3-sos5-05": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.4 kelime)."
+ },
+ "meb3-sos5-06": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.4 kelime)."
+ },
+ "meb3-sos5-07": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.9 kelime)."
+ },
+ "meb3-sos5-08": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.8 kelime)."
+ },
+ "meb3-sos5-09": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 16.0 kelime)."
+ },
+ "meb3-sos5-10": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 14.6 kelime)."
+ },
+ "meb3-sos5-11": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.1 kelime)."
+ },
+ "meb3-sos5-12": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.5 kelime)."
+ },
+ "meb3-sos5-13": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.3 kelime)."
+ },
+ "meb3-sos5-14": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.2 kelime)."
+ },
+ "meb3-sos5-15": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 22.7 kelime)."
+ },
+ "meb3-sos5-16": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.6 kelime)."
+ },
+ "meb3-sos5-17": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.0 kelime)."
+ },
+ "meb3-sos5-18": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.1 kelime)."
+ },
+ "meb3-sos5-19": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.7 kelime)."
+ },
+ "meb3-sos5-20": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.9 kelime)."
+ },
+ "meb3-sos5-21": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.6 kelime)."
+ },
+ "meb3-sos5-22": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 12.9 kelime)."
+ },
+ "meb3-sos5-23": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 16.4 kelime)."
+ },
+ "meb3-sos5-24": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.9 kelime)."
+ },
+ "meb3-sos5-25": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 14.0 kelime)."
+ },
+ "meb3-sos5-26": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 15.4 kelime)."
+ },
+ "meb3-sos5-27": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.1 kelime)."
+ },
+ "meb3-sos5-28": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.8 kelime)."
+ },
+ "meb3-sos5-29": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 18.2 kelime)."
+ },
+ "meb3-sos5-30": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.0 kelime)."
+ },
+ "meb3-sos5-31": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 14.3 kelime)."
+ },
+ "meb3-sos5-32": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 15.2 kelime)."
+ },
+ "meb3-sos6-01": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.0 kelime)."
+ },
+ "meb3-sos6-02": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.3 kelime)."
+ },
+ "meb3-sos6-03": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.2 kelime)."
+ },
+ "meb3-sos6-04": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.6 kelime)."
+ },
+ "meb3-sos6-05": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 15.3 kelime)."
+ },
+ "meb3-sos6-06": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.7 kelime)."
+ },
+ "meb3-sos6-07": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.8 kelime)."
+ },
+ "meb3-sos6-08": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 13.0 kelime)."
+ },
+ "meb3-sos6-09": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.8 kelime)."
+ },
+ "meb3-sos6-10": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 10.4 kelime)."
+ },
+ "meb3-sos6-11": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.3 kelime)."
+ },
+ "meb3-sos6-12": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 16.8 kelime)."
+ },
+ "meb3-sos6-13": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 18.4 kelime)."
+ },
+ "meb3-sos6-14": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.2 kelime)."
+ },
+ "meb3-sos6-15": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.8 kelime)."
+ },
+ "meb3-sos6-16": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 14.4 kelime)."
+ },
+ "meb3-sos6-17": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.8 kelime)."
+ },
+ "meb3-sos6-18": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.4 kelime)."
+ },
+ "meb3-sos6-19": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.0 kelime)."
+ },
+ "meb3-sos7-01": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 17.4 kelime)."
+ },
+ "meb3-sos7-02": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 12.0 kelime)."
+ },
+ "meb3-sos7-03": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 15.5 kelime)."
+ },
+ "meb3-sos7-05": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 16.0 kelime)."
+ },
+ "meb3-sos7-06": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.4 kelime)."
+ },
+ "meb3-sos7-07": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 15.3 kelime)."
+ },
+ "meb3-sos7-08": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 15.0 kelime)."
+ },
+ "meb3-sos7-09": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.7 kelime)."
+ },
+ "meb3-sos7-10": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.8 kelime)."
+ },
+ "meb3-sos7-11": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 11.6 kelime)."
+ },
+ "meb3-sos7-12": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 14.9 kelime)."
+ },
+ "meb3-sos7-13": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 16.4 kelime)."
+ },
+ "meb3-sos7-14": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 10.7 kelime)."
+ },
+ "meb3-sos7-15": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 22.5 kelime)."
+ },
+ "meb3-sos7-16": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 17.2 kelime)."
+ },
+ "meb3-sos7-17": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 11.9 kelime)."
+ },
+ "meb3-sos7-18": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 13.0 kelime)."
+ },
+ "meb3-sos7-19": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 17.8 kelime)."
+ },
+ "meb3-sos7-20": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 22.8 kelime)."
+ },
+ "meb3-sos7-21": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 17.5 kelime)."
+ },
+ "halk-ilk-001": {
+  "grup": "3-4",
+  "gerekce": "Nasreddin Hoca fıkrası; kısa cümleli ama mizahı çıkarım gerektiriyor; 3-4 düzeyi."
+ },
+ "halk-ilk-002": {
+  "grup": "3-4",
+  "gerekce": "İki Nasreddin Hoca fıkrası; kısa cümleli, mizah çıkarım istiyor; 3-4 düzeyi."
+ },
+ "halk-ilk-003": {
+  "grup": "3-4",
+  "gerekce": "C turu: İki fabl bir arada, 108 kelime; ahlak cümlesi karmaşık."
+ },
+ "halk-ilk-004": {
+  "grup": "3-4",
+  "gerekce": "İki öğüt masalı; ders çıkarımı ve 'reis, ağ' gibi sözcükler; 3-4 düzeyi."
+ },
+ "halk-ilk-005": {
+  "grup": "3-4",
+  "gerekce": "C turu: İki hikâye bir arada, 132 kelime (ikram, gönüllü)."
+ },
+ "halk-ilk-006": {
+  "grup": "3-4",
+  "gerekce": "İki masal; Kelile ve Dimne'den ders çıkarımı gerektiriyor; 3-4 düzeyi."
+ },
+ "halk-ilk-007": {
+  "grup": "1-2",
+  "gerekce": "Kısa hayvan masalı; kısa cümleler, olay akışı basit; 1-2 düzeyi (üst sınır)."
+ },
+ "halk-ilk-008": {
+  "grup": "3-4",
+  "gerekce": "İki öğüt masalı; ders cümleleri soyut; 3-4 düzeyi."
+ },
+ "halk-ilk-009": {
+  "grup": "3-4",
+  "gerekce": "İki öğüt masalı; ders çıkarımı gerektiriyor; 3-4 düzeyi."
+ },
+ "halk-ilk-010": {
+  "grup": "3-4",
+  "gerekce": "İki öğüt masalı; ders çıkarımı gerektiriyor; 3-4 düzeyi."
+ },
+ "halk-ilk-011": {
+  "grup": "3-4",
+  "gerekce": "C turu: İki hikâye bir arada, 140 kelime; kısaltılamaz."
+ },
+ "halk-ilk-012": {
+  "grup": "3-4",
+  "gerekce": "C turu: İki hikâye bir arada, 143 kelime; kısaltılamaz."
+ },
+ "halk-ilk-013": {
+  "grup": "3-4",
+  "gerekce": "C turu: İki hikâye bir arada, 143 kelime; kısaltılamaz."
+ },
+ "halk-ilk-014": {
+  "grup": "3-4",
+  "gerekce": "C turu: İki hikâye bir arada, 127 kelime (methetmek gibi sözcük)."
+ },
+ "halk-ilk-015": {
+  "grup": "3-4",
+  "gerekce": "C turu: İki hikâye bir arada, 151 kelime; kısaltılamaz."
+ },
+ "halk-ilk-016": {
+  "grup": "3-4",
+  "gerekce": "İki Nasreddin Hoca fıkrası; mizahı çıkarım gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-017": {
+  "grup": "3-4",
+  "gerekce": "İki Nasreddin Hoca fıkrası; mizahı çıkarım gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-018": {
+  "grup": "3-4",
+  "gerekce": "İki Nasreddin Hoca fıkrası; mizahı çıkarım gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-019": {
+  "grup": "3-4",
+  "gerekce": "İki Nasreddin Hoca fıkrası; mizahı çıkarım gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-020": {
+  "grup": "3-4",
+  "gerekce": "İki Nasreddin Hoca fıkrası; mizahı çıkarım gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-021": {
+  "grup": "3-4",
+  "gerekce": "Nasreddin Hoca fıkrası; 'herkesi memnun etmek' gibi soyut ders; 3-4 düzeyi."
+ },
+ "halk-ilk-022": {
+  "grup": "3-4",
+  "gerekce": "İki Nasreddin Hoca fıkrası; mizah çıkarım gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-023": {
+  "grup": "3-4",
+  "gerekce": "C turu: İki hikâye bir arada, 146 kelime; kısaltılamaz."
+ },
+ "halk-ilk-024": {
+  "grup": "3-4",
+  "gerekce": "İki Kelile ve Dimne masalı; ders çıkarımı gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-025": {
+  "grup": "3-4",
+  "gerekce": "Nasreddin Hoca fıkrası; kısa cümleli, mizahı çıkarım gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-026": {
+  "grup": "3-4",
+  "gerekce": "Nasreddin Hoca fıkrası; çıkarım ve mizah içeriyor; 3-4 düzeyi."
+ },
+ "halk-ilk-027": {
+  "grup": "3-4",
+  "gerekce": "İki Nasreddin Hoca fıkrası; deyim kökeni ve mizah; 3-4 düzeyi."
+ },
+ "halk-ilk-028": {
+  "grup": "3-4",
+  "gerekce": "İki fıkra; kadı hükmü ve mizah çıkarım gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-029": {
+  "grup": "3-4",
+  "gerekce": "İki Nasreddin Hoca fıkrası; mizah çıkarım gerektirir; 3-4 düzeyi."
+ },
+ "halk-ilk-030": {
+  "grup": "3-4",
+  "gerekce": "Keloğlan masalı; kalıp sözlü anlatım, somut olaylar; 3-4 düzeyi."
+ },
+ "halk-ilk-031": {
+  "grup": "3-4",
+  "gerekce": "Halk masalı; zincirleme olay örgüsü, kalıp sözler; 3-4 düzeyi."
+ },
+ "halk-ilk-032": {
+  "grup": "3-4",
+  "gerekce": "Halk masalı; kalıp sözler ve hafif çıkarım; 3-4 düzeyi."
+ },
+ "halk-ilk-033": {
+  "grup": "1-2",
+  "gerekce": "Kısa hayvan masalı; kısa cümleli, somut olaylar; 1-2 düzeyi (üst sınır)."
+ },
+ "halk-ilk-034": {
+  "grup": "3-4",
+  "gerekce": "Mesnevi ve Yunus Emre'den iki anlatı; ders çıkarımı gerektirir; 3-4 düzeyi."
+ },
+ "halk-orta-001": {
+  "grup": "5-6",
+  "gerekce": "Dört Nasreddin Hoca fıkrası; deyim ve söz oyunları; 5-6 düzeyi."
+ },
+ "halk-orta-002": {
+  "grup": "5-6",
+  "gerekce": "Altı Nasreddin Hoca fıkrası; söz oyunu ve kıvrak mizah; 5-6 düzeyi."
+ },
+ "halk-orta-003-p1": {
+  "grup": "5-6",
+  "gerekce": "Keloğlan masalı; uzun olay örgüsü ve kalıp sözler; 5-6 düzeyi."
+ },
+ "halk-orta-003-p2": {
+  "grup": "5-6",
+  "gerekce": "Keloğlan masalı; uzun olay örgüsü; 5-6 düzeyi."
+ },
+ "halk-orta-004": {
+  "grup": "5-6",
+  "gerekce": "Dört Nasreddin Hoca fıkrası; söz oyunları; 5-6 düzeyi."
+ },
+ "halk-orta-005": {
+  "grup": "5-6",
+  "gerekce": "Dört Nasreddin Hoca fıkrası; deyim ve çıkarım; 5-6 düzeyi."
+ },
+ "halk-orta-006": {
+  "grup": "5-6",
+  "gerekce": "Dört Nasreddin Hoca fıkrası; söz oyunu ve tarihî kişi; 5-6 düzeyi."
+ },
+ "halk-orta-007": {
+  "grup": "5-6",
+  "gerekce": "Beş Nasreddin Hoca fıkrası; söz oyunları; 5-6 düzeyi."
+ },
+ "halk-orta-008": {
+  "grup": "5-6",
+  "gerekce": "Halk masalı; kalıp sözler, 'tuz kadar sevmek' benzetmesi; 5-6 düzeyi."
+ },
+ "halk-orta-009": {
+  "grup": "5-6",
+  "gerekce": "Dede Korkut boyundan uyarlama; uzun olay örgüsü, eski kavramlar; 5-6 düzeyi."
+ },
+ "halk-orta-010": {
+  "grup": "5-6",
+  "gerekce": "Kelile ve Dimne masalı; ders çıkarımı gerektirir; 5-6 düzeyi."
+ },
+ "halk-orta-011": {
+  "grup": "5-6",
+  "gerekce": "İki Kelile ve Dimne masalı; ders çıkarımı gerektirir; 5-6 düzeyi."
+ },
+ "halk-orta-012": {
+  "grup": "5-6",
+  "gerekce": "İki öğüt masalı; ders cümleleri soyut; 5-6 düzeyi."
+ },
+ "halk-orta-013": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.4 kelime)."
+ },
+ "halk-orta-014": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.7 kelime)."
+ },
+ "halk-orta-015": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.1 kelime)."
+ },
+ "halk-orta-016": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 4.8 kelime)."
+ },
+ "halk-orta-017": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.8 kelime)."
+ },
+ "halk-orta-018": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.4 kelime)."
+ },
+ "halk-orta-019": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.6 kelime)."
+ },
+ "halk-orta-020": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.6 kelime)."
+ },
+ "halk-orta-021": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.0 kelime)."
+ },
+ "halk-orta-022": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.5 kelime)."
+ },
+ "halk-orta-023": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.4 kelime)."
+ },
+ "halk-orta-024": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.8 kelime)."
+ },
+ "halk-orta-025": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.9 kelime)."
+ },
+ "halk-orta-026": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.2 kelime)."
+ },
+ "halk-orta-027": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.4 kelime)."
+ },
+ "halk-orta-028": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.7 kelime)."
+ },
+ "halk-orta-029": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.3 kelime)."
+ },
+ "yz-s1-001": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.7 kelime)."
+ },
+ "yz-s1-002": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.7 kelime)."
+ },
+ "yz-s1-003": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.4 kelime)."
+ },
+ "yz-s1-004": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 7.4 kelime)."
+ },
+ "yz-s1-005": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 8.5 kelime)."
+ },
+ "yz-s1-006": {
+  "grup": "cikar",
+  "gerekce": "C turu: n25 (Elma Ağacı) ile aynı kurgu: mevsimler, babam toplar, kışın elma; n25 kalsın (daha ayrıntılı)."
+ },
+ "yz-s1-007": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 7.0 kelime)."
+ },
+ "yz-s1-008": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.7 kelime)."
+ },
+ "yz-s1-009": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 7.3 kelime)."
+ },
+ "yz-s1-010": {
+  "grup": "cikar",
+  "gerekce": "C turu: c04 (Kumdan Kale) ile aynı olay: kova, kule, bayrak, dalga; c04 kalsın (daha zengin hikâye)."
+ },
+ "yz-s1-011": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.6 kelime)."
+ },
+ "yz-s1-012": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 7.0 kelime)."
+ },
+ "yz-s1-013": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.6 kelime)."
+ },
+ "yz-s1-014": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.8 kelime)."
+ },
+ "yz-s1-015": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.8 kelime)."
+ },
+ "yz-s1-016": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.4 kelime)."
+ },
+ "yz-s1-017": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.7 kelime)."
+ },
+ "yz-s1-018": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.9 kelime)."
+ },
+ "yz-s1-019": {
+  "grup": "cikar",
+  "gerekce": "C turu: c22 (İlk Pedal) ile aynı olay: babası tutar, bırakır, çocuk fark etmeden tek başına gider; c22 kalsın."
+ },
+ "yz-s1-020": {
+  "grup": "cikar",
+  "gerekce": "C turu: c01 (Çalışkan Arılar) ile aynı bilgi: tatlı sıvı, kovan, meyve vermeye yardım; c01 kalsın."
+ },
+ "yz-s1-021": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.0 kelime)."
+ },
+ "yz-s1-022": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.2 kelime)."
+ },
+ "yz-s1-023": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.6 kelime)."
+ },
+ "yz-s1-024": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.3 kelime)."
+ },
+ "yz-s1-025": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.4 kelime)."
+ },
+ "yz-s1-026": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.9 kelime)."
+ },
+ "yz-s1-027": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.0 kelime)."
+ },
+ "yz-s1-028": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.8 kelime)."
+ },
+ "yz-s1-029": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.6 kelime)."
+ },
+ "yz-s1-030": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.8 kelime)."
+ },
+ "yz-s1-031": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.5 kelime)."
+ },
+ "yz-s1-032": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.1 kelime)."
+ },
+ "yz-s1-033": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 6.1 kelime)."
+ },
+ "yz-s1-034": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.9 kelime)."
+ },
+ "yz-s1-035": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.9 kelime)."
+ },
+ "yz-s1-036": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.4 kelime)."
+ },
+ "yz-s1-037": {
+  "grup": "1-2",
+  "gerekce": "Bilgi metni; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.6 kelime)."
+ },
+ "yz-s1-038": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.8 kelime)."
+ },
+ "yz-s1-039": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.2 kelime)."
+ },
+ "yz-s1-040": {
+  "grup": "1-2",
+  "gerekce": "Hikâye; kısa cümleli, somut, günlük kelimeler (ort. cümle 5.5 kelime)."
+ },
+ "yz-s2-001": {
+  "grup": "cikar",
+  "gerekce": "C turu: c02 (Kayıp Kalem) ile aynı olay: doğum günü kalemi, ucunda yıldız, sabah kalemi yok; c02 kalsın (daha kısa cümleli)."
+ },
+ "yz-s2-002": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.9 kelime)."
+ },
+ "yz-s2-003": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-004": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-005": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-006": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.8 kelime)."
+ },
+ "yz-s2-007": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-008": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-009": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.7 kelime)."
+ },
+ "yz-s2-010": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.6 kelime)."
+ },
+ "yz-s2-011": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.1 kelime)."
+ },
+ "yz-s2-012": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-013": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-014": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-015": {
+  "grup": "cikar",
+  "gerekce": "C turu: c30 (Balkondaki Domates) ile aynı olay ve ayrıntılar; c30 kalsın (daha akıcı, kısa cümleli)."
+ },
+ "yz-s2-016": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-017": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-018": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.4 kelime)."
+ },
+ "yz-s2-019": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.6 kelime)."
+ },
+ "yz-s2-020": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-021": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.6 kelime)."
+ },
+ "yz-s2-022": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.3 kelime)."
+ },
+ "yz-s2-023": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-024": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-025": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.0 kelime)."
+ },
+ "yz-s2-026": {
+  "grup": "1-2",
+  "gerekce": "Kısa ve sade cümleli, somut/günlük anlatım; kaynak kimliği 1.-2. sınıf düzeyini gösteriyor (3-4 ile sınırda, 1-2 üst ucu)."
+ },
+ "yz-s2-027": {
+  "grup": "cikar",
+  "gerekce": "C turu: n04 (Dedemle Balık Tutmak) ile aynı olay: dede, göl, olta, balığı geri bırakma; n04 kalsın."
+ },
+ "yz-s2-028": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.8 kelime)."
+ },
+ "yz-s2-029": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.9 kelime)."
+ },
+ "yz-s2-030": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.4 kelime)."
+ },
+ "yz-s4-001": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.4 kelime)."
+ },
+ "yz-s4-002": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.7 kelime)."
+ },
+ "yz-s4-003": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.9 kelime)."
+ },
+ "yz-s4-004": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.2 kelime)."
+ },
+ "yz-s4-005": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.8 kelime)."
+ },
+ "yz-s4-006": {
+  "grup": "3-4",
+  "gerekce": "Metin; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.0 kelime)."
+ },
+ "yz-s4-007": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.9 kelime)."
+ },
+ "yz-s4-008": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): kuyruklu yıldız bilgisi, uzun açıklayıcı cümleler ve soyut bilgi; sınırda 3-4/5-6, 5-6'ya atandı."
+ },
+ "yz-s4-009": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.8 kelime)."
+ },
+ "yz-s4-010": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.2 kelime)."
+ },
+ "yz-s4-011": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.7 kelime)."
+ },
+ "yz-s4-012": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.1 kelime)."
+ },
+ "yz-s4-013": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): magma, krater, lav gibi jeoloji terimleri; sınırda 3-4/5-6, 5-6'ya atandı."
+ },
+ "yz-s4-014": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.8 kelime)."
+ },
+ "yz-s4-015": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.1 kelime)."
+ },
+ "yz-s4-016": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.5 kelime)."
+ },
+ "yz-s4-017": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 9.1 kelime)."
+ },
+ "yz-s4-018": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.6 kelime)."
+ },
+ "yz-s4-019": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): maya, gaz, kabarcık gibi mikrobiyoloji açıklaması; sınırda 3-4/5-6, 5-6'ya atandı."
+ },
+ "yz-s4-020": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.3 kelime)."
+ },
+ "yz-s4-021": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.5 kelime)."
+ },
+ "yz-s4-022": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.2 kelime)."
+ },
+ "yz-s4-023": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.6 kelime)."
+ },
+ "yz-s4-024": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.5 kelime)."
+ },
+ "yz-s4-025": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.8 kelime)."
+ },
+ "yz-s4-026": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.1 kelime)."
+ },
+ "yz-s4-027": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.3 kelime)."
+ },
+ "yz-s4-028": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.3 kelime)."
+ },
+ "yz-s4-029": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 8.1 kelime)."
+ },
+ "yz-s4-030": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.1 kelime)."
+ },
+ "yz-s4-031": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.5 kelime)."
+ },
+ "yz-s4-032": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 7.8 kelime)."
+ },
+ "yz-s4-033": {
+  "grup": "3-4",
+  "gerekce": "Bilgi metni; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.8 kelime)."
+ },
+ "yz-s4-034": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.2 kelime)."
+ },
+ "yz-s4-035": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.5 kelime)."
+ },
+ "yz-s4-036": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.6 kelime)."
+ },
+ "yz-s4-037": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.7 kelime)."
+ },
+ "yz-s4-038": {
+  "grup": "3-4",
+  "gerekce": "Metin; orta uzunlukta cümle, temel soyutluk (ort. cümle 5.8 kelime)."
+ },
+ "yz-s4-039": {
+  "grup": "3-4",
+  "gerekce": "Hikâye; orta uzunlukta cümle, temel soyutluk (ort. cümle 6.3 kelime)."
+ },
+ "yz-s4-040": {
+  "grup": "5-6",
+  "gerekce": "Seviye uyuşmazlığı (ilkokul gelmiş): ısı iletimi ve ışıma kavramları, soyut fizik açıklaması; 5-6 düzeyi."
+ },
+ "yz-s8-001": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 10.9 kelime)."
+ },
+ "yz-s8-002": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.8 kelime)."
+ },
+ "yz-s8-003": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.9 kelime)."
+ },
+ "yz-s8-004": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.4 kelime)."
+ },
+ "yz-s8-005": {
+  "grup": "5-6",
+  "gerekce": "C2 turu: Konuşan eşyalarla kısa, basit cümleli çocuksu masal; 7-8 için fazla kolay."
+ },
+ "yz-s8-006": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.3 kelime)."
+ },
+ "yz-s8-007": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.4 kelime)."
+ },
+ "yz-s8-008": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.8 kelime)."
+ },
+ "yz-s8-009": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.1 kelime)."
+ },
+ "yz-s8-010": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.4 kelime)."
+ },
+ "yz-s8-011": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.4 kelime)."
+ },
+ "yz-s8-012": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.3 kelime)."
+ },
+ "yz-s8-013": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.5 kelime)."
+ },
+ "yz-s8-014": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.8 kelime)."
+ },
+ "yz-s8-015": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 9.5 kelime)."
+ },
+ "yz-s8-016": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 5.9 kelime)."
+ },
+ "yz-s8-017": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.6 kelime)."
+ },
+ "yz-s8-018": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.2 kelime)."
+ },
+ "yz-s8-019": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.4 kelime)."
+ },
+ "yz-s8-020": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.8 kelime)."
+ },
+ "yz-s8-021": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.4 kelime)."
+ },
+ "yz-s8-022": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.0 kelime)."
+ },
+ "yz-s8-023": {
+  "grup": "5-6",
+  "gerekce": "Metin; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.1 kelime)."
+ },
+ "yz-s8-024": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.6 kelime)."
+ },
+ "yz-s8-025": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.1 kelime)."
+ },
+ "yz-s8-026": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.3 kelime)."
+ },
+ "yz-s8-027": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.0 kelime)."
+ },
+ "yz-s8-028": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 7.3 kelime)."
+ },
+ "yz-s8-029": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.8 kelime)."
+ },
+ "yz-s8-030": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.3 kelime)."
+ },
+ "yz-s8-031": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.4 kelime)."
+ },
+ "yz-s8-032": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.9 kelime)."
+ },
+ "yz-s8-033": {
+  "grup": "5-6",
+  "gerekce": "Bilgi metni; daha uzun cümle, açıklayıcı anlatım (ort. cümle 8.1 kelime)."
+ },
+ "yz-s8-034": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 6.9 kelime)."
+ },
+ "yz-s8-035": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.8 kelime)."
+ },
+ "yz-s8-036": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.8 kelime)."
+ },
+ "yz-s8-037": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 8.8 kelime)."
+ },
+ "yz-s8-038": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.2 kelime)."
+ },
+ "yz-s8-039": {
+  "grup": "7-8",
+  "gerekce": "Bilgi metni; uzun/bileşik cümle ve soyut kavramlar (ort. cümle 9.7 kelime)."
+ },
+ "yz-s8-040": {
+  "grup": "5-6",
+  "gerekce": "Hikâye; daha uzun cümle, açıklayıcı anlatım (ort. cümle 7.8 kelime)."
+ }
+}

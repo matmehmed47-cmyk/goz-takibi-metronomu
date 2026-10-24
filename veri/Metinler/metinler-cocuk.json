@@ -1,0 +1,182 @@
+[
+ {
+  "id": "c01",
+  "seviye": "ilkokul",
+  "tur": "bilgi",
+  "konu": "hayvanlar",
+  "baslik": "Çalışkan Arılar",
+  "kelime": 92,
+  "metin": "Arılar bahçelerde çiçekten çiçeğe uçar. Çiçeklerin içinden tatlı bir sıvı toplarlar. Bu sıvıyı kovanlarına götürürler. Kovanda binlerce arı birlikte yaşar. Herkesin bir işi vardır. Kimi bal yapar, kimi kovanı temizler.\n\nKimi de yavru arılara bakar. Arılar çiçeklerin toz taşımasına da yardım eder. Böylece bitkiler meyve verir. Elmayı, kirazı, çileği arılar sayesinde yeriz. Bir dahaki sefere bir arı görürsen korkma. Sessizce yanından geç.\n\nO çok önemli bir iş yapıyor. Kışın arılar kovanda kalır. Bir araya toplanıp birbirini ısıtırlar. Bahar gelince yeniden çiçeklere giderler. Bal çok değerlidir. Bir kaşık bal için arılar çok uçar."
+ },
+ {
+  "id": "c02",
+  "seviye": "ilkokul",
+  "tur": "oyku",
+  "konu": "okul hayatı",
+  "baslik": "Kayıp Kalem",
+  "kelime": 74,
+  "metin": "Elif sabah okula geldi. Çantasını açtı ama kalemi yoktu. Kırmızı kalemi çok severdi. Babası ona doğum gününde almıştı. Her yeri aradı. Sırasının altına baktı. Sonra dolabına baktı.\n\nKalem hiçbir yerde yoktu. Teneffüste Kerem yanına geldi. Elinde kırmızı bir kalem vardı. \"Bunu koridorda buldum,\" dedi. \"Senin olabilir mi?\" Elif çok sevindi. \"Evet, benim!\" dedi.\n\nKerem'e teşekkür etti. Kalemin ucunda küçük bir yıldız vardı. O gün Elif kalemini hep cebinde taşıdı. Kerem'le de iyi arkadaş oldular."
+ },
+ {
+  "id": "c03",
+  "seviye": "ilkokul",
+  "tur": "bilgi",
+  "konu": "doğa olayları",
+  "baslik": "Yağmur Nereden Gelir?",
+  "kelime": 88,
+  "metin": "Güneş denizleri ve gölleri ısıtır. Suyun bir kısmı havaya çıkar. Buna buharlaşma denir. Gözle göremeyiz ama olur. Su buharı yukarı çıkınca soğur. Küçük damlalara dönüşür. Damlalar bir araya gelir.\n\nBöylece bulutlar oluşur. Bulut ağırlaşınca damlalar aşağı düşer. İşte yağmur budur. Yağmur toprağı ve bitkileri suyla doyurur. Yağan su dereye karışır. Dere ırmağa, ırmak denize ulaşır.\n\nSonra yolculuk yeniden başlar. Su hiç bitmez, sadece yer değiştirir. Bazen yağmurdan sonra gökyüzünde gökkuşağı görünür. Onu görünce herkes sevinir. Yağmur damlaları küçük ama çok işe yarar. Çiçekler onlarla büyür. Gölcükler çocukları güldürür."
+ },
+ {
+  "id": "c04",
+  "seviye": "ilkokul",
+  "tur": "oyku",
+  "konu": "deniz",
+  "baslik": "Kumdan Kale",
+  "kelime": 92,
+  "metin": "Yaz tatilinde Mert ile ablası denize gitti. Sahilde kum çok inceydi. Mert büyük bir kale yapmak istedi. Kovasını suyla doldurdu. Kumu ıslatıp sıkıca bastırdı. Ablası kuleleri yaptı. Mert de kapıyı şekillendirdi.\n\nKale yükseldikçe çocuklar toplandı. Herkes bir şeyler getirdi. Biri deniz kabuğu, biri küçük bir bayrak verdi. Tam o sırada büyük bir dalga geldi. Kalenin yarısı suya karıştı. Mert önce şaşırdı, sonra güldü.\n\n\"Sorun değil,\" dedi. \"Yarın daha büyüğünü yaparız.\" Ablası da başını salladı. Akşam eve dönerken yorgundular ama çok mutluydular. Ertesi sabah yine sahile gittiler. Bu sefer kaleyi denizden uzağa kurdular."
+ },
+ {
+  "id": "c05",
+  "seviye": "ilkokul",
+  "tur": "bilgi",
+  "konu": "mevsimler",
+  "baslik": "Sonbaharın Renkleri",
+  "kelime": 67,
+  "metin": "Sonbaharda hava yavaş yavaş serinler. Günler kısalır. Sabahları bazen sis olur. İnsanlar kalın giysilerini çıkarır. Ağaçların yaprakları renk değiştirir. Sarı, turuncu ve kırmızı olurlar.\n\nSonra dallardan düşerler. Yerde renkli bir halı oluşur. Birçok hayvan kış için hazırlanır. Sincaplar fındık ve ceviz saklar. Kuşların bir kısmı sıcak yerlere göç eder. Çiftçiler de bu mevsimde çok çalışır. Elma, üzüm ve ceviz toplanır.\n\nSonbahar hem güzel hem bereketli bir mevsimdir."
+ },
+ {
+  "id": "c06",
+  "seviye": "ilkokul",
+  "tur": "oyku",
+  "konu": "mizah",
+  "baslik": "Pamuk ve Çorba",
+  "kelime": 68,
+  "metin": "Pamuk, evin tombul kedisiydi. Her akşam mutfağın kapısında beklerdi. Annenin yaptığı çorbayı çok severdi. Bir gün çorba tenceredeydi. Anne telefonla konuşmaya gitti. Pamuk sandalyeye, sonra tezgâha çıktı. Tencerenin kapağına patisini koydu.\n\nKapak bir anda şangırdadı. Pamuk çok korktu. Bir zıplayışta masanın altına girdi. Anne koşarak geldi. Pamuk'un burnunda bir domates parçası vardı. Anne kahkahayı bastı.\n\n\"Tamam, tamam,\" dedi. \"Sana da bir kâse verelim.\" Pamuk o akşam çok mutluydu."
+ },
+ {
+  "id": "c07",
+  "seviye": "ilkokul",
+  "tur": "bilgi",
+  "konu": "uzay",
+  "baslik": "Gökyüzündeki Komşumuz Ay",
+  "kelime": 81,
+  "metin": "Ay, Dünya'nın etrafında döner. Bize en yakın gök cismidir. Geceleri gökyüzünde parlar gibi görünür. Aslında Ay kendi ışığını yapmaz. Güneş'in ışığını yansıtır. Ayna gibi çalışır.\n\nAy her gün biraz farklı görünür. Bazen ince bir çizgi gibidir. Bazen yuvarlak ve büyüktür. Bunlara Ay'ın evreleri denir. Ay'ın yüzeyinde çukurlar ve dağlar vardır. Orada hava ve su yoktur. Bu yüzden orada yaşayamayız.\n\nİnsanlar Ay'a gidip geri döndü. Ama Ay hâlâ bize çok şey öğretiyor. Gece gökyüzüne bakmak çok güzeldir. Yıldızlar da Ay'la birlikte parlar."
+ },
+ {
+  "id": "c08",
+  "seviye": "ilkokul",
+  "tur": "oyku",
+  "konu": "spor",
+  "baslik": "Son Dakika",
+  "kelime": 68,
+  "metin": "Pazar günü mahalle maçı vardı. Can kalede duruyordu. Takımı bir gol geridedi. Herkes heyecanlıydı. Son dakikada Deniz topu aldı. Hızla koştu. Ama önünde iki rakip vardı.\n\nCan bağırdı: \"Bana ver!\" Deniz durdu, etrafına baktı. Sonra topu yan tarafa uzattı. Orada Ozan boş duruyordu. Ozan şutunu çekti. Top direğe çarptı ve içeri girdi. Maç berabere bitti. Rakipler de gelip tokalaştı.\n\nO gün kimse kaybetmedi. Hepsi birlikte dondurma yemeye gitti."
+ },
+ {
+  "id": "c09",
+  "seviye": "ilkokul",
+  "tur": "bilgi",
+  "konu": "yemek",
+  "baslik": "Ekmek Nasıl Yapılır?",
+  "kelime": 89,
+  "metin": "Ekmek unla yapılır. Un buğdaydan elde edilir. Çiftçi buğdayı tarlada yetiştirir. Sonra değirmen onu öğütür. Fırıncı una su ve tuz ekler. Biraz da maya koyar. Maya hamurun kabarmasını sağlar.\n\nHamur uzun süre yoğrulur. Sonra dinlenmeye bırakılır. Kabaran hamur parçalara ayrılır. Parçalar sıcak fırına verilir. Kısa sürede kokusu etrafa yayılır. Kabuğu altın renge döner. Sıcak ekmeği kesince buhar çıkar.\n\nİçi yumuşak, dışı çıtır olur. Bir dilim ekmek emek ister. Ekmeği israf etmemeliyiz. Kırıntılarını kuşlara verebiliriz. Ekmek yapan insanlara saygı göstermek gerekir. Onlar sabah erkenden kalkar. Bizim sofralarımız onların sayesinde dolar."
+ },
+ {
+  "id": "c10",
+  "seviye": "ilkokul",
+  "tur": "oyku",
+  "konu": "dinozorlar",
+  "baslik": "Müzedeki Dev",
+  "kelime": 81,
+  "metin": "Sınıf bu sabah müzeye gitti. Salonun ortasında dev bir iskelet vardı. Uzun boynu tavana kadar çıkıyordu. Ahmet başını kaldırıp baktı. \"Bu çok büyükmüş!\" dedi. Rehber gülümsedi.\n\n\"Bu bir dinozor iskeleti. Milyonlarca yıl önce yaşamış.\" Çocuklar yanına yaklaştı. Rehber dinozorların neler yediğini anlattı. Bazıları sadece bitki yermiş. Ahmet defterine bir resim çizdi. Dinozorun yanına kendini de çizdi. Çok küçük kalmıştı.\n\nDönüşte otobüste hep dinozorlardan konuştular. Ahmet büyüyünce bilim insanı olmak istiyordu. Eve gelince anne ve babasına müzeyi anlattı. Onlar da dinozorlara bayılmıştı."
+ },
+ {
+  "id": "c11",
+  "seviye": "ortaokul",
+  "tur": "bilgi",
+  "konu": "tarih ve icatlar",
+  "baslik": "Kâğıdın Uzun Yolculuğu",
+  "kelime": 147,
+  "metin": "Bugün defterimize yazı yazarken kâğıdın nereden geldiğini pek düşünmeyiz. Oysa kâğıt, insanlık tarihinin en önemli icatlarından biridir. Yaklaşık iki bin yıl önce Çin'de bulunduğu bilinir. Daha önce insanlar yazıyı kil tabletlere, deri parçalarına ya da bambu şeritlere yazıyordu.\n\nBunlar ağır ve taşınması zordu. Kâğıt ise hafifti, ucuzdu ve üretmesi kolaydı. Kâğıt zamanla ticaret yollarıyla başka ülkelere yayıldı. Yolculuk yüzyıllar sürdü. Her yeni yerde insanlar kâğıdı kendi ihtiyaçlarına göre geliştirdi.\n\nMatbaa icat edilince kâğıdın değeri daha da arttı. Kitaplar çoğaldı, bilgi daha çok insana ulaştı. Okuma yazma yayıldıkça fikirler de hızla paylaşıldı. Bugün kâğıdın yerini ekranlar almaya başlasa da kâğıt hâlâ çok yaygın. Üstelik geri dönüştürülebildiği için doğaya zarar vermeden yeniden kullanabiliriz.\n\nYani sıradan görünen bir kâğıt parçası, aslında yüzyıllar boyu süren büyük bir yolculuğun ürünüdür. Bunu bilince onu daha dikkatli kullanmak isteyebiliriz. Kâğıdı tasarruflu kullanmak, ormanları korumak anlamına gelir. Küçük bir not kâğıdını bile iki yüzünden kullanabiliriz."
+ },
+ {
+  "id": "c12",
+  "seviye": "ortaokul",
+  "tur": "oyku",
+  "konu": "bilim deneyi",
+  "baslik": "Küçük Yanardağ",
+  "kelime": 111,
+  "metin": "Defne fen dersi için evde bir deney yapmaya karar verdi. Elindeki not defterinde şöyle yazıyordu: kabartma tozu, sirke, boya ve bir bardak. Dedesi de yardım etmek için masaya oturdu. Önce bardağı tepsinin ortasına koydular. İçine iki kaşık kabartma tozu attılar.\n\nDefne birkaç damla kırmızı boya ekledi. Sonra dikkatle sirkeyi döktü. Bir anda bardaktan köpükler taşmaya başladı. Kırmızı köpük, minik bir yanardağ gibi yükseliyordu. Defne heyecandan bir adım geri çekildi.\n\n\"Bu bir kimyasal tepkime,\" dedi dedesi. \"İki madde karışınca yeni bir şey oluşuyor.\" Defne bunu hemen deftere yazdı. Ertesi gün sınıfta deneyi arkadaşlarına anlattı. Öğretmeni onu tebrik etti. Defne artık fen dersini daha çok seviyordu. Çünkü öğrenmek, bazen köpürerek taşan bir şeydi."
+ },
+ {
+  "id": "c13",
+  "seviye": "ortaokul",
+  "tur": "bilgi",
+  "konu": "meslekler",
+  "baslik": "Fırıncının Gecesi",
+  "kelime": 144,
+  "metin": "Biz uyurken şehrin bir kısmı çalışmaya devam eder. Fırıncılar bunlardan biridir. Sabah taze ekmek isteyen herkes, onların gece emeğinden yararlanır. Bir fırıncının günü genellikle gece yarısına doğru başlar. Önce un, su ve maya hazırlanır.\n\nSonra hamur uzun uzun yoğrulur. Hamurun kabarması için sabır gerekir. Acele edilirse ekmek sert çıkar. Fırın ısındıktan sonra hamur şekil alır. Somunlar, simitler ve poğaçalar sıra sıra yerleşir.\n\nFırıncı sıcaklığı sürekli kontrol eder. Çünkü birkaç dakikalık fark, ekmeğin tadını değiştirebilir. Gün ağarırken mahalleye ekmek kokusu yayılır. Bu koku, bir meslek için en güzel teşekkürdür. Sabah erkenden çıkan insanlar sıcak ekmeği alıp evlerine döner.\n\nBu meslek bize bir şey öğretir: Görünmeyen emekler, günlük hayatı kolaylaştırır. Bir dahaki sefere ekmek alırken fırıncıya içtenlikle teşekkür etmeyi unutma. Ayrıca fırıncılar, mahalledeki herkesin adını ve sevdiği ekmeği bilir. Bu da mesleğe sıcak bir hava katar. Kış sabahlarında soğuk havada sıcak simit almak ayrı bir keyiftir."
+ },
+ {
+  "id": "c14",
+  "seviye": "ortaokul",
+  "tur": "oyku",
+  "konu": "macera",
+  "baslik": "Pusulanın Gösterdiği Yön",
+  "kelime": 98,
+  "metin": "Yaz kampında grup, ormanda bir yürüyüşe çıktı. Öğretmenleri herkese bir pusula verdi. Bora pusulasını merakla inceledi. İbre sürekli kuzeyi gösteriyordu. Yolun yarısında Bora ile Selin gruptan biraz geride kaldı. Bir çalının dibindeki kuş yuvasına bakıyorlardı.\n\nBaşlarını kaldırınca diğerlerini göremedi. Selin biraz telaşlandı. Bora ise derin bir nefes aldı. \"Sakin ol,\" dedi. \"Kamp güneyde. Pusula bize yönü gösterecek.\" Pusulaya bakarak güneye doğru yürüdüler.\n\nAğaçların arasından bir dere geçiyordu. Sesi izleyip derenin kenarından ilerlediler. Kısa süre sonra kamp çadırlarını gördüler. Öğretmen onları gülümseyerek karşıladı. \"Çok iyi yön buldunuz,\" dedi. Bora o gün öğrendi: Sakin kalmak, doğru araca bakmaktan bile önemlidir."
+ },
+ {
+  "id": "c15",
+  "seviye": "ortaokul",
+  "tur": "bilgi",
+  "konu": "deniz",
+  "baslik": "Denizin Rengârenk Şehri",
+  "kelime": 152,
+  "metin": "Mercan resifleri, denizin altındaki rengârenk şehirler gibidir. Uzaktan bakınca kaya sanılır. Oysa mercanlar küçük deniz hayvanlarıdır. Birbirlerine tutunarak büyük topluluklar oluşturur. Resiflerde çok sayıda canlı yaşar. Renkli balıklar, deniz kaplumbağaları, yengeçler ve yıldız balıkları burada barınır.\n\nBirçok canlı yavrularını resiflerin koruyucu aralıklarında büyütür. Bu yüzden resiflere denizin yuvası da denir. Mercanlar çok yavaş büyür. Yıllar içinde ancak birkaç santimetre uzayabilirler. Bu nedenle bir resif zarar görürse eski haline gelmesi çok uzun sürer.\n\nResiflerin sağlığı suyun temizliğine ve sıcaklığına bağlıdır. Deniz fazla ısınırsa mercanlar renklerini kaybeder. Çöpler ve kirli sular da onlara zarar verir. Denizi temiz tutmak, bu rengârenk şehirleri korumanın en kolay yoludur. Tatilde kıyıda çöp bırakmamak bile küçük ama önemli bir katkıdır.\n\nDalgıçlar resifleri uzaktan izleyerek gözlemler. Böylece bu canlıları rahatsız etmezler. Biz de doğayı izlerken aynı saygıyı göstermeliyiz. Dünyada resiflerin kapladığı alan çok küçüktür. Ama yine de pek çok deniz canlısına ev sahipliği yapar. Bu da onları çok kıymetli kılar."
+ },
+ {
+  "id": "c16",
+  "seviye": "ortaokul",
+  "tur": "oyku",
+  "konu": "kitap okuma",
+  "baslik": "Kütüphanedeki Gizli Not",
+  "kelime": 149,
+  "metin": "Zeynep her cuma okul kütüphanesine uğrardı. Bu hafta eski bir macera kitabı seçti. Sayfaları sararmış, kapağı yıpranmıştı. Eve gidince kitabı açtı ve bir sayfanın arasında katlı bir kâğıt buldu. Kâğıtta kısa bir not yazıyordu: \"Bu kitabı okuyan kişiye, iyi okumalar.\n\nBitirince bir sayfa not bırak.\" Zeynep gülümsedi. Başka bir okurun bıraktığı mesajı okumak çok hoşuna gitmişti. Birkaç günde kitabı bitirdi. Hikâyenin sonu onu epey şaşırtmıştı. Sonra kendi notunu yazdı: \"Son bölüm harikaydı.\n\nSiz de sabırla okuyun.\" Kitabı geri verirken kütüphaneci hanıma notu gösterdi. Kütüphaneci \"Bu kitap yıllardır böyle dolaşıyor,\" dedi. \"Her okur kendinden bir iz bırakıyor.\" Zeynep o gün anladı: Kitaplar sadece hikâye anlatmaz. Aynı zamanda insanları birbirine bağlar.\n\nZeynep ertesi hafta başka bir kitabın içine kendi mesajını gizlemeye karar verdi. Belki bir gün biri onu da bulacaktı. Kütüphaneci hanım da ona güzel bir fikir verdi. Sınıfta herkesin ortak bir kitap defteri tutmasını önerdi. Öğretmen de fikri çok sevdi."
+ },
+ {
+  "id": "c17",
+  "seviye": "ortaokul",
+  "tur": "bilgi",
+  "konu": "mevsimler",
+  "baslik": "Mevsimler Neden Oluşur?",
+  "kelime": 133,
+  "metin": "Birçok kişi mevsimlerin, Dünya'nın Güneş'e yaklaşıp uzaklaşmasından oluştuğunu düşünür. Oysa durum farklıdır. Asıl neden, Dünya'nın eğik durmasıdır. Dünya, Güneş'in etrafında dönerken eksenini hafifçe yan tutar. Bu yüzden yılın bazı zamanlarında kuzey yarım küre Güneş'e doğru eğilir.\n\nO dönemde güneş ışınları daha dik gelir ve günler uzar. Biz de yaz yaşarız. Altı ay sonra durum tersine döner. Kuzey yarım küre Güneş'ten uzağa eğilir. Işınlar daha eğik gelir, günler kısalır ve hava soğur.\n\nKış mevsimi başlar. İlkbahar ve sonbahar ise bu iki durum arasında geçiş dönemleridir. Gündüzle gece birbirine yakın uzunluktadır. İlginç bir bilgi daha var: Kuzey yarım kürede kış yaşanırken güney yarım kürede yaz vardır.\n\nYani dünyanın iki ucunda aynı anda farklı mevsimler yaşanır. Bu bilgi, mevsimlerin neden her yerde aynı olmadığını açıklar. Doğa, bu düzenli dönüşle bize her yıl yeni bir sahne sunar."
+ },
+ {
+  "id": "c18",
+  "seviye": "ortaokul",
+  "tur": "oyku",
+  "konu": "spor",
+  "baslik": "Son Virajdaki Karar",
+  "kelime": 98,
+  "metin": "Cumartesi günü okullar arası bisiklet yarışı vardı. Emre haftalardır hazırlanıyordu. Her akşam parkın çevresinde tur atıyordu. Sonunda o gün gelip çattı. Yarışın ortalarında Emre üçüncü sıradaydı. Ama son virajda öndeki yarışmacı düştü.\n\nBisikleti yamulmuş, dizi çizilmişti. Emre bir an tereddüt etti. Kazanma şansı hemen önündeydi. Sonra frene bastı ve durdu. Çocuğa elini uzattı. \"İyi misin?\" diye sordu.\n\nÇocuk başını salladı. Birlikte bisikleti kenara çektiler. Emre yarışa devam etti ama sıralamada altıncı oldu. Hakemler olanı görmüştü. Yarışın sonunda ona dürüstlük ödülü verdiler. Emre madalya almadı ama içi rahattı. \"Kazanmak güzel,\" dedi arkadaşlarına, \"ama insan olmak daha güzel.\" Hepsi alkışladı."
+ },
+ {
+  "id": "c19",
+  "seviye": "ortaokul",
+  "tur": "bilgi",
+  "konu": "çevre",
+  "baslik": "Çöpün İkinci Hayatı",
+  "kelime": 152,
+  "metin": "Her gün evlerimizde çok sayıda atık oluşur. Kâğıt, cam, plastik ve metal bunların başında gelir. Bu atıklar doğru ayrılırsa tekrar kullanılabilir. Buna geri dönüşüm denir. Geri dönüşüm şöyle işler. Önce atıklar türlerine göre toplanır.\n\nSonra tesislerde temizlenir ve ezilir. Ardından eritilir ya da lifli hâle getirilir. En sonunda yeni ürünlere dönüşür. Örneğin eski gazeteler tekrar kâğıt olur, cam şişeler yeniden cam eşyaya dönüşür. Geri dönüşümün üç büyük yararı vardır. Doğal kaynaklar daha az harcanır.\n\nEnerji tasarrufu sağlanır. Çöplüklere giden atık miktarı azalır. Peki biz ne yapabiliriz? Atıkları evde ayrı kutularda biriktirebiliriz. Gereksiz şeyleri almamaya özen gösterebiliriz.\n\nEşyaları atmadan önce tamir etmeyi veya başkasına vermeyi düşünebiliriz. Unutma, küçük alışkanlıklar kalabalık olunca büyük bir fark yaratır. Bu yüzden atık kutusuna bakarken şunu hatırlayalım: Çöp dediğimiz şeyin çoğu aslında yeni bir hayata hazırdır. Okullarda geri dönüşüm kutuları kurulması da güzel bir fikirdir. Sınıflar arasında yarışma bile yapılabilir. Hangi sınıf daha çok kâğıt biriktirirse ödül kazanır."
+ },
+ {
+  "id": "c20",
+  "seviye": "ortaokul",
+  "tur": "oyku",
+  "konu": "müzik",
+  "baslik": "İlk Konser",
+  "kelime": 102,
+  "metin": "Ece iki yıldır keman çalışıyordu. Müzik öğretmeni ondan okulun yıl sonu konserinde çalmasını istedi. Ece sevindi ama aynı zamanda çok heyecanlandı. Parmakları daha şimdiden titriyordu. Konser günü sahne arkasında bekledi. Salonda ailesi ve arkadaşları vardı.\n\nÖğretmeni yanına geldi ve omzuna dokundu. \"Gözlerini kapat,\" dedi. \"Derin nefes al. Sadece müziği düşün.\" Ece sahneye çıktı. İlk notada elleri hâlâ titredi. Ama birkaç ölçü sonra melodi onu yavaşça sardı.\n\nSalon sessizleşti. Sadece kemanın sesi duyuluyordu. Parça bittiğinde alkışlar yükseldi. Ece gülümseyerek eğildi. Annesi göz yaşlarını sildi. O akşam eve dönerken Ece bir şey fark etti. Heyecan geçip gitmişti, ama içindeki müzik sevgisi daha da büyümüştü."
+ }
+]

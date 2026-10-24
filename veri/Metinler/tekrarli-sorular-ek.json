@@ -1,0 +1,5660 @@
+{
+ "c01": [
+  "Arılar sayesinde neden meyve yeriz?",
+  "Çiçeklerin toz taşımasına yardım ederler",
+  "Meyve ağaçlarını sulayıp büyütürler",
+  "Ağaçların yaprağını yerler"
+ ],
+ "c02": [
+  "Elif kırmızı kalemi neden çok severdi?",
+  "Babası doğum gününde almıştı",
+  "Ucunda küçük bir yıldız vardı",
+  "Arkadaşı ona hediye etmişti"
+ ],
+ "c03": [
+  "Yağmur oluşmadan önce ilk hangisi olur?",
+  "Güneş denizleri ve gölleri ısıtır",
+  "Bulutlar ağırlaşır",
+  "Damlalar yere düşer"
+ ],
+ "c04": [
+  "Kuleleri kim yaptı?",
+  "Mert'in ablası",
+  "Mert",
+  "Yardıma gelen çocuklar"
+ ],
+ "c05": [
+  "Kuşların bir kısmı sonbaharda ne yapar?",
+  "Sıcak yerlere göç eder",
+  "Kış uykusuna yatar",
+  "Ağaçlarda yeni yuva yapar"
+ ],
+ "c06": [
+  "Pamuk neden masanın altına girdi?",
+  "Kapak şangırdayınca korktu",
+  "Annesi onu kovaladı",
+  "Kâseyi yere düşürdü"
+ ],
+ "c07": [
+  "İnsanlar Ay'da neden yaşayamaz?",
+  "Orada hava ve su yoktur",
+  "Orada çok kalabalıktır",
+  "Orası gece gündüz karanlıktır"
+ ],
+ "c08": [
+  "Maçtan sonra çocuklar ne yaptı?",
+  "Dondurma yemeye gittiler",
+  "Eve gidip dinlenmeye başladılar",
+  "Yeniden maça başladılar"
+ ],
+ "c09": [
+  "Buğday tarladan toplandıktan sonra önce nereye gider?",
+  "Değirmene",
+  "Fırına",
+  "Pazara"
+ ],
+ "c21": [
+  "Kedi bıyıklarıyla dar yerde neyi anlar?",
+  "Oraya sığıp sığmayacağını",
+  "Orada başka bir kedi olup olmadığını",
+  "Ne kadar derin olduğunu"
+ ],
+ "c23": [
+  "Terk edilen yuvalarda kimler kalır?",
+  "Baykuşlar, sincaplar ve küçük kuşlar",
+  "Yılanlar ve tavşanlar",
+  "Arılar, kurbağalar ve kirpiler"
+ ],
+ "c24": [
+  "Zeynep okuldan eve dönünce ne yaptı?",
+  "Her şeyi annesine anlattı",
+  "Odasına gidip uyudu",
+  "Defne'yi arayıp konuştu"
+ ],
+ "c25": [
+  "Fasulye tohumunu neyin üstüne koyabilirsin?",
+  "Islak pamuğa",
+  "Kuru kuma",
+  "Soğuk suya"
+ ],
+ "c26": [
+  "Ali kardan adama neden atkısını sardı?",
+  "Üşümesin diye",
+  "Atkısını sevmediği için",
+  "Kız kardeşi istediği için"
+ ],
+ "c27": [
+  "Balıklar sudan çıkarılınca solungaçlara ne olur?",
+  "Kuruyup çalışmaz",
+  "Daha hızlı çalışır",
+  "Suyla dolar"
+ ],
+ "n01": [
+  "Leylek yavrularına ne getirir?",
+  "Balık ve kurbağa",
+  "Solucan ve böcek",
+  "Tohum ve meyve"
+ ],
+ "n02": [
+  "Bilge bir ses duyunca ne yapar?",
+  "Başını ve bacaklarını kabuğuna çeker",
+  "Hızla kaçıp gizlenir",
+  "Karahindiba yapraklarının altına saklanır"
+ ],
+ "n03": [
+  "Değirmen bazı günler neden durur?",
+  "Kanatları döndürecek rüzgâr yoktur",
+  "Değirmenci hasta olup işe gelmemiştir",
+  "Taşların arasında buğday kalmamıştır"
+ ],
+ "n04": [
+  "Dönüşte dedem ne yaptı?",
+  "Bir türkü söyledi",
+  "Bana oltayı verdi",
+  "Pazardan balık aldı"
+ ],
+ "n05": [
+  "Satıcı bize küçük bir kaşıkla neyi tattırdı?",
+  "Balı",
+  "Peyniri",
+  "Eriği"
+ ],
+ "n06": [
+  "Renkler neden tek tek görünür?",
+  "Yağmur damlaları ışığı ayırır",
+  "Bulutlar ışığı boyayıp renklendirir",
+  "Rüzgâr renkleri birbirinden ayırır"
+ ],
+ "n07": [
+  "Çoban kuzunun adını ne koydu?",
+  "Benek",
+  "Pamuk",
+  "Karaca"
+ ],
+ "n08": [
+  "Hangi giysiler en geç kurur?",
+  "Havlular",
+  "Çoraplar",
+  "Beyaz giysiler"
+ ],
+ "n09": [
+  "Kaçan topu kim buldu?",
+  "Ece",
+  "Ali",
+  "Deniz"
+ ],
+ "n10": [
+  "Kayığın adı nedir?",
+  "Mavi Kuğu",
+  "Beyaz Martı",
+  "Yeşil Ördek"
+ ],
+ "n11": [
+  "Işık sesten neden önce ulaşır?",
+  "Daha hızlı yol alır",
+  "Daha kısa yoldan gelir",
+  "Havada daha az yer kaplar"
+ ],
+ "n12": [
+  "Ayçiçeği tarlaları uzaktan bakınca neye benzer?",
+  "Deniz gibi görünür",
+  "Büyük bir orman gibi görünür",
+  "Karlı bir dağ gibi görünür"
+ ],
+ "n13": [
+  "Anneannem yoğurttan ayranı nasıl yapar?",
+  "Su katıp çırpar",
+  "Süt katıp ısıtır",
+  "Tuz atıp bekletir"
+ ],
+ "n14": [
+  "Kayan yıldız aslında nedir?",
+  "Küçük bir taş parçası",
+  "Küçük bir yıldız",
+  "Uçan bir uydu"
+ ],
+ "n15": [
+  "Babam kavalı çalmadığı zaman nereye koyar?",
+  "Kutusuna",
+  "Çekmeceye",
+  "Askıya asar"
+ ],
+ "n16": [
+  "Yazar on beş kez atladığı halde neden üzülmedi?",
+  "Her seferinde biraz daha iyi atlıyordu",
+  "Ayşe ona çok kızmış olduğu için",
+  "Oyun erken bittiği için sıkılmıştı"
+ ],
+ "n17": [
+  "Annem bana ne örer?",
+  "Kalın bir yün çorap",
+  "Mavi renkli yumuşak bir atkı",
+  "Sıcak bir bere"
+ ],
+ "n18": [
+  "Sis nasıl oluşur?",
+  "Su buharı soğuyup damlacığa döner",
+  "Toprak havaya toz kaldırır",
+  "Rüzgâr bulutları yere indirir"
+ ],
+ "n19": [
+  "Mehmet Amca neden gülümser?",
+  "Taneler dolu olunca",
+  "Biçerdöver bozulunca",
+  "Yağmur yağınca"
+ ],
+ "n20": [
+  "Yaşlılar çocuklara neden gülerek kızar?",
+  "Onlar da küçükken aynısını yapmış",
+  "Çeşmenin suyu bittiği ve kuruduğu için",
+  "Çocuklar taşları ıslattığı için"
+ ],
+ "n21": [
+  "İlk sırası eğri çıkınca anneannem ne yaptı?",
+  "Kızmadı, her şey böyle başlar dedi",
+  "Hepsini söküp baştan başlamamı istedi",
+  "Örgüyü bırakıp başka işe geçmemi söyledi"
+ ],
+ "n22": [
+  "Dikeni çıkarıldıktan sonra annem ne yaptı?",
+  "Ayağımı bezle sardı",
+  "Beni sırtında taşıdı",
+  "Eve geri döndü"
+ ],
+ "n23": [
+  "Annem kirpiye neden süt vermememi söyledi?",
+  "Süt karnını bozarmış",
+  "Süt çok pahalıymış",
+  "Kirpi sütü sevmezmiş"
+ ],
+ "n24": [
+  "Kütüğün ortası oyulduktan sonra ne yaptılar?",
+  "İçinden bir çubuk geçirdiler",
+  "Üstüne yük koyup çok uzaklara taşıdılar",
+  "Dışını kırmızıya boyadılar"
+ ],
+ "n25": [
+  "Elmalar güz gelmeden önce ne yapar?",
+  "Yaz boyunca büyür",
+  "Dallardan yere dökülür ve çürür",
+  "Kilere konup saklanır"
+ ],
+ "meb-s1-07": [
+  "Yiğit o gece rüyasında ne gördü?",
+  "Kendi aracının pilotu olduğunu",
+  "Ablasıyla uzaya gittiğini",
+  "TEKNOFEST'te birinci olup ödül aldığını"
+ ],
+ "meb-s2-06": [
+  "Sabiha Atatürk'e son görüşünde neden bir şey söyleyemedi?",
+  "Atatürk hasta olduğu için hemen ayrıldı",
+  "Sabiha utandığı için",
+  "Kalabalık çok olduğu için"
+ ],
+ "meb-s2-08": [
+  "Atatürk \"Bugünün küçükleri, yarının büyükleri\" sözüyle ne anlatmak istedi?",
+  "Çocukların toplum için önemli olduğunu",
+  "Çocukların çabuk büyümesi gerektiğini",
+  "Büyüklerin çocuklara bakması gerektiğini"
+ ],
+ "meb-s2-10-p1": [
+  "Günlüğe göre Dünya neden daha hızlı yok olabilir?",
+  "Kirlenmeye devam ettiği için",
+  "Çok kalabalıklaştığı için",
+  "Güneşten uzaklaştığı için"
+ ],
+ "meb-s2-10-p2": [
+  "Anlatıcı kâğıtları nasıl kullanmaya başladı?",
+  "Arka yüzlerini de kullanıyor",
+  "Her gün yenisini alıyor",
+  "Küçük parçalara bölüyor"
+ ],
+ "meb-s2-12": [
+  "Çığ ve toprak kaymasından korunmak için ne yapılmalıdır?",
+  "Dik yamaçlar ağaçlandırılmalıdır",
+  "Evler ve çatılar sağlam yapılmalıdır",
+  "Eşyalar duvara sabitlenmelidir"
+ ],
+ "meb-s2-14": [
+  "Cumhurbaşkanlığı Millet Kütüphanesi nerededir?",
+  "Cumhurbaşkanlığı Külliyesi'nin içinde",
+  "İstanbul'daki eski bir sarayın bahçesinde",
+  "Eski bir müzenin içinde"
+ ],
+ "meb-s2-16": [
+  "Anlatıcının duyduğu yeni kelime neydi?",
+  "Seğirmek",
+  "Sıçramak",
+  "Titremek"
+ ],
+ "meb-s2-18": [
+  "Şekerci Ökkeş vatan savunmasından sonra ne yaptı?",
+  "Memleketine döndü",
+  "Askerlikte kaldı",
+  "Başka şehirde okula gitti"
+ ],
+ "meb-s2-19": [
+  "Neşet Ertaş'ın ilk çalgısı neydi?",
+  "Tokaçtan yapılmış oyuncak saz",
+  "Babasının hediye ettiği bağlama",
+  "Ahşaptan yapılmış bir kaval"
+ ],
+ "meb-s2-21": [
+  "Anlatıcının babası müzede neden duygulandı?",
+  "Oyuncaklar ona gençliğini hatırlattı",
+  "Oyuncakları satın almak istedi",
+  "Çocukken müzeye gitmişti"
+ ],
+ "meb-s2-24": [
+  "Alper Gezeravcı fen ve matematiğe neden çok çalıştı?",
+  "Astronot olmak için gerektiğini bildiği için",
+  "Öğretmeni zorunlu tuttuğu için",
+  "Yarışmaya katılacağı için"
+ ],
+ "meb-s2-27": [
+  "23 Nisan kimlere armağan edildi?",
+  "Tüm dünya çocuklarına",
+  "Türk çocuklarına",
+  "Ankara'daki çocuklara"
+ ],
+ "meb-s2-31-p1": [
+  "Çocuklar hasta kediyi neden Melek ablaya götürdü?",
+  "Ona sokakta bakmak zordu",
+  "Veteriner ücret istediği için",
+  "Melek abla çağırdığı için"
+ ],
+ "meb-s2-32": [
+  "Özgüç hangi sınıfın sonuna kadar hep başkan seçildi?",
+  "Dördüncü sınıf",
+  "İkinci sınıf",
+  "Üçüncü sınıf"
+ ],
+ "meb-s2-33": [
+  "Eksik konuları tamamlamak neden gerekir?",
+  "Yeni konuları daha kolay öğretir",
+  "Tatil daha kısa olur",
+  "Kitap okumak gerekmez"
+ ],
+ "meb-s2-34-p1": [
+  "Canan'ın arkadaşları öğretmenlerinden ne istedi?",
+  "Marşı bayrak töreninde Canan'ın okumasını",
+  "Marşı hep birlikte yeniden okumalarını",
+  "Canan'ın sınıf başkanı olmasını"
+ ],
+ "meb-s2-34-p2": [
+  "Marşı dinlerken kimleri düşünmeliyiz?",
+  "Vatan uğruna şehit olan atalarımızı",
+  "Okulu kuran öğretmenleri",
+  "Bayrağı tasarlayan kişileri"
+ ],
+ "meb-s3-01": [
+  "Anlatıcı 2015'te hangi ödülü aldı?",
+  "Nobel Kimya Ödülü'nü",
+  "Nobel Fizik Ödülü'nü",
+  "Nobel Edebiyat Ödülü'nü"
+ ],
+ "meb-s3-03-p1": [
+  "Çocuklar neden Nermin teyzenin evine girmedi?",
+  "İzin almadan girmek doğru değildi",
+  "Kapı kilitliydi",
+  "Nermin teyze evde yoktu"
+ ],
+ "meb-s3-03-p2": [
+  "Anlatıcı ablasının odasına girmeden önce ne yapar?",
+  "Kapıyı tıklatır",
+  "Hemen içeri girer",
+  "Annesinden izin ister"
+ ],
+ "meb-s3-04-p1": [
+  "Sonbaharda kuşlar neden çam ağacına konmaya başladı?",
+  "Çınar yapraksız kalıp onları koruyamıyordu",
+  "Çam ağacı onları çağırdı",
+  "Çamın yaprakları yumuşadı"
+ ],
+ "meb-s3-04-p2": [
+  "Kuşlar çam ağacının dallarında ne yapmaya başladı?",
+  "Yuva yapmaya",
+  "Şarkı yarışı yapmaya",
+  "Tohum toplamaya"
+ ],
+ "meb-s3-05": [
+  "Metne göre çok kitap okumak Atatürk'e ne kazandırdı?",
+  "Dünya tarihi ve gelişmeler hakkında bilgi",
+  "Yabancı dilleri unutmayı",
+  "Resim yapma yeteneği"
+ ],
+ "meb-s3-08": [
+  "Atatürk'ün sözlüğünde çocuk ne demekti?",
+  "Sevgi",
+  "Gelecek",
+  "Umut"
+ ],
+ "meb-s3-09-p1": [
+  "Karıncalar kendi ağırlıklarının kaç katını kaldırabilir?",
+  "On katını",
+  "Yüz katını",
+  "Üç katını"
+ ],
+ "meb-s3-09-p2": [
+  "Karınca kolonisinin başında kim bulunur?",
+  "Kraliçe karınca",
+  "Asker karınca",
+  "İşçi karınca"
+ ],
+ "meb-s3-11-p1": [
+  "Bulut neden ağırlaştı?",
+  "Buluta çok su damlası katıldı, hava soğudu",
+  "Rüzgâr kesildi",
+  "Güneş ışığı arttı"
+ ],
+ "meb-s3-11-p2": [
+  "Su damlası yeryüzünde önce nereye düştü?",
+  "Toprağın üzerine",
+  "Denizin ortasına",
+  "Bir ırmağa"
+ ],
+ "meb-s3-13-p1": [
+  "Kitaplar sayesinde çok sözcük öğrenen kişi ne yapar?",
+  "Konuşurken durup düşünmez",
+  "Daha az konuşur",
+  "Kitaplığı düzenler"
+ ],
+ "meb-s3-13-p2": [
+  "Kitaplar başkalarını hemen anlamamızı nasıl sağlar?",
+  "Bizi daha dikkatli biri yapar",
+  "Bizi daha sabırlı biri yapar",
+  "Bizi daha cesur biri yapar"
+ ],
+ "meb-s3-15": [
+  "Metne göre Ömer Seyfettin'i okumak ne demektir?",
+  "Vatan sevgisiyle dolmak",
+  "Asker olmak",
+  "Hızlı yazı yazmak"
+ ],
+ "meb-s3-17-p1": [
+  "Gül Nine neden hiç emekli olmak istemiyor?",
+  "Öğrendikçe mutlu olduğu için",
+  "Kurslar ücretsiz olduğu için",
+  "Torunu istediği için"
+ ],
+ "meb-s3-17-p2": [
+  "Gül Nine mahalledeki teyzelere ne öğretmeye başladı?",
+  "Okuma yazma",
+  "Örgü örmeyi",
+  "Yemek yapmayı"
+ ],
+ "meb-s3-18-p1": [
+  "Mete Gazoz neden bir gecede harika olmadı?",
+  "Küçük yaşlardan beri her gün çok çalıştı",
+  "Başarısı şansa bağlıydı",
+  "Okçuluğa geç başladı"
+ ],
+ "meb-s3-18-p2": [
+  "Mete ne kadar süre pratik yapıyor?",
+  "Her gün saatlerce",
+  "Her gün yarım saat",
+  "Hafta sonları birkaç saat"
+ ],
+ "meb-s3-20-p1": [
+  "Baliş neden kahraman oldu?",
+  "Yıldızı kurtardığı için",
+  "Dev dalga yaptığı için",
+  "Annesine yardım ettiği için"
+ ],
+ "meb-s3-20-p2": [
+  "Baliş okyanusa düşen yıldızı yüzeye nasıl çıkardı?",
+  "Kuyruk darbesiyle",
+  "Ağzına alarak",
+  "Dev bir dalga yaratarak"
+ ],
+ "meb-s3-22-p1": [
+  "Metne göre robot dediğimiz makinelerin ortak özelliği nedir?",
+  "İçlerinde robotik sistem bulunur",
+  "İki ayakla yürürler",
+  "İnsan gibi konuşurlar"
+ ],
+ "meb-s3-22-p2": [
+  "Fabrikalarda bazen binlercesi üretilen şey nedir?",
+  "Kek",
+  "Araba",
+  "Mobilya"
+ ],
+ "meb-s3-24": [
+  "Eskiden buzlar yaz için neden kuyularda saklanırdı?",
+  "Yazın kullanılmak üzere",
+  "Kışın donması için",
+  "Satıcılar kuyuda yaşadığı için"
+ ],
+ "meb-s3-25": [
+  "Sincap ailesi hangi ağaçta yaşıyordu?",
+  "Kestane ağacında",
+  "Meşe ağacında",
+  "Yaşlı bir çam ağacında"
+ ],
+ "meb-s3-26-p1": [
+  "Mehmet Âkif İstiklâl Marşı'nı nerede yazdı?",
+  "Ankara'da",
+  "Mısır'da",
+  "İstanbul'da"
+ ],
+ "meb-s3-26-p2": [
+  "İstiklâl Marşı'nı kim besteledi?",
+  "Osman Zeki Üngör",
+  "İsmet İnönü",
+  "Mehmet Âkif Ersoy"
+ ],
+ "meb-s3-27-p1": [
+  "PTT Müzesi kaç bölümden oluşuyor?",
+  "Dört",
+  "Üç",
+  "Altı"
+ ],
+ "meb-s3-27-p2": [
+  "Telefon bölümünde \"büyük büyük dede\" olarak anılan telefon hangisidir?",
+  "Manyetolu Telefon",
+  "Bataryalı Telefon",
+  "Kadranlı Masa Telefonu"
+ ],
+ "meb-s3-29-p1": [
+  "Çocuk haklarına sahip olmak için ne gerekir?",
+  "Sadece çocuk olmak",
+  "Okula gitmek",
+  "İyi not almak"
+ ],
+ "meb-s3-29-p2": [
+  "Devletler çocuk haklarını neden bir kâğıda yazıp imzalamış?",
+  "Verdikleri sözü sonradan unutmamak için",
+  "Çocuklar okumayı öğrensin diye",
+  "Kâğıt başka malzemelerden ucuz olduğu için"
+ ],
+ "meb-s3-30": [
+  "Mevlana çocuğu bekleyerek ne göstermiş olur?",
+  "Çocuklara değer verdiğini",
+  "Boş vaktinin çok olduğunu",
+  "Oyun oynamayı sevdiğini"
+ ],
+ "meb-s3-31": [
+  "Erdem, Demet ve Kerim neden övüldü?",
+  "Ayşe'nin hizasına eğilip poz verdikleri için",
+  "Ayşe'ye ödül aldıkları için",
+  "Sınıfı çok temiz ve düzenli tutup ödev yaptıkları için"
+ ],
+ "meb3-fen3-01": [
+  "Safiye Ali ve Cahit Arf'ın ortak özelliği hangisidir?",
+  "Çocukluktan beri çalışkanlıklarıyla dikkat çekmeleri",
+  "İkisinin de doktor olarak çalışması",
+  "İkisinin de çok sayıda yabancı dil bilmesi"
+ ],
+ "meb3-fen3-02": [
+  "Küstüm otunun yaprakları ne zaman kapanır?",
+  "En ufak bir temasta",
+  "Gece olunca",
+  "Güneş doğunca"
+ ],
+ "meb3-fen3-03": [
+  "Mert'in bulduğu taşın üzerinde neye benzer bir şekil vardı?",
+  "Yaprak izine",
+  "Böcek izine",
+  "Balık kılçığına"
+ ],
+ "meb3-fen3-04": [
+  "Atık ayırma tesisindeki makineler çöplerden neleri çekerek ayırır?",
+  "Metal kutu, vida ve tenekeleri",
+  "Cam şişe ve kavanozları",
+  "Kâğıt, karton ve gazete parçalarını"
+ ],
+ "meb3-fen3-05": [
+  "Sürdürülebilirlik ne demektir?",
+  "Gelecek nesillerin haklarını da korumak",
+  "Atıkları yakarak yok etmek",
+  "Yalnızca bugünün ihtiyaçlarını karşılamak"
+ ],
+ "meb3-fen3-06": [
+  "Atık su içindeki maddeler neyle ayrılır?",
+  "Filtre veya süzgeçle",
+  "Yüzdürerek",
+  "Isıtıp buharlaştırarak"
+ ],
+ "meb3-fen3-07": [
+  "Bir salıncağın hareketi hangi harekettir?",
+  "Sallanma",
+  "Dönme",
+  "Yuvarlanarak ilerleme"
+ ],
+ "meb3-fen3-08": [
+  "Besin yapmak için gereken maddeler topraktan bitkiye neyle taşınır?",
+  "Su ile",
+  "Rüzgârla",
+  "Işıkla"
+ ],
+ "meb3-fen3-09": [
+  "Metne göre toprağı neyle kaplamamalıyız?",
+  "Betonla",
+  "Çimenle",
+  "Yaprakla"
+ ],
+ "meb3-fen3-10": [
+  "Toprak nasıl oluşur?",
+  "Parçalanan kayalara kalıntıların karışmasıyla",
+  "Denizdeki kumun kuruyup sertleşip taşa dönüşmesiyle",
+  "Volkanlardan çıkan küllerin birikmesiyle"
+ ],
+ "meb3-fen3-11": [
+  "Çocuklar dedelerinin masalı başlar başlamaz neden \"Aaa, tüh!\" dedi?",
+  "Masal başlar başlamaz elektrikler geldiği için",
+  "Dedelerinin masal anlatmaktan vazgeçtiği için",
+  "Kapı zili yeniden çaldığı için ve dedeleri gittiği için"
+ ],
+ "meb3-hb1-04": [
+  "Elif şiiri neden ablasının yardımıyla ezberledi?",
+  "Okumayı yeni öğrendiği için yavaş okuyordu",
+  "Şiirin sözcükleri çok zor olduğu için",
+  "Annesiyle babası evde olmadığı için"
+ ],
+ "meb3-hb2-02": [
+  "Atatürk Mahalle Mektebinden sonra hangi okulda öğrenimine devam etti?",
+  "Şemsi Efendi Okulu",
+  "Manastır Askerî İdadisi",
+  "Harp Akademisi"
+ ],
+ "meb3-hb2-04": [
+  "Dedeye göre bayramlar neden güzeldir?",
+  "Paylaştıkça güzel olur ve insanları bir araya getirir",
+  "Pahalı hediyeler alındığı zaman",
+  "Her yıl aynı yerde kutlandığı zaman"
+ ],
+ "meb3-hb2-06": [
+  "Geçmişte mektupla haberleşenler bugün ne sayesinde saniyeler içinde iletişim kurar?",
+  "Akıllı telefonlar",
+  "Sabit telefonlar ve telgraflar",
+  "Radyolar"
+ ],
+ "meb3-hb3-01": [
+  "Aras kartona resimleri yapıştırdıktan sonra ne yaptı?",
+  "Resimlerle ilgili açıklamaları yazdı",
+  "Resimleri renkli kalemlerle boyadı",
+  "Hazırladığı sunumu sınıfta arkadaşlarına anlattı"
+ ],
+ "meb3-hb3-02": [
+  "Bilinçli tüketici nasıl alışveriş yapar?",
+  "İhtiyacı kadar alışveriş yapar",
+  "Her indirimi görünce alışveriş yapar",
+  "Arkadaşları aldığı için alışveriş yapar"
+ ],
+ "meb3-hb3-03": [
+  "Toplum düzeninin sağlanmasında hangi kurumlar görev üstlenir?",
+  "Aile, okul ve devlet kurumları",
+  "Market, sinema ve park",
+  "Komşular, arkadaşlar ve akrabalar"
+ ],
+ "meb3-hb3-04": [
+  "Bayramlarda büyüklerimize ne yaparız?",
+  "Ziyaret edip ellerini öperiz",
+  "Hediye alıp göndeririz",
+  "Telefonla arayıp bayramlarını kutlarız"
+ ],
+ "meb3-hb3-05": [
+  "Toplumda meslekler neden ortaya çıkmıştır?",
+  "İnsanların farklı ihtiyaçlarını karşılamak için",
+  "Okulların sayısı arttığı için",
+  "Herkes aynı işi yapmak istemediği için"
+ ],
+ "meb3-hb3-06": [
+  "Yılmaz ailesi ürünlerini neden titizlikle yetiştirirdi?",
+  "Ürünlerin insanlara faydalı olması için",
+  "Köyde ödül almak istedikleri için",
+  "Daha çok para kazanmak istedikleri için"
+ ],
+ "meb3-hb3-07": [
+  "Geri dönüşüm kutularını kullanırsak atıklara ne olur?",
+  "Tekrar değerlendirilebilir",
+  "Toprağa karışır",
+  "Denize atılır"
+ ],
+ "meb3-hb3-08": [
+  "Bakanlar kime bağlı olarak görev yapar?",
+  "Cumhurbaşkanına",
+  "Milletvekillerine",
+  "Belediyeye"
+ ],
+ "meb3-hb3-09": [
+  "Hangisi manevi değerlerimize örnektir?",
+  "Misafirperverlik",
+  "Millî gün ve bayramlar",
+  "Türk bayrağı"
+ ],
+ "meb3-hb3-10": [
+  "Asker Makbule nerede doğdu?",
+  "Manisa'nın Gördes ilçesinde",
+  "Ankara'nın Polatlı ilçesinde",
+  "Aydın'ın Nazilli ilçesinde"
+ ],
+ "meb3-hb3-11": [
+  "Efes Antik Kenti hangi listede yer almaktadır?",
+  "UNESCO Dünya Mirası Listesi",
+  "Avrupa Kültür Listesi",
+  "Dünya Müzeler Listesi"
+ ],
+ "meb3-hb3-12": [
+  "Arılar bal üretirken neye katkıda bulunur?",
+  "Bitki çeşitliliğine",
+  "Hava kirliliğinin azalmasına",
+  "Yağışların artmasına"
+ ],
+ "meb3-hb3-13": [
+  "Barajlardaki su seviyesi neden düşmüştü?",
+  "Su tasarruflu kullanılmadığı ve yağışlar yetersiz olduğu için",
+  "Barajlar eskidiği için",
+  "Şehre çok sayıda yeni insan geldiği için ve su kullanımı arttığı için"
+ ],
+ "meb3-hb3-15": [
+  "Burcu'nun sabah yaşadıkları aslında neydi?",
+  "Bir rüya",
+  "Gerçek bir zaman yolculuğu",
+  "Annesinin şakası"
+ ],
+ "meb3-hb3-16": [
+  "Drone ve uydu görüntüleri bilim insanlarına nasıl yardımcı olur?",
+  "Kazı yapılacak yerleri kolayca belirlemelerine",
+  "Bulunan kalıntıları temizlemelerine yardımcı olur",
+  "Kazı araçlarını hafifletmelerine yardımcı olur"
+ ],
+ "meb3-hb3-18": [
+  "Mimar Vedat Tek binada neleri bir araya getirdi?",
+  "Türk kültürüne özgü süslemeleri ve taş işçiliğini",
+  "Cam ve çelikten yapılmış modern kuleleri",
+  "Ahşap oymaları, tuğla kemerleri ve mermer sütunları"
+ ],
+ "halk-ilk-001": [
+  "Hoca 'Doğurduğuna inandın da öldüğüne neden inanmıyorsun' derken ne anlatmak istedi?",
+  "Doğurduğuna inanan öldüğüne de inanmalı",
+  "Kazanlar çok uzun yaşar",
+  "Komşulara borç verilmez"
+ ],
+ "halk-ilk-002": [
+  "Düğünde insanlar Hoca'ya önce neden ilgi göstermedi?",
+  "Sade giysiler giymişti",
+  "Düğüne geç kalmıştı",
+  "Davetli değildi"
+ ],
+ "halk-ilk-004": [
+  "Çubuk demeti hikâyesi bize ne öğretir?",
+  "Birlik olursak güçlü oluruz",
+  "Çubuklar çok sağlamdır",
+  "Kavga eden kazanır"
+ ],
+ "halk-ilk-006": [
+  "Kargalar yılanın deliğine ne bıraktı?",
+  "Saray kızının inciğini",
+  "Bir köylünün şapkasını",
+  "Tilkinin kürkünden bir tüy"
+ ],
+ "halk-ilk-008": [
+  "Kurbağa neden patladı?",
+  "Öküz gibi olmak için çok şişti",
+  "Öküz yanlışlıkla üstüne bastı",
+  "Aslandan korkup sıçradı"
+ ],
+ "halk-ilk-009": [
+  "Eşek ikinci gün neden kalkamadı?",
+  "Pamuk suyu çekip ağırlaştı",
+  "Ayağını burkmuştu",
+  "Dere çok derindi"
+ ],
+ "halk-ilk-010": [
+  "Tilki leyleğe çorbayı neyin içinde verdi?",
+  "Düz bir tabakta",
+  "Uzun bir kavanozda",
+  "Derin bir kâsede"
+ ],
+ "halk-ilk-016": [
+  "Ev sahibi buzlu hoşafı içerken neden \"yandım\" diyordu?",
+  "Hoşaf çok soğuktu",
+  "Hoşaf çok sıcaktı",
+  "Hoşaf çok fazla acıydı"
+ ],
+ "halk-ilk-017": [
+  "Ceviz Hoca'nın neresine düştü?",
+  "Başına",
+  "Omzuna",
+  "Elinin üstüne"
+ ],
+ "halk-ilk-018": [
+  "Hoca eşeğe neden ters bindi?",
+  "Kimseye sırtını dönmemek için",
+  "Eşek yola gitmek istemediği için",
+  "Yolu daha iyi görmek için"
+ ],
+ "halk-ilk-019": [
+  "Hoca çocukların her birine kaçar üzüm verdi?",
+  "Üçer beşer tane",
+  "Birer büyük salkım",
+  "Onar tane"
+ ],
+ "halk-ilk-020": [
+  "Hoca çatlak küpün içinde ne olduğunu söyledi?",
+  "Pamuk",
+  "Un",
+  "Zeytin"
+ ],
+ "halk-ilk-021": [
+  "İlk köydeki insanlar neye kızdı?",
+  "Küçük eşeğe iki kişinin binmesine",
+  "Çocuğun yürümesine",
+  "Babanın yürümesine"
+ ],
+ "halk-ilk-022": [
+  "Hoca ipi çekince ne oldu?",
+  "İp koptu ve Hoca sırtüstü düştü",
+  "Ay kuyudan çıktı",
+  "Kanca bir kova çıkardı"
+ ],
+ "halk-ilk-024": [
+  "Akıllı balık balıkçılardan nasıl kurtuldu?",
+  "Küçük bir dereden kaçtı",
+  "Ölü gibi suyun üstünde yattı",
+  "Ağdan sıyrılıp çıktı"
+ ],
+ "halk-ilk-025": [
+  "Hoca balık başı için ne dedi?",
+  "Zekâyı artırır",
+  "Gözleri güçlendirir",
+  "Sağlığa iyi gelir"
+ ],
+ "halk-ilk-026": [
+  "Hoca ağaçtan düşünce adamı bulup ne yaptı?",
+  "Ne zaman öleceğini sordu",
+  "Eşeğine odun yükledi",
+  "Ağacı baştan kesti"
+ ],
+ "halk-ilk-027": [
+  "Palavracı Halep'te kaç arşın atladığını söyledi?",
+  "Altmış",
+  "Kırk",
+  "Yüz yirmi"
+ ],
+ "halk-ilk-028": [
+  "Lokantacı adamdan neden para istedi?",
+  "Kebap kokusunu kokladığı için",
+  "Kuru ekmeği yediği için",
+  "Lokantaya girdiği için"
+ ],
+ "halk-ilk-029": [
+  "Hoca kavgayı ayırmaya giderken üstüne ne sardı?",
+  "Yorganı",
+  "Battaniyeyi",
+  "Kürkünü"
+ ],
+ "halk-ilk-030": [
+  "Dev, Keloğlan'a ne verdi?",
+  "Altın",
+  "Gümüş",
+  "Bir kese inci"
+ ],
+ "halk-ilk-031": [
+  "Kızlar tilkiden ne istedi?",
+  "Boncuk",
+  "Ayna",
+  "Kurdele"
+ ],
+ "halk-ilk-032": [
+  "Dilenci kapıya gelince Tembel Kız ne yaptı?",
+  "Yerinden kalkmadı",
+  "Ekmek verdi",
+  "Kapıyı kapattı"
+ ],
+ "halk-ilk-034": [
+  "Karanlık odadaki insanlar fili neden farklı anlattı?",
+  "Her biri filin başka bir yerine dokundu",
+  "Fil sürekli yer değiştirdi",
+  "Fil odada çok hızlı hareket etti"
+ ],
+ "yz-s1-001": [
+  "Pamuk sabah uyanınca önce ne yapar?",
+  "Karnını doyurur",
+  "Güneşte uzanıp ısınır",
+  "Dizime çıkıp uyuyakalır"
+ ],
+ "yz-s1-002": [
+  "Her yer neden bembeyazdı?",
+  "Gece boyunca kar yağmıştı",
+  "Ağaçlar çiçek açıp yeşermişti",
+  "Yoğun bir sis çökmüştü"
+ ],
+ "yz-s1-003": [
+  "Yağmur yağınca karıncalar ne yapar?",
+  "Hemen yuvalarına girerler",
+  "Yuvalarını bırakıp başka yere giderler",
+  "Yiyecek aramaya çıkarlar"
+ ],
+ "yz-s1-004": [
+  "Babam yeni balonu hangi renk aldı?",
+  "Mavi",
+  "Sarı",
+  "Yeşil"
+ ],
+ "yz-s1-005": [
+  "Yazar satıcı amcaya neden teşekkür etti?",
+  "Bir armut hediye ettiği için",
+  "Para üstünü eksiksiz verdiği için",
+  "Poşetleri eve kadar taşıdığı için"
+ ],
+ "yz-s1-006": [
+  "Babam elmaları nereye dizer?",
+  "Büyük bir sandığa",
+  "Küçük bir sepete",
+  "Mutfaktaki büyük dolaba"
+ ],
+ "yz-s1-007": [
+  "Yağmur başlayınca yazar ne yaptı?",
+  "Pencerenin önünde damlaları izledi",
+  "Dışarı çıkıp bisikletine binerek gezdi",
+  "Çay içip uyuyakaldı"
+ ],
+ "yz-s1-008": [
+  "Kuşlar yuva için neler toplar?",
+  "Küçük dallar ve kuru otlar",
+  "Taş ve toprak",
+  "Yaprak ve çamur"
+ ],
+ "yz-s1-009": [
+  "Annem örtüyü serdikten sonra ne yaptı?",
+  "Sandviçleri çıkardı",
+  "Top oynadı",
+  "Çay demledi"
+ ],
+ "yz-s1-010": [
+  "Dalga gelince kaleye ne oldu?",
+  "Önü ıslandı ama yıkılmadı",
+  "Tamamen yıkıldı",
+  "Bayrağı denize gitti"
+ ],
+ "yz-s1-011": [
+  "Yazar o gün eve neden mutlu döndü?",
+  "Öğretmeni aferin dediği için",
+  "Yeni arkadaşlar edindiği için",
+  "Defterini kaybettiği için sevindi"
+ ],
+ "yz-s1-012": [
+  "Anne tavuk yavrularını nereye aldı?",
+  "Kanadının altına",
+  "Yuvanın dışındaki çimene",
+  "Ağacın üstüne"
+ ],
+ "yz-s1-013": [
+  "Uçurtmanın kuyruğu nasıldı?",
+  "Uzun ve rengârenk",
+  "Kısa ve bembeyaz renkte",
+  "Uzun ve siyah"
+ ],
+ "yz-s1-014": [
+  "Büyükannemin bahçesinde neler yetişir?",
+  "Domates, biber ve salatalık",
+  "Elma, armut ve kiraz",
+  "Havuç, soğan ve patates"
+ ],
+ "yz-s1-015": [
+  "Çorbanın üzerine ne sıktık?",
+  "Limon",
+  "Sirke",
+  "Nar ekşisi"
+ ],
+ "yz-s1-016": [
+  "Kaplumbağalar neyle beslenir?",
+  "Otlarla ve yapraklarla",
+  "Böceklerle ve solucanlarla",
+  "Balıklarla ve yosunlarla"
+ ],
+ "yz-s1-017": [
+  "Annem bize ne getirdi?",
+  "Çay ve börek",
+  "Süt ve kek",
+  "Meyve suyu ve pasta"
+ ],
+ "yz-s1-018": [
+  "Gökkuşağı belirmeden önce ne olur?",
+  "Yağmur yağar, sonra güneş açar",
+  "Önce hava çok soğur, kar yağar",
+  "Önce gece olur, ay doğar"
+ ],
+ "yz-s1-019": [
+  "Babam bana bisikleti ne zaman aldı?",
+  "Doğum günümde",
+  "Okul açılınca",
+  "Yeni yıl gecesinde"
+ ],
+ "yz-s1-020": [
+  "Arılar uçarken nasıl ses çıkarır?",
+  "Vızıl vızıl",
+  "Cik cik",
+  "Mırıl mırıl"
+ ],
+ "yz-s1-021": [
+  "Fasulye çatlayınca önce ne çıktı?",
+  "Küçük bir kök",
+  "Yeşil bir yaprak",
+  "Küçük bir çiçek"
+ ],
+ "yz-s1-022": [
+  "Annem bana ne renk eldiven örmüştü?",
+  "Kırmızı",
+  "Açık mavi",
+  "Koyu yeşil"
+ ],
+ "yz-s1-023": [
+  "Ay bazen neye benzer?",
+  "İnce bir tırnağa",
+  "Küçük bir yıldıza",
+  "Uzun bir çubuğa"
+ ],
+ "yz-s1-024": [
+  "Karabaş her sabah beni nerede bekler?",
+  "Kapının önünde",
+  "Bahçenin köşesinde",
+  "Pencerenin altında"
+ ],
+ "yz-s1-025": [
+  "Çilekleri kâseye doldurmadan önce ne yaptık?",
+  "Yıkadık ve saplarını ayıkladık",
+  "Dilimleyip şekerle karıştırdık",
+  "Kurutup kavanoza koyduk"
+ ],
+ "yz-s1-026": [
+  "Ev neden pırıl pırıl oldu?",
+  "Herkes bir iş yaptığı için",
+  "Temizlikçi geldiği için",
+  "Yeni eşyalar alındığı için"
+ ],
+ "yz-s1-027": [
+  "Kumluğa gitmeden önce ne yaptık?",
+  "Salıncakta sallandık",
+  "Kumlukta kovalarımızı doldurduk",
+  "Hava kararınca eve döndük"
+ ],
+ "yz-s1-028": [
+  "Yapraklar renk değiştirdikten sonra ne olur?",
+  "Dallardan düşmeye başlar",
+  "Yeniden yeşerip dallara döner",
+  "Dalda kuruyup uzun süre kalır"
+ ],
+ "yz-s1-029": [
+  "Keki yapmak için önce ne yaptık?",
+  "Yumurtaları kırdık",
+  "Sütü ısıttık",
+  "Kalıbı yağladık"
+ ],
+ "yz-s1-030": [
+  "Cesur ördek ne yaptı?",
+  "Elime kadar yaklaştı",
+  "Gölün ortasına yüzdü",
+  "Ekmeği suya attı"
+ ],
+ "yz-s1-031": [
+  "Dişler çürürse ne yaparız?",
+  "Diş doktoruna gideriz",
+  "Daha çok şeker yemeye başlarız",
+  "Süt içmeyi bırakırız"
+ ],
+ "yz-s1-032": [
+  "Dondurma neden hızla erimeye başladı?",
+  "Hava çok sıcaktı",
+  "Buzdolabından yeni çıkmıştı",
+  "Çok tatlı olduğu için"
+ ],
+ "yz-s1-033": [
+  "Dedem yolda bana ne gösterdi?",
+  "Yaşlı bir çınar ağacı",
+  "Eski bir kale",
+  "Büyük bir çeşme"
+ ],
+ "yz-s1-034": [
+  "Tavşanlar neden hızlı hızlı sıçrayarak gider?",
+  "Arka bacakları güçlüdür",
+  "Kuyrukları kısa olduğu için",
+  "Yuvaları çok uzakta olduğu için"
+ ],
+ "yz-s1-035": [
+  "Babam karpuzu akşama kadar nerede bekletti?",
+  "Serin bir yerde",
+  "Güneşin altında",
+  "Balkonda"
+ ],
+ "yz-s1-036": [
+  "Marangoz en sonunda ne yapar?",
+  "Üzerine cila sürer",
+  "Tahtayı baştan kesmeye başlar",
+  "Dükkânı süpürüp kapatır"
+ ],
+ "yz-s1-037": [
+  "Gölge nasıl oluşur?",
+  "Işık bir şeye çarpınca arkası karanlık kalır",
+  "Ay güneşin önüne geçince oluşur",
+  "Rüzgâr ışığı yana iterek yere düşürür"
+ ],
+ "yz-s1-038": [
+  "Sabah beni ne uyandırdı?",
+  "Horozun ötüşü",
+  "Annemin sesi",
+  "İneğin böğürmesi"
+ ],
+ "yz-s1-039": [
+  "Zeynep dedesine neden mektup yazdı?",
+  "Onu çok özlediği için",
+  "Ondan hediye istediği için",
+  "Ona kızdığı için"
+ ],
+ "yz-s1-040": [
+  "Annemle neden ayakkabı mağazasına gittik?",
+  "Eskileri küçük gelmeye başlamıştı",
+  "Eskileri yırtılmıştı",
+  "Doğum günümdü"
+ ],
+ "yz-s2-001": [
+  "Yıldızlı kalemi bana kim hediye etmişti?",
+  "Annem",
+  "Babam",
+  "Öğretmenim"
+ ],
+ "yz-s2-002": [
+  "Anne ayı yavrularını nerede dünyaya getirir?",
+  "Kardan yaptığı yuvada",
+  "Buz mağarasında",
+  "Kayaların arasındaki bir mağarada"
+ ],
+ "yz-s2-003": [
+  "Filin ayağına diken batınca fil ne yaptı?",
+  "İnlemeye başladı",
+  "Fareyi çağırdı",
+  "Suya koştu"
+ ],
+ "yz-s2-004": [
+  "Arkadaşlarım fidanların yanını neyle süsledi?",
+  "Küçük taşlarla",
+  "Çiçeklerle",
+  "Renkli kâğıtlarla"
+ ],
+ "yz-s2-005": [
+  "Sahildeki kumlar nasıldı?",
+  "İnce ve bembeyaz",
+  "Kalın ve siyah",
+  "İri ve kahverengi"
+ ],
+ "yz-s2-006": [
+  "Kırlangıçlar sonbaharda ne yapar?",
+  "Sıcak ülkelere göç eder",
+  "Kış uykusuna yatar",
+  "Yuvalarını yıkıp ormana giderler"
+ ],
+ "yz-s2-007": [
+  "Çıkışta poşetleri nasıl taşıdık?",
+  "Aramızda paylaşarak",
+  "Annem tek başına",
+  "Babam arabayla getirdi"
+ ],
+ "yz-s2-008": [
+  "Elif sabahları neyle uyanıyor?",
+  "Kuşların sesiyle",
+  "Annesinin sesiyle",
+  "Çalar saatle"
+ ],
+ "yz-s2-009": [
+  "Damla neden buhar olup havaya yükseldi?",
+  "Güneş denizi ısıttığı için",
+  "Rüzgâr denizi iyice çalkaladığı için",
+  "Hava soğuk olduğu için"
+ ],
+ "yz-s2-010": [
+  "Ağaçlar yiyeceklerini nasıl hazırlar?",
+  "Işık, su ve havadan besin yaparak",
+  "Yerden küçük böcekler toplayarak",
+  "Başka bitkilerden alarak"
+ ],
+ "yz-s2-011": [
+  "Zürafanın boynundaki kemik sayısı nasıldır?",
+  "İnsanlarınkiyle aynıdır",
+  "İnsanlarınkinden çok fazladır",
+  "İnsanlarınkinin yarısı kadardır"
+ ],
+ "yz-s2-012": [
+  "Anahtarın sahibini bulmak için ne yaptık?",
+  "Apartman girişine not astık",
+  "Okula ilan verdik",
+  "Komşulara tek tek kapı kapı sorduk"
+ ],
+ "yz-s2-013": [
+  "Kurbağa en sonunda neyi anladı?",
+  "Sabretmenin işe yaradığını",
+  "Acele etmenin gerektiğini",
+  "Yalnız kalmanın iyi olduğunu"
+ ],
+ "yz-s2-014": [
+  "Öğretmenimiz şarkıyı nerede söyleyeceğimizi söyledi?",
+  "Yılsonu gösterisinde",
+  "Okul yarışmasında",
+  "Bayram töreninde"
+ ],
+ "yz-s2-015": [
+  "Domates fidelerinde önce ne açtı?",
+  "Küçük sarı çiçekler",
+  "Küçük mor çiçekler",
+  "Küçük yeşil domatesler"
+ ],
+ "yz-s2-016": [
+  "Son turda ne yaptım?",
+  "Birkaç arkadaşımı geçtim",
+  "Başlangıç çizgisinde geride kaldım",
+  "Durup dinlendim"
+ ],
+ "yz-s2-017": [
+  "Hoca ilk gün bana ne verdi?",
+  "Bir can simidi",
+  "Bir havlu ile bone",
+  "Bir şnorkel takımı"
+ ],
+ "yz-s2-018": [
+  "Fırıncı ekmekleri neye dizer?",
+  "Sepetlere",
+  "Tahta tepsilere",
+  "Büyük çuvallara"
+ ],
+ "yz-s2-019": [
+  "Kar taneleri yere neden yavaşça iner?",
+  "Çok hafif oldukları için",
+  "Çok soğuk oldukları için",
+  "Bulutlar onları tuttuğu için"
+ ],
+ "yz-s2-020": [
+  "Seçtiğim kitap hangi hayvanı anlatıyor?",
+  "Uzun kuyruklu bir tilkiyi",
+  "Küçük bir tavşanı",
+  "Boynu uzun bir zürafayı"
+ ],
+ "yz-s2-021": [
+  "Güneş olmasaydı Dünya'da ne olurdu?",
+  "Bitki ve hayvan yaşayamazdı",
+  "Dünya daha hızlı dönerdi",
+  "Gezegenler daha büyük olurdu"
+ ],
+ "yz-s2-022": [
+  "Dağların tepesindeki sis aslında nedir?",
+  "Yere inmiş bir bulut",
+  "Dumanlı bir rüzgâr",
+  "Donmuş bir yağmur yığını"
+ ],
+ "yz-s2-023": [
+  "Mert'le hafta sonu bahçede ne oynadık?",
+  "Top",
+  "Saklambaç",
+  "İp atlama"
+ ],
+ "yz-s2-024": [
+  "Pastanın üzerinde neler vardı?",
+  "Çilekler ve beyaz krema",
+  "Muzlar ve çikolata",
+  "Fındık ve karamel"
+ ],
+ "yz-s2-025": [
+  "Penguenler yavrularını nasıl sıcak tutar?",
+  "Ayaklarının üstünde taşıyarak",
+  "Karınlarının altına gömerek",
+  "Yuvanın içine koyup kanatlarıyla sararak"
+ ],
+ "yz-s2-026": [
+  "Yazar kendini neden daha hafif hissetti?",
+  "Doğruyu söylediği için",
+  "Vazo sağlam çıktığı için",
+  "Annesi ona hediye aldığı için"
+ ],
+ "yz-s2-027": [
+  "Dedem yanında kaç olta getirmişti?",
+  "İki",
+  "Üç",
+  "Bir"
+ ],
+ "yz-s2-028": [
+  "Zeytin ağaçları ülkemizde en çok hangi bölgelerde bulunur?",
+  "Ege ve Akdeniz",
+  "Karadeniz ve Doğu Anadolu",
+  "İç Anadolu ve Marmara"
+ ],
+ "yz-s2-029": [
+  "Eskiden değirmenciler kanatları nasıl çevirirdi?",
+  "Rüzgârın estiği yöne",
+  "Güneşin doğduğu yöne",
+  "Bulutların gittiği yöne"
+ ],
+ "yz-s2-030": [
+  "Yeterli su içen çocuklar nasıl olur?",
+  "Daha enerjik olur",
+  "Daha uykulu olur",
+  "Daha çabuk acıkır"
+ ],
+ "yz-s4-001": [
+  "Teneke kutunun içinden neler çıktı?",
+  "Misketler ve bir not",
+  "Altın paralar ve bir harita",
+  "Eski fotoğraflar ve bir mektup"
+ ],
+ "yz-s4-002": [
+  "Ahtapot neden çok dar yarıklardan bile geçebilir?",
+  "Vücudunda kemik bulunmadığı için",
+  "Gagası çok sert olduğu için",
+  "Kolları çok kısa olduğu için"
+ ],
+ "yz-s4-003": [
+  "Tavşan taşkın sırasında neden tilkinin yanına sokuldu?",
+  "Titreyen yavrularını sıcak tutmak için",
+  "Tilkiden kaçmak için",
+  "Tilkiye yuvasının yerini göstermek için"
+ ],
+ "yz-s4-004": [
+  "Yerdeki bitkilerin yaprakları neden geniştir?",
+  "Ormanın dibine az gelen ışığı yakalamak için",
+  "Daha çok yağmur biriktirmek ve yağışı çekmek için",
+  "Maymunlara ve papağanlara yuva olmak için"
+ ],
+ "yz-s4-005": [
+  "Müzenin uzay bölümünde ne öğrendim?",
+  "Dünya'nın Mars'tan büyük olduğunu",
+  "Mars'ın Dünya'dan büyük olduğunu",
+  "Güneş'in Dünya'dan küçük olduğunu"
+ ],
+ "yz-s4-006": [
+  "Dedem fuardan hangi reçelden bir kavanoz aldı?",
+  "Vişne reçelinden",
+  "Kayısı reçelinden",
+  "Çilek reçelinden"
+ ],
+ "yz-s4-007": [
+  "Satrançta at nasıl ilerler?",
+  "L şeklinde",
+  "Düz çizgi boyunca",
+  "Çapraz olarak"
+ ],
+ "yz-s4-009": [
+  "Pusulayı kullanmak için önce ne yapmak gerekir?",
+  "Düz bir yere koymak",
+  "Yüksek bir yere asmak",
+  "Suyun içine bırakmak"
+ ],
+ "yz-s4-010": [
+  "Söğüt neden \"Haklıymışsın\" dedi?",
+  "Rüzgârda kendi dalları kırılırken çam sağlam kaldığı için",
+  "Çam ondan daha hızlı uzadığı için",
+  "Çam ona çok kızdığı için ve onu kovduğu için"
+ ],
+ "yz-s4-011": [
+  "Babam musluğun altına ne koydu?",
+  "Bir kova",
+  "Bir leğen",
+  "Eski bir bez"
+ ],
+ "yz-s4-012": [
+  "Sahildeki evlerin geceleri ışıklarını kısması neden önerilir?",
+  "Işık yavru kaplumbağaların yolunu şaşırtabilir",
+  "Martılar ışığa gelip yumurtaları yiyebilir",
+  "Elektrik faturasının düşürülmesi istenir"
+ ],
+ "yz-s4-014": [
+  "Babanın \"Düşmeyen öğrenmez\" sözü ne anlama gelir?",
+  "Öğrenirken düşmek ve hata yapmak olağandır",
+  "Bisikletle hızlı gidilmemelidir",
+  "Düşenler bisiklete bir daha binmemelidir"
+ ],
+ "yz-s4-015": [
+  "Ben ve kardeşim ne kızarttık?",
+  "Kestane",
+  "Mısır",
+  "Patates"
+ ],
+ "yz-s4-016": [
+  "İlkokul çağındaki çocukların kaç saat uyuması önerilir?",
+  "Dokuz on saat",
+  "Beş altı saat",
+  "On iki ile on dört saat"
+ ],
+ "yz-s4-017": [
+  "Evliya Çelebi yerel halktan neler öğrenirdi?",
+  "Efsaneler ve atasözleri",
+  "Dualar ve ninniler",
+  "Bilmeceler ve türküler"
+ ],
+ "yz-s4-018": [
+  "Defterime hangi kuşları yazdım?",
+  "Ördek, martı ve karga",
+  "Balıkçıl, ördek ve karga",
+  "Serçe, güvercin ve martı"
+ ],
+ "yz-s4-020": [
+  "Esra hangi koruyucuları takmamı söyledi?",
+  "Kask, dirsek ve diz koruyucusu",
+  "Eldiven, bere ve atkı",
+  "Gözlük ve kulaklık"
+ ],
+ "yz-s4-021": [
+  "Filiz başarısını neye bağladı?",
+  "Doğru zamanı beklemeyi bilmesine",
+  "Taşların yardımına",
+  "Çölde bol su bulmasına"
+ ],
+ "yz-s4-022": [
+  "Mavi balinalar üreme zamanı nereye yolculuk eder?",
+  "Daha sıcak sulara",
+  "Daha soğuk sulara",
+  "Nehirlere"
+ ],
+ "yz-s4-023": [
+  "Seda Hanım şarkı söylerken nefesin nereden alınması gerektiğini söyledi?",
+  "Karından",
+  "Burundan hızlıca",
+  "Göğüsten sığ biçimde"
+ ],
+ "yz-s4-024": [
+  "Tuna Abi neden fısıltıyla konuşmamızı istedi?",
+  "Yarasalar gürültüden hoşlanmıyordu",
+  "Mağara çökebilirdi",
+  "Tavandaki sarkıtlar sese çok duyarlıydı"
+ ],
+ "yz-s4-025": [
+  "Kameleonun renk değiştirmesinin başlıca nedenleri nelerdir?",
+  "Isı, ışık ve ruh hâli",
+  "Açlık, susuzluk ve uyku",
+  "Çevresine uyum ve saklanma"
+ ],
+ "yz-s4-026": [
+  "Emre ikinci yarıda neden alkışlandı?",
+  "Arkadaşlarına pas verip takım için oynadığı için",
+  "Maçta en çok gol attığı için",
+  "Penaltıyı kurtarıp takımı kurtardığı için"
+ ],
+ "yz-s4-027": [
+  "Ay yolculuğu yaklaşık kaç gün sürdü?",
+  "Sekiz gün",
+  "Üç gün",
+  "Yirmi bir gün"
+ ],
+ "yz-s4-028": [
+  "Hasan Usta'ya göre mutfakta ne önemlidir?",
+  "Düzen",
+  "Hız",
+  "Gösteriş"
+ ],
+ "yz-s4-029": [
+  "Balonlar gökyüzünde neyi ölçmek için bırakılır?",
+  "Yüksek yerlerin sıcaklığını ve nemini",
+  "Bulutların rengini",
+  "Rüzgârın sesini"
+ ],
+ "yz-s4-030": [
+  "Bulduğumuz köpeğin Fındık olduğunu nereden anladık?",
+  "Sarı tüylü ve kulağı kıvrıktı",
+  "Boynunda adı yazılı bir tasma vardı",
+  "Adını söyleyince yanımıza geldi"
+ ],
+ "yz-s4-031": [
+  "Dinozor ayak izlerine bakarak neyi anlayabiliriz?",
+  "Hızlı mı yavaş mı yürüdüğünü",
+  "Hangi renkte olduğunu",
+  "Kaç yaşında öldüğünü ve nerede yaşadığını"
+ ],
+ "yz-s4-032": [
+  "Kutulardaki karışıklığı azaltmak için ne yaptık?",
+  "Büyük resimli etiketler yapıştırdık",
+  "Kutuları saklayıp kilitledik",
+  "Her kutuya bir nöbetçi koyduk"
+ ],
+ "yz-s4-033": [
+  "Yarasalar insanlara neden yararlıdır?",
+  "Gecede yüzlerce sivrisinek yiyebildikleri için",
+  "Mağaraları temizledikleri için",
+  "Bal üretip insanlara sattıkları için"
+ ],
+ "yz-s4-034": [
+  "Tren tünelden geçmeden önce ne oldu?",
+  "Nehir kenarından geçtik",
+  "Peronda halam bizi karşıladı",
+  "Öğle yemeğimizi yedik"
+ ],
+ "yz-s4-035": [
+  "Işık duvara yaklaştıkça gölge nasıl oluyordu?",
+  "Daha büyük",
+  "Daha küçük",
+  "Aynı boyda kalıyordu"
+ ],
+ "yz-s4-036": [
+  "Çocuklar köylülere neden cevap vermedi?",
+  "Kurt gizli kalmasını söylediği için",
+  "Kimseyi tanımadıkları için",
+  "Okumayı henüz öğrenmedikleri için"
+ ],
+ "yz-s4-037": [
+  "Çınarın dallarında her bahar kimler yuva yapardı?",
+  "Leylekler",
+  "Serçeler",
+  "Kargalar"
+ ],
+ "yz-s4-038": [
+  "Kaan'ın çadırı neden ıslandı?",
+  "Gece sağanak yağdığı için",
+  "Dere taştığı için",
+  "Çadırın yırtılıp çatladığı için"
+ ],
+ "yz-s4-039": [
+  "Rüya fabrikasında bantlarda neler yapılıyordu?",
+  "Uçan balinalar ve konuşan ağaçlar",
+  "Dans eden yıldızlar ve konuşan kuşlar",
+  "Yüzen dağlar ve uçan arabalar"
+ ],
+ "c11": [
+  "Metne göre küçük bir not kâğıdını tasarruflu kullanmak için ne yapabiliriz?",
+  "İki yüzünden de kullanabiliriz",
+  "Yalnızca tek yüzüne yazabiliriz",
+  "Her gün yenisini alabiliriz"
+ ],
+ "c12": [
+  "Defne'nin dedesine göre iki madde karışınca ne olur?",
+  "Yeni bir şey oluşur",
+  "Köpük hemen kaybolur",
+  "Maddeler renk değiştirmez"
+ ],
+ "c13": [
+  "Fırıncı fırın sıcaklığını neden sürekli kontrol eder?",
+  "Birkaç dakikalık fark tadı değiştirebilir diye",
+  "Hamur çok çabuk kabarıp taşmasın diye",
+  "Sabah gelen müşteriler erken uyanmasın diye"
+ ],
+ "c14": [
+  "Bora ile Selin gruptan neden geride kaldı?",
+  "Bir kuş yuvasına bakıyorlardı",
+  "Yolu kaybettikleri için dinlendiler",
+  "Derenin kenarında su içiyorlardı"
+ ],
+ "c15": [
+  "Metne göre deniz fazla ısınırsa mercanlara ne olur?",
+  "Renklerini kaybederler",
+  "Çok hızlı büyürler",
+  "Başka yere göç ederler"
+ ],
+ "c16": [
+  "Kütüphaneci hanım Zeynep'e hangi fikri verdi?",
+  "Ortak bir kitap defteri tutmayı",
+  "Her hafta kitap yarışması yapmayı",
+  "Okula yeni kitaplar bağışlamayı"
+ ],
+ "c18": [
+  "Hakemler yarışın sonunda Emre'ye hangi ödülü verdi?",
+  "Dürüstlük ödülü",
+  "Sabır ödülü",
+  "Takım ruhu ödülü"
+ ],
+ "c19": [
+  "Atıklar tesislerde temizlenip ezildikten sonra ne yapılır?",
+  "Eritilir ya da lifli hâle getirilir",
+  "Yeniden türlerine göre ayrı ayrı toplanır",
+  "Doğrudan çöplüğe gönderilip gömülür"
+ ],
+ "c20": [
+  "Ece eve dönerken neyin daha da büyüdüğünü fark etti?",
+  "İçindeki müzik sevgisinin",
+  "Sahne heyecanının",
+  "Konserden duyduğu korkunun"
+ ],
+ "c32": [
+  "Kerem sınavlarda artık nasıl davranıyordu?",
+  "Soruları önce baştan sona okuyordu",
+  "Önce en zor soruyu çözmeye çalışıyordu",
+  "Cevapları hızlıca işaretleyip çıkıyordu"
+ ],
+ "c33": [
+  "Güneş saati hangi zamanlarda işe yaramazdı?",
+  "Bulutlu günlerde ve geceleri",
+  "Yaz günlerinde ve öğlen",
+  "Kış aylarında ve sabah erken saatlerde"
+ ],
+ "c34": [
+  "Elif başlangıçta yeni komşusunun piyanosundan neden rahatsız oldu?",
+  "Müzik ödev yaparken dikkatini dağıtıyordu",
+  "Ses uyurken uykusunu bölüyordu",
+  "Teyze ona kaba davranmıştı"
+ ],
+ "c36": [
+  "Selin'e göre gökyüzünde mavinin dışında hangi renkler vardı?",
+  "Turuncu, mor ve pembe",
+  "Gri, yeşil ve sarı",
+  "Kırmızı, siyah ve beyaz"
+ ],
+ "c37": [
+  "Haritadaki ölçek neyi gösterir?",
+  "Kâğıttaki uzunluğun gerçekte ne kadar olduğunu",
+  "Haritanın hangi yönde asılması gerektiğini",
+  "Dağların deniz seviyesinden ne kadar yüksek olduğunu"
+ ],
+ "c38": [
+  "Burak'a göre bayramı özel yapan şey nedir?",
+  "Birbirini hatırlamak ve sevinci paylaşmak",
+  "Yeni kıyafetler ve bol şekerler",
+  "Uzak yerlere gezmeye gitmek"
+ ],
+ "c40": [
+  "Deniz ile babası musluğu nasıl tamir etti?",
+  "Contayı değiştirdiler",
+  "Musluğu yağladılar",
+  "Boruyu bir bezle sardılar"
+ ],
+ "ch06": [
+  "Metne göre kedilerin pençeleri nasıldır?",
+  "Keskin ve geri çekilebilir",
+  "Kalın, kısa ve geri çekilemez",
+  "Yumuşak ve küt"
+ ],
+ "ch07": [
+  "Kuru topraklarda yaşayan kaplumbağalar kışı nerede geçirir?",
+  "Kendi kazdıkları bir delikte",
+  "Su kenarındaki nemli çamurun içinde",
+  "Ağaç kovuklarında"
+ ],
+ "ch08": [
+  "Bulutu oluşturan buz kristalleri genellikle kaç mm çapındadır?",
+  "0,01 mm",
+  "0,1 mm",
+  "1 mm"
+ ],
+ "ch09": [
+  "Metne göre lalenin anavatanı neresidir?",
+  "Pamir, Hindukuş ve Tanrı dağları",
+  "Alpler, Pireneler ve Karpat dağları",
+  "Ural, Altay ve Kafkas dağları"
+ ],
+ "ch12": [
+  "Zar kanatlıların kanatları nasıldır?",
+  "İki çift saydam zar şeklindedir",
+  "Tek çift kalın, sert ve tüysüzdür",
+  "Üç çift tüylü ve renklidir"
+ ],
+ "ch30": [
+  "Metne göre elmanın en yakın akrabaları hangileridir?",
+  "Armut ve malta eriği",
+  "Üzüm ve incir",
+  "Muz ve portakal"
+ ],
+ "ck002": [
+  "Mercan kabuğunun içindeyken ne yapabilir?",
+  "Belli ölçüde büzülebilir",
+  "Kabuğu terk edip serbest yüzer",
+  "Kabuğunu istediği zaman değiştirir"
+ ],
+ "ck005": [
+  "Yeni çıkan boynuzları saran kadife tabaka ne zamana kadar boynuz üzerinde kalır?",
+  "İçindeki kemik sertleşene kadar",
+  "Kış mevsimi başlayana kadar",
+  "Geyik yeni boynuz çıkarana kadar"
+ ],
+ "ck008": [
+  "Malta keçisinin özelliği nedir?",
+  "Boynuzsuz olması",
+  "Çok uzun boynuzlu olması",
+  "Çok uzun tüylü olması"
+ ],
+ "ck011": [
+  "Metne göre ilkbaharda çiçeklenme bazen ne zaman başlar?",
+  "Kar hâlâ yerdeyken",
+  "Yaz ortasında",
+  "Karların erimesi bittikten sonra"
+ ],
+ "ck014": [
+  "Baykuşların tam bir sessizlik içinde avlanmasını sağlayan özellik hangisi olabilir?",
+  "Vücudunun yumuşak tüylerle kaplı olması",
+  "Kuyruğunun kısa ve kanatlarının enli olması",
+  "Gagasının kıvrık, pençelerinin keskin olması"
+ ],
+ "ck017": [
+  "Soyu tükenmiş Avrupa gergedanları soğuk iklime nasıl uyum sağlamıştı?",
+  "Yumuşak tüylü bir postla örtünerek",
+  "Kalın bir yağ tabakası biriktirerek",
+  "Kış uykusuna yatarak"
+ ],
+ "ck020": [
+  "Şimşek ve yıldırım yalnızca hangi bulutlarda görülür?",
+  "Kümülonimbüs bulutlarında",
+  "Yalnızca sirrus bulutlarında",
+  "Stratus bulutlarında"
+ ],
+ "ck035": [
+  "Gorilin tek doğal düşmanı hangisidir?",
+  "Leopar",
+  "Aslan",
+  "Timsah"
+ ],
+ "ck036": [
+  "Avustralya'da yaşayan Kakadular nasıl seyahat eder?",
+  "Binlerce kuşluk sürüler hâlinde",
+  "Çiftler hâlinde ve çok sessizce",
+  "Tek başlarına ve geceleri"
+ ],
+ "ck038": [
+  "Metne göre gitarın gövdesindeki titreşen hava sesi nereden dışarı çıkarır?",
+  "Gövdenin ortasındaki ses deliğinden",
+  "Gitarın sapının içinden geçerek",
+  "Gövdenin arka tahtasındaki küçük deliklerden"
+ ],
+ "ck039": [
+  "Metne göre hangi geyik türü beyaz benekleri yaşamı boyunca taşır?",
+  "Alageyik",
+  "Karaca",
+  "Ren geyiği"
+ ],
+ "ck040": [
+  "Ayıların ayaklarındaki tırnaklar nasıldır?",
+  "İçeri çekilemez",
+  "Kedilerinki gibi içeri çekilebilir",
+  "Çok kısa ve yumuşaktır"
+ ],
+ "ck041": [
+  "Martı yumurtaları nasıl görünür?",
+  "Kahverengi, üstünde koyu benekler vardır",
+  "Beyaz renkli, üstünde kırmızı çizgiler vardır",
+  "Açık mavi, üstünde sarı lekeler vardır"
+ ],
+ "ck045": [
+  "Yaz gelince bahar dallarındaki çiçeklere ne olur?",
+  "Kuruyup düşer, yerini yeşil yapraklar alır",
+  "Daha da büyüyüp renklenerek meyveye dönüşür",
+  "Donarak dalda kalır"
+ ],
+ "ck046": [
+  "Çay nasıl bir akarsu olarak tanımlanır?",
+  "Dereden büyük, ırmaktan küçük",
+  "Irmaktan büyük, denizden küçük",
+  "Dereden küçük, kaynaktan büyük"
+ ],
+ "ck047": [
+  "Bir at yatarak uyurken yanında ayakta duran at ne işe yarar?",
+  "Tehlikeye karşı onu gözetler",
+  "Ona yiyecek getirir",
+  "Onu uykudan uyandırır"
+ ],
+ "ck049": [
+  "Saf suya doğada en yakın örnek hangisidir?",
+  "Yağmur suyu",
+  "Deniz suyu",
+  "Kaynak suyu"
+ ],
+ "ck050": [
+  "Bahçıvanlar ağaçkakanları neden kovalar?",
+  "Kabukları didikleyip ağaçları kuruttukları için",
+  "Meyveleri ve çiçekleri koparıp yedikleri için",
+  "Gece boyunca tik-tak sesi çıkardıkları için"
+ ],
+ "ck051": [
+  "Salyangozların kabuğuyla gövdesi arasındaki kurumuş sümüksü sıvı ne işe yarar?",
+  "Vücuttaki nemin kaybolmasını önler",
+  "Kabuğun daha sert olmasını sağlar",
+  "Avlarını yakalamalarına yardım eder"
+ ],
+ "ck053": [
+  "Deniz kaplumbağalarının en önemli yumurtlama bölgelerinden biri neresidir?",
+  "Köyceğiz Dalyan sahili",
+  "Çanakkale Boğazı kıyısı",
+  "Sinop sahili"
+ ],
+ "ck055": [
+  "Su aygırları suyun içinde nasıl ilerler?",
+  "Çoğunlukla zeminde yürürler",
+  "Hızlı ve zarif biçimde yüzerek ilerlerler",
+  "Suyun yüzeyinde süzülerek ilerlerler"
+ ],
+ "ck058": [
+  "Eşeklerin suya ihtiyacı neden azdır?",
+  "Çöl ve yarı kurak bölgelerde yaşadıkları için",
+  "Çok az yemek yedikleri için",
+  "Kıllarında su biriktirdikleri için"
+ ],
+ "ck062": [
+  "Metne göre Madagaskar Adası nasıl oluşmuştur?",
+  "Kara kütlesinin yer değiştirmesi sonucu",
+  "Denizin alçalmasıyla",
+  "Okyanus dibinde biriken mercanlarla"
+ ],
+ "ck068": [
+  "Timsahların hangi çenesi açılır?",
+  "Yalnız üst çene",
+  "Yalnız alt çene",
+  "İki çene birden"
+ ],
+ "ck073": [
+  "Metne göre çizgiler zebranın serinlemesine nasıl yardımcı olabilir?",
+  "Çevresinde hava akımları oluşturarak",
+  "Güneş ışığını yansıtarak",
+  "Vücut ısısını toprağa aktararak"
+ ],
+ "ck074": [
+  "Cırcır böcekleri gündüzleri ne yapar?",
+  "Kazdıkları çukurlarda yalnız gizlenir",
+  "Sürü hâlinde ağaçların tepesinde öter",
+  "Tarlalarda uçarak beslenir"
+ ],
+ "ck077": [
+  "Ağaçkakanların beyni gagalarının darbelerinden neden zarar görmez?",
+  "Kafatası kemikleri güçlü olduğu için",
+  "Gagaları yumuşak olduğu için",
+  "Darbelere çok yavaş vurdukları için"
+ ],
+ "ck079": [
+  "Koalalar sıcak günlerde nerede dinlenir?",
+  "Ağacın daha serin yerlerinde",
+  "Ağacın en tepesinde, güneşte",
+  "Yerde, kuru otların arasında"
+ ],
+ "n26": [
+  "Kırlangıçların kanatları nasıldır?",
+  "Uzun ve sivri",
+  "Kısa ve yuvarlak",
+  "Geniş ve kalın"
+ ],
+ "n28": [
+  "Kervan yolcuları geceleri yönlerini nasıl bulurdu?",
+  "Yıldızlara bakarak",
+  "Pusula kullanarak",
+  "Güneşin gölgesine bakarak"
+ ],
+ "n29": [
+  "Zeytin ağacı kuru havada bile suyunu nasıl bulabilir?",
+  "Kökleri toprağın derinine iner",
+  "Yaprakları havadaki nemi emer",
+  "Gövdesinde yıllarca su biriktirir"
+ ],
+ "n30": [
+  "Çay bahçeleri dik yamaçlara nasıl kurulmuştur?",
+  "Basamak basamak",
+  "Düz ovada sıra sıra",
+  "Dağ zirvelerine tek tek"
+ ],
+ "n31": [
+  "Okun düzgün gitmesi büyük ölçüde neye bağlıdır?",
+  "Okçunun duruşuna",
+  "Yayın rengine",
+  "Hedefin boyutuna"
+ ],
+ "n32": [
+  "Bağlama için kullanılan ağaç neden iyi kurutulmalıdır?",
+  "Yoksa sesi bozulur",
+  "Ağaç daha hafif olsun diye",
+  "Rengi koyulaşsın diye"
+ ],
+ "n33": [
+  "Yol kısa olduğu halde anlatıcıya neden uzun gelir?",
+  "Konuşacak çok şey buldukları için",
+  "Yol çamurlu ve dik olduğu için",
+  "Okul çok uzak olduğu için"
+ ],
+ "n35": [
+  "Kardeş bardağı düşürünce ne oldu?",
+  "Bardağı havada yakaladı",
+  "Bardak yere düşüp kırıldı",
+  "Annem koşup geldi"
+ ],
+ "n36": [
+  "Ayşe şehirde geceleri yıldızları neden göremiyordu?",
+  "Işıklar çok parlak olduğu için",
+  "Hava hep bulutlu olduğu için",
+  "Pencereleri küçük olduğu için"
+ ],
+ "n37": [
+  "Ahmet geçen dönem matematikten kaç almıştı?",
+  "Dört",
+  "İki",
+  "Üç"
+ ],
+ "n38": [
+  "Pınar suları genellikle neden berraktır?",
+  "Su toprağın içinden geçerken süzülür",
+  "Su çok hızlı aktığı için",
+  "Hep erimiş kar suyundan beslendiği için"
+ ],
+ "n40": [
+  "Köpeğin burnunun hep ıslak olması neye yardım eder?",
+  "Koku parçacıklarının burna yapışmasına",
+  "Burnunu serin tutmasına",
+  "Su içerken suyu çok daha kolay yutmasına"
+ ],
+ "meb-s3-07": [
+  "Sınıf büyük kavşağa gelince ne oldu?",
+  "Diğer okullar onlara katıldı",
+  "Oyunu sergilediler",
+  "Yağmur başladı"
+ ],
+ "meb-s3-21": [
+  "Metne göre e-atıkları geri dönüşüme kazandırırsak ne olur?",
+  "Çevre ve doğal kaynaklar korunur",
+  "Telefonlar daha uzun yaşar",
+  "Atıklar doğada daha hızlı erir"
+ ],
+ "meb-s5-01-p1": [
+  "Mete neden yerde kıvranmaya başladı?",
+  "Oyuna kaptırıp topa basmış gibi rol yapıyordu",
+  "Sağlık görevlilerini kızdırmak istiyordu",
+  "Maçı kaybetmekten korkuyordu"
+ ],
+ "meb-s5-01-p2": [
+  "Metne göre oyun oynamanın \"altın kuralı\" nedir?",
+  "Sanki gerçekten varmış gibi yapmak",
+  "Her zaman kazanmaya çalışmak",
+  "Kuralları sık sık değiştirmek"
+ ],
+ "meb-s5-02-p1": [
+  "Halat çekme oyununda amaç nedir?",
+  "Rakip takımın oyuncularını sınır çizgisini geçirmek",
+  "İpi en hızlı koparan takım olmak",
+  "Ortadaki çizgiyi ilk geçen takım olmak"
+ ],
+ "meb-s5-02-p2": [
+  "İp atlamalı bayrak koşusunda ilk oyuncu karşıya gidip döndükten sonra ne yapar?",
+  "İpi sıradaki arkadaşına verip sıranın arkasına geçer",
+  "Yarışı tek başına bitirmeye çalışır",
+  "Oyundan çıkıp arkadaşlarını izlemeye başlar"
+ ],
+ "meb-s5-03-p1": [
+  "Anlatıcı dükkâna girince neden rahatladı?",
+  "Amca güler yüzlü olup istediği kadar bakmasına izin verdi",
+  "Aradığı oyuncağı dükkânda hemen bulduğu için",
+  "Babası da yanında durup ona yardım ettiği için"
+ ],
+ "meb-s5-03-p2": [
+  "Oyuncakçı Amca anlatıcıya neden Karagöz ve Hacivat'ı gösterdi?",
+  "Çocuk, kuzeninde olmayan şaşırtıcı bir hediye arıyordu",
+  "Dükkânda başka oyuncak kalmamıştı",
+  "Kuklalar dükkândaki en ucuz oyuncaktı"
+ ],
+ "meb-s5-03-p3": [
+  "Orkun hediyesinden neden emindi?",
+  "Hediyenin çok özel ve değişik olduğunu düşünüyordu",
+  "Galip Amca ona büyük bir indirim yapmıştı",
+  "Buse bu kuklaları ondan önceden istemişti"
+ ],
+ "meb-s5-06-p1": [
+  "Gazi ve kurmayları Sığırtmaç Mustafa ile nasıl karşılaştı?",
+  "Çiftliğe dönerken yolu kaybedince",
+  "Onu özellikle aramaya çıkmışlardı",
+  "Sığırlar yollarını kesmişti"
+ ],
+ "meb-s5-06-p2": [
+  "Sığırtmaç Mustafa Gazi'nin uzattığı parayı neden almadı?",
+  "Parayı çok bulup hesap sorulmasından çekindi",
+  "Parayı yeterli bulmadı",
+  "Gazi'yi tanımadığı için güvenmedi"
+ ],
+ "meb-s5-06-p3": [
+  "Mustafa Kemal, Sığırtmaç Mustafa'yı yanına çağırdıktan sonra önce ne yaptı?",
+  "Tedavi için hastaneye gönderdi",
+  "Kara Harp Okulu'na yolladı",
+  "Hemen ilkokula kaydettirdi"
+ ],
+ "meb-s5-07-p1": [
+  "Tarımcılar Ankara çevresinde çiftlik yeri aramak için neden uzun boylu dolaşmadı?",
+  "Ankara çevresi kıraç, ağaçsız ve susuz bir bozkırdı",
+  "Atatürk yeri çoktan satın almıştı",
+  "Çiftlik kurma fikrinden vazgeçilmişti"
+ ],
+ "meb-s5-08": [
+  "Kral 8. Edward nerede yere düştü?",
+  "Saray bahçesinin toprak yolunda",
+  "Rıhtımdaki taş merdivenlerde",
+  "Gemisinden inerken iskelenin ucunda"
+ ],
+ "meb-s5-10-p1": [
+  "Dede, Ayşenur'a \"Kendin gibi gül tomurcuğu\" derken neyi anlatmak istemiş olabilir?",
+  "Ayşenur'un da gül tomurcuğu gibi büyüyüp güzelleşeceğini",
+  "Ayşenur'un nakışı hiç bitiremeyeceğini",
+  "Ayşenur'un ağacın gölgesinde fazla oturduğunu"
+ ],
+ "meb-s5-10-p2": [
+  "Dede, Ayşenur'un yüreğine güzel duyguları işlemesini neden istedi?",
+  "Geleceğin toplumunu çocuklar oluşturacağı için",
+  "Nakış işlemek çok zor bir iş olduğu için",
+  "Ablasından daha çok nakış bilsin diye"
+ ],
+ "meb-s5-14-p1": [
+  "Anne bülbül yavrusunun adamın elinde olduğunu gördükten sonra ne yaptı?",
+  "Yavrularını da alıp yola düştü ve bir han kapısına vardı",
+  "Adamın peşinden gidip ormanın bir köşesine saklandı",
+  "Ormana dönüp yağmurun dinmesini bekledi"
+ ],
+ "meb-s5-14-p2": [
+  "Bezirgânbaşı yavru bülbül için ne yapmıştı?",
+  "Kanadını sarmıştı",
+  "Onu satmayı düşünmüştü",
+  "Onu ormana bırakmıştı"
+ ],
+ "meb-s5-15": [
+  "Koşu yarışmasını her zamanki gibi kim kazandı?",
+  "Gri tavşan",
+  "Minik kanguru",
+  "Kurbağa"
+ ],
+ "meb-s5-16": [
+  "Mangala oyunu Dîvânu Lugâti't-Türk'te hangi adla anılır?",
+  "Göçürme ya da Köçürme",
+  "Dokuz Kuyu ya da Dokuz Taş",
+  "Kümelek"
+ ],
+ "meb-s5-17": [
+  "Yeni Türk harflerinin kabulüne ilişkin kanun hangi tarihte kabul edildi?",
+  "1 Kasım 1928",
+  "24 Kasım 1928",
+  "29 Ekim 1923"
+ ],
+ "meb-s5-18-p1": [
+  "Büyük kız babasına sevgisini neyle ölçtü?",
+  "Hazinedeki altınlarla",
+  "Konakla",
+  "Bir avuç çamurlu toprakla"
+ ],
+ "meb-s5-18-p2": [
+  "Küçük kız çorak tarlayı nasıl zengin etti?",
+  "Fidan dikip gözü gibi baktı",
+  "Tarlayı satıp çok altın kazandı",
+  "Babasından yeniden altın istedi"
+ ],
+ "meb-s5-19-p1": [
+  "Nasreddin Hoca'ya göre yaşadığı dönemde insanlar neden hayata küsmüştü?",
+  "Savaşlar, işgaller ve ekonomik sıkıntılar yaşandığı için",
+  "Fıkra anlatmak yasaklandığı için",
+  "Köylerden kentlere göç edildiği için"
+ ],
+ "meb-s5-19-p2": [
+  "Nasreddin Hoca neden fıkra anlatma yolunu seçti?",
+  "Doğrudan öğüt vermek yerine eğitici bir yol aradığı için",
+  "İnsanlara doğrudan nasihat vermek daha kolay olduğu için",
+  "Kadılık görevinden sıkılıp eğlence aradığı için"
+ ],
+ "meb-s5-21-p1": [
+  "Kazılarda çıkan eski eserler arasında çömlekler neden çoğunluktadır?",
+  "Doğanın yıpratıcı etkisine en iyi dayanan kaplar olduğu için",
+  "Eski insanlar başka kap yapmayı bilmediği için",
+  "Müzelerde sergilenmek üzere özel yapıldıkları için"
+ ],
+ "meb-s5-22-p1": [
+  "Anlatıcı babasının ilçeden gelmesini neden sabırsızlıkla bekler?",
+  "Getirdiği yiyecekler kadar onu özlediği için",
+  "Babası onu ilçeye götüreceği için",
+  "Yaz işlerinde ona yardım edeceği için"
+ ],
+ "meb-s5-22-p2": [
+  "Anlatıcının küçük kardeşi Hatice kaç yaşındadır?",
+  "Üç",
+  "İki",
+  "Beş"
+ ],
+ "meb-s5-24": [
+  "Kasabalılar sonunda tepeye hangi sözü yazdı?",
+  "Birimiz hepimiz, hepimiz birimiz için",
+  "Çalışan çalışmayandan üstündür",
+  "Her işin başı sabırdır"
+ ],
+ "meb-s5-25-p1": [
+  "Metne göre ayakkabı içine uzun çoraplar giymek neye karşı alınan bir önlemdir?",
+  "Böcek ısırıklarına",
+  "Güneş yanığına",
+  "Yağmurda ıslanmaya"
+ ],
+ "meb-s5-25-p2": [
+  "Doğa yürüyüşünde deneyimi az olan biri nasıl yürümelidir?",
+  "Deneyimli bir rehberle grup olarak",
+  "Tek başına ama rotadan uzaklaşmadan",
+  "Küçük bir grupla ama rehbersiz"
+ ],
+ "meb-s5-26-p1": [
+  "Tolga'nın sofrasında hangi yemekler vardı?",
+  "Yoğurt çorbası ve ıspanak",
+  "Mercimek çorbası ve patates",
+  "Kuru fasulye ve salata"
+ ],
+ "meb-s5-26-p2": [
+  "Tolga annesini üzmemek için sofrada ne yapıyor?",
+  "Bir iki kaşık yiyip doyduğunu söylüyor",
+  "Hepsini zorla bitirip annesine teşekkür ediyor",
+  "Sessizce sofradan kalkıyor"
+ ],
+ "meb-s5-26-p3": [
+  "Tolga \"yağmurdan kaçarken doluya tutuldum\" sözüyle ne anlatmak istiyor?",
+  "Yemekten kaçarken ödev yüzünden yemeklerin içine düştüğünü",
+  "Yağmurlu havada ödevini yapamadığını",
+  "Okula giderken doluya yakalandığını"
+ ],
+ "meb-s5-28-p1": [
+  "Cirit sopasının uzunluğu kaç santimetredir?",
+  "110 santimetre",
+  "90 santimetre",
+  "150 santimetre"
+ ],
+ "meb-s5-28-p2": [
+  "Ciritte 5 kişilik takıma ne ad verilir?",
+  "Bölük",
+  "Alay",
+  "Çavgan"
+ ],
+ "meb-s5-28-p3": [
+  "Metne göre ciritte hangi davranış oyuncunun oyundan atılmasına yol açar?",
+  "Hakem kararını dinlememek ve kasıtlı hareket etmek",
+  "Rakibin attığı ciridi havada yakalamak",
+  "Kesme anında rakibini bağışlamak"
+ ],
+ "meb-s6-05-p1": [
+  "Çocuk, kısrağın üzerindeki çamuru nasıl temizledi?",
+  "Bir bakraç su alıp sildi",
+  "Onu dereye götürüp yıkadı",
+  "Kuru bir bezle ovdu"
+ ],
+ "meb-s6-05-p2": [
+  "İhtiyarın anlattığına göre Gülcemâl'in atası hangi cepheye gitmişti?",
+  "Kafkas cephesine",
+  "Çanakkale cephesine",
+  "Yemen cephesine"
+ ],
+ "meb-s6-05-p3": [
+  "Tekalif-i Milliye Kurulu mallarının yüzde kaçını istiyordu?",
+  "Yüzde kırkını",
+  "Yüzde yirmisini",
+  "Yüzde yetmişini"
+ ],
+ "meb-s6-05-p4": [
+  "Ahmet \"Herkes sevdiğinden ayrılıyor\" derken neyi fark etmişti?",
+  "Köylülerin sevdikleri şeyleri orduya verdiğini",
+  "Askerlerin köyden ayrılmaya hazırlandığını",
+  "Dedesinin kısrağı satmaya karar verdiğini"
+ ],
+ "meb-s6-10": [
+  "Eskimo gençler ayı ikna etmek için ne yaptı?",
+  "Şarkı söylediler",
+  "Ona hediyeler bırakıp beklediler",
+  "Dağın tepesinde büyük bir ateş yaktılar"
+ ],
+ "meb-s6-16-p1": [
+  "Piramit taşları yaklaşık kaç kilometre öteden getirilmiş?",
+  "800 kilometre",
+  "300 kilometre",
+  "1500 kilometre"
+ ],
+ "meb-s6-16-p2": [
+  "Mısır'ın geleneksel kıyafetinin adı nedir?",
+  "Jellabiya",
+  "Pollera",
+  "Bunad"
+ ],
+ "meb-s6-16-p3": [
+  "Metne göre turron tatlısı neyden oluşur?",
+  "Şeker ve bademden",
+  "Süt ve pirinçten",
+  "Bal ve cevizden"
+ ],
+ "meb-s6-17-p1": [
+  "Faruk'un annesi salonda ne yapıyordu?",
+  "Koltukların yerlerini değiştiriyordu",
+  "Yeni perdeleri bütün pencerelere asıyordu",
+  "Kolileri açıyordu"
+ ],
+ "meb-s6-17-p2": [
+  "Faruk neden defterindeki maddelerin üzerini çizdi?",
+  "Komşuların sıcak karşılaması, alışma kaygılarını gereksiz kıldığı için",
+  "Defterinin sayfaları bittiği için",
+  "Annesi ona kızdığı için"
+ ],
+ "meb-s6-22": [
+  "Nilüfer çiçeği çamurlu göllerde açsa bile neden tertemiz kalır?",
+  "Üzerindeki özel kaplama tozları ittiği ve yağmur suyu tozları uzaklaştırdığı için",
+  "Her gün gölde yıkandığı için",
+  "Çamuru yapraklarının altına sakladığı için"
+ ],
+ "meb-s6-23-p1": [
+  "Ali, sanal gerçeklik gözlüğüyle neyi görmüş?",
+  "Türkiye'ye ve dünyaya uzaydan bakmayı",
+  "Eski çağlarda yaşamış krallarla şehirleri",
+  "Okyanusun dibini"
+ ],
+ "meb-s6-23-p2": [
+  "Roket fırlatıldığında Ali ne yaptı?",
+  "Olabildiğince yüksek sesle alkışladı",
+  "Korkudan kulaklarını kapatıp geri çekildi",
+  "Hemen fotoğraf çekmeye koştu"
+ ],
+ "meb-s6-23-p3": [
+  "Ali eve döndüğünde yorgun olmasına rağmen neden uyuyamadı?",
+  "Gördüklerini düşünüp duygularla dolu olduğu için",
+  "Kardeşi sürekli konuştuğu için",
+  "Yatağı rahat olmadığı için"
+ ],
+ "meb-s6-24": [
+  "Gül nine, ailenin çok soru sormasına ne dedi?",
+  "Gayet sıradan olduklarını",
+  "Çok garip ve sıra dışı olduklarını",
+  "Daha az merak etmelerini"
+ ],
+ "meb-s6-25-p1": [
+  "Sümeyye yüzmeyi kaç saatte öğrendi?",
+  "12 saatte",
+  "3 saatte",
+  "48 saatte"
+ ],
+ "meb-s6-25-p2": [
+  "Sümeyye sergiden kazandığı parayla ne aldı?",
+  "Dikiş makinesi",
+  "Bilgisayar",
+  "Yüzme malzemesi"
+ ],
+ "meb-s6-27-p1": [
+  "Mehmet'in denizcilik yolculuğu hangi sırayla ilerledi?",
+  "Teknede iş, dayısının yanında levent, Barbaros'un kalyonu",
+  "Barbaros'un kalyonu, teknede iş, dayısının yanında levent",
+  "Dayısının yanında levent, Barbaros'un kalyonu, teknede iş"
+ ],
+ "meb-s6-27-p2": [
+  "Piri Reis daha sonra hangi donanmanın komutanı olarak atandı?",
+  "Mısır donanmasının",
+  "Cezayir donanmasının",
+  "Venedik donanmasının"
+ ],
+ "meb-s7-03-p1": [
+  "Kaoru'nun annesi, onun geceleri damda kalmasından neden endişeliydi?",
+  "Uykusuz kalıp hastalanabileceği için",
+  "Teleskopunu bozabileceği için",
+  "Okul derslerini aksatacağı için"
+ ],
+ "meb-s7-03-p2": [
+  "Kaoru'nun ilk buluşundan sonra piyano fabrikasının müdürü ne yaptı?",
+  "Kaoru için bir fon açtırdı",
+  "Kaoru'yu işten çıkardı",
+  "Kaoru'ya yeni bir teleskop yaptırdı"
+ ],
+ "meb-s7-22-p1": [
+  "Siyah İnci Birtwick'te neden giderek daha gururlu ve mutlu oluyordu?",
+  "Sahipleri ve hizmetkârlar insanlara ve hayvanlara iyi davrandığı için",
+  "Ahırda kendisine bol yem verildiği için",
+  "Başka atlarla her gün yarıştığı için"
+ ],
+ "meb-s7-22-p2": [
+  "Bayan Gordon hangi durumda arabayı durdurup iner, sürücüyü ikna etmeye çalışırdı?",
+  "Başı yukarıda tutulan at ağır yük taşırken",
+  "Bir at yorgun görünüp yavaş yürüdüğünde",
+  "Sürücü atı hızlı sürerken"
+ ],
+ "meb3-fen5-01": [
+  "Ay yüzeyinde koyu görünen bölümler genellikle nasıl yerlerdir?",
+  "Geniş düzlüklerdir",
+  "Engebeli ve yüksek yerlerdir",
+  "Kraterlerle doludur"
+ ],
+ "meb3-fen5-02": [
+  "Ay'ın hilal ve şişkin ay görünümleri nasıl adlandırılır?",
+  "Ara evreler",
+  "Ana evreler",
+  "Yeni ay evresi"
+ ],
+ "meb3-fen5-04": [
+  "Güneş, Dünya ve Ay'ın hareketleri hangi yöndedir?",
+  "Saat yönünün tersine",
+  "Saat yönünde",
+  "Bazen saat yönünde bazen tersine"
+ ],
+ "meb3-fen5-05": [
+  "Dünya'nın şişkin ve basık özel şekline ne ad verilir?",
+  "Geoit",
+  "Ekvator",
+  "Kutup"
+ ],
+ "meb3-fen5-07": [
+  "Gemilerin ön kısmının \"V\" biçiminde tasarlanması neyi amaçlar?",
+  "Hem hava hem su direncini azaltmayı",
+  "Hava direncini artırıp yavaşlamayı",
+  "Suda daha hızlı batmasını sağlamayı"
+ ],
+ "meb3-fen5-08": [
+  "Metindeki patlamış ve şekli değişmiş top neyi gösterir?",
+  "Kuvvetin cismin şeklini de değiştirebileceğini",
+  "Kuvvetin cismin hızını artırdığını",
+  "Maçın dostça geçmediğini"
+ ],
+ "meb3-fen5-10": [
+  "Çizgili kaslar neden bir kuklayı hareket ettiren iplere benzetilmiştir?",
+  "Günlük hayattaki her hareketi gerçekleştirdikleri için",
+  "İç organlarımızı çalıştırdıkları için",
+  "Kalp gibi durmadan çalıştıkları için"
+ ],
+ "meb3-fen5-12": [
+  "Sis tabakasının kalınlığı arttıkça ne olur?",
+  "Nesnelerin görünürlüğü azalır",
+  "Nesneler daha net görünür",
+  "Işık geçirgenliği artar"
+ ],
+ "meb3-fen5-13": [
+  "Yazar mutfak kapısının ardındaki ağabeyini camdan neden tanıyamadı?",
+  "Cam arkasındaki cisimleri net göstermeyen yarı saydam bir camdı",
+  "Cam her şeyi net gösteren saydam bir camdı",
+  "Cam ışığı geçirmeyen saydam olmayan bir camdı"
+ ],
+ "meb3-fen5-14": [
+  "Yazarın hazırlayacağı gölge oyunu hangi konuyla ilgilidir?",
+  "Canlıların yaşam alanlarını korumayla",
+  "Trafik kurallarıyla",
+  "Uzay yolculuğuyla"
+ ],
+ "meb3-fen5-17": [
+  "Soğuk bir günde evin içindeki ısıyı korumak için ne yapılabilir?",
+  "Isı yalıtkanı malzemeyle yalıtım yapmak",
+  "Duvarları metalle kaplamak",
+  "Pencereleri açık tutmak"
+ ],
+ "meb3-fen5-18": [
+  "İbni Sina kimyayı ne olarak kabul etmiştir?",
+  "Bir sanat",
+  "Matematiğin bir kolu",
+  "Bir ticaret aracı"
+ ],
+ "meb3-fen5-19": [
+  "Alessandro Volta pili icat etmeden önce hangi keşfi yaptı?",
+  "İki farklı metali asitli sıvıda iletken telle bağlayınca akım geçtiğini",
+  "Elektriğin kablosuz aktarılabileceğini",
+  "Ampulün evlerde güvenle kullanılabileceğini"
+ ],
+ "meb3-fen5-20": [
+  "Devre elemanlarının sembollerinin şeklinin tüm ülkelerde aynı olması neyi sağlar?",
+  "İnsanlar arasında iletişimi kolaylaştırıp ortak bir bilimsel dil oluşturur",
+  "Deney süresini kısaltıp pilleri korur",
+  "Devre elemanlarının fiyatını düşürür"
+ ],
+ "meb3-fen5-21": [
+  "Pil sayısı sabit tutulup ampul sayısı artırılırsa ampul parlaklığı nasıl olur?",
+  "Azalır",
+  "Artar",
+  "Değişmez"
+ ],
+ "meb3-fen5-22": [
+  "Evsel atıklar hangi iki grupta incelenebilir?",
+  "Katı ve sıvı atıklar",
+  "Yanıcı ve yanmaz atıklar",
+  "Organik ve inorganik atıklar"
+ ],
+ "meb3-fen5-23": [
+  "Atık pillerin doğru toplanması neyi önleyebilir?",
+  "Zehirli maddelerin suya ve toprağa karışmasını",
+  "Pillerin ucuzlamasını",
+  "Pil kutularının çoğalmasını"
+ ],
+ "meb3-fen5-24": [
+  "Osmanlı'yı ziyaret eden seyyahlar eserlerinde neyden söz etmiştir?",
+  "Şehir ve sokakların temizliğinden",
+  "Ordunun büyüklüğünden",
+  "Sarayların süslerinden ve altınlarından"
+ ],
+ "meb3-fen5-25": [
+  "İbni Haldun'a göre insan yaşamının olumsuz etkilenmemesi için ne gereklidir?",
+  "İnsanlarda çevre bilincinin gelişmiş olması",
+  "Nüfus yoğunluğunun artırılması",
+  "Sanayinin hızla genişlemesi"
+ ],
+ "meb3-fen5-26": [
+  "Kümbet evlerin birçok odası olmasına rağmen evler nasıl ısınır?",
+  "Tek bir odada yakılan sobayla",
+  "Her odada ayrı bir soba yakılarak",
+  "Yerden geçen sıcak su borularıyla"
+ ],
+ "meb3-fen5-27": [
+  "Tıbbi atıklar neden geri dönüşüm kutularına atılmamalıdır?",
+  "İnsan sağlığı için zararlı durumlara yol açabildikleri için",
+  "Çok ağır oldukları için",
+  "Geri dönüşümleri pahalı olduğu için"
+ ],
+ "meb3-fen6-04": [
+  "Bitkilerde tozlaşma, döllenme ve tohum oluşumu hangi sırayla gerçekleşir?",
+  "Önce tozlaşma, sonra döllenme, sonunda tohum oluşumu",
+  "Önce döllenme, sonra tozlaşma, sonunda tohum oluşumu",
+  "Önce tohum oluşumu, sonra tozlaşma, sonunda döllenme"
+ ],
+ "meb3-fen6-05": [
+  "Kurbağanın yaşam döngüsü hangi sırayladır?",
+  "Yumurta, larva, iribaş, dört bacaklı kurbağa",
+  "Yumurta, iribaş, larva, dört bacaklı kurbağa",
+  "Larva, yumurta, iribaş, dört bacaklı kurbağa"
+ ],
+ "meb3-fen6-06": [
+  "Ergenlik dönemi yaklaşık hangi yaş aralığını kapsar?",
+  "10-19 yaş",
+  "5-12 yaş",
+  "15-25 yaş"
+ ],
+ "meb3-fen6-08": [
+  "Gökkuşağı nasıl oluşur?",
+  "Yağmur damlalarından geçen Güneş ışığının renklerine ayrılmasıyla",
+  "Güneş ışığının bulutlardan yansımasıyla",
+  "Yağmur damlalarının kendi ışığını üretmesiyle"
+ ],
+ "meb3-fen6-09": [
+  "Karanlık bir odada cisimler neden görünmez?",
+  "Cisimlerden göze ışık yansımadığı için",
+  "Cisimlerin rengi kaybolduğu için",
+  "Göz karanlıkta ışık üretemediği için"
+ ],
+ "meb3-fen6-10": [
+  "Metne göre seralarda güneş enerjisi ne sağlamak için kullanılır?",
+  "Bitkiler için gerekli sıcaklık ve nem",
+  "Bitkilere gerekli rüzgâr ve yağmur",
+  "Toprağın ıslak kalması"
+ ],
+ "meb3-fen6-12": [
+  "Endemik canlı ne demektir?",
+  "Yeryüzünün yalnızca belirli bir bölgesinde yaşayan canlı",
+  "Dünyanın birçok ülkesinde yaşayan canlı",
+  "Nesli tükenmek üzere olan canlı"
+ ],
+ "meb3-fen6-13": [
+  "Orman ekosistemleri hangi doğal afetleri önlemeye yardımcı olur?",
+  "Heyelan ve sel",
+  "Hortum ve çığ",
+  "Kuraklık ve don"
+ ],
+ "meb3-fen6-14": [
+  "Karbon monoksit zehirlenmeleri hangi ortamlarda sıklıkla görülür?",
+  "Bacası iyi çekmeyen sobaların olduğu kapalı ortamlarda",
+  "Elektrikli ısıtıcıların kullanıldığı açık alanlarda",
+  "Havalandırması iyi olan geniş salonlarda"
+ ],
+ "meb3-fen6-17": [
+  "Bölgede suda yaşayan canlılar neden azaldı?",
+  "Tarım ilaçları ve fabrika atıkları akarsulara karıştığı için",
+  "Araştırmacı canlıları toplayıp götürdüğü için",
+  "Dereler yerleşim için kurutulduğu için"
+ ],
+ "meb3-fen6-18": [
+  "Yüksek sıcaklıkta metal çerçeveler neden gözlük camlarının düşmesine yol açabilir?",
+  "Camdan daha fazla genleştikleri için",
+  "Camdan daha fazla büzüldükleri için",
+  "Camdan daha az genleştikleri için"
+ ],
+ "meb3-fen7-16": [
+  "Metne göre yüzey sularına örnek olarak neler verilebilir?",
+  "Göller, bataklıklar ve nehirler",
+  "Okyanuslar ve denizler",
+  "Buzullar ve buz dağları"
+ ],
+ "meb3-fen7-20": [
+  "Diyafram nedir?",
+  "Solunuma yardımcı olan bir kas",
+  "Ses tellerinin bulunduğu organ",
+  "Havayı ısıtan kılcal damar"
+ ],
+ "meb3-fen7-21": [
+  "Mehmet kaç yıldır böbrek yetmezliği ile mücadele ediyordu?",
+  "Bir yıldır",
+  "İki yıldır",
+  "Beş yıldır"
+ ],
+ "meb3-fen7-22": [
+  "Sofra tuzunun kimyasal adı nedir?",
+  "Sodyum klorür",
+  "Kalsiyum klorür",
+  "Sodyum karbonat"
+ ],
+ "meb3-hb2-05": [
+  "Günümüz çamaşır makinelerine hangi yenilik eklenmiştir?",
+  "Dokunmatik ekranlar",
+  "Daha büyük bir kazan",
+  "Ses kaydedici"
+ ],
+ "meb3-hb3-14": [
+  "Metinde adı geçen çevresel sürdürülebilirlik projelerinden biri hangisidir?",
+  "Sıfır Atık Projesi",
+  "Temiz Sokak Projesi",
+  "Yeşil Köy Projesi"
+ ],
+ "meb3-hb3-17": [
+  "Akıllı saatler hangi bilgileri ölçerek sağlığımız hakkında bilgi verir?",
+  "Nabız, adım sayısı ve uyku düzeni",
+  "Göz tansiyonu, kan şekeri ve vücut ateşi",
+  "Boy uzunluğu ve kilo"
+ ],
+ "meb3-sos5-01": [
+  "Abdulai'nin videoları bazı sosyal medya platformlarında kaç izlenmeye ulaştı?",
+  "1 milyonun üzerinde",
+  "100 binin üzerinde",
+  "10 milyonun üzerinde"
+ ],
+ "meb3-sos5-02": [
+  "Yeni yapılan yedi köyde toplam kaç konut yer aldı?",
+  "Beş yüz yedi",
+  "Yetmiş",
+  "Yedi yüz elli"
+ ],
+ "meb3-sos5-03": [
+  "Fabrikaların enerji ihtiyacını karşılamak için ne yapıldı?",
+  "Akarsulara barajlar yapıldı",
+  "Rüzgâr santralleri kuruldu ve işletildi",
+  "Kömür ocakları açıldı"
+ ],
+ "meb3-sos5-04": [
+  "Bir yerin göreceli konumu zamanla neden farklılaşabilir?",
+  "Çevre değiştikçe ve yeni yerler geliştikçe",
+  "Pusulalar bozulup artık yön gösteremediği için",
+  "Yön okları değiştiği için"
+ ],
+ "meb3-sos5-05": [
+  "Bulgaristan'da Surva Festivali'nde erkekler ne giyer?",
+  "Hayvan kürklerinden yapılmış kukeri kostümleri",
+  "Koyun postundan yapılmış uzun telpek başlık",
+  "Uzun askılı sarafan"
+ ],
+ "meb3-sos5-06": [
+  "Rusya'daki Maslenitsa Bayramı, Türk kültüründe hangi bayrama benzetiliyor?",
+  "Nevruz Bayramı'na",
+  "Hıdırellez'e",
+  "Ramazan Bayramı'na"
+ ],
+ "meb3-sos5-08": [
+  "Gölün kenarındaki tarihî cami yaklaşık kaç asırdır ayaktadır?",
+  "Sekiz asırdır",
+  "İki asırdır",
+  "Yaklaşık beş asırdır"
+ ],
+ "meb3-sos5-09": [
+  "Bazı yerleşim yerleri deprem riski nedeniyle nereye kurulur?",
+  "Zemini daha sağlam dağlık alanlara",
+  "Deniz kıyısındaki geniş düzlüklere",
+  "Akarsu yataklarına"
+ ],
+ "meb3-sos5-10": [
+  "Tarihteki ilk yerleşim yerlerinde insanlar genellikle neler yapmıştır?",
+  "Ev ve ibadethane",
+  "Hastane ve okul",
+  "Köprü ve park"
+ ],
+ "meb3-sos5-11": [
+  "Metne göre deprem ve kaya düşmesi hangi tür doğa olaylarına örnektir?",
+  "Yeryüzü hareketlerine bağlı olanlara",
+  "Hava durumu ve iklim kaynaklı olanlara",
+  "İnsan faaliyetleriyle ortaya çıkanlara"
+ ],
+ "meb3-sos5-12": [
+  "İstiklal madalyası anneye kimden kalmıştır?",
+  "Babasından",
+  "Büyükannesinden",
+  "Amcasından"
+ ],
+ "meb3-sos5-14": [
+  "Azerbaycan ve Türkiye'de çayın yanında genellikle neler ikram edilir?",
+  "Şeker, limon, reçel ve kuru meyve",
+  "Simit, peynir, zeytin ve yeşillik",
+  "Börek, ayran, yoğurt ve salata"
+ ],
+ "meb3-sos5-18": [
+  "Çatalhöyük'te harman savurma tekniği ne için kullanılmıştır?",
+  "Buğdayı samandan ayırmak için",
+  "Kili çarkta daha kolay şekillendirmek için",
+  "Tuzu kayadan ayırmak için"
+ ],
+ "meb3-sos5-19": [
+  "Hammurabi Kanunları hangi kanunların yeniden düzenlenmesiyle yapılmıştır?",
+  "Sümer Kanunları'nın",
+  "Hitit Kanunları'nın",
+  "Mısır Kanunları'nın"
+ ],
+ "meb3-sos5-21": [
+  "İyonyalılar hangi denizlerde koloniler kurmuşlardır?",
+  "Akdeniz ve Karadeniz",
+  "Hazar Denizi ve Baltık Denizi",
+  "Kızıldeniz ve Hint Okyanusu"
+ ],
+ "meb3-sos5-23": [
+  "Carver'ın atıklarla ilgili makalesi hangi yıl yayımlanmıştır?",
+  "1893",
+  "1839",
+  "1983"
+ ],
+ "meb3-sos5-24": [
+  "Bor madeni hangi alanlarda kullanılır?",
+  "Roket yakıtı, sabun ve ısıya dayanıklı cam",
+  "Otomobil lastiği ve boru yapımında",
+  "Boya ve çelik üretiminde"
+ ],
+ "meb3-sos5-25": [
+  "Aşağıdakilerden hangisi ormanlardan doğrudan gıda olarak temin edilir?",
+  "Kuşburnu",
+  "Pamuk",
+  "Ayçiçeği"
+ ],
+ "meb3-sos5-27": [
+  "İhtiyaç ve isteklerimiz hangi kalemin içinde yer alır?",
+  "Giderlerimizin içinde",
+  "Gelirlerimizin içinde",
+  "Tasarruflarımızın içinde"
+ ],
+ "meb3-sos5-28": [
+  "Piyasa araştırması yapmak neden gerekir?",
+  "Daha ucuza ve kaliteli almak için",
+  "Ürünün reklamını daha çok izlemek için",
+  "Başkalarının aldığı ürünü öğrenmek için"
+ ],
+ "meb3-sos5-29": [
+  "e-Nabız nedir?",
+  "Kişisel sağlık kaydı sistemi",
+  "Nabız ve adım ölçen bir akıllı saat",
+  "Hastane odalarını gösteren bir harita uygulaması"
+ ],
+ "meb3-sos5-30": [
+  "İletişim teknolojilerinin gereğinden fazla kullanılması neye neden olabilir?",
+  "Ailesine ve arkadaşlarına az vakit ayırmaya",
+  "Ailesiyle birlikte daha uzun vakit geçirmeye",
+  "Gözlerin ve hafızanın daha güçlü olmasına"
+ ],
+ "meb3-sos5-31": [
+  "Navigasyon sistemleri trafikte geçirilen süreyi neden kısaltır?",
+  "En uygun ve hızlı rotayı belirlediği için",
+  "Yolların daha geniş yapılmasını sağladığı için",
+  "Araç sayısını azalttığı için"
+ ],
+ "meb3-sos5-32": [
+  "Aşağıdakilerden hangisi dijital ayak izi bırakan bir işlemdir?",
+  "Çevrim içi alışveriş yapmak",
+  "Arkadaşla yüz yüze sohbet etmek",
+  "Kâğıt kitap okumak"
+ ],
+ "meb3-sos6-01": [
+  "Türkiye hangi iki yarımadadan oluşur?",
+  "Trakya ve Anadolu",
+  "Balkan ve Kırım yarımadaları",
+  "Arap ve İber"
+ ],
+ "meb3-sos6-02": [
+  "Başlangıç meridyeni Dünya'yı hangi yarım kürelere ayırır?",
+  "Doğu ve batı yarım küre",
+  "Kuzey ve güney yarım küre",
+  "Alt ve üst yarım küre"
+ ],
+ "meb3-sos6-03": [
+  "Türkiye hangi kuşakta yer almaktadır?",
+  "Orta kuşakta",
+  "Sıcak kuşakta",
+  "Soğuk kuşakta"
+ ],
+ "meb3-sos6-04": [
+  "Metne göre ülkemizde dağlar genelde hangi yönde uzanır?",
+  "Doğu-batı yönünde",
+  "Kuzey-güney yönünde",
+  "Kuzeydoğu-güneybatı yönünde"
+ ],
+ "meb3-sos6-05": [
+  "Kentin kalabalığından uzaklaşmak isteyenler nereye göç eder?",
+  "Kırsal bölgelere",
+  "Daha büyük kentlere",
+  "Başka ülkelere"
+ ],
+ "meb3-sos6-07": [
+  "Göktürkler kaç yıl Çin egemenliğinde kaldı?",
+  "Elli yıl",
+  "Yirmi yıl",
+  "Yüz yıl"
+ ],
+ "meb3-sos6-08": [
+  "Türkler hayvanları için nereye göç ederdi?",
+  "Yazın yaylalara, kışın ovalara",
+  "Yazın ovalara, kışın yaylalara",
+  "Yazın denize, kışın dağlara"
+ ],
+ "meb3-sos6-09": [
+  "Eski Türklerde besicilik neden yapılırdı?",
+  "Etinden çok sütünden yararlanmak için",
+  "Sütünden çok etinden yararlanmak için",
+  "Sürülerden savaş gücü elde etmek için"
+ ],
+ "meb3-sos6-10": [
+  "Hz. Muhammed, Bedir'de esir alınan okuma yazma bilenlerin serbest kalması için ne şart koşmuştur?",
+  "10 Müslüman'a okuma yazma öğretmelerini",
+  "100 Müslüman'a okuma yazma öğretmelerini",
+  "Medine'de bir okul yaptırmalarını"
+ ],
+ "meb3-sos6-16": [
+  "Akraba grubunda hangi değerleri öğreniriz?",
+  "Büyükleri sayma, küçükleri sevme ve aidiyet",
+  "Empati kurma ve birlikte hareket etme",
+  "Arkadaş gruplarındaki arabuluculuk ve planlama"
+ ],
+ "meb3-sos6-17": [
+  "Maraş'ta kaleden bayrağın indirilmesi hangi tarihte oldu?",
+  "28 Kasım 1919",
+  "19 Mayıs 1919",
+  "29 Ekim 1923"
+ ],
+ "meb3-sos6-18": [
+  "Bakkalların yerini hangi yerler almıştır?",
+  "Marketler",
+  "Pazarlar",
+  "Kunduracılar"
+ ],
+ "meb3-sos7-02": [
+  "Eren'in gördüğü yangın neden hızla büyüdü?",
+  "Sıcak hava ve rüzgâr yüzünden",
+  "Piknikçiler ateşi yeniden harladığı için",
+  "Yetkililere haber verilmediği için"
+ ],
+ "meb3-sos7-17": [
+  "Göksu ürünlerini tanıtmak için ne yaptı?",
+  "Afiş tasarlayıp sosyal medyada paylaşım yaptı",
+  "Televizyon reklamı verip gazeteye ilan çıkardı",
+  "Mahalleye broşür dağıtıp radyoda reklam verdi"
+ ],
+ "halk-orta-001": [
+  "Hoca \"Heybemi bulun, yoksa ben ne yapacağımı bilirim\" derken ne yapmayı düşünüyordu?",
+  "Eski kilimini bozup heybe yapmayı",
+  "Köylüleri mahkemeye vermeyi",
+  "Köyü terk edip gitmeyi"
+ ],
+ "halk-orta-002": [
+  "Hoca \"Demek ki siz küçükken çok akıllıymışsınız\" derken ne demek istedi?",
+  "Öğretmeni kendi sözüyle eleştirmek",
+  "Öğretmeni içtenlikle övmek istedi",
+  "Okulda daha çok soru sormak istedi"
+ ],
+ "halk-orta-003-p1": [
+  "Yılanlar padişahı mührünü Keloğlan'a neden verdi?",
+  "Oğlunu kurtardığı için",
+  "Keloğlan çok zengin olduğu için",
+  "Keloğlan onu korkuttuğu için"
+ ],
+ "halk-orta-003-p2": [
+  "Köpek, mührü yutan balığı pazarda nasıl buldu?",
+  "Balıkları tek tek koklayarak",
+  "Pazardaki en büyük balığı seçerek",
+  "Balıkçılara sorarak"
+ ],
+ "halk-orta-004": [
+  "Hoca ceviz dağıtınca çocuklar neden itiraz etti?",
+  "Cevizler eşit dağıtılmadığı için",
+  "Cevizler çok az olduğu için",
+  "Hoca ceviz vermeden gittiği için"
+ ],
+ "halk-orta-005": [
+  "Hoca \"Tanrı misafiri\" olduğunu söyleyen adamı neden camiye götürdü?",
+  "Tanrı misafirinin Tanrı'nın evinde kalmasını söylemek için",
+  "Cami görevlisinden adama yemek istemek için",
+  "Adamı cami imamına şikâyet etmek için"
+ ],
+ "halk-orta-006": [
+  "Hoca Timur'a \"Gitmezsen ben yapacağımı bilirim\" derken ne yapacaktı?",
+  "Kasabalıyla birlikte kendisi gidecekti",
+  "Timur'u Akşehir'den ülkeye kovacaktı",
+  "Timur'a karşı kasabalıdan ordu toplayacaktı"
+ ],
+ "halk-orta-007": [
+  "Köpek üzerine üzerine gelirken Hoca nasıl davrandı?",
+  "Kenara çekilip eğildi",
+  "Köpeğe taş attı",
+  "Hızla koşup kaçtı"
+ ],
+ "halk-orta-008": [
+  "Küçük kızın \"Tuz kadar severim\" sözü ne anlama geliyordu?",
+  "Tuzun çok kıymetli olduğunu",
+  "Babasını çok az sevdiğini",
+  "Babasından hoşlanmadığını"
+ ],
+ "halk-orta-009": [
+  "Dirse Han'ın oğlu neden Boğaç adını aldı?",
+  "Boğa ile dövüşüp onu yendiği için",
+  "Boğa yılında ve boğa ayında doğduğu için",
+  "Boğa gibi şişman olduğu için"
+ ],
+ "halk-orta-010": [
+  "Fare, kaplumbağaya \"Sen neden geldin?\" diye neden sordu?",
+  "Kaplumbağa yavaş olduğu için yakalanabilirdi",
+  "Kaplumbağa ağı kemiremeyeceği için",
+  "Fare yalnız çalışmak istediği için"
+ ],
+ "halk-orta-011": [
+  "\"Davul Sesi\" hikâyesinin öğüdü nedir?",
+  "Çok gürültü çıkaran şeylerin içi çoğu zaman boştur",
+  "Gürültüden korkmak akıllıca bir davranıştır",
+  "Aç karnına yola çıkılmamalıdır"
+ ],
+ "halk-orta-012": [
+  "Kurbağalar kütükten neden memnun kalmadı?",
+  "Kütük hareketsizdi, kral gibi davranmıyordu",
+  "Kütük gölün suyunu kirletiyordu",
+  "Kütük çok gürültü çıkarıp korkutuyordu"
+ ],
+ "halk-orta-013": [
+  "Dilleri bilen adam tartışmayı nasıl çözdü?",
+  "Parayla bir tepsi üzüm alarak",
+  "Parayı dört kişiye bölerek",
+  "Dört ayrı meyve alarak"
+ ],
+ "halk-orta-014": [
+  "Hoca kazın bir butunu yiyince Timur'a ne dedi?",
+  "Bizim yörenin kazları tek ayaklıdır",
+  "Kazı yolda bir tilki kapıp götürdü",
+  "Kazın bacağı yolda kırıldı, onu attım"
+ ],
+ "halk-orta-015": [
+  "Hoca tavukların boynuna siyah bez takarak aslında ne yapıyordu?",
+  "Kayıp tavuğunun yasını tutuyormuş gibi yapıyordu",
+  "Tavukları satışa hazırlamaya çalışıyordu",
+  "Tavukları süsleyip yarışmaya sokmaya çalışıyordu"
+ ],
+ "halk-orta-016": [
+  "Hoca ördekleri yakalayamayınca ne yaptı?",
+  "Ekmeğini oluğa batırıp çorba içtiğini söyledi",
+  "Ördekleri bir ağ kurup yakalamayı denedi",
+  "Ördekleri bırakıp eve boş elle döndü"
+ ],
+ "halk-orta-017": [
+  "Hoca, çiftçinin padişahtan büyük olduğunu neden söyledi?",
+  "Çiftçi buğday yetiştirmezse padişah da açlıktan ölür diye",
+  "Çiftçi padişahtan daha zengin olduğu için",
+  "Çiftçi daha çok çalıştığı için"
+ ],
+ "halk-orta-018": [
+  "Çobanın anlattığına göre son koyuna ne oldu?",
+  "Uçuruma yuvarlanıp öldü",
+  "Kelebek hastalığından öldü",
+  "Kurt tarafından yendi"
+ ],
+ "halk-orta-019": [
+  "Oğuz halkı Tepegöz'le neden anlaşma yapmak zorunda kaldı?",
+  "Tepegöz çok zarar veriyordu, halk çaresizdi",
+  "Basat onları yarı yolda bırakıp gitmişti",
+  "Dede Korkut bunu kendilerine emretmişti"
+ ],
+ "halk-orta-020": [
+  "Süt satan kızın başına gelenlerden hangi ders çıkar?",
+  "Elde olmayan şeyin hayalini kurmadan işi bitirmeli",
+  "Süt satmak çok kazançlı bir iştir ve herkes yapmalıdır",
+  "Hayal kurmak insanı mutlu eder ve sevindirir"
+ ],
+ "halk-orta-021": [
+  "Eşek aslan postunu giyince önce ne oldu?",
+  "Hayvanlar onu aslan sanıp kaçıştı",
+  "Hayvanlar ona hemen saldırmaya başladı",
+  "Tilki daha ilk anda onu tanıyıp güldü"
+ ],
+ "halk-orta-022": [
+  "Kurbağa iki boğanın kavgasından neden korktu?",
+  "Kaybeden boğa bataklığa gelip onları ezebilirdi",
+  "Boğalar gölün suyunu içebilirdi",
+  "Kavga sesi onları sağır edebilirdi"
+ ],
+ "halk-orta-023": [
+  "Papağan gül yağı şişesini neden devirdi?",
+  "Kediden korkup kaçmaya çalışırken",
+  "Oyun oynarken",
+  "Rafa tırmanmaya çalışırken"
+ ],
+ "halk-orta-024": [
+  "Hoca bilginlerin sorularına eşeğiyle cevap verirken ne göstermek istedi?",
+  "Sorularının cevaplanamaz olduğunu göstermek istedi",
+  "Eşeğinin çok akıllı olduğunu anlatmak istedi",
+  "Soruların cevabını bilmediğini kabul etti"
+ ],
+ "halk-orta-025": [
+  "Hırsız duayı ezberleyip neden ayın ışığına sarıldı?",
+  "Hoca'nın anlattığını gerçek sandı",
+  "Karısı ona öyle yapmasını söylemişti",
+  "Hoca ona duayı açıkça öğretmişti"
+ ],
+ "halk-orta-026": [
+  "Sultan kısmeti bağlı adamı sınarken ilk olarak ne yaptı?",
+  "Altın gizlenmiş bir tepsi baklava verdirdi",
+  "Eline bir kürek verip hazineye daldırttı",
+  "Köprünün bir yanına altın dizdirdi"
+ ],
+ "halk-orta-027": [
+  "Köprüdeki iki keçi masalı bize ne öğretir?",
+  "İnatlaşmak ikisini de zarara uğratır",
+  "Güçlü olan kazanır",
+  "Köprüler dar yapılmamalıdır"
+ ],
+ "halk-orta-028": [
+  "Hoca \"Kedi iki okkaysa et nerede?\" derken neyi anlatmak istedi?",
+  "Karısının \"kedi yedi\" sözüne inanmadığını",
+  "Kedinin çok yemek yediğini",
+  "Etin kediden daha ağır olduğunu"
+ ],
+ "halk-orta-029": [
+  "Hoca \"Sudan gelen sele gider\" derken sütçüye ne demek istedi?",
+  "Süte su katarak kazandığı şeyin gittiğini",
+  "Selin yakında geri döneceğini",
+  "Daha çok su katması gerektiğini"
+ ],
+ "yz-s4-008": [
+  "Halley kuyruklu yıldızı yaklaşık kaç yılda bir görülür?",
+  "Yetmiş altı yılda",
+  "Otuz altı yılda",
+  "Yüz yetmiş altı yılda"
+ ],
+ "yz-s4-013": [
+  "Bilim insanları yanardağın \"nabzını\" nasıl tutar?",
+  "Magmanın hareketini ölçen aletlerle",
+  "Dağın tepesinde nöbet tutarak",
+  "Kraterin içine inerek"
+ ],
+ "yz-s4-019": [
+  "Hamur fazla sıcak bir yerde bekletilirse maya ne olur?",
+  "Zarar görür",
+  "Daha da hızlı çalışır",
+  "Daha çok gaz çıkarır"
+ ],
+ "yz-s4-040": [
+  "Termosun iç yüzeyi neden parlak yapılır?",
+  "Isının ışıma yoluyla kaçmasını azaltmak için",
+  "Termosun dışarıdan daha şık görünmesi için",
+  "Sıcak çayın rengini ve kokusunu korumak için"
+ ],
+ "yz-s8-003": [
+  "Annem sınav çalışan çocuğa ne getirdi?",
+  "Ceviz ve süt",
+  "Çay ve kurabiye",
+  "Meyve ve su"
+ ],
+ "yz-s8-004": [
+  "Mektubu yazan kişi şu anda ne olmak istiyor?",
+  "Doktor ya da mühendis",
+  "Pilot ya da astronot",
+  "Yazar ya da büyük ressam"
+ ],
+ "yz-s8-008": [
+  "Basketbolun hızla yayılması neye bağlıydı?",
+  "Kurallarının kolay öğrenilmesine",
+  "Maçların çok uzun sürmesine",
+  "Salonların çok büyük olmasına"
+ ],
+ "yz-s8-009": [
+  "Anlatıcı telefonu sahibine götürmeye neden karar verdi?",
+  "Sahibinin çok telaşlı olacağını düşündüğü için",
+  "Karşılığında ödül alacağını düşündüğü için",
+  "Adres okuluyla aynı yönde olduğu için"
+ ],
+ "yz-s8-010": [
+  "Anlatıcının diktiği yastık kılıfı nasıldı?",
+  "Mavi renkli ve küçük beyaz çiçekliydi",
+  "Kırmızı renkli ve ince çizgili bir kumaştı",
+  "Yeşil renkli ve düzdü"
+ ],
+ "yz-s8-011": [
+  "Metne göre mercan kayalıkları kıyıları nasıl korur?",
+  "Dalga enerjisinin büyük kısmını emerek",
+  "Dalgaları kıyıdan uzağa iterek",
+  "Kıyıya kum taşıyarak"
+ ],
+ "yz-s8-014": [
+  "Dingin nehir, yolundaki taşların karşısında ne yaptı?",
+  "Çevresinden dolandı",
+  "Taşı itip kırdı",
+  "Orada birikip göl oldu"
+ ],
+ "yz-s8-015": [
+  "Mars'ta geceleri sıcaklık ne kadar düşebilir?",
+  "Eksi yüz derecelere kadar",
+  "Eksi on derecelere kadar",
+  "Sıfır dereceye kadar"
+ ],
+ "yz-s8-016": [
+  "Kaleci penaltı vurulmadan önce ne yaptı?",
+  "Gözlerini kapatıp derin nefes aldı",
+  "Hocasından son bir tavsiye istedi",
+  "Eldivenlerini çıkarıp yere attı"
+ ],
+ "yz-s8-017": [
+  "Anlatıcıya göre Samanyolu nedir?",
+  "Yıldızlardan oluşan sis gibi bir yapı",
+  "Tek ve olağanüstü parlak bir yıldız",
+  "Büyük Ayı takımyıldızının yedi yıldızı"
+ ],
+ "yz-s8-020": [
+  "Anlatıcı radyonun asıl gücünün ne olduğunu anladı?",
+  "İnsanları birbirine yaklaştırmak",
+  "Çok sayıda dinleyiciye ulaşmak",
+  "Haberleri hızla yaymak"
+ ],
+ "yz-s8-022": [
+  "Yaprak kesen karıncalar yaprakları ne yapar?",
+  "Yuvaya taşıyıp üzerinde mantar yetiştirir",
+  "Yaprakları kesip yavrulara ve kraliçeye yedirir",
+  "Yuvanın çatısını kaplar"
+ ],
+ "yz-s8-023": [
+  "Yazara göre en iyi çözümü kimler bulabilir?",
+  "Sorunu yaşayan öğrenciler",
+  "Okulun müdürü ve yöneticileri",
+  "Sınıf öğretmenleri ile rehber öğretmen"
+ ],
+ "yz-s8-024": [
+  "Çocuklar robotun kaybolmasından korkunca ne yaptı?",
+  "Üzerine eve dönüş etiketi astı",
+  "Ayağına küçük bir zil bağladı",
+  "Bahçenin etrafına yüksek çit çekti"
+ ],
+ "yz-s8-026": [
+  "Geri dönüştürülen plastik şişelerden neler yapılabilir?",
+  "Kumaş ya da dolgu elyafı",
+  "Yepyeni cam bardak ve şişeler",
+  "Kâğıt havlu"
+ ],
+ "yz-s8-027": [
+  "Antrenör Selim Hoca'ya göre madalya neyin ödülüdür?",
+  "Görünmeyen sabahların",
+  "Hızlı ve güçlü kolların",
+  "Şansın"
+ ],
+ "yz-s8-029": [
+  "Dağ dileğini kimseye neden söyleyememişti?",
+  "Konuşamıyor, ancak rüzgârla fısıldıyordu",
+  "Köylüler ondan çok korktukları için",
+  "Köylüler dağa saygı duymadıkları için"
+ ],
+ "yz-s8-030": [
+  "Anlatıcının korkusu neden yavaş yavaş küçüldü?",
+  "Yıldız'la vakit geçirip onu tanıdığı için",
+  "Atın hızı azaldığı için",
+  "Dedesi atı ahırdan çıkarmadığı için"
+ ],
+ "yz-s8-031": [
+  "Flamingolar yuvalarını nasıl yapar?",
+  "Çamurdan küçük koniler yaparak",
+  "Dallardan büyük bir kuş yuvası örerek",
+  "Kamıştan sepet yaparak"
+ ],
+ "yz-s8-033": [
+  "Turşuda sebzeyi bozulmaktan koruyan nedir?",
+  "Yararlı canlıların oluşturduğu asit",
+  "Suyun içindeki gaz kabarcıkları",
+  "Tuzun sebzeyi dondurması"
+ ],
+ "yz-s8-034": [
+  "Işıktaki zamanlama sorunu nasıl çözüldü?",
+  "Birbirlerine el işaretleri geliştirerek",
+  "Işıkları daha erken yakarak",
+  "Oyuncuların konuşmasını yavaşlatarak"
+ ],
+ "yz-s8-036": [
+  "Sadık Amca'nın babası ona ne demişti?",
+  "Işık küçük de olsa yolu gösterir",
+  "Fırtınada denizden uzak durmasını",
+  "Feneri oğluna bırakmasını"
+ ],
+ "yz-s8-038": [
+  "Anlatıcı zor konuları neden sabaha bıraktı?",
+  "Sabahları zihni daha berrak olduğu için",
+  "Akşamları çok yorulduğu için",
+  "Sabah telefonu elinde olmadığı için"
+ ],
+ "yz-s8-040": [
+  "Albümdeki fotoğrafta kaplumbağaya bakan çocuk kimdi?",
+  "Anlatıcının dayısı",
+  "Anlatıcının babası",
+  "Anlatıcının dedesi"
+ ],
+ "c17": [
+  "Metne göre ilkbahar ve sonbaharda gündüzle gece nasıldır?",
+  "Birbirine yakın uzunluktadır",
+  "Gündüz gecenin iki katı kadardır",
+  "Gece çok daha uzundur"
+ ],
+ "c31": [
+  "Kemer köprülerde itme kuvveti nereye iner?",
+  "Kemerin iki ucundaki ayaklara",
+  "Kulelerin en tepesine",
+  "Çelik halatların ortasına"
+ ],
+ "c35": [
+  "Uçağı ileri iten şey nedir?",
+  "Uçağın motorları",
+  "Kanatların şekli",
+  "Kanatların arkasındaki hareketli parçalar"
+ ],
+ "c39": [
+  "Metne göre iyi bir uyku için hangisi yardımcı olur?",
+  "Yatmadan önce ekrana az bakmak",
+  "Her gün farklı saatte yatmak",
+  "Odayı sıcak tutmak"
+ ],
+ "ch10": [
+  "Metne göre tavuk için hangisi doğrudur?",
+  "Uçamayan kuşlardandır",
+  "Uzun göçler yapan bir kuştur",
+  "Çiftlik hayvanı değil, yabani bir kuştur"
+ ],
+ "ch11": [
+  "Evcil koyun yaklaşık ne zaman evcilleştirilmiştir?",
+  "6000 ila 8000 yıl önce",
+  "1000 ila 2000 yıl önce",
+  "12000 ila 15000 yıl önce"
+ ],
+ "ch13": [
+  "Zeytin ağacı hangi bitkilerle aynı ailede yer alır?",
+  "Leylak ve yasemin ile",
+  "Gül, menekşe ve karanfil ile",
+  "Çam ve ladin ile"
+ ],
+ "ch14": [
+  "Dev pandanın postu nasıldır?",
+  "Beyaz üzerinde siyah büyük benekli",
+  "Siyah üzerinde beyaz ince çizgili",
+  "Kahverengi üzerinde sarı küçük benekli"
+ ],
+ "ch15": [
+  "Buğday günlük kalorinin yaklaşık yüzde kaçını Türkiye'de karşılar?",
+  "Yüzde 40-50",
+  "Yüzde 20",
+  "Yüzde 80-90"
+ ],
+ "ch16": [
+  "Karıncalar hangi böcek takımında yer alır?",
+  "Zar kanatlılar",
+  "Kın kanatlılar",
+  "Çift kanatlılar"
+ ],
+ "ch17": [
+  "Metne göre Ekvator yakınlarında yaşayan penguen hangisidir?",
+  "Galapagos pengueni",
+  "Antarktika'daki imparator penguen",
+  "Alt-Antarktika'daki kral penguen"
+ ],
+ "ch18": [
+  "Zürafaların ana besin kaynağı nedir?",
+  "Akasya ağacının yüksek dallardaki yaprakları",
+  "Yüksek dağların kar altındaki otları",
+  "Nehir kıyısındaki sazlar ve kamışlar"
+ ],
+ "ch19": [
+  "Hortumlular takımından günümüzde soyunu sürdüren tek grup hangisidir?",
+  "Filler",
+  "Mamutlar",
+  "Mastodonlar"
+ ],
+ "ch20": [
+  "Leylek yavruları yumurtadan çıktıktan kaç gün sonra yuvadan ayrılır?",
+  "58-64 gün sonra",
+  "33-34 gün sonra",
+  "7-20 gün sonra"
+ ],
+ "ch22": [
+  "Dünya yüzeyinin yaklaşık yüzde kaçı su ile kaplıdır?",
+  "Yaklaşık %71'i",
+  "Yaklaşık %29'u",
+  "Yaklaşık %50'si"
+ ],
+ "ch23": [
+  "Mars'ta sıvı su ve yaşam olma ihtimalini hangi bulgu artırır?",
+  "Kutuplarda ve orta bölgelerde su buzu bulunması",
+  "Atmosferinin Dünya atmosferinden daha kalın olması",
+  "Yüzeyinin büyük bölümünün okyanuslarla kaplı olması"
+ ],
+ "ch25": [
+  "Dağların rüzgâr altı tarafında hangi iklim oluşabilir?",
+  "Çöl iklimi",
+  "Savan iklimi",
+  "Kutup iklimi"
+ ],
+ "ch27": [
+  "Sığırın boynuzu kırılırsa ne olur?",
+  "Bir daha yeniden çıkmaz",
+  "Birkaç ayda yeniden çıkar",
+  "Her yıl yenisi çıkar"
+ ],
+ "ch28": [
+  "İnsanlar köpeklerin farklı türlerinin ortaya çıkmasını nasıl sağlamıştır?",
+  "Yararlı özelliklerini ön plana çıkararak",
+  "Onları farklı iklimlere göndererek",
+  "Yabani kurtlarla serbest eşleştirerek"
+ ],
+ "ch29": [
+  "Yaban tavşanının üreme mevsimi ne zamandır?",
+  "Ocak ile Ağustos arası",
+  "Mart ile Kasım arası",
+  "Eylül ile Aralık arası"
+ ],
+ "ck037": [
+  "Mercan larvası bir müddet serbest yüzdükten sonra ne yapar?",
+  "Kendini bir kayaya sabitleyip polip olur",
+  "Açık denizde yüzmeye devam eder",
+  "Başka bir polipin içine girer"
+ ],
+ "ck048": [
+  "Kar, bitkileri donmaktan nasıl korur?",
+  "İnce bir hava tabakası bırakarak",
+  "Toprağı derinden ısıtarak ve kurutarak",
+  "Rüzgârı ve soğuk havayı keserek"
+ ],
+ "ck052": [
+  "Metne göre erkek aslanlardan oluşan gruplara ne denir?",
+  "Koalisyon",
+  "Sürü",
+  "Göçebe"
+ ],
+ "ck054": [
+  "Metne göre duyma duyusu hangi akbabada gelişmiştir?",
+  "Hindi akbabasında",
+  "Sakallı akbaba türünde",
+  "Kara akbaba türünde"
+ ],
+ "ck056": [
+  "Keçiler baharda ormana neden zarar verebilir?",
+  "Ağaçların yeni sürgünlerini yedikleri için",
+  "Ağaçların kabuklarını soydukları için",
+  "Ağaç köklerini kazıp devirdikleri için"
+ ],
+ "ck057": [
+  "Koalanın arka pençelerinde ikinci ve üçüncü parmaklar nasıldır?",
+  "Birbirine yapışıktır",
+  "Birbirinden ayrık ve çok uzundur",
+  "Diğer parmaklara karşılıklı durur"
+ ],
+ "ck060": [
+  "Bulgura benzeyen yuvarlak kar taneleri yere düşünce ne yapar?",
+  "Zıplar",
+  "Yere yapışır",
+  "Toza dönüşür"
+ ],
+ "ck061": [
+  "Seller dünyada kaçıncı en yaygın doğal afettir?",
+  "İkinci",
+  "Birinci",
+  "Üçüncü"
+ ],
+ "ck063": [
+  "Rüzgâr kaç bofor ve üzerine çıkınca fırtına denir?",
+  "8 bofor ve üzeri",
+  "7 bofor ve üzeri",
+  "5 bofor ve üzeri"
+ ],
+ "ck064": [
+  "\"Pusula\" sözcüğü Türkçeye hangi dilden geçmiştir?",
+  "İtalyancadan",
+  "Fransızcadan",
+  "Arapçadan"
+ ],
+ "ck065": [
+  "Metne göre müziğin ana öğelerinin ağırlığı müzik türlerinde nasıldır?",
+  "Türden türe farklı oranlarda ağırlık taşır",
+  "Müzik türlerinde birbirine eşit ağırlıktadır",
+  "En çok klasik müzikte ağırlık taşır"
+ ],
+ "ck066": [
+  "Balın kokusunu ne verir?",
+  "Çiçeklerdeki aromalı uçucu yağlar",
+  "Arıların salgıladığı asit",
+  "Kovandaki balmumu"
+ ],
+ "ck067": [
+  "Metne göre yüzmenin sağlığa faydalarından biri hangisidir?",
+  "Kalp-damar sağlığını güçlendirir",
+  "Boyu uzatır ve kemikleri büyütür",
+  "Görme gücünü ve işitmeyi artırır"
+ ],
+ "ck069": [
+  "Gergedanların her ayağında kaç parmak bulunur?",
+  "Üç",
+  "İki",
+  "Beş"
+ ],
+ "ck070": [
+  "Dut yaprakları hangi alanlarda önemli bir yem kaynağıdır?",
+  "İpekböcekçiliği ve hayvancılık",
+  "Arıcılık ve balıkçılık",
+  "Bahçecilik ve kuş yetiştiriciliği"
+ ],
+ "ck078": [
+  "Aslanlardaki \"flehmen\" tepkisi nedir?",
+  "Kimyasal sinyalleri koklarken yüz buruşturma",
+  "Kükremeden önce dişlerini gösterme",
+  "Uyurken yüzünü yere ve ağaca sürtme"
+ ],
+ "ck080": [
+  "Su akışı erozyon etkisiyle hangi yeryüzü şekillerini oluşturur?",
+  "Vadileri ve deltaları",
+  "Dağları ve volkanları",
+  "Çölleri ve kumulları"
+ ],
+ "n27": [
+  "Tam güneş tutulması ne kadar sürer?",
+  "Birkaç dakika",
+  "Birkaç saat",
+  "Birkaç saniye"
+ ],
+ "n34": [
+  "Gece rüzgâr hangi yönde eser?",
+  "Karadan denize",
+  "Denizden karaya",
+  "Kıyıya paralel"
+ ],
+ "n39": [
+  "Yeni yağmış kar ortalığı neden sessizleştirir?",
+  "İçindeki hava boşlukları sesi emer",
+  "Kar yağarken rüzgâr tamamen durur",
+  "Kuşlar ve böcekler kar yağınca susar"
+ ],
+ "meb-s5-05-p1": [
+  "Hüseyin, annesinin vatansızlığın acısını en iyi bildiğini neden söylüyor?",
+  "Annesi düşman zulmüyle Manastır'dan göç etmişti",
+  "Annesi hiç evinden ayrılmamış, hep aynı yerde yaşamıştı",
+  "Annesi Selanik'te doğup büyümüş, hiç göç etmemişti"
+ ],
+ "meb-s5-05-p2": [
+  "Hüseyin birlikte askerlere verilen yemeği nasıl anlatıyor?",
+  "Ya tarhana çorbası ya mercimek",
+  "Kuru et ve pilav",
+  "Peynir, zeytin ve taze ekmek"
+ ],
+ "meb-s5-07-p2": [
+  "Çiftlik için ilk satın alınan arazi kaç dönümdü?",
+  "20.000 dönüm",
+  "2.000 dönüm",
+  "200.000 dönüm"
+ ],
+ "meb-s5-09": [
+  "Metne göre olumsuz duygularla karşılaşınca ne yapmak o duyguların azalmasına yardımcı olabilir?",
+  "Neden öyle hissettiğimizi anlamaya çalışmak",
+  "Onlardan uzak durmaya çalışmak",
+  "Onları yok saymak"
+ ],
+ "meb-s5-12-p1": [
+  "Öğretmen Fahrünnisa'nın gözlerini nasıl anlatıyor?",
+  "İri, kapkara ve sonsuz derinlikte",
+  "Küçük, ela ve çekik gözler",
+  "Mavi, donuk ve ifadesiz gözler"
+ ],
+ "meb-s5-12-p2": [
+  "Öğretmen, Fahrünnisa'ya kaç yıl hocalık etti?",
+  "Üç yıl",
+  "Bir yıl",
+  "Beş yıl"
+ ],
+ "meb-s5-21-p2": [
+  "Kalıplama tekniğinin en bilinen örneği nedir?",
+  "Kiremit",
+  "Su testisi",
+  "Saksı"
+ ],
+ "meb-s5-21-p3": [
+  "Arkeolojik çalışmalara göre Anadolu'da çömlekçilik ne zamana uzanır?",
+  "M.Ö. 7000 yıllarına",
+  "M.Ö. 700 yıllarına",
+  "M.Ö. 3000 yıllarına"
+ ],
+ "meb-s5-27-p1": [
+  "Türkiye'de kabaca her kaç kişiden biri obezite sorunuyla karşı karşıyadır?",
+  "Üç kişiden biri",
+  "Beş kişiden biri",
+  "On kişiden biri"
+ ],
+ "meb-s5-27-p2": [
+  "Metne göre gün içinde ne kadar hareketli olmanın yolları aranmalıdır?",
+  "1-2 saat",
+  "Yarım saat",
+  "4-5 saat"
+ ],
+ "meb-s5-29": [
+  "Ahmet Yaşar Kocataş hangi yıl UNESCO \"Yaşayan İnsan Hazineleri\" listesine alındı?",
+  "2015",
+  "1996",
+  "1970"
+ ],
+ "meb-s5-30": [
+  "Video oyunu oynarken beyinde salgılanarak bağımlılığa yol açtığı düşünülen madde hangisidir?",
+  "Dopamin",
+  "Adrenalin",
+  "İnsülin"
+ ],
+ "meb-s6-01-p1": [
+  "Karahanlı Devleti hangi özelliğiyle anılıyor?",
+  "İslâmiyeti resmen kabul eden ilk Türk devleti olması",
+  "Anadolu'ya ilk yerleşen Türk devleti olması",
+  "Kaşgar'da ilk medreseyi kuran Türk devleti olması"
+ ],
+ "meb-s6-01-p2": [
+  "Muhammet Buğra Han, Mahmut'u ödüllendirmek için ne yapacağını söyledi?",
+  "Birlikte fidan dikeceklerini",
+  "Ona bir at armağan edeceğini",
+  "Onu Kaşgar'a götüreceğini"
+ ],
+ "meb-s6-02-p1": [
+  "Metne göre 13. yüzyıl nasıl bir çağdır?",
+  "Gönül çağı",
+  "Kılıç çağı",
+  "Ticaret çağı"
+ ],
+ "meb-s6-02-p2": [
+  "Anadolu çarşısını düzenleyen kimlerdi?",
+  "Anadolu Ahileri",
+  "Moğol tüccarlar",
+  "Selçuklu askerleri"
+ ],
+ "meb-s6-07": [
+  "Başkomutanlık Meydan Muharebesi hangi tarihte Türklerin kesin zaferiyle sonuçlandı?",
+  "30 Ağustos",
+  "26 Ağustos",
+  "9 Eylül"
+ ],
+ "meb-s6-12": [
+  "Salyangozun gözleri vücudunun neresindedir?",
+  "Boynuzumsu çıkıntıların uç kısmında",
+  "Sırtındaki kabuğun en üst ucunda",
+  "Ağzının iki yanındaki çıkıntılarda"
+ ],
+ "meb-s6-13": [
+  "Tonyukuk Yazıtı hangi yılda dikilmiştir?",
+  "720",
+  "732",
+  "735"
+ ],
+ "meb-s6-14": [
+  "Türk Dil Kurumu hangi tarihte kurulmuştur?",
+  "12 Temmuz 1932",
+  "26 Eylül 1932",
+  "12 Temmuz 1923"
+ ],
+ "meb-s6-15": [
+  "Çıplak gözle tek ışık noktası gibi görünen Kuzey Yıldızı aslında nedir?",
+  "Üçlü bir yıldız sistemi",
+  "Tek bir dev yıldız",
+  "Çift bir yıldız sistemi"
+ ],
+ "meb-s6-18-p1": [
+  "Metne göre uzun süre ekrana bakmanın sonucunda gözde hangi belirtiler oluşabilir?",
+  "Kaşıntı, kızarıklık ve kuruluk",
+  "Renk körlüğü ve şaşılık",
+  "Yaşarma ve şişlik"
+ ],
+ "meb-s6-18-p2": [
+  "Birine gülümsediğimizde onun beyninde hangi nöronlar harekete geçer?",
+  "Ayna nöronlar",
+  "Duyu nöronları",
+  "Hareket nöronları"
+ ],
+ "meb-s6-25-p3": [
+  "Sümeyye Boyacı ileride ne olmak istiyor?",
+  "Spor psikoloğu olmak",
+  "Milli takım antrenörü",
+  "Beden eğitimi öğretmeni"
+ ],
+ "meb-s6-28": [
+  "Eflatun Cem Güney çocukları kendi kültürlerine nasıl yaklaştırdı?",
+  "Radyoda çocuklara masal programı hazırlayarak",
+  "Okullarda çocuklara tiyatro oyunları oynatarak",
+  "Yabancı ülkelerin masallarını Türkçeye çevirerek"
+ ],
+ "meb-s6-32": [
+  "Heykelin iadesi yaklaşık kaç yıl süren girişimlerin ardından gerçekleşti?",
+  "Yaklaşık 65 yıl",
+  "Yaklaşık 25 yıl",
+  "Yaklaşık 100 yıl"
+ ],
+ "meb-s7-01-p1": [
+  "Jonathan kavis oluşturabilirse neyi başaracaktı?",
+  "Daha yavaş uçabilecekti",
+  "Daha hızlı uçabilecekti",
+  "Daha çok balık yakalayabilecekti"
+ ],
+ "meb-s7-01-p2": [
+  "Jonathan'ın annesine göre alçaktan uçmak hangi kuşların işidir?",
+  "Pelikanların ve albatros kuşlarının",
+  "Kartalların ve şahin türlerinin",
+  "Kargaların ve küçük serçelerin"
+ ],
+ "meb-s7-01-p3": [
+  "Jonathan kısa kanat fikrini hangi kuştan aldı?",
+  "Şahinden",
+  "Kartaldan",
+  "Baykuştan"
+ ],
+ "meb-s7-02-p1": [
+  "Yazar, olgun yaşın da güzel olabileceğini hangi ağaçla örnekliyor?",
+  "Çiçek açmış şeftali ağacıyla",
+  "Armut ve elma ağacıyla",
+  "Kiraz ve erik ağacıyla"
+ ],
+ "meb-s7-02-p2": [
+  "Heraklit'e göre mümkün olmayan şey nedir?",
+  "Bir nehirde iki defa yıkanmak",
+  "Bir dağa iki kez tırmanmak ve inmek",
+  "Aynı yoldan iki defa geri dönmek"
+ ],
+ "meb-s7-05": [
+  "Hatice Nine kaç defa muhacir olduğunu söylüyor?",
+  "Beş defa",
+  "Üç defa",
+  "Yedi defa"
+ ],
+ "meb-s7-06-p1": [
+  "Bandırma vapurunun kaptanı kimdi?",
+  "İsmail Hakkı",
+  "Mahmut Ekrem",
+  "Hüseyin Rauf"
+ ],
+ "meb-s7-06-p2": [
+  "Mustafa Kemal Samsun'da hangi otele yerleşti?",
+  "Mıntıka Palas Oteli",
+  "Büyük Londra Palas Oteli",
+  "Tokatlıyan Palas Oteli"
+ ],
+ "meb-s7-06-p3": [
+  "23 Mayıs 1919'daki Sultanahmet mitingine kaç kişi katıldı?",
+  "200.000 kişi",
+  "Yaklaşık 20.000 kişi",
+  "Yaklaşık 2.000 kişi"
+ ],
+ "meb-s7-09-p1": [
+  "Vapura bindiğinde küçük Hasan kaç yaşındaydı?",
+  "Beş",
+  "Yedi",
+  "Dokuz"
+ ],
+ "meb-s7-09-p2": [
+  "Hasan trenden gördüğü kambur hayvanı sorunca asker ne cevap verdi?",
+  "\"Gemel!\"",
+  "\"Habibi!\"",
+  "\"Hassen!\""
+ ],
+ "meb-s7-09-p3": [
+  "Eskici hangi yerdendi?",
+  "İzmit'ten",
+  "Kanlıca'dan",
+  "Hayfa'dan"
+ ],
+ "meb-s7-10-p1": [
+  "Yazarın babası sokağa çıkarken annesi onu nasıl selamlardı?",
+  "\"Hayra karşı\" diye",
+  "\"Güle güle\" diye",
+  "\"Allah'a emanet ol\" diye"
+ ],
+ "meb-s7-10-p2": [
+  "Metne göre \"hayır sahibi\" kimdir?",
+  "İyilik sever kişi",
+  "Zengin kişi",
+  "Karşılık bekleyen kişi"
+ ],
+ "meb-s7-13-p1": [
+  "Anadolu kilimlerinin çizgileri ve renkleri nasıldır?",
+  "Çizgileri sert, renkleri hırçındır",
+  "Çizgileri yumuşak, renkleri solgundur",
+  "Çizgileri düzgün, renkleri tek tonludur"
+ ],
+ "meb-s7-13-p2": [
+  "Anadolu kilimlerinde yeşil renk neyden çıkarılır?",
+  "Nane",
+  "Sumak",
+  "Safran"
+ ],
+ "meb-s7-14-p1": [
+  "Karagöz'ün İstanbul'a ne zaman geldiği sanılıyor?",
+  "16. yüzyılda",
+  "19. yüzyılda",
+  "12. yüzyılda"
+ ],
+ "meb-s7-14-p2": [
+  "Ortaoyunu kesin biçimini ve adını hangi yüzyılda almıştır?",
+  "19. yüzyılda",
+  "16. yüzyılda",
+  "17. yüzyılda"
+ ],
+ "meb-s7-16": [
+  "Atatürk'ün Ankara'da Maarif Kongresi'ni açış konuşması hangi yıldadır?",
+  "1921",
+  "1923",
+  "1919"
+ ],
+ "meb-s7-17-p1": [
+  "Mustafa Kemal okuduğu kitapların sayfalarına ne yapardı?",
+  "Kendi el yazısıyla notlar düşerdi",
+  "Sayfaların kenarlarına resimler çizerdi",
+  "Önemli yerlerin altını kırmızı kalemle çizerdi"
+ ],
+ "meb-s7-17-p2": [
+  "Osmanlı'da matbaa hangi yüzyıldan itibaren kullanılmaya başlandı?",
+  "18. yüzyıl",
+  "15. yüzyıl",
+  "19. yüzyıl"
+ ],
+ "meb-s7-18-p1": [
+  "Sümerli bir çiftçi kile neden işaretler koymuş olabilir?",
+  "Sığır sayısını ve arpa hesabını tutmak için",
+  "Şarkı sözlerini ve masalları kaydetmek için",
+  "Hava durumunu ve mevsimleri yazmak için"
+ ],
+ "meb-s7-18-p2": [
+  "Huş ağacı kabuğundan yapılmış rulolar nereden gelmişti?",
+  "Asya'dan",
+  "Mısır'dan",
+  "Avrupa'dan"
+ ],
+ "meb-s7-18-p3": [
+  "E-kitapların kâğıttan tasarruf ederek neyi kurtardığı söyleniyor?",
+  "Yağmur ormanlarını ve ağaçları",
+  "Okyanusları ve denizleri",
+  "Kutup buzullarını ve dağları"
+ ],
+ "meb-s7-20": [
+  "Ataç'a göre hastalıkta ağrıları en iyi ne dindirir?",
+  "Şiir",
+  "Müzik",
+  "Roman"
+ ],
+ "meb-s7-21-p1": [
+  "Hükümdar üç ayaklı tahtı örnek göstererek ne anlatmak istiyor?",
+  "Adaletten ayrılmayacağını",
+  "Her işi üç danışmanla çözeceğini",
+  "Tahtının kolay yıkılabileceğini"
+ ],
+ "meb-s7-21-p2": [
+  "Hükümdar karakterini neden güneşe benzetir?",
+  "Adaleti herkese ulaşır ve hiç değişmez",
+  "Sıcaklığıyla yalnız seçkinleri ısıtıp diğerlerini dışarıda bıraktığı için",
+  "Gün geçtikçe parlaklığı artıp daha güçlü hâle geldiği için"
+ ],
+ "meb-s7-21-p3": [
+  "Hükümdara göre beyler kendilerine iyi insanları yakın tutarsa ne olur?",
+  "Kötüler de iyi davranmaya zorlanır",
+  "Halk giderek fakirleşir ve dağılır",
+  "Kötüler daha da güçlenip yayılır"
+ ],
+ "meb-s7-23-p1": [
+  "Bazı bilginler neden sihirbazlara başvurulmasını önerdi?",
+  "Doğru zamanı bulmak için önceden bilmek gerektiğini düşündükleri için",
+  "Danışma kurulunun kararlarının her zaman geç çıktığını düşündükleri için",
+  "Çizelgenin günleri yanlış hesapladığını düşündükleri için"
+ ],
+ "meb-s7-23-p2": [
+  "Yaralı adamın yarası vücudunun neresindeydi?",
+  "Karnında",
+  "Göğsünün sol yanında",
+  "Bacağının üst kısmında"
+ ],
+ "meb-s7-23-p3": [
+  "Keşiş, krala cevabı aldığını neye dayanarak söyledi?",
+  "Kralın onun yerine tarhları kazıp yaralıyı sarmasına",
+  "Kralın danışma kurulu kurmaya karar vermesine",
+  "Kralın bilginlerin cevaplarını beğenmeyip reddetmesine"
+ ],
+ "meb-s7-25": [
+  "Yazar, medya içeriklerinin doğruluğunu değerlendirirken ne yapmamızı önerir?",
+  "Büyüklere ve bilenlere danışıp kendi aklımızla düşünmeyi",
+  "En çok izlenen ve en çok beğenilen içeriklere güvenmeyi",
+  "Reklam içeren programlardan ve oyunlardan uzak durmayı"
+ ],
+ "meb-s7-26": [
+  "Metne göre doğayı korumada asıl olan nedir?",
+  "Bilginin davranışa dönüşmesi",
+  "Yalnızca bilgi sahibi olmak",
+  "Doğa hakkında daha çok kitap okumak"
+ ],
+ "meb3-fen5-03": [
+  "Caca Bey Medresesi gözlem amacıyla tasarlandığını hangi özelliğiyle gösterir?",
+  "Kubbesinin üstü açıktı, altında su dolu kuyu vardı",
+  "Duvarlarına gök cisimlerinin haritaları ve çizimleri işlenmişti",
+  "Çatısında gökyüzünü büyüterek gösteren büyük bir alet bulunurdu"
+ ],
+ "meb3-fen5-06": [
+  "Kitapların kapak ve sayfaları zamanla neden yıpranır?",
+  "Birbirine temas eden yüzeyler sürtünüp aşındığı için",
+  "Havadaki nem sayfaları eritip inceltmeye başladığı için",
+  "Kitapların ağırlığı zamanla arttığı için"
+ ],
+ "meb3-fen5-09": [
+  "Metindeki örneğe göre kas dokusu ve diğer dokuların birleşmesiyle oluşan kol hangi düzeye örnektir?",
+  "Organ",
+  "Sistem",
+  "Organizma"
+ ],
+ "meb3-fen5-11": [
+  "İbnülheysem'in karanlık odasında cismin görüntüsü nasıl oluşur?",
+  "Baş aşağı (ters) bir görüntü",
+  "Düz ve büyütülmüş",
+  "Yan yatmış ve soluk"
+ ],
+ "meb3-fen5-15": [
+  "Saf bir maddenin sıcaklığı kaynama süresince nasıl olur?",
+  "Sabit kalır",
+  "Düzenli artar",
+  "Hızla düşer"
+ ],
+ "meb3-fen5-16": [
+  "Aşağıdakilerden hangisi yoğuşmaya örnektir?",
+  "Şişenin üzerinde su damlacıkları oluşması",
+  "Naftalinin zamanla küçülüp havaya karışması",
+  "Araba camlarının üzerinde kırağı tabakası oluşması"
+ ],
+ "meb3-fen6-02": [
+  "Dilhan Eryurt'a NASA tarafından hangi ödül verilmiştir?",
+  "Apollo Başarı Ödülü",
+  "Gemini Hizmet Ödülü",
+  "Mars Keşif Ödülü"
+ ],
+ "meb3-fen6-03": [
+  "İbni Bacce'nin eleştirileri Aristoteles'in hangi iddiasının geçersizliğini göstermiştir?",
+  "Boşlukta hareket olursa hızın sonsuz olacağı",
+  "Ağır cisimlerin hafif olanlardan daha geç düşeceği",
+  "Dünya’nın evrenin merkezinde durduğu"
+ ],
+ "meb3-fen6-07": [
+  "Hatice Safiye Ali, Süt Damlası Bakımevinde görev alarak ne başarmıştır?",
+  "Daha fazla anne ve çocuğa ulaşmayı",
+  "Cephedeki askerlerin yaralarını tedavi etmeyi",
+  "Kadın doktor sayısını hızla artırmayı"
+ ],
+ "meb3-fen6-11": [
+  "Newton, prizma düzeneğinin önüne mercek koyarak neyi göstermiştir?",
+  "Renklerden yeniden beyaz ışık elde edilebildiğini",
+  "Beyaz ışığın mercekten geçerken kırılmadığını",
+  "Prizmanın renkleri ışığa sonradan eklediğini"
+ ],
+ "meb3-fen6-15": [
+  "Toprakta biriken kirlilik canlılara hangi sırayla ulaşır?",
+  "Önce bitkilere, sonra bitkilerle beslenen canlılara",
+  "Önce yer altı sularına, sonra bitkilere",
+  "Önce havaya karışır, sonra yağmurla bitkilere döner"
+ ],
+ "meb3-fen6-16": [
+  "Evliya Çelebi kaç yıl gezi hayatı yaşamıştır?",
+  "51 yıl",
+  "15 yıl",
+  "31 yıl"
+ ],
+ "meb3-fen7-01": [
+  "Yapay uydular çalışabilmek için enerjiyi nasıl sağlar?",
+  "Güneş panelleriyle elektrik üreterek",
+  "Yakıt yakan güçlü motorlarla",
+  "Dünya’dan gelen radyo dalgalarıyla"
+ ],
+ "meb3-fen7-02": [
+  "Teleskopların Dünya'nın yörüngesine çıkarılmasının yararı nedir?",
+  "Daha net görüntüler alınması",
+  "Daha ucuza ve kolay üretilmeleri",
+  "Daha hafif ve küçük olmaları"
+ ],
+ "meb3-fen7-03": [
+  "Türkiye Uzay Ajansı (TUA) hangi konuda sorumluluk üstlenir?",
+  "Nitelikli insan kaynağını ve çevreleri geliştirme",
+  "Yabancı uzay ajanslarının görevlerini denetleme ve yönlendirme",
+  "Uydu fırlatma ücretlerini belirleme ve ülkeler arasında paylaştırma"
+ ],
+ "meb3-fen7-04": [
+  "Önlem alınmazsa uzay kirliliğinin sonucu ne olacağı belirtilmiştir?",
+  "Artıp haberleşme ve ulaşımda aksamalara yol açacağı",
+  "Zamanla kendiliğinden azalıp yok olacağı",
+  "Uzay araştırmalarını etkileyip haberleşmeye dokunmayacağı"
+ ],
+ "meb3-fen7-05": [
+  "Tarantula Bulutsusu’nu öne çıkaran özellik hangisidir?",
+  "Bilinen en sıcak ve en büyük kütleli yıldızlara ev sahipliği yapması",
+  "Gözlem aracı kullanmadan rahatça görülebilecek kadar parlak olması",
+  "Şeklinin bir denizatının başına benzemesi nedeniyle bu adı alması"
+ ],
+ "meb3-fen7-06": [
+  "Küçük kütleli bir yıldız yaşamında hangi sırayı izler?",
+  "Kırmızı dev, gezegenimsi bulutsu, beyaz cüce",
+  "Gezegenimsi bulutsu, kırmızı dev, beyaz cüce",
+  "Beyaz cüce, kırmızı dev, gezegenimsi bulutsu"
+ ],
+ "meb3-fen7-07": [
+  "Güneş sistemi, Samanyolu galaksisinin hangi kolunda bulunur?",
+  "Avcı (Orion) kolunda",
+  "Yay kolunda",
+  "Kahraman (Perseus) kolunda"
+ ],
+ "meb3-fen7-08": [
+  "Sindirime yardımcı organlar hangileridir?",
+  "Karaciğer ve pankreas",
+  "Mide ve yemek borusu",
+  "Ağız ve yutak"
+ ],
+ "meb3-fen7-09": [
+  "Kalpten akciğerlere giden atardamar hangi tür kanı taşır?",
+  "Oksijen oranı düşük kanı",
+  "Oksijen oranı zengin kanı",
+  "Besin maddesi oranı düşük kanı"
+ ],
+ "meb3-fen7-10": [
+  "Büyük kan dolaşımında kan kalbin hangi tarafından çıkar, hangi tarafına döner?",
+  "Sol taraftan çıkar, sağ tarafa döner",
+  "Sağ taraftan çıkar, sol tarafa döner",
+  "Sol taraftan çıkar, yine sol tarafa döner"
+ ],
+ "meb3-fen7-11": [
+  "Organ bağışı ile organ nakli arasındaki fark nedir?",
+  "Bağış izin vermektir, nakil organın ameliyatla yerleştirilmesidir",
+  "Bağış ameliyatla yapılır, nakil ise izin vermektir",
+  "Bağış hayattayken, nakil ise ölümden sonra yapılan bir işlemdir"
+ ],
+ "meb3-fen7-12": [
+  "Yunancada \"atomos\" ne anlama gelir?",
+  "Parçalanamayan, bölünemeyen",
+  "Görünmeyecek kadar küçük",
+  "Çok hafif olan"
+ ],
+ "meb3-fen7-13": [
+  "Metinde atomların bir araya gelerek madde oluşturması hangi örnekle anlatılır?",
+  "Kum tanelerinin bir araya gelerek kum havuzunu oluşturması",
+  "Tuğlaların üst üste gelerek duvarı oluşturması",
+  "Su damlalarının birleşerek gölü oluşturması"
+ ],
+ "meb3-fen7-14": [
+  "Franklin'i yalnızca “Kurucu Baba” diye anmak neden eksik olur?",
+  "Başarıları birçok farklı alana yayıldığı için",
+  "Gazetede çalışmayı bırakıp yalnız siyasetle uğraştığı için",
+  "Üniversitede öğretim üyeliği yaptığı için"
+ ],
+ "meb3-fen7-15": [
+  "Gökdoğanlarda biyolojik birikimin en fazla olmasının nedeni nedir?",
+  "Ekoloji piramidinin en üstünde yer almaları",
+  "Çok uzak bölgelere göç etmeleri nedeniyle",
+  "Yuvalarını kirli bölgelerde yapmaları nedeniyle"
+ ],
+ "meb3-fen7-17": [
+  "Mimar Sinan Kırk Çeşme Su Tesisi’ni neden yapmıştır?",
+  "Önceki onarımlara rağmen sürmekte olan su sorununu çözmek için",
+  "Fetihten önceki eski su hatlarını yeniden onarmak için",
+  "Sarnıçlardaki suyu şehrin dışına taşımak ve boşaltmak için"
+ ],
+ "meb3-fen7-18": [
+  "Günlük toplam su tüketimi (yaklaşık 7000 litre), evde kullanılan sudan neden çok fazladır?",
+  "Ürünlerin üretiminde harcanan dolaylı su da hesaba katıldığı için",
+  "İçilen su miktarı evde kullanılandan daha fazla olduğu için",
+  "Evlerdeki su kayıpları ve sızıntılar da hesaba katıldığı için"
+ ],
+ "meb3-fen7-19": [
+  "“Sessiz Bahar” kitabının ardından hangi gelişmeler yaşanmıştır?",
+  "DDT’nin yasaklanması ve EPA’nın kurulması",
+  "DDT kullanımının dünyada yaygınlaşması",
+  "Biyolojik birikim kavramının terk edilmesi"
+ ],
+ "meb3-fen7-23": [
+  "Metne göre tişörtün su yolculuğu hangi sırayla ilerler?",
+  "Pamuk sulanır, tişört üretiminde atık su oluşur, arıtılan su çevreye döner",
+  "Atık su oluşur, pamuk sulanır, arıtılan su çevreye döner ve tişört üretilir",
+  "Arıtılan su çevreye döner, pamuk sulanır, ardından tişört üretilir"
+ ],
+ "meb3-fen7-24": [
+  "Gilbert cisimleri hangi iki gruba ayırmıştır?",
+  "Elektriklenenler ve elektriklenmeyenler",
+  "Ovulanlar ve ovulmayan cisimler",
+  "Kehribardan yapılanlar ve camdan yapılanlar"
+ ],
+ "meb3-sos5-07": [
+  "Metne göre zembil nedir?",
+  "Hasırdan örülmüş kulplu torba",
+  "Koyun yününden yapılan bir kuşak",
+  "Ahşaptan bir baskı kalıbı"
+ ],
+ "meb3-sos5-13": [
+  "Pehlevanlık Azerbaycan’daki topluluklara hangi yararı sağlar?",
+  "Güçlü bir kimlik duygusu ve sosyal uyum",
+  "Tarımsal üretimi ve geliri artırma imkânı",
+  "Gençleri askerî eğitime hazırlama imkânı"
+ ],
+ "meb3-sos5-15": [
+  "Karain Mağarası'nda aşağıdaki hangi hayvanların kalıntıları keşfedilmiştir?",
+  "Gergedan, fil ve su aygırı",
+  "Deve, zürafa ve yaban eşeği",
+  "Aslan, kurt ve ayı"
+ ],
+ "meb3-sos5-16": [
+  "Ergani Ovası neden avcı toplayıcılar için elverişliydi?",
+  "Meşe ormanlarında yabani hayvan ve bitkiler bulunduğu için",
+  "Ovanın büyük bölümünün tarıma açılmış olması nedeniyle",
+  "Çevrede büyük kentlerin ve pazarların bulunması nedeniyle"
+ ],
+ "meb3-sos5-17": [
+  "Çatalhöyük yaklaşık kaç yıl önce kurulmuştur?",
+  "9000 yıl",
+  "5000 yıl",
+  "500 bin yıl"
+ ],
+ "meb3-sos5-20": [
+  "Hititler krallarının olayları kral yıllıklarına yazdırmasının nedeni nedir?",
+  "Yıl boyunca yaşananların hesabını tanrılarına vermek",
+  "Halktan toplanan vergileri düzenli biçimde kayıt altına almak",
+  "Komşu devletlere gönderilecek yazışma örneği oluşturmak"
+ ],
+ "meb3-sos5-22": [
+  "Metne göre halk millî egemenlik gücünü nasıl kullanır?",
+  "Seçme ve seçilme hakkından faydalanarak",
+  "Yönetimi doğrudan orduya devrederek",
+  "Yasaları tek tek kendisi yazarak"
+ ],
+ "meb3-sos5-26": [
+  "Metne göre kaynak ve enerji tasarrufu için hangisi önemlidir?",
+  "Sürdürülebilir kullanım, atık yönetimi ve ürünleri dönüştürme",
+  "Yeni ürünleri sık sık yenileyip eskileri çöpe atmak",
+  "Kaynakları depolayıp kullanımını ileri tarihe bırakmak"
+ ],
+ "meb3-sos6-06": [
+  "Karadeniz sahilinde nüfus neden kıyı boyunca yoğunlaşır?",
+  "Dağlar kıyıya yakın ve genelde dik olduğu için",
+  "Dağlar kıyıdan çok uzakta kaldığı için",
+  "Kıyıdaki tarım arazileri çok verimli olduğu için"
+ ],
+ "meb3-sos6-11": [
+  "“Kutadgu Bilig” eserine bu isim neden verilmiştir?",
+  "Devletin doğru yönetilmesinin halka mutluluk getireceğine inanıldığı için",
+  "Eser bir Karahanlı hükümdarına armağan edildiği için",
+  "Eser Balasagun’da başlayıp Kaşgar’da tamamlandığı için"
+ ],
+ "meb3-sos6-12": [
+  "Metne göre olayların doğru sıralaması hangisidir?",
+  "Çağrı Bey’in keşif seferleri, Pasinler Savaşı, Türkmenlerin yerleşmesi",
+  "Pasinler Savaşı, Çağrı Bey’in keşif seferleri, Türkmenlerin yerleşmesi",
+  "Türkmenlerin yerleşmesi, Çağrı Bey’in keşif seferleri, Pasinler Savaşı"
+ ],
+ "meb3-sos6-13": [
+  "Alp Arslan Mısır seferini neden yarıda kesti?",
+  "Doğu Roma ordusunun Doğu Anadolu’ya ilerlediğini haber aldığı için",
+  "Ordusunda salgın hastalık çıktığı haberini aldığı için",
+  "Tuğrul Bey’in vefat ettiği haberini aldığı için"
+ ],
+ "meb3-sos6-14": [
+  "I. Alâeddin Keykubad hangi kaleleri fethetti?",
+  "Alanya ve Alara",
+  "Sinop ve Antalya",
+  "Konya ve Kayseri"
+ ],
+ "meb3-sos6-15": [
+  "II. Haçlı Saldırısı’nın düzenlenmesine ne sebep olmuştur?",
+  "Zengî’nin Urfa’yı Haçlılardan geri alması",
+  "Kılıç Arslan’ın İznik’i yeniden fethetmesi",
+  "Sultan Mesud’un Almanlara savaş ilan etmesi"
+ ],
+ "meb3-sos6-19": [
+  "Metin, kültürler arası etkileşimin millî kültürümüze etkisini nasıl değerlendirir?",
+  "Kültürümüzü olumsuz yönde etkilediğini düşünür",
+  "Kültürümüzü güçlendirip zenginleştirdiğini düşünür",
+  "Kültürümüz üzerinde bir etkisi olmadığını düşünür"
+ ],
+ "meb3-sos7-01": [
+  "Osmanlı Devleti Mondros Ateşkes Antlaşması'nı neden imzalamak zorunda kaldı?",
+  "Birinci Dünya Savaşı'nı kaybettiği için",
+  "Sevr Antlaşması'nı reddettiği için",
+  "Balkan Savaşları'nda ağır yenildiği için"
+ ],
+ "meb3-sos7-03": [
+  "Osmanlı topraklarının Marmara Denizi'ne kadar genişlemesi hangi fetihlerle olmuştur?",
+  "İznik ve İzmit'in alınmasıyla",
+  "Edirne ve Selanik'in alınmasıyla",
+  "Mısır ve Şam'ın alınmasıyla"
+ ],
+ "meb3-sos7-05": [
+  "Yavuz'un “Çamur bana şeref verir” sözü neyi gösterir?",
+  "Bilginlere büyük saygı duyduğunu",
+  "Savaş alanındaki sade yaşamı sevdiğini",
+  "Kemal Paşazâde’yi cezalandırmak istediğini"
+ ],
+ "meb3-sos7-06": [
+  "Osmanlı Devleti denizlerde üstünlük kurmayı neden önemsemiştir?",
+  "Fetihleri kalıcı kılmak ve ticaret yollarını güvenceye almak için",
+  "Avrupa’daki Haçlı donanmasını daha kolay oluşturabilmek için",
+  "Kaptanıderya makamını yeniden kurabilmek ve güçlendirmek için"
+ ],
+ "meb3-sos7-07": [
+  "Reform hareketlerinin ortaya çıkmasında etkili olan nedenlerden biri hangisidir?",
+  "Halk yoksulken kilisenin zenginleşmesi",
+  "Kilisenin okullarda bilim derslerini artırması",
+  "Matbaanın kutsal kitapların çoğalmasını engellemesi"
+ ],
+ "meb3-sos7-08": [
+  "Aydınlanma Çağı'nda doğru bilgiye hangi yollarla ulaşılabileceği savunulmuştur?",
+  "Akıl, gözlem ve deney yoluyla",
+  "Gelenek, efsane ve söylenti yoluyla",
+  "Kilisenin öğretileri ve dinî otorite yoluyla"
+ ],
+ "meb3-sos7-09": [
+  "Milliyetçilik fikrinin güçlenmesi imparatorluklarda neye yol açtı?",
+  "Bağımsızlık hareketlerinin ortaya çıkmasına",
+  "Kralların yetkilerinin yeniden güçlenmesine",
+  "Farklı milletlerin tek bir devlette kaynaşmasına"
+ ],
+ "meb3-sos7-10": [
+  "Osmanlı’daki yenilik hareketlerinin ardından hangi sorun ortaya çıkmıştır?",
+  "Farklı milletleri bir arada tutmak zorlaşmıştır",
+  "Halkın yönetime katılmasının engellenmesi",
+  "Fransız fikirlerinden büsbütün vazgeçilmesi"
+ ],
+ "meb3-sos7-11": [
+  "Süleymaniye Külliyesi Osmanlı mimarisinin hangi özelliğini yansıtır?",
+  "Gelişmiş planlama anlayışını",
+  "Ahşap yapıya dayalı geleneğini",
+  "Başka kültürlerden alınan süslemeleri"
+ ],
+ "meb3-sos7-12": [
+  "Mühendishane-i Bahri-i Hümayun nasıl bir okuldu?",
+  "Askerî Deniz Mühendislik Okulu",
+  "Kara Mühendislik ve Topçu Okulu",
+  "Güzel Sanatlar ve Mimarlık Okulu"
+ ],
+ "meb3-sos7-13": [
+  "Darüşşafaka hangi çocuklara eğitim veren bir kurumdur?",
+  "Kimsesiz çocuklara",
+  "Kız çocuklarına",
+  "Askerlerin çocuklarına"
+ ],
+ "meb3-sos7-14": [
+  "Loncaların başlıca görevlerinden biri hangisidir?",
+  "Fiyatları kontrol altında tutmak",
+  "Halktan vergi toplamak ve saklamak",
+  "Savaşlara düzenli asker göndermek"
+ ],
+ "meb3-sos7-15": [
+  "Nuri Demirağ neden havacılık alanında atılım yapmaya karar verdi?",
+  "Havacılık dönemde yükselen bir değer olduğu için",
+  "Demiryolu yatırımlarında büyük zarar ettiği için",
+  "Atatürk bu alanda ona özel bir emir verdiği için"
+ ],
+ "meb3-sos7-16": [
+  "TCG Anadolu barış döneminde hangi görevlere katılacak şekilde tasarlanmıştır?",
+  "Başka ülkelerdeki krizlerde yardım ve destek faaliyetlerine",
+  "Ticaret gemilerine yük taşımacılığı yapma görevlerine",
+  "Sivil yolcu taşımacılığı yapma görevlerine"
+ ],
+ "meb3-sos7-18": [
+  "Metne göre akıllı kent uygulamaları hangi yararları sağlar?",
+  "Zaman tasarrufu ve gereksiz enerji tüketiminin azalması",
+  "Cihaz satışının artması ve ihracat gelirinin yükselmesi",
+  "Konut fiyatlarının düşmesi ve nüfusun azalması"
+ ],
+ "meb3-sos7-19": [
+  "Arkeoloji eski medeniyetleri incelerken hangi bilim dallarından yararlanır?",
+  "Tarih, coğrafya ve antropoloji",
+  "Kimya, fizik ve gök bilimi",
+  "Tıp, hukuk ve ekonomi bilimleri"
+ ],
+ "meb3-sos7-20": [
+  "Metindeki örnekler birlikte neyi gösterir?",
+  "İnsanların çevreye uyum için coğrafya bilgisinden yararlandığını",
+  "Coğrafi koşulların insan yaşamında rolü olmadığını",
+  "Doğal oluşumların insan eliyle tamamen ortadan kalktığını"
+ ],
+ "meb3-sos7-21": [
+  "Cumhuriyet tüm vatandaşlarla ilgili neyi vurgulamıştır?",
+  "Kanun önünde eşit olduklarını",
+  "Mesleklerine göre sınıflara ayrıldıklarını",
+  "Seçme hakkının belli ailelere ait olduğunu"
+ ],
+ "yz-s8-001": [
+  "Metne göre kara deliğe yaklaşan bir saat nasıl işler?",
+  "Uzaktaki bir saate göre daha yavaş",
+  "Uzaktaki bir saate göre daha hızlı",
+  "Uzaktaki saatle aynı hızda"
+ ],
+ "yz-s8-002": [
+  "Okyanusun yüzeye yakın kısmında yaşam neden bol olur?",
+  "Güneş ışığı minik canlıların büyümesini sağladığı için",
+  "Derinlerden çıkan sıcak sular besin taşıdığı için",
+  "Bu bölgede avlanan canlıların az olması nedeniyle"
+ ],
+ "yz-s8-005": [
+  "Küçük kız iki saati kulağına tutunca ne söyledi?",
+  "Biri geçen vakti, öbürü güzel vakti söyler",
+  "İkisi de aynı şeyi aynı biçimde söyler",
+  "Biri bozuk olduğunu, öbürü çalıştığını söyler"
+ ],
+ "yz-s8-006": [
+  "Çatılar neden sokak gibi kullanılırdı?",
+  "Evler bitişikti ve arada sokak yoktu",
+  "Komşular birbirinden uzakta yaşıyordu",
+  "Çatılar kil kaplarla kaplanmıştı"
+ ],
+ "yz-s8-007": [
+  "Yapay zekâyı kullanırken neden dikkatli olmak gerekir?",
+  "Örnekler eksik veya hatalıysa yanlış çalışabileceği için",
+  "İnsan gibi düşünüp kendi kararını verdiği için",
+  "Oyunlarda ustaları yenebildiği için"
+ ],
+ "yz-s8-012": [
+  "Kuşlar bulutlu havada yönlerini nasıl kaybetmez?",
+  "Manyetik alanı algılayarak",
+  "Daha yüksek bulutların üstüne çıkarak",
+  "Rüzgârın estiği yöne bakarak"
+ ],
+ "yz-s8-013": [
+  "Bardaktaki kalem suda neden kırık görünür?",
+  "Işık su ile havanın sınırında yön değiştirdiği için",
+  "Işık suyun içinde soğurulup zayıfladığı için",
+  "Su kalemi gerçekte büküp kısalttığı için"
+ ],
+ "yz-s8-018": [
+  "Sınavdan önceki gece sabaha kadar çalışmak neden çoğu zaman iyi fikir değildir?",
+  "Uyurken beyin öğrendiklerini düzenleyip kalıcı kıldığı için",
+  "Gece çalışırken ışık gözleri çok yorduğu için",
+  "Sabaha kadar çalışmak dikkatin dağılmasına yol açtığı için"
+ ],
+ "yz-s8-019": [
+  "Matbaayla birlikte yazım kuralları neden ortak bir biçim almaya başladı?",
+  "Aynı kitap binlerce kişi tarafından aynı şekilde okunduğu için",
+  "Harfler metal olduğu için yazım hatası yapılmadığı için",
+  "Kitaplar hâlâ elle kopyalanmaya devam ettiği için"
+ ],
+ "yz-s8-021": [
+  "Kutup ışıklarında oksijen gazı hangi rengi yayar?",
+  "Yeşil",
+  "Pembe",
+  "Mavi"
+ ],
+ "yz-s8-025": [
+  "Paratoner ne işe yarar?",
+  "Yıldırımı güvenle toprağa iletir",
+  "Bulutlardaki elektrik yükünü artırır",
+  "Yıldırımın sesini azaltır"
+ ],
+ "yz-s8-028": [
+  "Köprülerde genleşme aralıkları neden bırakılır?",
+  "Çelik sıcakta genleştiği için",
+  "Yağmur suları rahat akabilsin diye",
+  "Köprü daha hafif olsun diye"
+ ],
+ "yz-s8-032": [
+  "GPS ile konumu belirlemek için genellikle en az kaç uydu sinyali gerekir?",
+  "Dört",
+  "Üç",
+  "Yirmi dört"
+ ],
+ "yz-s8-035": [
+  "Dijital makineler gelince film ihtiyacı neden kalmadı?",
+  "Işığı bir algılayıcı yakalayıp bilgisayar sayılara çevirdiği için",
+  "Işığa duyarlı plakalar daha ucuz hâle geldiği için",
+  "Karanlık oda yöntemi yeniden kullanılmaya başlandığı için"
+ ],
+ "yz-s8-037": [
+  "Uzak yıldızlara bakmak neden geçmişi görmek demektir?",
+  "Işığın bize ulaşması uzun yıllar sürdüğü için",
+  "Yıldızlar zamanla küçülüp söndüğü için",
+  "Teleskoplar eski görüntüleri saklayıp gösterdiği için"
+ ],
+ "yz-s8-039": [
+  "Madenler para olarak neden tercih edildi?",
+  "Dayanıklı ve taşınması kolay oldukları için",
+  "Her ülkede kolayca bulunabildikleri için",
+  "Değerlerinin ayrıca hesaplanması gerekmediği için"
+ ],
+ "y01": [
+  "Metne göre bir saatlik tek çalışma yerine ne daha iyi sonuç verir?",
+  "Dört kez onar dakikalık tekrar",
+  "Üç kez yirmi dakikalık tekrar",
+  "İki kez otuz dakikalık tekrar"
+ ],
+ "y02": [
+  "Metne göre derin uykuda beden ne yapar?",
+  "Onarım yapar",
+  "Anıları yeniden işler",
+  "Uyanıklığa yakın çalışır"
+ ],
+ "y03": [
+  "Antik hatipler konuşmalarını nasıl hatırlardı?",
+  "Bölümleri tanıdık bir evin odalarına yerleştirirlerdi",
+  "Konuşmanın her bölümünü defalarca yazıp ezberlerlerdi",
+  "Konuşmayı arkadaşlarına her gün anlatırlardı"
+ ],
+ "y04": [
+  "Metne göre bir sulak alan kuruduğunda ne olur?",
+  "Bütün bir canlı ağı çözülür",
+  "Yalnızca manzara kaybolur, canlılar etkilenmez",
+  "Yeraltı suyu hızla yeniden dolar"
+ ],
+ "y05": [
+  "Mısır'da hiyeroglifler nerelere işlendi?",
+  "Taş duvarlara ve papirüse",
+  "Kil tabletlere ve parşömene",
+  "Kâğıda ve deriye"
+ ],
+ "y06": [
+  "Güneş'e en yakın yıldız sistemi ne kadar uzaktadır?",
+  "Dört ışık yılından biraz fazla",
+  "Bir ışık yılından az",
+  "Yaklaşık kırk ışık yılı"
+ ],
+ "y08": [
+  "Metne göre ekşi mayalı ekmekler neyin ürünüdür?",
+  "Uzun bir bekleyişin",
+  "Hızlı üretim tekniklerinin",
+  "Yeni baharat karışımlarının"
+ ],
+ "y09": [
+  "Uzmanlar uzun süre oturanlara ne öneriyor?",
+  "Arada kalkıp birkaç adım atmalarını",
+  "Günde bir saat salonda antrenman yapmalarını",
+  "Masa başında daha uzun süre kesintisiz çalışmalarını"
+ ],
+ "y10": [
+  "Metne göre sıkılmak zihin için nasıl bir süreçtir?",
+  "Dinlendiği ve yeni fikirler ürettiği",
+  "Dikkatinin dağıldığı ve verimin düştüğü",
+  "Telefona ihtiyaç duyduğu"
+ ],
+ "y11": [
+  "Metne göre \"Rapor yaz\" yerine ne demek işi daha yapılabilir gösterir?",
+  "İlk paragrafı yaz",
+  "Raporu bu hafta bitir",
+  "Raporun konusunu belirle"
+ ],
+ "y12": [
+  "Metne göre hangi soru karşıdakine suçlayıcı gelebilir?",
+  "\"Neden yaptın?\"",
+  "\"Ne oldu?\"",
+  "\"Seni ne zorladı?\""
+ ],
+ "y13": [
+  "Metne göre ısınmanın etkileri nasıl görünür?",
+  "Farklı yerlerde farklı görünür",
+  "Her bölgede aynı biçimde görünür",
+  "Yalnızca kutuplarda görülür"
+ ],
+ "y14": [
+  "Metne göre ninniler neden hemen her kültürde vardır?",
+  "Bebekler ritme ve ezgiye duyarlıdır",
+  "Ebeveynler müzik eğitimi aldığı için",
+  "Ninniler bayram ve düğünlerde söylendiği için"
+ ],
+ "y15": [
+  "Metne göre kütüphane, çevrimiçi aramaya göre ne sunar?",
+  "Hiç aranmayan bir kitaba rastlama keşfi",
+  "Aranan kitabı saniyeler içinde bulma",
+  "Kitapları çok daha ucuza edinme"
+ ],
+ "y16": [
+  "Metne göre yüksek faizli borçlar için ne önerilir?",
+  "Öncelikle ödenmeleri",
+  "Birikim yapılana kadar ertelenmeleri",
+  "Yalnızca asgari tutarın ödenmesi"
+ ],
+ "y17": [
+  "Metne göre günlük su ihtiyacı için ne söylenebilir?",
+  "Susuzluğa, havaya ve hareket düzeyine göre değişir",
+  "Herkes için aynı bardak sayısı geçerlidir",
+  "Yalnızca yemek saatlerinde su içmek yeterlidir"
+ ],
+ "y18": [
+  "Metne göre yanlış cevap neden bir hazine olabilir?",
+  "Arkasındaki mantık öğrencinin zihnini gösterir",
+  "Öğrenciye cesaret verdiği için",
+  "Doğru cevabı kolayca hatırlattığı için"
+ ],
+ "y19": [
+  "Metne göre yavaş seyahat fikrinde ne yapmak daha derin deneyim sunar?",
+  "Bir yerde birkaç gün kalmak",
+  "Beş günde on şehir görmek",
+  "Her anı programla doldurmak"
+ ],
+ "y20": [
+  "Metne göre filler uzak mesafelerden nasıl haberleşir?",
+  "Çok düşük frekanslı seslerle",
+  "Yolda kimyasal iz bırakarak",
+  "Belirli bir hareket düzeniyle dans ederek"
+ ],
+ "y21": [
+  "Eski çarşı yapılarında sokaklar neden dar tutulur?",
+  "Güneş doğrudan içeri girmesin diye",
+  "Yağmurda yürümek mümkün olsun diye",
+  "Hanlara avlu için yer kalsın diye"
+ ],
+ "n41": [
+  "Ağaç zarar görmeden yaşı nasıl öğrenilebilir?",
+  "İnce bir çubuk çıkarıp çizgileri sayarak",
+  "Gövdenin çevresini metreyle ölçerek",
+  "Dalların sayısını sayarak"
+ ],
+ "n42": [
+  "Flamingoların pembe rengi nereden gelir?",
+  "Yedikleri küçük tuzlu su karideslerinden",
+  "Tuz tabakasındaki minerallerden",
+  "Gölün kıyısındaki bitkilerden"
+ ],
+ "n43": [
+  "Komşuya giden tabak geri dönerken nasıl olurdu?",
+  "Üstünde bir parça tatlı olurdu",
+  "İçinde bir miktar ekmek olurdu",
+  "Yanında küçük bir not olurdu"
+ ],
+ "n44": [
+  "Işığın hızı ilk kez nasıl ölçülmeye çalışıldı?",
+  "Jüpiter uydularının gölgede kalma zamanları izlenerek",
+  "Ay'a gönderilen ışık huzmesinin gidip dönme süresi ölçülerek",
+  "Güneş tutulması sırasında zaman tutularak"
+ ],
+ "n45": [
+  "Anlatıcının teyzesi sabah ocakta ne yapıyordu?",
+  "Hamur yoğuruyordu",
+  "Zeytin ayıklıyordu",
+  "Kaymak çıkarıyordu"
+ ],
+ "n46": [
+  "Metne göre toprak kokusunu en çok ne zaman duyarız?",
+  "Hafif yağmurlarda",
+  "Şiddetli sağanaklarda",
+  "Gece boyunca süren yağmurlarda"
+ ],
+ "n47": [
+  "Likya Yolu'nda yolcular akşamları nerede kalır?",
+  "Köylülerin açtığı küçük misafirhanelerde",
+  "Kıyıdaki büyük otellerde",
+  "Dağ başındaki çadır kamplarında"
+ ],
+ "n48": [
+  "Limon mercimek çorbasına neden yararlıdır?",
+  "C vitamini demirin kullanımını kolaylaştırır",
+  "Çorbanın daha çabuk kaynamasını sağlar",
+  "Çorbanın bozulmadan saklanmasını sağlar"
+ ],
+ "n49": [
+  "Anlatıcı beş kilometreyi ne zaman durmadan koştu?",
+  "Bir ay sonra",
+  "Üç hafta sonra",
+  "Altı ay sonra"
+ ],
+ "n50": [
+  "Türkçe ninnilerde sıkça hangi sözler geçer?",
+  "\"Lay lay\" ve \"ninni\"",
+  "\"Hey hey\" ve \"uyu yavrum\"",
+  "\"Aman aman\" ve \"dandini\""
+ ],
+ "yet1-001": [
+  "Erkek kırlangıca göre kanat vurunca hangi kuştan daha çok yol alırlar?",
+  "En hızlı güvercinden",
+  "Avaz avaz bağıran bülbülden",
+  "Budala serçeden"
+ ],
+ "yet1-002": [
+  "Kamyonun sahibi nasıl biriydi?",
+  "Esmer, uzun boylu, boyunbağlı biriydi",
+  "Yuvarlak sakallı, heybeli biriydi",
+  "Üstü başı toz içinde, genç biriydi"
+ ],
+ "yet1-003": [
+  "Küçük satıcının sesi nasıldı?",
+  "İnce ve titrekti",
+  "Boğuk ve kısıktı",
+  "Gür ve neşeliydi"
+ ],
+ "yet1-004": [
+  "İhtiyara göre köylüler ormanda yollarını nasıl bulurdu?",
+  "Kırık dallar ve devrilmiş kütükler yol gösterirdi",
+  "Gece yıldızlara ve rüzgârın yönüne bakarak bulurlardı",
+  "Ağaçlara kazınmış işaretleri izlerlerdi"
+ ],
+ "yet1-005": [
+  "Melikenin memurlarının başlıca görevi neymiş?",
+  "Hayatından hoşnut olmayan kimse bırakmamak",
+  "Halktan her ay düzenli olarak vergi toplamak",
+  "Melikenin emirlerini köylere duyurmak"
+ ],
+ "yet1-006": [
+  "Hırkalı köpek, kendisine hırlayan başka köpeklere karşı ne yapar?",
+  "Aldırmadan yoluna gider",
+  "Karşılık verip dövüşür",
+  "Sahibinin arkasına saklanır"
+ ],
+ "yet1-007": [
+  "Kamyon Sıvas'a hangi yükü getiriyordu?",
+  "Şeker çuvallarını",
+  "Un çuvallarını",
+  "Tuz çuvallarını"
+ ],
+ "yet1-008": [
+  "Anlatıcıya bankadan çıkarılma gerekçesi olarak ne söylenmiş?",
+  "Tasarruf yapılacağı",
+  "İşlerini aksattığı",
+  "Şubenin kapatılacağı"
+ ],
+ "yet1-009": [
+  "Hizmetçiye göre telgraf kaç gündür bekliyordu?",
+  "Üç gündür",
+  "Bir haftadır",
+  "İki gündür"
+ ],
+ "yet1-010": [
+  "Raif, Maria'yı hangi istasyona götürdü?",
+  "Anhalter istasyonuna",
+  "Potsdamer istasyonuna",
+  "Lehrter istasyonuna"
+ ],
+ "yet1-011": [
+  "Anlatıcı kürk mantolu kadını görünce ne yaptı?",
+  "Bir evin kapı aralığına gizlendi",
+  "Doğrudan kadının yanına gidip konuştu",
+  "Karşı kaldırıma geçip hızlandı"
+ ],
+ "yet1-012": [
+  "Defterin ilk sayfasındaki tarih hangisidir?",
+  "20 Haziran 1933",
+  "10 Haziran 1933",
+  "20 Haziran 1932"
+ ],
+ "yet1-013": [
+  "Ali, günlerce ağlayamadıktan sonra ne zaman ağladı?",
+  "Parlayan semaveri görüp gözden uzağa koyunca",
+  "Annesinin mezarının başında uzun süre durunca",
+  "Komşular evden ayrılınca"
+ ],
+ "yet1-014": [
+  "Yavru kediler ne zaman sokağa bırakılıyordu?",
+  "Evi doldurduklarında",
+  "Yaz bittiğinde",
+  "Tombullaşıp büyüdüklerinde"
+ ],
+ "yet1-015": [
+  "Küçük hırsız, anlatıcıyı neyle yaraladı?",
+  "Küçücük bir çakıyla",
+  "Çivili bir bastonla",
+  "Kırık bir camla"
+ ],
+ "yet1-016": [
+  "Küfeci çocuk yirmi beş kuruşu geri verirken ne dedi?",
+  "\"Her sakallıyı baban sanma.\"",
+  "\"Ben dilenci değilim, efendi.\"",
+  "\"Bana ayakkabı alsan yeter.\""
+ ],
+ "yet1-017": [
+  "Havuza alınacak kırmızı balık nerede satılırmış?",
+  "Mısır Çarşısı'nda",
+  "Eminönü iskelesinde",
+  "Kapalıçarşı'da"
+ ],
+ "yet1-018": [
+  "Anlatıcı üç ayda bir Karaköy'e ne için iner?",
+  "Dükkân kirasını almak için",
+  "Fransızca dergi almak için",
+  "Eski dostlarını görmek için"
+ ],
+ "yet1-019": [
+  "Munise'nin \"aba\" dediği kişi kimdir?",
+  "Ablası",
+  "Annesi",
+  "Teyzesi"
+ ],
+ "yet1-020": [
+  "Büyük erkek çocuklar hangi köydeki okula gönderiliyor?",
+  "Garipler Köyü'ndeki",
+  "Çamlık Köyü'ndeki",
+  "Kayalık Köyü'ndeki"
+ ],
+ "yet1-021": [
+  "Hacı Kalfa, Feride'yi hangi okulun kapısına götürdü?",
+  "Merkez Rüştiyesi'nin",
+  "Âli İdadi'nin",
+  "Şehir Darülmuallimatı'nın"
+ ],
+ "yet1-022": [
+  "Şube müdürü, Feride'nin Fransızca konuşması için ne dedi?",
+  "Bülbül gibi konuştuğunu",
+  "Anadili gibi akıcı olduğunu",
+  "Çok çekindiğini ve hata yaptığını"
+ ],
+ "yet1-023": [
+  "Zeyniler'deki evlerin alt katlarında ne vardı?",
+  "Dört direkten ibaret ahırlar",
+  "Küçük esnaf dükkânları ve atölyeler",
+  "Kurutulmuş meyve ambarları"
+ ],
+ "yet1-024": [
+  "Feride, Müjgân'ı kıyıdaki suyun öte yanına nasıl geçirdi?",
+  "Onu sırtına alarak",
+  "Kayıkla",
+  "Taşların üzerinden atlatarak"
+ ],
+ "yet1-025": [
+  "Müdür Efendi, şaşı gözlerinin yan bakışlarını kaç liraya satmayacağını söylüyor?",
+  "Bin liraya",
+  "Yüz liraya",
+  "Beş yüz liraya"
+ ],
+ "yet1-026": [
+  "Öğretmen, Munise'yi elinde ne tutarken yakaladı?",
+  "Yanmış bir kibrit ucu",
+  "Küçük bir ayna parçası",
+  "Bir kutu pudra"
+ ],
+ "yet2-001": [
+  "Leydi Blemley süt dökünce Tobermory ne dedi?",
+  "\"Neyse ki halı benim değil.\"",
+  "\"Önemli değil, hemen silinir.\"",
+  "\"Bir daha dökmeyin lütfen.\""
+ ],
+ "yet2-002": [
+  "Bayan Packletide neden bir kaplan vurmak istiyordu?",
+  "Rakibi Loona Bimberton'a karşılık vermek için",
+  "Kaplan postu satıp para kazanmak için",
+  "Av tutkusu bir anda uyandığı için"
+ ],
+ "yet2-003": [
+  "İona'ya göre kadınlarla konuşmak neden daha iyi olurdu?",
+  "İlk sözde ağlamaya başlarlar",
+  "Oğlunu çok daha iyi tanıyıp anlarlardı",
+  "Ona para yardımı yaparlardı"
+ ],
+ "yet2-004": [
+  "Vanka ringa balığını kuyruğundan temizlemeye başlayınca ustanın karısı ne yaptı?",
+  "Balığın burnunu yüzüne sürdü",
+  "Onu bir gün aç bıraktı",
+  "Saçından tutup avluya sürükledi"
+ ],
+ "yet2-005": [
+  "Kaybolan cüzdanı sonunda kim geri verdi?",
+  "Okuma bilmeyen bir çiftlik işçisi",
+  "Belediye başkanı olan ağırbaşlı noter",
+  "Jandarma onbaşısı"
+ ],
+ "yet2-006": [
+  "Madam Loisel ile kocası borcu kaç yılda ödedi?",
+  "On yılda",
+  "Beş yılda",
+  "Yirmi yılda"
+ ],
+ "yet2-007": [
+  "Maxwell'i olduğu yerde donduran koku nasıldı?",
+  "Hassas bir leylak kokusuydu",
+  "Taze bir gül kokusuydu",
+  "Keskin bir tütün kokusuydu"
+ ],
+ "yet2-008": [
+  "Sarah, lokanta sahibi Schulenberg için çalışırken karşılığında ne alıyordu?",
+  "Üç öğün yemek",
+  "Haftalık maaş",
+  "Kira indirimi"
+ ],
+ "yet2-009": [
+  "Jim, Della'nın taraklarını almak için neyi satmıştı?",
+  "Altın saatini",
+  "Yeni paltosunu",
+  "Evlilik yüzüğünü"
+ ],
+ "yet2-010": [
+  "Bob'un, karşısındakinin Jimmy Wells olmadığını anlamasını ne sağladı?",
+  "Burnunun biçimi farklıydı",
+  "Boyunun çok uzun olması",
+  "Elindeki saatin farklı olması"
+ ],
+ "yet2-011": [
+  "Çocuk neden eve gitmek istemiyordu?",
+  "Evde hiç eğlenmiyor, okuldan nefret ediyordu",
+  "Mağaradaki tutsakları kurtarmak istiyordu",
+  "Annesiyle babasından çok korkuyordu"
+ ],
+ "yet2-012": [
+  "Roket'in annesi kimdi?",
+  "Zamanının en ünlü Dönen Çark'ıydı",
+  "Zamanının en meşhur Roma Mumu'ydu",
+  "Zamanının en parlak Bengal Işığı'ydı"
+ ],
+ "yet2-013": [
+  "Bolton Düşesi neden bir daha kendine gelemedi?",
+  "Omuzlarına iki iskelet el konduğu için",
+  "Odasında bir kan lekesi gördüğü için",
+  "Kütüphaneden esrarlı sesler duyduğu için"
+ ],
+ "yet2-014": [
+  "Köşkteki lekenin kimin kanı olduğu söyleniyor?",
+  "Sir Simon'ın öldürdüğü Leydi Eleanore'un",
+  "Sir Simon'ın kardeşi Sir Henry'nin",
+  "Köşkte çalışırken ölen genç bir hizmetçi kızın"
+ ],
+ "yet2-015": [
+  "Podger Amca çiviyi ilk vuruşta çakmaya çalışınca ne olurdu?",
+  "Başparmağını ezerdi",
+  "Çiviyi eğerdi",
+  "Tabloyu düşürürdü"
+ ],
+ "yet2-016": [
+  "Cenaze levazımatçısına benzeyen adam, kokunun ona neyi hatırlattığını söyledi?",
+  "Ölü bir bebeği",
+  "Çürümüş bir balığı",
+  "Bozulmuş bir yumurtayı"
+ ],
+ "yet2-017": [
+  "Gusty içeri dalınca kuyruğuyla ilk olarak ne yaptı?",
+  "Kahve fincanını masadan süpürdü",
+  "Yumurtaları halının üstüne döktü",
+  "Mürekkep hokkasını devirdi"
+ ],
+ "yet2-018": [
+  "Yazara göre ebeveynleri en çok ne söylemek etkiler?",
+  "Çocuğun burnunun babasına çektiğini",
+  "Çocuğun gözlerinin annesine benzediğini",
+  "Çocuğun çok erken konuşacağını"
+ ],
+ "yet2-019": [
+  "Thompson koku karşısında vagona ne boca etti?",
+  "Karbolik asit",
+  "Tarçın özü",
+  "Sirke"
+ ],
+ "yet2-020": [
+  "Jeeves, gri kareli takım yaptırma fikri için ne dedi?",
+  "Anlatıcıya yakışmayacağını",
+  "Çok pahalıya geleceğini",
+  "Modasının geçtiğini"
+ ],
+ "yet2-021": [
+  "Sir Pelleas kralın çağrısına ne cevap verdi?",
+  "Ayak tırnağı battığını söyledi",
+  "Atının hasta olduğunu söyledi",
+  "Zırhının kayıp olduğunu söyledi"
+ ],
+ "yet2-022": [
+  "Genç kızın uydurduğu hikâyeye göre üç adam nerede kayboldu?",
+  "Bir bataklıkta",
+  "Bir ormanda",
+  "Bir nehirde"
+ ],
+ "yet2-023": [
+  "Arkadaşa göre Huzursuzluk Tedavisinin etkili olması için nerede denenmesi gerekir?",
+  "Evde",
+  "Kilkenny'de",
+  "Berlin'de"
+ ],
+ "yet2-024": [
+  "Köpeğin ısırdığı Hrükin'in mesleği nedir?",
+  "Kuyumcu",
+  "Pazarcı",
+  "Marangoz"
+ ],
+ "yet2-025": [
+  "Mitya'ya yaralanması için ne yapması söylenmiş?",
+  "Başının arkasına soğuk su kompresi yapması",
+  "Birkaç gün boyunca yatakta uzanıp dinlenmesi",
+  "Başını sıcak suyla yıkaması"
+ ],
+ "yet2-026": [
+  "Oreille'ın karısına aldığı ipek şemsiye kaç franktı?",
+  "On sekiz frank",
+  "Otuz frank",
+  "Kırk frank"
+ ],
+ "yet2-027": [
+  "Jules Amca neden Amerika'ya gönderilmişti?",
+  "Parayı savurduğu için",
+  "Hırsızlık yaptığı için",
+  "Bir düello yüzünden"
+ ],
+ "yet2-028": [
+  "Akaki Akakiyeviç'in rütbesi nedir?",
+  "Kalıcı unvanlı müşavir",
+  "Dairenin kıdemli başkâtibi",
+  "Mahalle subayı"
+ ],
+ "yet2-029": [
+  "İki memur emekli olunca nereye yerleşti?",
+  "Petersburg'daki Podyaçeskaya Caddesi'ne",
+  "Moskova'daki ünlü Arbat Caddesi'ndeki eve",
+  "Kiev'deki Kreşçatik Caddesi'ne"
+ ],
+ "yet2-030": [
+  "Yaralı adam neden kralı öldürmek istiyordu?",
+  "Kral kardeşini idam ettirip mallarını almıştı",
+  "Kral onu ülkeden sürmüştü",
+  "Kral ödülü başkasına vermişti"
+ ],
+ "yet2-031": [
+  "Twain'e göre gülünç hikâye hangi millete aittir?",
+  "İngilizlere",
+  "Amerikalılara",
+  "Fransızlara"
+ ],
+ "yet2-032": [
+  "Labirentte yerdeki çörek parçasını oraya kim atmıştı?",
+  "Bebekli kadın",
+  "Harris'in kuzeni",
+  "Genç bekçi"
+ ],
+ "yet2-033": [
+  "Emily, gazın yakılması konusunda babası hakkında ne söyledi?",
+  "Öğleden sonra gaz yakılmasını sevmediğini",
+  "Gazın pahalı olduğunu düşündüğünü",
+  "Misafirlerin geç kalmasından hoşlanmadığını"
+ ],
+ "yet2-034": [
+  "Hindi anası yanlış bir çağrıya cevap verdiğini anlarsa ne yapar?",
+  "Topallayarak uzaklaşır, yavrulara saklanmalarını söyler",
+  "Sürüsünü toplayıp birlikte en yüksek ağaç dallarına çıkar",
+  "Avcıya doğru koşarak onu şaşırtır"
+ ],
+ "yet2-035": [
+  "Alarm sistemini ilk takan adam kaç dolar aldı?",
+  "Üç yüz yirmi beş dolar",
+  "İki yüz yetmiş beş dolar",
+  "Beş yüz dolar"
+ ],
+ "yet2-036": [
+  "Gerçek ölünün hangi özelliği, konuşmacının sözlerine uymuyordu?",
+  "Gür kırmızı sakalı vardı",
+  "Çok genç yaşta ölmüştü",
+  "Dairede başkâtip olarak çalışıyordu"
+ ],
+ "yet2-037": [
+  "Klim, kendi gücünü anlatırken kaç soyguncunun saldırdığını söylüyor?",
+  "Üç soyguncu",
+  "Dört soyguncu",
+  "Bir düzine soyguncu"
+ ],
+ "yet2-038": [
+  "Deplis'in sırtındaki resim neyi anlatıyordu?",
+  "İkarus'un Düşüşü'nü",
+  "Wallenstein'ın bir kaleyi alışını",
+  "Bergamo'nun kuruluşunu"
+ ],
+ "yet3-001": [
+  "Tebeşir tozu sirkeye atılınca ne olur?",
+  "Köpürür ve içinde çözünüp kaybolur",
+  "Hiç değişmeden dibe çöker",
+  "Kararıp sertleşerek katılaşır"
+ ],
+ "yet3-002": [
+  "Mikroskopla incelemek için tebeşir dilimi nasıl hazırlanır?",
+  "İçinden ışık geçecek kadar ince aşındırılır",
+  "Önce tamamen kireç olana kadar ateşte yakılır",
+  "Boyayla renklendirilip kurutulur"
+ ],
+ "yet3-003": [
+  "\"Mum ağacı\" denen ağaç nereden çıkarılır?",
+  "İrlanda'nın bazı bataklıklarından",
+  "İskoçya'nın en yüksek dağ yamaçlarından",
+  "Kuzey Amerika ormanlarından"
+ ],
+ "yet3-004": [
+  "Havlu leğenin kenarına sifon gibi asılı kalırsa ne olur?",
+  "Leğendeki suyu çekip yere akıtır",
+  "Leğendeki su havluyu hiç ıslatmaz",
+  "Havlu kuruyup sertleşir"
+ ],
+ "yet3-005": [
+  "Faraday, dinleyicilerinin ne olmasını diliyor?",
+  "Çevrelerine ışık olmalarını",
+  "Büyük birer bilim insanı olmalarını",
+  "Mum yapımında usta olmalarını"
+ ],
+ "yet3-006": [
+  "Rio yakınlarındaki bahçelerde lahana ve marul yapraklarına ne oluyor?",
+  "Böceklerce ellenmeden duruyor",
+  "Sümüklü böceklerce hemen yeniyor",
+  "Yağmurda çürüyüp dökülüyor"
+ ],
+ "yet3-007": [
+  "Işıldayan deniz suyu bardakta çalkalanınca ne oluyor?",
+  "Kıvılcımlar çıkıyor",
+  "Işık tamamen sönüyor",
+  "Su köpürüp sütleşiyor"
+ ],
+ "yet3-008": [
+  "Kondorlar aşağı süzülüp sonra hep birlikte birden yükselirse Şilili köylü ne anlar?",
+  "Pumanın hırsızları kovmak için fırladığını",
+  "Bir avcının kuşları ürküttüğünü",
+  "Yakında yağmur yağacağını"
+ ],
+ "yet3-009": [
+  "Adalılar dev kaplumbağalar hakkında ne düşünüyor?",
+  "Tamamen sağır olduklarını",
+  "Kokuyu hiç alamadıklarını",
+  "Karanlıkta göremediklerini"
+ ],
+ "yet3-010": [
+  "Cowley'e göre kumrular ateş edilmesinden sonra nasıl değişti?",
+  "Daha ürkek oldular",
+  "Adadan tamamen göç ettiler",
+  "Daha da evcilleşti"
+ ],
+ "yet3-011": [
+  "Thoreau'ya göre etkili bir zihinsel çaba için yeterince uyanık olan kaç kişidir?",
+  "Milyonda biri",
+  "Yüz binde biri",
+  "Yüz milyonda biri"
+ ],
+ "yet3-012": [
+  "Thoreau, işlerin kaç tane olmasını öneriyor?",
+  "İki üç tane",
+  "Yüz tane",
+  "Bin tane"
+ ],
+ "yet3-013": [
+  "Thoreau'ya göre toplum neden \"fazla ucuzdur\"?",
+  "Birbirimize değer katacak zaman bırakmadan sık buluşuruz",
+  "İnsanlar şehirlerde birbirini hiç tanımadan yaşadığı için",
+  "Görgü kuralları kalktığı için"
+ ],
+ "yet3-014": [
+  "Dalgıç kuşu, en başarılı kaçışından sonra nasıl bir ses çıkarırdı?",
+  "Kurdunkine benzeyen uzun bir uluma",
+  "Karga sesine benzeyen boğuk bir kuruldama",
+  "Ördek gibi kısa bir vaklama"
+ ],
+ "yet3-015": [
+  "Thoreau'ya göre pamuk kente gelirken ne gidiyor?",
+  "Dokuma kumaş",
+  "Yünlü kumaş",
+  "Onları yazan zekâ"
+ ],
+ "yet3-016": [
+  "Kılavuz kaptan, suyun yüzeyindeki hafif bir çukurcukta ne görür?",
+  "Gemiyi parçalayabilecek bir enkaz ya da kaya",
+  "Bir balık sürüsünün geçişini",
+  "Akıntının yön değiştirdiğini"
+ ],
+ "yet3-017": [
+  "Twain, sonradan suyun üstündeki eğik izi nasıl yorumlar olmuş?",
+  "Vapuru batıracak sivri bir resife işaret ediyor",
+  "Yarın şiddetli rüzgâr çıkacağını gösteriyor",
+  "Kum yığınının dağıldığını, kanalın değiştiğini gösteriyor"
+ ],
+ "yet3-018": [
+  "Bay Bixby'ye göre durgun su nerededir?",
+  "Kıyıya yakın yerde",
+  "Nehrin ortasında",
+  "Dönemeçlerin dışında"
+ ],
+ "yet3-019": [
+  "Posta atlısının taşıdığı mektupların posta ücreti mektup başına kaç dolardı?",
+  "Beş dolar",
+  "Bir dolar",
+  "Yirmi dolar"
+ ],
+ "yet3-020": [
+  "Twain ve Johnny, Tahoe'ya giderken yanlarına neleri aldı?",
+  "Birer çift battaniye ve birer balta",
+  "Birer tüfek, çadır ve yeterince erzak",
+  "Tüfek ve olta"
+ ],
+ "yet3-021": [
+  "Montaigne eski yazarları yenilere neden tercih ediyor?",
+  "Eskiler ona daha dolu ve güçlü görünüyor",
+  "Yenilerin dili çok daha zor olduğu için",
+  "Eski kitaplar daha kısa olduğu için"
+ ],
+ "yet3-022": [
+  "Metne göre ölüm Cato için nasıldır?",
+  "Arzulanır",
+  "Korkunçtur",
+  "Fark etmez"
+ ],
+ "yet3-023": [
+  "Stevenson'a göre kitaplar yaşamın neyidir?",
+  "Pek kansız bir ikamesidir",
+  "Tek ve en zengin kaynağıdır",
+  "Tek gerçek öğretmenidir"
+ ],
+ "yet3-024": [
+  "Stevenson'a göre gerçek mutluluk neyle ilgili bir sorudur?",
+  "Neyi istediğimizle",
+  "Neye sahip olduğumuzla",
+  "Nasıl bittiğimizle"
+ ],
+ "yet3-025": [
+  "Stevenson'a göre bir ömür boyu saat tutmamak neye eşittir?",
+  "Sonsuza dek yaşamaya",
+  "Sürekli yolda olmaya",
+  "Zamanı hiç harcamamaya"
+ ],
+ "yet3-026": [
+  "Köpek Carlo aniden atılınca kertenkele ne yaptı?",
+  "Pençelerinden fırlayıp bir çalılığa sığındı",
+  "Pençelerin arasında sıkışıp köpeğin ağzında kaldı",
+  "Kayanın üstünde donup kaldı"
+ ],
+ "yet3-027": [
+  "Metne göre ayrım hattının solundaki dereler hangi nehre akıyor?",
+  "Tuolumne Nehri'ne",
+  "Colorado Nehri'ne",
+  "Sacramento Nehri'ne"
+ ],
+ "yet3-028": [
+  "Fabre normal okuldan ayrılırken matematikten neleri biliyordu?",
+  "Karekök almayı ve kürenin yüzölçümünü",
+  "Logaritma tablolarını ve cebiri",
+  "Binom teoremini ve geometriyi"
+ ],
+ "yet3-029": [
+  "Fabre cebir kitabını nereden edindi?",
+  "Fen öğretmeninin dolabından",
+  "Kitapçıdan sipariş ederek",
+  "Bir arkadaşından ödünç alarak"
+ ],
+ "yet3-030": [
+  "Fabre öğrencisine \"Anlıyor musunuz?\" sorusunu neden soruyordu?",
+  "Zaman kazanmak için",
+  "Öğrencisini sınamak için",
+  "Dersin bittiğini belirtmek için"
+ ],
+ "yet3-031": [
+  "Fabre teneffüslerde ne yapardı?",
+  "Bahçenin bir köşesinde kâğıt ve kalemle çalışırdı",
+  "Arkadaşlarıyla birlikte jimnastik hareketleri yapıp eğlenirdi",
+  "Bahçede bitki toplayıp saklardı"
+ ],
+ "yet3-032": [
+  "Alay tırtılları nasıl ilerler?",
+  "Her biri başıyla önündekinin sonuna dokunarak",
+  "Küçük gruplar hâlinde, birbirinden epeyce ayrı",
+  "Önde giden sıradan ayrılarak, dağınık"
+ ],
+ "yet3-033": [
+  "Tırtılların uzun gezileri ne zaman yapıldığı söyleniyor?",
+  "Gündüzleri, hava güzelse kışın bile",
+  "Yalnızca yaz gecelerinde",
+  "Yalnızca öğle sıcağında, yazın"
+ ],
+ "yet3-034": [
+  "Curie'lerin çalışma malzemesi olarak kullandığı artıklar nereden geliyordu?",
+  "Bohemya'daki bir uranyum madeninden",
+  "Fransa'daki bir kömür ocağından",
+  "Viyana'daki bir porselen fabrikasından"
+ ],
+ "yet3-035": [
+  "Marie, mürebbiyelik için babasının evinden ayrılırken kaç yaşındaydı?",
+  "On yedi yaşına yeni basmıştı",
+  "On beş yaşını yeni doldurmuştu",
+  "On dokuz yaşındaydı"
+ ],
+ "yet3-036": [
+  "James'e göre en sefil insan kimdir?",
+  "Her küçük işi bilinçli bir tartışma konusu olan kişi",
+  "Çok fazla alışkanlığı olduğu için hiç özgür olamayan kişi",
+  "Hiç öğretmeni olmayan kişi"
+ ],
+ "yet3-037": [
+  "James, kendimizi her gün küçük bir çabaya alıştırmayı neye benzetiyor?",
+  "Evine ve eşyasına ödenen bir sigortaya",
+  "Bankaya yatırılan faizli paraya",
+  "Çiftçinin tarlaya attığı tohuma"
+ ],
+ "yet3-038": [
+  "Emerson'a göre en iyi geminin yolculuğu nasıl bir çizgidir?",
+  "Yüz bordalık zikzak bir çizgi",
+  "Pusulayla çizilmiş düz bir çizgi",
+  "Geniş ve düzgün bir daire"
+ ],
+ "yet3-039": [
+  "Emerson'a göre toplumda en çok aranan erdem nedir?",
+  "Uyum",
+  "Kendine güven",
+  "Cesaret"
+ ],
+ "yet3-040": [
+  "Woolf'a göre Montaigne'den başka kimler kendini kalemle çizmeyi başarmıştır?",
+  "Pepys ve Rousseau",
+  "Pascal ve Voltaire",
+  "Dickens ve Johnson"
+ ],
+ "yet3-041": [
+  "Hearn'e göre Japon sabah havasındaki çekicilik nereden kaynaklanıyor?",
+  "Atmosferin yumuşak berraklığından",
+  "Sokaklardaki çiçek kokularının yoğunluğundan",
+  "Gün batımının kızıl renginden"
+ ],
+ "yet3-042": [
+  "Hearn'e göre ilkel ideograf yüzyıllar içinde neden tarif edilemez güzellikte bir şeye dönüştü?",
+  "Sanatçıların nesiller boyu süren rekabeti ve çabası sayesinde",
+  "Devletin koyduğu katı yazı kuralları sayesinde",
+  "Batı harflerinden alınan sadeleştirmeler sayesinde"
+ ],
+ "yet3-043": [
+  "Cha'nın yüzünü sildiği havluda ne vardı?",
+  "Beyaz bambu dalları ve serçeler",
+  "Pembe kiraz çiçekleri ve turnalar",
+  "Mavi dalgalar ve balıklar"
+ ],
+ "yet3-044": [
+  "Slocum'un karnına kramplar neden girdi?",
+  "Erikle birlikte beyaz peynir yediği için",
+  "Eski yağda kızarmış bayat ekmek yediği için",
+  "Tuzlu deniz suyu içtiği için"
+ ],
+ "yet3-045": [
+  "Yaşlı kaplumbağa kış inini nerede kazıyordu?",
+  "Bir küme hepatika çiçeğinin yanında",
+  "Eski bir meşe ağacının dibinde",
+  "Bahçe duvarının dibinde"
+ ],
+ "yet3-046": [
+  "Wallace'a göre durianı en iyi yemek için neden düşer düşmez almalı?",
+  "Koku o zaman daha az bunaltıcıdır",
+  "Eti o zaman çok daha tatlı ve yumuşaktır",
+  "Kabuğu o zaman kolay açılır"
+ ],
+ "yet3-047": [
+  "Cennet kuşları dans partilerini nerede yapar?",
+  "Geniş dallı, seyrek yapraklı ağaçlarda",
+  "Meyve veren yüksek ağaçların dallarında",
+  "Kıyıdaki kayalıklarda"
+ ],
+ "yet3-048": [
+  "Voyager 1 fotoğrafı çektiğinde Güneş'ten yaklaşık ne kadar uzaktaydı?",
+  "6,4 milyar kilometre",
+  "640 milyon kilometre",
+  "64 milyar kilometre"
+ ],
+ "yet3-049": [
+  "Feynman'a göre deney yapan kişi sonuçlarıyla birlikte neyi bildirmelidir?",
+  "Sonuçlarını geçersiz kılabilecek her şeyi",
+  "Yalnızca kuramını doğrulayan olguları",
+  "Yalnızca başarılı denemelerin sonuçlarını"
+ ],
+ "yet3-050": [
+  "Feynman'a göre kandırılması en kolay kişi kimdir?",
+  "Bilim insanının kendisi",
+  "Deneyi inceleyen meslektaşı",
+  "Bilimi radyodan dinleyen sıradan insan"
+ ],
+ "yet3-051": [
+  "Russell'a göre ikinci tür iş için gerekli beceri nedir?",
+  "İkna edici konuşma ve yazma sanatı",
+  "Konular hakkında derin bilgi",
+  "Güçlü bir beden"
+ ],
+ "yet3-052": [
+  "Russell'a göre iyi huy neyin sonucudur?",
+  "Rahatlığın ve güvenliğin",
+  "Çetin bir mücadele yaşamının",
+  "Sıkı bir disiplinin"
+ ],
+ "yet3-053": [
+  "Kaptanın sisin içinde ilk gördüğünü söylediği şey neydi?",
+  "Yüksek bir minarenin beyaz zirvesi",
+  "Topkapı Sarayı'nın parlayan altın kubbesi",
+  "Prens Adaları'ndaki bir kule"
+ ],
+ "yet3-054": [
+  "De Amicis'in anlattığı yüzer köprü yaklaşık ne kadar uzunluktadır?",
+  "Çeyrek mil",
+  "Yaklaşık bir mil",
+  "Yüz adım"
+ ],
+ "yet3-055": [
+  "De Amicis'e göre köpekler sokakları nasıl paylaşır?",
+  "Her sokağı belli sayıda köpek tutar, yabancıyı sokmaz",
+  "Hepsi karışık dolaşır, sınır tanımaz",
+  "Her gece sokak değiştirirler"
+ ],
+ "yet3-056": [
+  "Evliya'ya göre Hekim Sokrat'ın yaptığı tılsım neydi?",
+  "Tunçtan bir horoz",
+  "Pirinçten bir kara sinek",
+  "Tunçtan bir kurt"
+ ],
+ "yet3-057": [
+  "Haşim'in anlattığı dilenci her gün saat kaça kadar köşesinde bekler?",
+  "Ona kadar",
+  "Öğlene kadar",
+  "Sekize kadar"
+ ],
+ "yet3-058": [
+  "Darius, Atinalıları unutmamak için ne yapardı?",
+  "Hizmetçisine her yemekte kulağına üç kez hatırlattırırdı",
+  "Yatağının başucuna Atinalıları anlatan bir levha astırırdı",
+  "Her sabah ordusunu denetlerdi"
+ ],
+ "yet4-001": [
+  "Nermin Hanım kaç yıldır kuru temizlemecilik yapıyor?",
+  "Yirmi iki yıl",
+  "On iki yıl",
+  "Otuz sekiz yıl"
+ ],
+ "yet4-002": [
+  "Yaşlı kadına göre Maslak'taki iş hanı hangi dükkânın yanındaydı?",
+  "Çini dükkânının",
+  "Kuruyemişçinin",
+  "Eczanenin"
+ ],
+ "yet4-003": [
+  "Dilara, kapağı uymayan tencerenin ağzına ne koydu?",
+  "Ters çevrilmiş bir cam kâse",
+  "Büyük bir tabak",
+  "Katlanmış bir alüminyum folyo"
+ ],
+ "yet4-004": [
+  "Yiğit kaç yuvarlağı silip yeniden karalamak zorunda kaldı?",
+  "Otuz dört",
+  "Kırk beş",
+  "Yirmi dokuz"
+ ],
+ "yet4-005": [
+  "Rıfat Amca'nın kızı Ayten nerede yaşıyor?",
+  "Bursa'da",
+  "Konya'da",
+  "Ankara'da"
+ ],
+ "yet4-006": [
+  "Gülşen'in balkonunda hangi bitkiler yetişiyor?",
+  "Domates ve nane",
+  "Limon ve nane",
+  "Domates ve fesleğen"
+ ],
+ "yet4-007": [
+  "Valizdeki turşular kime aitti?",
+  "Adamın ağabeyine",
+  "Adamın kendisine",
+  "Tuğba'nın teyzesine"
+ ],
+ "yet4-008": [
+  "Cemil, Barış'a bıçağı kullanırken nasıl davranmasını söyledi?",
+  "Bıçağın kendi ağırlığıyla gitmesine izin vermesini",
+  "Hızlı ve kararlı, bastırarak güçlü hareketlerle çalışmasını",
+  "Deriyi hiç germeden çalışmasını"
+ ],
+ "yet4-009": [
+  "Dede, dondurmayı hangi aromada istedi?",
+  "Çikolatalı",
+  "Vanilyalı",
+  "Çilekli"
+ ],
+ "yet4-010": [
+  "Protezini kaybeden baba üç gün boyunca ne yedi?",
+  "Yoğurt",
+  "Çorba",
+  "Muhallebi"
+ ],
+ "yet4-011": [
+  "Ferhat kazağı giyince yünden hangi koku çıktı?",
+  "Annesinin el kremi kokusu",
+  "Taze kavrulmuş tarçın kokusu",
+  "Dolap tozu kokusu"
+ ],
+ "yet4-012": [
+  "Hülya ile Mehmet en son kaç yıl önce tavla oynamıştı?",
+  "On iki yıl",
+  "Yaklaşık üç yıl",
+  "Dokuz yıl"
+ ],
+ "yet4-013": [
+  "Nurten Abla kaç yıldır Cuma pazarında tezgâh açıyor?",
+  "Kırk yıldır",
+  "Yirmi yıldır",
+  "On yıldır"
+ ],
+ "yet4-014": [
+  "Elif'in babası eskiden hangi işi yapmıştı?",
+  "Dolmuş şoförlüğü",
+  "Taksi şoförlüğü",
+  "Otobüs kaptanlığı"
+ ],
+ "yet4-015": [
+  "Cüneyt çantasından kaç mum çıkardı?",
+  "Altı",
+  "Altmış",
+  "Üç"
+ ],
+ "yet4-016": [
+  "Gökhan, çocuğun annesinin yanında neler gördü?",
+  "Yarım kalmış bir dikiş ve bir dikiş makinesi",
+  "Yarım kalmış bir kitap ve bir lamba",
+  "Boş bir su bardağı ve bir ilaç kutusu"
+ ],
+ "yet4-017": [
+  "Cenk, sahaya gittiğinde zemini nasıl buldu?",
+  "Çimlerin yerinde beton, direklerin yerinde mazgallar",
+  "Yepyeni bir yapay çim ve ışıklı kale direkleri bulunuyordu",
+  "Sahanın üzerine apartman yapılmıştı"
+ ],
+ "yet4-018": [
+  "Dolunay Hanım'ın simidi martıya kaptırılınca yaşlı adam ona ne verdi?",
+  "Fazladan aldığı bir simit",
+  "Bir bardak sıcak çay",
+  "Bir paket bisküvi"
+ ],
+ "yet4-019": [
+  "Serkan, kuzenle damadın sarıldığı anda çektiği fotoğrafı ne yaptı?",
+  "Albümün son sayfasına koydu",
+  "Hemen silip yeniden çekti",
+  "Gelinin annesine verdi"
+ ],
+ "yet4-020": [
+  "Alper, borunun çekip çekmediğini nasıl denedi?",
+  "Borunun ağzına yanan bir kâğıt tutarak",
+  "Komşu Rüştü'den pencereden bakıp söylemesini isteyerek",
+  "Borunun ucuna elini tutup havayı hissederek"
+ ],
+ "yet4-021": [
+  "Yazar çocukken saatin vuruşlarını neden sayardı?",
+  "Yanlış sayarsa saatin hesabının bozulacağını sanırdı",
+  "Dedesi her doğru sayışında ona küçük bir harçlık verirdi",
+  "Sayarken uykuya daldığı için"
+ ],
+ "yet4-022": [
+  "Yazara göre hafıza neye bakarak karar veriyor?",
+  "Duygunun yoğunluğuna",
+  "Kullanım sıklığına",
+  "Rakamların kısalığına"
+ ],
+ "yet4-023": [
+  "Yazara göre bedenin ezberi nasıl ortaya çıkar?",
+  "Yalnızca hareketle",
+  "Kâğıda yazılarak",
+  "Sözle anlatılarak"
+ ],
+ "yet4-024": [
+  "Yazar, yalnızlığın aslında ne olduğunu düşünüyor?",
+  "Karşılık görmeyen bir bakışmış",
+  "Kimse tarafından tanınmamakmış",
+  "Kalabalıktan hep uzak kalmakmış"
+ ],
+ "yet4-025": [
+  "Defne üç kez battıktan sonra dördüncü denemede ne yaptı?",
+  "Bir metre yüzdü",
+  "Gülerek havuzdan çıkıp gitti",
+  "Üç metre yüzdü"
+ ],
+ "yet4-026": [
+  "Tahtadaki hata nerede başlamıştı?",
+  "İlk satırda",
+  "Son satırda",
+  "Üçüncü satırda"
+ ],
+ "yet4-027": [
+  "Yazara göre sarı renkli pencere ışığı genelde neyi gösterir?",
+  "Mutfağı",
+  "Yatak odasını",
+  "Televizyon başındaki birini"
+ ],
+ "yet4-028": [
+  "Joris, \"kolay gelsin\"in anlamını duyunca neden itiraz etti?",
+  "İş kolay olsaydı bu sözün söylenmeyeceğini düşündü",
+  "Sözün fazla kaba olduğunu düşündü",
+  "Kendi dilinde aynı sözün olduğunu söyledi"
+ ],
+ "yet4-029": [
+  "Yazarın pantolonu için \"birazdan\" kaç saat sürdü?",
+  "Üç saat",
+  "Yarım saat",
+  "Bir gün"
+ ],
+ "yet4-030": [
+  "Yazarın annesi ekmeği akşamları hangi tabağa koyardı?",
+  "Kenarı çatlak mavi bir tabağa",
+  "Kenarları altın yaldızlı beyaz porselen bir tabağa",
+  "Bakır bir sahana"
+ ],
+ "yet4-031": [
+  "Yazara göre yazılan tarif, yemeğin neyidir?",
+  "Kemikleridir; eti elde kalır",
+  "Kokusudur; asıl tadı elde kalır",
+  "Süsüdür; ruhu elde kalır"
+ ],
+ "yet4-032": [
+  "Yazar gece üçte uyanınca uyumak için neyi saymaya başladı?",
+  "Tavandaki ışığın gidiş gelişlerini",
+  "Saatin tıkırtılarını",
+  "Koyun sürüsünü"
+ ],
+ "yet4-033": [
+  "Buzdolabının uğultusu kesilince yazar ne hissediyor?",
+  "Evin nefesini bıraktığını",
+  "Evin derin uykuya daldığını",
+  "Evin yabancılaştığını"
+ ],
+ "yet4-034": [
+  "Sahaf etiketinde fiyat nasıl değişmişti?",
+  "Önce otuz beş, sonra yirmi",
+  "Önce yirmi, sonra otuz beş",
+  "Önce elli, sonra yirmi"
+ ],
+ "yet4-035": [
+  "Moladayken yolcular ilk kez nerede konuşur?",
+  "Tuvalet kuyruğunda",
+  "Çay ocağında",
+  "Otobüsün kapısında"
+ ],
+ "yet4-036": [
+  "Halasının deyimiyle iyi demlenmiş çay neye benzetilirdi?",
+  "Tavşan kanına",
+  "Gül suyuna",
+  "Parlak bir akik taşına"
+ ],
+ "yet4-037": [
+  "Yazarın nenesi okuma yazmayı kaç yaşında öğrendi?",
+  "Kırk",
+  "Yirmi",
+  "Altmış"
+ ],
+ "yet4-038": [
+  "Yazar zili çalınca karşı dairenin kapısını açan kadının elinde ne vardı?",
+  "Bir telefon",
+  "Bir bardak çay",
+  "Bir kitap"
+ ],
+ "yet4-039": [
+  "Yazarın bekleme salonunda okuduğu dergi ne zamanın sayısıydı?",
+  "Yedi ay öncesinin",
+  "Üç ay öncesinin",
+  "Bir yıl öncesinin"
+ ],
+ "yet4-040": [
+  "Gülten Teyze şemsiyeyi yazara nasıl verdi?",
+  "Balkondan ipin ucunda aşağı sarkıttı",
+  "Apartman girişinde kapıda elden uzattı",
+  "Komşu çocukla gönderdi"
+ ],
+ "yet4-041": [
+  "Kovanın içinde Güneş yokken arı yönü nasıl gösterir?",
+  "\"Yukarı\"yı Güneş yerine koyar",
+  "Kovanın içine özel bir koku yayar",
+  "Kanat sesini ayarlar"
+ ],
+ "yet4-042": [
+  "Ay neden Dünya'dan uzaklaşıyor?",
+  "Gelgit kabarması Ay'ın tam altında değil, biraz ilerisinde kalıyor",
+  "Dünya Ay'dan daha yavaş döndüğü için",
+  "Güneş Ay'ı dışarı doğru ittiği için"
+ ],
+ "yet4-043": [
+  "Rosetta Taşı'nın üzerindeki metin aslında neyi içeriyordu?",
+  "Genç bir kralı öven, tapınaklara ayrıcalık tanıyan bir kararname",
+  "Bir savaşın kazanılmasını anlatan bir destan",
+  "Nil taşkınlarının zamanını gösteren bir takvim"
+ ],
+ "yet4-044": [
+  "Göbeklitepe'deki yapılar neden iyi korunmuş?",
+  "Sonradan, büyük olasılıkla bilerek toprakla doldurulmuşlar",
+  "Taşkın sularında kalıp zamanla kumla ve çamurla örtülmüşler",
+  "Hep kuru bir mağarada kalmışlar"
+ ],
+ "yet4-045": [
+  "Ayçiçeğinde yeni çekirdekler, öncekine göre yaklaşık kaç derecelik açıyla yerleşir?",
+  "137,5 derece",
+  "127,5 derece",
+  "147,5 derece"
+ ],
+ "yet4-046": [
+  "Kalbin sol tarafı neden daha kalın duvarlıdır?",
+  "Bütün vücuda kan göndermek daha çok kuvvet ister",
+  "Kanı yalnızca akciğerlere göndermesi gerektiği için",
+  "Kalp ritmini başlatması gerekir"
+ ],
+ "yet4-047": [
+  "Alyuvarın çökük disk biçimi ona ne sağlar?",
+  "Yüzeyi artırır, ince damarlardan geçerken esnemesini sağlar",
+  "Çekirdeğini daha iyi korumasını sağlar",
+  "Kanın daha çabuk pıhtılaşmasını sağlar"
+ ],
+ "yet4-048": [
+  "Voyager 1 yaklaşık kaç yıl sonra bir yıldızın yakınından geçecek?",
+  "Yaklaşık kırk bin yıl sonra",
+  "Yaklaşık dört yüz yıl sonra",
+  "Yaklaşık dört milyon yıl sonra"
+ ],
+ "yet4-049": [
+  "Müteferrika'ya matbaa kurma izni hangi şartla verildi?",
+  "Dinî kitaplar basılmayacaktı",
+  "Yalnızca Arapça kitaplar basılacaktı",
+  "Yılda yirmiden fazla kitap basılmayacaktı"
+ ],
+ "yet4-050": [
+  "Karadeniz'in suyu Marmara'nınkinden neden daha az tuzludur?",
+  "Çok sayıda büyük nehir döküldüğü için",
+  "Akdeniz'e bağlı olduğu için",
+  "Daha derin olduğu için"
+ ],
+ "yet4-051": [
+  "Kaşgarlı Mahmud eserini kime sundu?",
+  "Abbasi halifesine",
+  "Karahanlı hanına",
+  "Selçuklu sultanına"
+ ],
+ "yet4-052": [
+  "Metne göre mantarın asıl gövdesi nelerden oluşur?",
+  "Toprağın içindeki ince beyaz iplikçiklerden",
+  "Toprak üstünde görünen şapkadan",
+  "Ağaç köklerinden çıkan kalın sürgünlerden"
+ ],
+ "yet4-053": [
+  "Ahtapotun kanı neden mavidir?",
+  "Oksijeni bakır içeren bir molekül taşıdığı için",
+  "Oksijeni demir içeren bir molekül taşıdığı için",
+  "Mavi renkli yosunlarla beslendiği için"
+ ],
+ "yet4-054": [
+  "Güneş'in merkezinde üretilen enerjinin yüzeye çıkması tahminen ne kadar sürer?",
+  "On binlerce yıl",
+  "Birkaç saat",
+  "Sekiz dakika yirmi saniye"
+ ],
+ "yet4-055": [
+  "Kalem üzerindeki \"H\" harfi neyin baş harfidir?",
+  "Sert anlamına gelen hard'ın",
+  "Koyu anlamına gelen heavy'nin",
+  "Hızlı anlamına gelen high'ın"
+ ],
+ "yet4-056": [
+  "Anlatılana göre İstanbul'da ilk kahvehaneler nerede açıldı?",
+  "Tahtakale'de",
+  "Galata'da",
+  "Eyüp'te"
+ ],
+ "yet4-057": [
+  "Flamingo çiftleri yılda genellikle kaç yumurta bırakır?",
+  "Tek yumurta",
+  "İki yumurta",
+  "Üç yumurta"
+ ],
+ "yet4-058": [
+  "Hindistan'da hangi matematikçi sıfırla işlem kurallarını yazdı?",
+  "Brahmagupta",
+  "Al-Harezmî",
+  "Leonardo Fibonacci"
+ ],
+ "yet4-059": [
+  "Beyin, vücut ağırlığının yaklaşık yüzde kaçını oluşturur?",
+  "Yaklaşık yüzde ikisini",
+  "Yaklaşık yüzde onunu",
+  "Yaklaşık yüzde yirmisini"
+ ],
+ "yet4-060": [
+  "Pamukkale'deki kaynak suları yaklaşık kaç derecedir?",
+  "Otuz beş derece civarında",
+  "Yirmi beş derece civarında",
+  "Kırk beş derece civarında"
+ ],
+ "c10": [
+  "Ahmet büyüyünce ne olmak istiyordu?",
+  "Bilim insanı",
+  "Müze rehberi",
+  "Resim öğretmeni"
+ ],
+ "c22": [
+  "Aras neden şaşırdı?",
+  "Yalnız gittiğini fark etti",
+  "Babası ona bağırdı",
+  "Bisikletin lastiği patladı"
+ ],
+ "c28": [
+  "Ece Mert'e neden \"Gel\" dedi?",
+  "Mert ıslanıyordu",
+  "Mert yolu bilmiyordu",
+  "Mert ondan yardım istedi"
+ ],
+ "c29": [
+  "Tren neden yoldan çıkmaz?",
+  "Tekerlekleri raylara oturur",
+  "Kondüktör yolu sürekli kontrol eder",
+  "Çok yavaş gider"
+ ],
+ "c30": [
+  "Yeşil toplar oluştuktan sonra ne oldu?",
+  "Domatesler kırmızı oldu",
+  "Fide kuruyup solmaya başladı",
+  "Yeniden sarı çiçekler açtı"
+ ],
+ "meb-s1-04": [
+  "Şirin sergiyi açmaya neden hazırdı?",
+  "Gün boyu birçok farklı kuş resmi yapmıştı",
+  "Resimlerini arkadaşlarına satmıştı",
+  "Kitap okuyarak beklemişti"
+ ],
+ "meb-s1-10": [
+  "Mukavva uçağı kim yapmıştı?",
+  "Babasının arkadaşı",
+  "Mustafa'nın arkadaşı",
+  "Babasının komşusu"
+ ],
+ "meb-s1-11": [
+  "Mine halasına bayram kartını nasıl gönderdi?",
+  "Postaladı",
+  "Elden verdi",
+  "E-posta attı"
+ ],
+ "meb-s1-15": [
+  "Anlatıcı sabah ilk ne yaptı?",
+  "Günlük programını yaptı",
+  "Kahvaltı masasını topladı",
+  "Kitap okudu"
+ ],
+ "meb-s1-16": [
+  "Çöp kutusu olmayınca çocuklar çöpleri ne yaptı?",
+  "Paketleyip otobüse koydular",
+  "Toprağa gömdüler",
+  "Ağaçların arkasına bıraktılar"
+ ],
+ "meb-s1-17": [
+  "Dünya çocuklardan ne istiyor?",
+  "Fikirlerini onunla paylaşmalarını",
+  "Ona her gün mektup yazmalarını",
+  "Her yıl ona doğum günü kutlamalarını"
+ ],
+ "meb-s2-02": [
+  "Bebek doğduğu gün Nihan kiminle evde kaldı?",
+  "Ninesiyle",
+  "Halasıyla",
+  "Teyzesiyle"
+ ],
+ "meb-s2-03": [
+  "Tini serçeden ne şart koştu?",
+  "Kibarca istemesini",
+  "Şarkı söylemesini",
+  "Yarın geri vermesini"
+ ],
+ "meb-s2-04": [
+  "Horoz yağmurda neden kümese geri girdi?",
+  "Rüzgâr onu neredeyse götürecekti",
+  "Kümeste unuttuğu bir şeyi almak istedi",
+  "Civcivler onu çağırmıştı"
+ ],
+ "meb-s2-05": [
+  "Annesine göre zafer ne demektir?",
+  "Bir mücadeleyi kazanmak",
+  "Bayram günü tatil yapmak",
+  "Marş söyleyip kutlamak"
+ ],
+ "meb-s2-09-p1": [
+  "Ressam çaydanlığı neden İpek'e geri verdi?",
+  "Fırçaları için yeni kutu almıştı",
+  "Atölyesini başka şehre taşımıştı",
+  "Çaydanlığı başka bir ressama verdi"
+ ],
+ "meb-s2-09-p2": [
+  "Perihan Teyze çaydanlıkta ne buldu?",
+  "Üç kuş yumurtası",
+  "Üç domates fidesi",
+  "Üç küçük fesleğen"
+ ],
+ "meb-s2-17": [
+  "Bilge ve Reyyan bisiklet sürmeyi neden başardı?",
+  "Pes etmeyip tekrar denediler",
+  "Dayıları arkadan sele tutup öğretti",
+  "Yan tekerlekler taktılar"
+ ],
+ "meb-s2-20-p1": [
+  "Oyunda ebe nasıl seçilir?",
+  "Tekerleme söyleyerek",
+  "Yazı tura atıp seçerek",
+  "Kura çekerek"
+ ],
+ "meb-s2-20-p2": [
+  "İlk dokunacak kişi neden sessiz seçilir?",
+  "Ebe kimin seçildiğini anlamasın diye",
+  "Oyun çok gürültülü olmasın diye",
+  "Diğer oyuncuların sırası karışmasın diye"
+ ],
+ "meb-s2-23": [
+  "Ayşe'nin sorularının cevabını ağabeyi bilmezse ne yapar?",
+  "Birlikte kitapları karıştırırlar",
+  "Soruyu annesine sordurmaya gönderir",
+  "Soruyu geçip başka şey anlatır"
+ ],
+ "meb-s2-26-p1": [
+  "Servis hareket edince Yiğit neden korktu?",
+  "Servisi kullanan kimse yoktu",
+  "Servisin kapısı kendiliğinden kapandı",
+  "Okula geç kalmıştı"
+ ],
+ "meb-s2-26-p2": [
+  "Yiğit uyanınca annesi ne hazırlamıştı?",
+  "Omlet",
+  "Gözleme",
+  "Menemen"
+ ],
+ "meb-s2-31-p2": [
+  "Çocuklar sokaklara ne bırakıyor?",
+  "Mama ve su",
+  "Battaniye ve oyuncak",
+  "Süt ve balık"
+ ],
+ "meb-s2-36": [
+  "Oya, Sıla'ya yanlışını nasıl anlatmak istedi?",
+  "Yazarak",
+  "Konuşarak",
+  "Resim çizerek"
+ ],
+ "meb-s2-37": [
+  "Çocuklar durağı yaptırmak için önce ne yaptı?",
+  "Önerilerini belediyeye bildirdi",
+  "Mahallede müze açtı",
+  "Parkı gezdi"
+ ],
+ "meb3-hb1-01": [
+  "Ahmet kardeşini uyandırdıktan sonra çocuklar ilk ne yaptı?",
+  "Yataklarını topladılar",
+  "Hayvanların yemini verdiler",
+  "Kahvaltı sofrasına oturdular"
+ ],
+ "meb3-hb1-02": [
+  "Emir rüyasından nasıl uyandı?",
+  "Pencereden gelen ışıkla",
+  "Annesinin seslenmesiyle",
+  "Babasının uyandırmasıyla"
+ ],
+ "meb3-hb1-03": [
+  "Konserve kutusu neden ağlamaklıydı?",
+  "Metal arkadaşları orada yoktu",
+  "Kapağı çöp kutusunda kaybolmuştu",
+  "Cam şişe ona çarpmıştı"
+ ],
+ "meb3-hb2-01": [
+  "Ahmet ertesi gün okula neden yorgun gitti?",
+  "Geç saatte uyuyabildi",
+  "Sabah çok erken kalktı",
+  "Kahvaltı yapmamıştı"
+ ],
+ "meb3-hb2-03": [
+  "Öğretmen ona neden yeni ad verdi?",
+  "İkisinin de adı Mustafa'ydı",
+  "Adını yazarken hep yanlış yapardı",
+  "Çocuk adını değiştirmek istemişti"
+ ],
+ "halk-ilk-003": [
+  "Köpek eti neden suya düşürdü?",
+  "Suya havlayınca ağzı açıldı",
+  "Köprüden aşağı düşüp eti kaybetti",
+  "Başka köpek etini kaptı"
+ ],
+ "halk-ilk-005": [
+  "Yaşlı fare hangi soruyu sordu?",
+  "Çıngırağı kimin takacağını",
+  "Kedinin ne zaman geleceğini",
+  "Çıngırağın nereden alınacağını"
+ ],
+ "halk-ilk-007": [
+  "Aslan neden kuyuya atıldı?",
+  "Suda gördüğü aslanı rakip sandı",
+  "Kuyudaki tavşanı yakalamak istedi",
+  "Kuyudan su içmek istedi"
+ ],
+ "halk-ilk-011": [
+  "Adam altın yumurtlayan tavuğu neden kesti?",
+  "Karnı altın dolu sandı",
+  "Tavuk hastalanmıştı",
+  "Tavuk artık yumurtlamıyordu"
+ ],
+ "halk-ilk-012": [
+  "Adam paltosunu ne zaman çıkardı?",
+  "Güneş sıcak parlayınca",
+  "Rüzgâr sert esince",
+  "Yağmur yağmaya başlayınca"
+ ],
+ "halk-ilk-013": [
+  "Karga suyu yükseltmek için ne yaptı?",
+  "Testiye çakıl taşları attı",
+  "Testiyi kırdı",
+  "Yağmuru bekledi"
+ ],
+ "halk-ilk-014": [
+  "Kuzgun peyniri neden düşürdü?",
+  "Şarkı söylemek için gagasını açtı",
+  "Tilki ağaca çıkıp peyniri kapmaya çalıştı",
+  "Peynir çok ağırdı"
+ ],
+ "halk-ilk-015": [
+  "Karınca güvercine nasıl yardım etti?",
+  "Avcının ayağını ısırdı",
+  "Ona yiyecek getirdi",
+  "Yeni bir yuva yaptı"
+ ],
+ "halk-ilk-023": [
+  "Tilki horozun yanından neden kaçtı?",
+  "Köpeklerin geldiğini öğrendi",
+  "Horoz ona gagasıyla saldırdı",
+  "Yakındaki avcının silah sesini duydu"
+ ],
+ "halk-ilk-033": [
+  "Kurdu kuyudan kim çıkardı?",
+  "Köylüler",
+  "Tilki",
+  "Yoldan geçen avcılar"
+ ],
+ "ck071": [
+  "Grönland ve Antarktika neden \"Kutup Çölleri\" olarak adlandırılır?",
+  "En soğuk ve en kurak yerlerden oldukları için",
+  "Yüzeylerinin büyük bölümü kumla kaplı olduğu için",
+  "Yağışların çoğu şiddetli sağanak olarak düştüğü için"
+ ],
+ "ck072": [
+  "Tropik yağmur ormanının bazı ağaçları çiçeklenmeyi nerede yapabilir?",
+  "Gövdelerinin üzerinde",
+  "Köklerinin ucunda",
+  "Yaprak sapları arasında"
+ ]
+}
