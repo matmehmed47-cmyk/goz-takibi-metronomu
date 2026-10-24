@@ -58,6 +58,12 @@
   button.sel { outline: 3px solid var(--accent); outline-offset: 1px; }
   button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
   button small { display:block; opacity:.7; font-size:.8rem; margin-top:2px; }
+  /* Ana ekran: rutin büyük kart, diğerleri küçük ve sakin */
+  button.rt-hero { flex:1 1 100%; min-height:112px; padding:22px 18px; font-size:1.6rem; font-weight:700; border-radius:14px; }
+  button.rt-hero small { font-size:.95rem; font-weight:400; opacity:.9; margin-top:6px; }
+  .ana-alt { margin-top:14px; }
+  .ana-alt button { flex:1 1 92px; min-height:64px; padding:10px 8px; font-size:.95rem; }
+  .ana-alt button small { font-size:.72rem; }
   .hidden { display:none; }
   .info { text-align:center; margin: 4px 0 10px; }
   .big { font-size: 2rem; font-weight: 700; font-variant-numeric: tabular-nums; }
@@ -265,10 +271,12 @@
   <section id="ekran-ana" class="card hidden">
     <div class="info lbl" id="ana-kim">Yetişkin</div>
     <div class="row">
-      <button class="go" id="ana-rutin">Bugünün Rutini<small>10-15 dakika, sırayla egzersizler</small></button>
-      <button id="ana-metronom">Metronom<small>Noktalar ve metin öbekleri</small></button>
-      <button id="ana-egzersiz">Egzersizler<small>Kelime Yakala ve diğerleri</small></button>
-      <button id="ana-hatirla">Hatırlama Soruları<small id="ana-hatirla-alt">Okuduğun metinleri günler sonra yokla</small></button>
+      <button class="go rt-hero" id="ana-rutin">Bugünün Rutini<small>10-15 dakika, sırayla egzersizler</small></button>
+    </div>
+    <div class="row ana-alt">
+      <button class="alt" id="ana-metronom">Metronom<small>Noktalar ve metin öbekleri</small></button>
+      <button class="alt" id="ana-egzersiz">Egzersizler<small>Kelime Yakala ve diğerleri</small></button>
+      <button class="alt" id="ana-hatirla">Hatırlama Soruları<small id="ana-hatirla-alt">Okuduğun metinleri günler sonra yokla</small></button>
     </div>
     <div class="grup" id="hrk-kart" style="margin-top:14px">
       <h2>Bugün hareket ettin mi?</h2>
