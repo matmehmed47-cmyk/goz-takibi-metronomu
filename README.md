@@ -16,6 +16,7 @@ Yüklendikten sonra tam ekran açılır, internet olmadan da çalışır (ilk a�
 - Okuma egzersizleri: Kayan Metin, Buğulu Okuma, Mavi Perde, Tekrarlı Okuma
 - Görme ve dikkat egzersizleri: Kelime Yakala, Yakaladın mı?, Sayıyı Yakala, Gözün Köprüsü, Sayı Avı, Hata Var mı?, Sırasıyla, Topları Takip Et, Değişeni Bul, N-Geri
 - Günlük rutin (A/B günleri), Hatırlama Soruları (aralıklı tekrar), aylık okuma ölçümü
+- Çocuklar için "Gözünü dinlendir" adımı: rehberli nefes, gözler kapalıyken kararan ekran ve çok hafif gerçek yağmur sesi (kamu malı kayıt, Vikipedi Commons: ezwa, `veri/Yagmur/`)
 - Çocuklar için: rutin bitince kazıyarak açılan hayvan kartı (300 hayvan, gerçek fotoğraf, bilgi, mini soru) ve hayvan albümü
 - Gruplar: yetişkin ve çocuk 1-2, 3-4, 5-6, 7-8. sınıf
 

@@ -84,6 +84,16 @@
   .tm-adim-ik svg { width:58%; height:58%; }
   .tm-gorunum { margin-top:10px; }
   @media (prefers-reduced-motion: no-preference) { body.tema-c button { transition:transform .12s; } body.tema-c button:active { transform:scale(.97); } }
+  /* Gözünü dinlendir: rehberli nefes + gözler kapalı + hafif yağmur */
+  body.tema-c { --pembe:#c2417c; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) body.tema-c { --pembe:#ff8fc0; } }
+  :root[data-theme="dark"] body.tema-c { --pembe:#ff8fc0; }
+  .tm-nefes { height:176px; display:grid; place-items:center; margin:6px 0 2px; overflow:hidden; }
+  .din-gorsel { width:150px; height:150px; display:block; }
+  body.yas-b .tm-nefes { height:130px; }
+  body.yas-b .din-gorsel { width:110px; height:110px; }
+  .din-perde { position:fixed; inset:0; background:#0b1424; opacity:0; pointer-events:none; z-index:60; display:grid; place-items:center; color:#5d6f8f; font-size:.9rem; text-align:center; padding:24px; white-space:pre-line; }
+  .din-perde.koyu { pointer-events:auto; }
   /* Adım ilerleme şeridi, netleşen hayvan paneli, öğretmen notu */
   .tm-mini { margin:42px 6px 10px; }
   .tm-mini-yol { position:relative; display:flex; justify-content:space-between; align-items:center; gap:6px; padding:0 4px; }
@@ -1367,14 +1377,20 @@
   <section id="ekran-rt-dinlen" class="card hidden">
     <div class="tm-ust hidden" id="tm-dinlen" style="justify-content:center"></div>
     <div class="info lbl">Gözünü dinlendir</div>
+    <div class="tm-nefes hidden" id="rt-din-nefes"><div class="din-gorsel" id="rt-din-gorsel"></div></div>
     <div class="info big" id="rt-din-sayi" style="font-size:3rem"></div>
     <div class="info big" id="rt-din-yazi" style="font-size:1.2rem; font-weight:600"></div>
+    <div class="ipucu hidden" id="rt-din-not" style="text-align:center">Yorulursan normal nefes al.</div>
     <div class="row" style="margin-top:16px">
       <button class="alt" id="rt-din-atla">Bitir</button>
       <button class="alt" id="rt-din-cik">Rutinden çık</button>
     </div>
+    <div class="row hidden" id="din-yagmur-satir" style="margin-top:10px">
+      <button class="alt" id="din-yagmur-btn">Yağmur sesi: açık</button>
+    </div>
   </section>
 </main>
+<div class="din-perde" id="din-perde"><span id="din-perde-yazi"></span></div>
 <div class="rt-bar" id="rt-bar">
   <div class="rt-ilerle"><i id="rt-ilerle-ic"></i></div>
   <span id="rt-bar-yazi"></span>
@@ -6596,6 +6612,7 @@ function rtWpm(i, tur){
 // Süre tavanı (saniye)
 function rtSureTavan(id){
   const k = RT_EGZ[id].kat, t = rtTur();
+  if (k === 'dinlen' && mod === 'cocuk') return dinZaman().u1;   // göz kırpma + gözler açık nefes + gözler kapalı nefes + ışık + uzağa bakma
   if (t === 'ilk') return id === 'tr' ? 210 : { isinma: sinif === '1-2' ? 80 : 60, gorme: 100, dikkat: 120, oku: 150, dinlen: 30 }[k];
   if (t === 'orta') return id === 'tr' ? 270 : { isinma: 90, gorme: 120, dikkat: 150, oku: 210, dinlen: 30 }[k];
   if (id === 'tr') return 330;
@@ -6977,7 +6994,7 @@ function rtBitti(){
   if (kart) hkAc(kart, 'rutin'); else rtAnaKur();
 }
 function rtCik(){
-  clearInterval(rt.iv); clearInterval(rt.dinIv);
+  clearInterval(rt.iv); clearInterval(rt.dinIv); if (typeof dinTemizle === 'function') dinTemizle();
   if (rt.adimda && rt.calis) rtDurdurEgzersiz();
   rt.aktif = false; rt.adimda = false; rt.calis = false;
   rtBarAc(false);
@@ -7072,27 +7089,138 @@ saBitir = (o => function(){ rtOlcYaz(() => { const sv = saSv, d = sv.sayac ? saB
 trBitir = (o => function(dogru){ rtOlcYaz(() => dogru ? 1 : 0); return o.apply(this, arguments); })(trBitir);
 
 // ---- göz dinlendirme
+// ================= Gözünü dinlendir (çocuk) =================
+// Göz kırpma, gözler açık 1 nefes, gözler kapalı 3 nefes (ekran kararır; ışık geri gelince açılır), uzağa bakma; arkada çok hafif gerçek yağmur kaydı.
+const DIN_YAGMUR = '__YAGMUR__';
+const DIN_KIRP = 3, DIN_GECIS = 3, DIN_ISIK = 4, DIN_UZAK = 10, DIN_TUR = 3;
+const din = { gecen: 0, sonFaz: '', perde: '', ac: null, buf: null, kaynak: null, gain: null, hazirlaniyor: false, gorsel: 'balon' };
+function dinHiz(){ return sinif === '1-2' ? { al: 3, ver: 5 } : { al: 4, ver: 6 }; }
+function dinZaman(){
+  const h = dinHiz(), c = h.al + h.ver;
+  const a0 = DIN_KIRP, a1 = a0 + c, g1 = a1 + DIN_GECIS, k1 = g1 + DIN_TUR * c, i1 = k1 + DIN_ISIK, u1 = i1 + DIN_UZAK;
+  return { c, a0, a1, g1, k1, i1, u1 };
+}
+function dinFaz(g){
+  const T = dinZaman(), h = dinHiz();
+  if (g < T.a0) return 'kir';
+  if (g < T.a1) return ((g - T.a0) % T.c) < h.al ? 'al' : 'ver';
+  if (g < T.g1) return 'gecis';
+  if (g < T.k1) return ((g - T.g1) % T.c) < h.al ? 'kal' : 'kver';
+  if (g < T.i1) return 'isik';
+  return 'uzak';
+}
+const DIN_SVG = {
+  daire: { svg: '<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="color-mix(in srgb, var(--g-goz, #2563c9) 20%, var(--card))" stroke="var(--g-goz, #2563c9)" stroke-width="4"/></svg>', kucuk: 'scale(.55)', buyuk: 'scale(1)', al: 'Nefes al…', ver: 'Yavaşça ver…' },
+  balon: { svg: '<svg viewBox="0 0 100 100"><path d="M50 8c-20 0-32 15-32 32 0 18 14 33 32 38 18-5 32-20 32-38 0-17-12-32-32-32z" fill="var(--pembe, #c2417c)"/><path d="M42 78l8 10 8-10z" fill="var(--pembe, #c2417c)"/><path d="M50 88c-6 5 6 7 0 12" fill="none" stroke="var(--muted)" stroke-width="2.5" stroke-linecap="round"/><ellipse cx="38" cy="30" rx="6" ry="10" fill="#fff" opacity=".35" transform="rotate(25 38 30)"/></svg>', kucuk: 'scale(.55)', buyuk: 'scale(1)', al: 'Balonu şişir…', ver: 'Yavaşça bırak…' },
+  cicek: { svg: '<svg viewBox="0 0 100 100"><g transform="translate(50 50)" fill="var(--pembe, #c2417c)">' + [0, 60, 120, 180, 240, 300].map(a => '<ellipse cx="0" cy="-26" rx="13" ry="22" transform="rotate(' + a + ')"/>').join('') + '</g><circle cx="50" cy="50" r="11" fill="#f2b01e"/></svg>', kucuk: 'scale(.55) rotate(-20deg)', buyuk: 'scale(1) rotate(0deg)', al: 'Çiçeği kokla…', ver: 'Mumu üfle…' },
+  dalga: { svg: '<svg viewBox="0 0 100 100"><rect x="0" y="0" width="100" height="100" rx="14" fill="color-mix(in srgb, var(--g-goz, #2563c9) 12%, var(--card))"/><path d="M0 60q12-14 25 0t25 0 25 0 25 0v40H0z" fill="var(--g-goz, #2563c9)"/></svg>', kucuk: 'translateY(34%)', buyuk: 'translateY(0%)', al: 'Dalga gelsin…', ver: 'Dalga çekilsin…' }
+};
+// Her gün bir görsel (balon, çiçek, dalga sırayla); 7-8. sınıfta sade daire
+function dinGorselAd(){ return sinif === '7-8' ? 'daire' : ['balon', 'cicek', 'dalga'][Math.floor(rtUTC(rtBugun()) / 86400000) % 3]; }
+function dinYaziFaz(f){
+  const k = sinif === '1-2';
+  if (f === 'kir') return 'Üç kere yavaşça göz kır.';
+  if (f === 'al' || f === 'ver') return DIN_SVG[din.gorsel][f];
+  if (f === 'gecis') return k ? 'Şimdi gözlerini kapat. Çiçeği kokla, mumu üfle.' : 'Şimdi gözlerini kapat. Aynı şekilde sürdür: içinden say, 4\'e kadar al, 6\'ya kadar ver.';
+  if (f === 'kal' || f === 'kver') return '';
+  if (f === 'isik') return 'Gözlerini yavaşça aç.';
+  return 'Odanın en uzak yerinde bir şey bul. Adını içinden söyle.';
+}
+const dinHareketAz = () => { try { return window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { return false; } };
+function dinPerdeAyarla(f){
+  const p = el('din-perde'), hedef = (f === 'gecis' || f === 'kal' || f === 'kver') ? 'koyu' : 'acik';
+  if (hedef === din.perde) return;
+  din.perde = hedef;
+  p.style.transition = 'opacity ' + (dinHareketAz() ? 0.4 : (hedef === 'koyu' ? 2.5 : 4)) + 's ease-in-out';
+  p.style.opacity = hedef === 'koyu' ? '1' : '0';
+  p.classList.toggle('koyu', hedef === 'koyu');
+  el('din-perde-yazi').textContent = hedef === 'koyu' ? 'Gözlerin kapalı. Rahatça nefes al.\n(Açmak için ekrana dokun.)' : '';
+}
+// ---- Hafif yağmur (gerçek kayıt, kamu malı); başta yavaşça açılır, ışık gelirken kısılır
+const dinYagmurAcik = () => lsOku('din-yagmur') !== '0';
+async function dinYagmurHazirla(){
+  if (din.buf || din.hazirlaniyor || !DIN_YAGMUR) return;
+  try { if (!din.ac) din.ac = new (window.AudioContext || window.webkitAudioContext)(); if (din.ac.state === 'suspended') din.ac.resume(); } catch (e) { din.ac = null; return; }
+  din.hazirlaniyor = true;
+  try { const bin = atob(DIN_YAGMUR), u8 = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i); din.buf = await din.ac.decodeAudioData(u8.buffer); } catch (e) { din.buf = null; }
+  din.hazirlaniyor = false;
+}
+function dinYagmurBasla(){
+  if (!din.ac || !din.buf || !dinYagmurAcik() || din.kaynak) return;
+  try { din.gain = din.ac.createGain(); din.gain.gain.value = 0; din.kaynak = din.ac.createBufferSource(); din.kaynak.buffer = din.buf; din.kaynak.loop = true; din.kaynak.connect(din.gain); din.gain.connect(din.ac.destination); din.kaynak.start(0, Math.random() * 10); } catch (e) { din.kaynak = null; }
+}
+function dinYagmurSes(hedef, sn){
+  if (!din.ac || !din.gain || !din.kaynak) return;
+  try { const t = din.ac.currentTime; din.gain.gain.cancelScheduledValues(t); din.gain.gain.setValueAtTime(din.gain.gain.value, t); din.gain.gain.linearRampToValueAtTime(hedef * 0.18, t + Math.max(0.05, sn)); } catch (e) {}
+}
+function dinYagmurDur(sn){
+  if (!din.kaynak) return; dinYagmurSes(0, sn); const k = din.kaynak; din.kaynak = null;
+  setTimeout(() => { try { k.stop(); } catch (e) {} }, (sn + 0.3) * 1000);
+}
+function dinTemizle(){
+  clearInterval(rt.dinIv); dinYagmurDur(0.4);
+  const p = el('din-perde'); if (p) { p.style.transition = 'opacity .3s'; p.style.opacity = '0'; p.classList.remove('koyu'); }
+  din.perde = '';
+}
+function dinCiz(){
+  const f = dinFaz(din.gecen), gs = el('rt-din-gorsel'), S = DIN_SVG[din.gorsel], h = dinHiz(), toplam = dinZaman().u1;
+  el('rt-din-sayi').textContent = toplam - din.gecen;
+  el('rt-din-yazi').textContent = dinYaziFaz(f);
+  el('rt-din-not').classList.toggle('hidden', !(f === 'al' || f === 'ver'));
+  gs.style.visibility = (f === 'al' || f === 'ver') ? 'visible' : 'hidden';
+  dinPerdeAyarla(f);
+  if (f !== din.sonFaz) {
+    din.sonFaz = f;
+    if (f === 'kir') { dinYagmurBasla(); dinYagmurSes(1, 4); }
+    if (f === 'isik') dinYagmurSes(0, DIN_ISIK);
+    if (f === 'uzak') dinYagmurDur(0.5);
+    if (f === 'al' || f === 'ver') {
+      gs.style.transition = dinHareketAz() ? 'none' : 'transform ' + (f === 'al' ? h.al : h.ver) + 's ease-in-out';
+      gs.style.transform = f === 'al' ? S.buyuk : S.kucuk;
+    }
+  }
+}
+function dinKarartmaAtla(){ if (din.perde === 'koyu') { din.gecen = dinZaman().k1; dinCiz(); } }
+function dinYagmurDugme(){ const b = el('din-yagmur-btn'); if (b) b.textContent = 'Yağmur sesi: ' + (dinYagmurAcik() ? 'açık' : 'kapalı'); }
 function rtDinlenBasla(){
+  const cocuk = mod === 'cocuk';
+  { const u = el('tm-dinlen'); if (temaAktif() && temaYas() !== 'b') { u.innerHTML = tmBaykus(cocuk ? 'normal' : 'uyku', 72); u.classList.remove('hidden'); } else { u.classList.add('hidden'); u.innerHTML = ''; } }
+  const nefes = el('rt-din-nefes');
+  nefes.classList.toggle('hidden', !cocuk); el('rt-din-not').classList.add('hidden');
+  el('din-yagmur-satir').classList.toggle('hidden', !(cocuk && DIN_YAGMUR));
+  clearInterval(rt.dinIv);
+  if (cocuk) {
+    din.gecen = 0; din.sonFaz = ''; din.perde = ''; din.gorsel = dinGorselAd();
+    const gs = el('rt-din-gorsel'), S = DIN_SVG[din.gorsel];
+    gs.innerHTML = S.svg; gs.style.transition = 'none'; gs.style.transform = S.kucuk;
+    el('rt-din-sayi').style.fontSize = '1.4rem'; el('rt-din-yazi').style.minHeight = '3.9em';
+    { const p = el('din-perde'); p.style.transition = 'none'; p.style.opacity = '0'; p.classList.remove('koyu'); }
+    dinYagmurDugme();
+    rtGoster0('ekran-rt-dinlen');
+    dinCiz();
+    if (dinYagmurAcik()) dinYagmurHazirla().then(() => { const f = dinFaz(din.gecen); dinYagmurBasla(); dinYagmurSes((f === 'isik' || f === 'uzak') ? 0 : 1, 3); });
+    rt.dinIv = setInterval(() => {
+      din.gecen++;
+      if (din.gecen >= dinZaman().u1) return rtDinlenBitir();
+      dinCiz();
+    }, 1000);
+    return;
+  }
+  // yetişkin: eski dinlendirme
   const toplam = rtSureTavan('din'), yarim = Math.round(toplam / 2);
   let gecen = 0;
-  { const u = el('tm-dinlen'); if (temaAktif() && temaYas() !== 'b') { u.innerHTML = tmBaykus('uyku', 72); u.classList.remove('hidden'); } else { u.classList.add('hidden'); u.innerHTML = ''; } }
+  el('rt-din-sayi').style.fontSize = '3rem'; el('rt-din-yazi').style.minHeight = '';
   rtGoster0('ekran-rt-dinlen');
   const yaz = () => {
-    const kalan = toplam - gecen;
-    el('rt-din-sayi').textContent = kalan;
+    el('rt-din-sayi').textContent = toplam - gecen;
     el('rt-din-yazi').textContent = gecen < yarim ? 'Gözlerini kapat. Rahat nefes al.' : 'Şimdi gözlerini aç. Odanın en uzak yerine bak.';
     { const u = el('tm-dinlen'); if (!u.classList.contains('hidden')) u.innerHTML = tmBaykus(gecen < yarim ? 'uyku' : 'normal', 72); }
   };
   yaz();
-  clearInterval(rt.dinIv);
-  rt.dinIv = setInterval(() => {
-    gecen++;
-    if (gecen >= toplam) return rtDinlenBitir();
-    yaz();
-  }, 1000);
+  rt.dinIv = setInterval(() => { gecen++; if (gecen >= toplam) return rtDinlenBitir(); yaz(); }, 1000);
 }
 function rtDinlenBitir(){
-  clearInterval(rt.dinIv);
+  dinTemizle();
   rt.plan.bit[rt.adim] = 'yapildi';
   rtPlanKaydet();
   rtSonraki();
@@ -7115,6 +7243,8 @@ el('rt-adim-atla').onclick = rtAtla;
 el('rt-adim-cik').onclick = rtCik;
 el('rt-fb-cik').onclick = rtCik;
 el('rt-din-atla').onclick = rtDinlenBitir;
+el('din-perde').onclick = dinKarartmaAtla;
+el('din-yagmur-btn').onclick = () => { lsYaz('din-yagmur', dinYagmurAcik() ? '0' : '1'); dinYagmurDugme(); if (!dinYagmurAcik()) dinYagmurDur(0.4); else dinYagmurHazirla().then(() => { const f = dinFaz(din.gecen); dinYagmurBasla(); dinYagmurSes((f === 'isik' || f === 'uzak') ? 0 : 1, 1); }); };
 el('rt-din-cik').onclick = rtCik;
 el('rt-bar-bitir').onclick = () => rtZorlaBitir(false);
 </script>
