@@ -42,6 +42,34 @@
   button.rt-hero { flex:1 1 100%; min-height:112px; padding:22px 18px; font-size:1.6rem; font-weight:700; border-radius:14px; }
   button.rt-hero small { font-size:.95rem; font-weight:400; opacity:.9; margin-top:6px; }
   .ana-alt { margin-top:14px; }
+  /* Hayvan kartları */
+  .hk-kart { position:relative; background:var(--card); border:3px solid var(--line); border-radius:22px; overflow:hidden; box-shadow:0 6px 0 var(--line); margin-top:10px; }
+  .hk-fotokap { position:relative; width:100%; aspect-ratio:4/3; overflow:hidden; background:var(--line); }
+  .hk-bulanik { position:absolute; inset:-24px; background-size:cover; background-position:center; filter:blur(20px) saturate(1.1); opacity:.9; }
+  .hk-foto { position:relative; width:100%; height:100%; object-fit:contain; display:block; }
+  .hk-alt { padding:14px 16px 16px; text-align:center; }
+  .hk-ad { font-size:1.7rem; font-weight:900; letter-spacing:.08em; text-transform:uppercase; margin:0; }
+  .hk-bilgi { margin:8px 0 0; font-size:1.05rem; }
+  .hk-cipler { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-top:10px; }
+  .hk-cip { background:var(--bg); border:2px solid var(--line); border-radius:999px; padding:4px 12px; font-size:.85rem; }
+  .hk-serit { position:absolute; top:14px; left:-34px; transform:rotate(-35deg); background:#2f9e6e; color:#fff; font-weight:900; font-size:.8rem; padding:4px 40px; letter-spacing:.06em; z-index:2; }
+  .hk-kapak { position:absolute; inset:0; width:100%; height:100%; touch-action:none; z-index:3; transition:opacity .6s; cursor:pointer; }
+  .hk-kapak.gitti { opacity:0; pointer-events:none; }
+  .hk-parilti { position:absolute; inset:0; pointer-events:none; z-index:4; overflow:hidden; }
+  .hk-parilti i { position:absolute; width:10px; height:10px; border-radius:50%; opacity:0; animation:hk-uc 1.1s ease-out forwards; }
+  @keyframes hk-uc { 0% { transform:translate(0,0) scale(.4); opacity:1; } 100% { transform:translate(var(--x), var(--y)) scale(1); opacity:0; } }
+  .hk-sik { display:flex; flex-direction:column; gap:8px; margin-top:8px; }
+  .hk-sik button { flex:none; }
+  .hk-sik button.d { background:#2f9e6e; color:#fff; border-color:#2f9e6e; }
+  .hk-sik button.y { opacity:.55; }
+  .hk-sekmeler { display:flex; gap:8px; overflow-x:auto; padding:4px 0 8px; }
+  .hk-sekmeler button { flex:0 0 auto; min-height:38px; padding:6px 14px; font-size:.85rem; }
+  .hk-izgara { display:grid; grid-template-columns:repeat(4, 1fr); gap:8px; }
+  .hk-kare { flex:none; aspect-ratio:1; padding:0; min-height:0; border-radius:14px; overflow:hidden; border:2px solid var(--line); background:var(--card); position:relative; }
+  .hk-kare img { width:100%; height:100%; object-fit:cover; display:block; }
+  .hk-kare.kilitli { color:var(--muted); font-size:1.5rem; font-weight:900; display:grid; place-items:center; background:var(--bg); }
+  .hk-kare small { position:absolute; left:0; right:0; bottom:0; margin:0; padding:2px 3px; font-size:.6rem; line-height:1.1; background:rgba(0,0,0,.55); color:#fff; opacity:1; text-align:center; }
+  @media (prefers-reduced-motion: reduce) { .hk-kapak { transition:none; } .hk-parilti { display:none; } }
   .ana-alt button { flex:1 1 92px; min-height:64px; padding:10px 8px; font-size:.95rem; }
   .ana-alt button small { font-size:.72rem; }
   .hidden { display:none; }
@@ -250,10 +278,14 @@
     <div class="row">
       <button class="go rt-hero" id="ana-rutin">Bugünün Rutini<small>10-15 dakika, sırayla egzersizler</small></button>
     </div>
+    <div class="row hidden" id="hk-ana-satir" style="margin-top:12px">
+      <button class="go" id="ana-surpriz">🎁 Sürprizin seni bekliyor!</button>
+    </div>
     <div class="row ana-alt">
       <button class="alt" id="ana-metronom">Metronom<small>Noktalar ve metin öbekleri</small></button>
       <button class="alt" id="ana-egzersiz">Egzersizler<small>Kelime Yakala ve diğerleri</small></button>
       <button class="alt" id="ana-hatirla">Hatırlama Soruları<small id="ana-hatirla-alt">Okuduğun metinleri günler sonra yokla</small></button>
+      <button class="alt hidden" id="ana-album">Hayvan albümüm<small id="ana-album-alt">Kazıdığın hayvanlar</small></button>
     </div>
     <div class="grup" id="hrk-kart" style="margin-top:14px">
       <h2>Bugün hareket ettin mi?</h2>
@@ -1116,6 +1148,39 @@
     <div class="note">Göz yorulursa ya da baş ağrırsa hemen durdur.</div>
   </section>
 
+  <section id="ekran-kart" class="card hidden">
+    <div class="info lbl" id="hk-baslik">Bugünün sürprizi</div>
+    <div class="ipucu" id="hk-metin" style="text-align:center"></div>
+    <div class="hk-kart" id="hk-kart">
+      <div class="hk-serit" id="hk-serit" hidden>YENİ!</div>
+      <div class="hk-fotokap"><div class="hk-bulanik" id="hk-bulanik"></div><img class="hk-foto" id="hk-foto" alt=""></div>
+      <div class="hk-alt">
+        <p class="hk-ad" id="hk-ad"></p>
+        <p class="hk-bilgi" id="hk-bilgi"></p>
+        <div class="hk-cipler" id="hk-cipler"></div>
+      </div>
+      <canvas class="hk-kapak" id="hk-kapak"></canvas>
+      <div class="hk-parilti" id="hk-parilti"></div>
+    </div>
+    <div class="grup hidden" id="hk-yoklama">
+      <h2 id="hk-soru">Bu hayvan ne yer?</h2>
+      <div class="hk-sik" id="hk-sik"></div>
+      <div class="ipucu" id="hk-geri" style="text-align:center"></div>
+    </div>
+    <div class="row" style="margin-top:12px">
+      <button class="alt hidden" id="hk-dinle">🔊 Dinle</button>
+      <button class="go" id="hk-tamam">Tamam</button>
+    </div>
+  </section>
+
+  <section id="ekran-album" class="card hidden">
+    <div class="info lbl">Hayvan albümüm</div>
+    <div class="ipucu" id="hk-say" style="text-align:center"></div>
+    <div class="hk-sekmeler" id="hk-sekmeler"></div>
+    <div class="hk-izgara" id="hk-izgara"></div>
+    <div class="row" style="margin-top:14px"><button class="alt" id="hk-album-geri">Geri</button></div>
+  </section>
+
   <section id="ekran-rt" class="card hidden">
     <div class="info lbl">Bugünün Rutini</div>
     <div class="ipucu" id="rt-gun" style="text-align:center"></div>
@@ -1139,6 +1204,10 @@
       <div class="row" style="margin-top:8px">
         <button class="alt" id="rt-yet-met">Metronomu yavaşlat</button>
         <button class="alt" id="rt-yet-okuma">Okuma hızlarını yavaşlat</button>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <button class="alt" id="hk-ay-kazi">Kazıma: açık</button>
+        <button class="alt" id="hk-ay-yoklama">Hayvan sorusu: açık</button>
       </div>
     </details>
     <div class="row" style="margin-top:10px">
@@ -1327,8 +1396,8 @@ function metinSec(havuz){
 
 // ---- Ekran gezinmesi ----
 const el = id => document.getElementById(id);
-const ekranlar = ['ekran-hs','ekran-hs-calis','ekran-ana','ekran-mod','ekran-sinif','ekran-egz','ekran-kw','ekran-kw-calis','ekran-km','ekran-km-calis','ekran-bg','ekran-bg-calis','ekran-pd','ekran-pd-calis','ekran-sa-liste','ekran-sa','ekran-sa-calis','ekran-hv-liste','ekran-hv','ekran-hv-calis','ekran-sr-liste','ekran-sr','ekran-sr-calis','ekran-tt-liste','ekran-tt','ekran-tt-calis','ekran-yk-liste','ekran-yk','ekran-yk-calis','ekran-ng-liste','ekran-ng','ekran-ng-calis','ekran-tr-liste','ekran-tr','ekran-tr-calis','ekran-gk-liste','ekran-gk','ekran-gk-calis','ekran-sy-liste','ekran-sy','ekran-sy-calis','ekran-dg-liste','ekran-dg','ekran-dg-calis','ekran-alistirma','ekran-seviye','ekran-calis','ekran-rt','ekran-rt-adim','ekran-rt-fb','ekran-rt-dinlen','ekran-olc'];
-function goster(id){ ekranlar.forEach(e => el(e).classList.toggle('hidden', e !== id)); if (id === 'ekran-ana' && typeof hrkGuncelle === 'function') hrkGuncelle(); }
+const ekranlar = ['ekran-hs','ekran-hs-calis','ekran-ana','ekran-mod','ekran-sinif','ekran-egz','ekran-kw','ekran-kw-calis','ekran-km','ekran-km-calis','ekran-bg','ekran-bg-calis','ekran-pd','ekran-pd-calis','ekran-sa-liste','ekran-sa','ekran-sa-calis','ekran-hv-liste','ekran-hv','ekran-hv-calis','ekran-sr-liste','ekran-sr','ekran-sr-calis','ekran-tt-liste','ekran-tt','ekran-tt-calis','ekran-yk-liste','ekran-yk','ekran-yk-calis','ekran-ng-liste','ekran-ng','ekran-ng-calis','ekran-tr-liste','ekran-tr','ekran-tr-calis','ekran-gk-liste','ekran-gk','ekran-gk-calis','ekran-sy-liste','ekran-sy','ekran-sy-calis','ekran-dg-liste','ekran-dg','ekran-dg-calis','ekran-alistirma','ekran-seviye','ekran-calis','ekran-rt','ekran-rt-adim','ekran-rt-fb','ekran-rt-dinlen','ekran-olc','ekran-kart','ekran-album'];
+function goster(id){ ekranlar.forEach(e => el(e).classList.toggle('hidden', e !== id)); if (id === 'ekran-ana' && typeof hrkGuncelle === 'function') hrkGuncelle(); if (id === 'ekran-ana' && typeof hkAnaGuncelle === 'function') hkAnaGuncelle(); if (id !== 'ekran-kart' && typeof hkSusSus === 'function') hkSusSus(); }
 // Her seçim/liste ekranının sol üstüne "← Geri" düğmesi: alttaki Geri düğmesini tetikler
 ekranlar.forEach(id => {
   const sec = el(id);
@@ -5816,6 +5885,202 @@ function hvBitir(){
   hvDetay(sv, mesaj);
 }
 
+// ================= Hayvan kartları (çocuk: rutin sonunda kazıyarak açılan sürpriz) =================
+const HK_VERI = __KARTLAR__;
+const HK_GRUP = [['hepsi', 'Hepsi', null], ['cift', 'Çiftlik ve evde', ['ciftlik', 'evcil']], ['vahsi', 'Vahşi doğa', ['orman', 'dag', 'savan']], ['kutup', 'Kutuplar', ['kutup']], ['deniz', 'Denizler', ['deniz']], ['nehir', 'Nehir ve göller', ['nehir']], ['kus', 'Kuşlar', ['kus']], ['bocek', 'Böcekler', ['bocek']], ['surungen', 'Sürüngenler', ['surungen']], ['turkiye', 'Türkiye', ['turkiye']]];
+const HK_YE = { 'otçul': 'ot yer', 'etçil': 'et yer', 'hepçil': 'hem ot hem et yer', 'böcekçil': 'böcek yer', 'balıkçıl': 'balık yer', 'plankon ve küçük canlılar': 'plankton ve küçük canlılar yer', 'nektar ve polen': 'nektar ve polen yer', 'kan': 'kan emer' };
+const HK_SORU_HAVUZ = ['otçul', 'etçil', 'hepçil', 'böcekçil', 'balıkçıl'];
+const hk = { kart: null, kaynak: 'rutin', yeni: false, kapakBitti: true, cizim: false, sayac: 0, sekme: 'hepsi' };
+function hkBul(id){ return HK_VERI.find(x => x.id === id) || null; }
+function hkAcik(){ const a = rtJson('kart-acik', []); return Array.isArray(a) ? a : []; }
+function hkUygun(k){ return !(k.u && mod === 'cocuk' && sinif === '1-2'); }   // 1-2. sınıfta ürkütücü hayvanlar çıkmaz
+function hkSira(){
+  let sira = rtJson('kart-sira', null);
+  if (!Array.isArray(sira) || !sira.length) { sira = HK_VERI.map(x => x.id); for (let i = sira.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [sira[i], sira[j]] = [sira[j], sira[i]]; } }
+  const var_ = new Set(sira); HK_VERI.forEach(x => { if (!var_.has(x.id)) sira.push(x.id); });
+  lsYaz('kart-sira', JSON.stringify(sira));
+  return sira;
+}
+function hkSonraki(){
+  const acik = new Set(hkAcik());
+  for (const id of hkSira()) { const k = hkBul(id); if (k && !acik.has(id) && hkUygun(k)) return k; }
+  return null;
+}
+function hkBekleyen(){
+  const b = rtJson('kart-bekleyen', null);
+  if (!b || !b.id || hkAcik().includes(b.id)) return null;
+  return hkBul(b.id);
+}
+// Günün rutini tamamlanınca: bekleyen kart varsa onu ver; yoksa günde en çok 1 yeni kart ata
+function hkHazirla(){
+  if (mod !== 'cocuk' || !HK_VERI.length) return null;
+  const bek = hkBekleyen(); if (bek) return bek;
+  const t = rtBugun();
+  if (lsOku('kart-son-gun') === t) return null;
+  const k = hkSonraki(); if (!k) return null;
+  lsYaz('kart-bekleyen', JSON.stringify({ id: k.id, t }));
+  lsYaz('kart-son-gun', t);
+  return k;
+}
+function hkBilgi(k){ return (mod === 'cocuk' && sinif === '1-2') ? k.b1 : k.b2; }
+function hkYeYazi(ye){
+  const acik = HK_YE[ye]; if (!acik) return '';
+  if (mod === 'cocuk' && sinif === '1-2') return acik.charAt(0).toUpperCase() + acik.slice(1);
+  return HK_SORU_HAVUZ.includes(ye) ? ye.charAt(0).toUpperCase() + ye.slice(1) + ' (' + acik + ')' : acik.charAt(0).toUpperCase() + acik.slice(1);
+}
+function hkAyar(ad){ return lsOku('hk-' + ad) !== '0'; }
+function hkAyarYaz(){
+  const a = el('hk-ay-kazi'), b = el('hk-ay-yoklama');
+  if (a) a.textContent = 'Kazıma: ' + (hkAyar('kazima') ? 'açık' : 'kapalı');
+  if (b) b.textContent = 'Hayvan sorusu: ' + (hkAyar('yoklama') ? 'açık' : 'kapalı');
+}
+function hkSus(){ try { if ('speechSynthesis' in window) window.speechSynthesis.cancel(); } catch (e) {} }
+function hkSusSus(){ hkSus(); }
+function hkAnaGuncelle(){
+  const cocuk = mod === 'cocuk' && HK_VERI.length > 0;
+  el('hk-ana-satir').classList.toggle('hidden', !(cocuk && hkBekleyen()));
+  el('ana-album').classList.toggle('hidden', !cocuk);
+  if (cocuk) { const u = HK_VERI.filter(hkUygun), a = hkAcik().filter(id => u.some(x => x.id === id)).length; el('ana-album-alt').textContent = a + ' / ' + u.length + ' hayvan'; }
+}
+// ---- kart ekranı
+const hkCv = () => el('hk-kapak');
+function hkKartYaz(k, yeni){
+  el('hk-bulanik').style.backgroundImage = 'url(kartlar/' + k.id + '.webp)';
+  const f = el('hk-foto'); f.alt = k.ad; f.style.visibility = 'visible'; f.onerror = () => { f.style.visibility = 'hidden'; }; f.src = 'kartlar/' + k.id + '.webp';
+  el('hk-ad').textContent = k.ad; el('hk-bilgi').textContent = hkBilgi(k);
+  el('hk-serit').hidden = !yeni;
+  const c = el('hk-cipler'); c.innerHTML = '';
+  [['🍽', hkYeYazi(k.ye)], ['🏠', k.ya ? k.ya.charAt(0).toUpperCase() + k.ya.slice(1) : ''], ['⏳', k.om ? k.om.charAt(0).toUpperCase() + k.om.slice(1) : '']].forEach(([i, t]) => {
+    if (!t) return; const d = document.createElement('span'); d.className = 'hk-cip'; d.textContent = i + ' ' + t; c.appendChild(d);
+  });
+  el('hk-dinle').classList.toggle('hidden', !('speechSynthesis' in window));
+}
+function hkAc(k, kaynak){
+  hk.kart = k; hk.kaynak = kaynak;
+  const yeni = kaynak === 'rutin' || kaynak === 'surpriz';
+  hk.yeni = yeni;
+  hkKartYaz(k, yeni);
+  el('hk-yoklama').classList.add('hidden'); el('hk-geri').textContent = '';
+  el('hk-baslik').textContent = yeni ? 'Bugünün sürprizi' : 'Hayvan albümüm';
+  goster('ekran-kart');
+  let tuval = false;
+  try { tuval = !!hkCv().getContext('2d'); } catch (e) { tuval = false; }
+  if (yeni && !hkAcik().includes(k.id) && hkAyar('kazima') && tuval) {
+    el('hk-metin').textContent = 'Rutini bitirdin! Parmağınla kazı, kim çıkacak?';
+    el('hk-tamam').classList.add('hidden');
+    requestAnimationFrame(hkBoya);
+  } else {
+    el('hk-metin').textContent = yeni ? 'Rutini bitirdin! İşte bugünün hayvanı:' : '';
+    hkKapakKapat(); if (yeni) hkAcildi(true); else el('hk-tamam').classList.remove('hidden');
+  }
+}
+function hkBoya(){
+  const cv = hkCv(), cx = cv.getContext('2d'), r = el('hk-kart').getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+  cv.width = Math.round(r.width * dpr); cv.height = Math.round(r.height * dpr);
+  cx.setTransform(dpr, 0, 0, dpr, 0, 0); cx.globalCompositeOperation = 'source-over';
+  const g = cx.createLinearGradient(0, 0, r.width, r.height);
+  g.addColorStop(0, '#aeb5c0'); g.addColorStop(.5, '#e8ebf0'); g.addColorStop(1, '#8a93a1');
+  cx.fillStyle = g; cx.fillRect(0, 0, r.width, r.height);
+  cx.fillStyle = 'rgba(255,255,255,.35)';
+  for (let i = 0; i < 70; i++) { cx.beginPath(); cx.arc(Math.random() * r.width, Math.random() * r.height, Math.random() * 3 + 1, 0, 7); cx.fill(); }
+  cx.fillStyle = 'rgba(40,40,50,.55)'; cx.textAlign = 'center'; cx.font = '900 34px system-ui, sans-serif';
+  cx.fillText('KAZI!', r.width / 2, r.height / 2 - 6); cx.font = '700 15px system-ui, sans-serif';
+  cx.fillText('Parmağınla sür, sürprizi bul', r.width / 2, r.height / 2 + 22);
+  cv.classList.remove('gitti'); hk.kapakBitti = false; hk.sayac = 0; hk.cizim = false;
+}
+function hkKapakKapat(){ hkCv().classList.add('gitti'); hk.kapakBitti = true; }
+function hkKazi(e){
+  if (!hk.cizim || hk.kapakBitti) return;
+  const cv = hkCv(), cx = cv.getContext('2d'), r = cv.getBoundingClientRect();
+  cx.globalCompositeOperation = 'destination-out'; cx.lineWidth = 46; cx.lineCap = 'round'; cx.lineJoin = 'round';
+  cx.lineTo(e.clientX - r.left, e.clientY - r.top); cx.stroke(); cx.beginPath(); cx.moveTo(e.clientX - r.left, e.clientY - r.top);
+  if (++hk.sayac % 6 === 0) hkIlerleme();
+}
+function hkIlerleme(){
+  const cv = hkCv(), cx = cv.getContext('2d'), w = cv.width, h = cv.height, d = cx.getImageData(0, 0, w, h).data;
+  let a = 0, t = 0;
+  for (let y = 0; y < h; y += 14) for (let x = 0; x < w; x += 14) { t++; if (d[(y * w + x) * 4 + 3] < 40) a++; }
+  if (t && a / t > .5) hkAcildi(false);
+}
+function hkAcildi(sessiz){
+  if (!sessiz) { if (hk.kapakBitti) return; hkKapakKapat(); }
+  const k = hk.kart; if (!k) return;
+  const acik = hkAcik();
+  if (!acik.includes(k.id)) { acik.push(k.id); lsYaz('kart-acik', JSON.stringify(acik)); }
+  lsYaz('kart-bekleyen', JSON.stringify({ id: k.id, t: '', acildi: 1 }));
+  el('hk-metin').textContent = 'Merhaba ' + k.ad + '! Albümüne eklendi.';
+  el('hk-tamam').classList.remove('hidden');
+  if (!sessiz) {
+    const p = el('hk-parilti'); p.innerHTML = '';
+    for (let i = 0; i < 18; i++) { const n = document.createElement('i'), a = Math.random() * 6.28, m = 90 + Math.random() * 110;
+      n.style.left = '50%'; n.style.top = '34%'; n.style.setProperty('--x', Math.cos(a) * m + 'px'); n.style.setProperty('--y', Math.sin(a) * m + 'px');
+      n.style.background = ['#e8590c', '#2f9e6e', '#f2b01e', '#4c6ef5'][i % 4]; p.appendChild(n); }
+  }
+  hkYoklamaKur(k);
+}
+function hkYoklamaKur(k){
+  const kutu = el('hk-yoklama');
+  if (!hkAyar('yoklama') || !HK_SORU_HAVUZ.includes(k.ye)) { kutu.classList.add('hidden'); return; }
+  const secenek = [k.ye].concat(HK_SORU_HAVUZ.filter(x => x !== k.ye).sort(() => Math.random() - 0.5).slice(0, 2)).sort(() => Math.random() - 0.5);
+  const sik = el('hk-sik'); sik.innerHTML = ''; el('hk-geri').textContent = '';
+  let cevap = false;
+  secenek.forEach(o => {
+    const b = document.createElement('button'); b.className = 'alt';
+    b.textContent = HK_YE[o].charAt(0).toUpperCase() + HK_YE[o].slice(1);
+    b.onclick = () => {
+      if (cevap) return; cevap = true;
+      sik.querySelectorAll('button').forEach(x => { if (x.dataset.o === k.ye) x.classList.add('d'); else if (x === b) x.classList.add('y'); });
+      el('hk-geri').textContent = o === k.ye ? 'Doğru!' : 'Doğrusu: ' + HK_YE[k.ye] + '.';
+    };
+    b.dataset.o = o; sik.appendChild(b);
+  });
+  kutu.classList.remove('hidden');
+}
+function hkSoyle(){
+  const k = hk.kart; if (!k) return;
+  try { hkSus(); const u = new SpeechSynthesisUtterance(k.ad + '. ' + hkBilgi(k)); u.lang = 'tr-TR'; u.rate = 0.9; window.speechSynthesis.speak(u); } catch (e) {}
+}
+// ---- albüm
+function hkAlbumAc(){ hk.sekme = 'hepsi'; hkAlbumCiz(); goster('ekran-album'); }
+function hkAlbumCiz(){
+  const uygun = HK_VERI.filter(hkUygun), acik = new Set(hkAcik());
+  const sek = el('hk-sekmeler'); sek.innerHTML = '';
+  HK_GRUP.forEach(([id, ad, kat]) => {
+    const b = document.createElement('button'); b.className = 'alt' + (hk.sekme === id ? ' sel' : ''); b.textContent = ad;
+    b.onclick = () => { hk.sekme = id; hkAlbumCiz(); };
+    sek.appendChild(b);
+  });
+  const g = HK_GRUP.find(x => x[0] === hk.sekme), liste = uygun.filter(x => !g[2] || g[2].includes(x.k));
+  const iz = el('hk-izgara'); iz.innerHTML = '';
+  liste.forEach(k => {
+    const b = document.createElement('button');
+    if (acik.has(k.id)) {
+      b.className = 'hk-kare'; b.setAttribute('aria-label', k.ad);
+      const i = document.createElement('img'); i.loading = 'lazy'; i.alt = ''; i.src = 'kartlar/' + k.id + '.webp'; b.appendChild(i);
+      const s2 = document.createElement('small'); s2.textContent = k.ad; b.appendChild(s2);
+      b.onclick = () => hkAc(k, 'album');
+    } else { b.className = 'hk-kare kilitli'; b.textContent = '?'; b.setAttribute('aria-label', 'Henüz açılmadı'); }
+    iz.appendChild(b);
+  });
+  const a = liste.filter(x => acik.has(x.id)).length, t = uygun.filter(x => acik.has(x.id)).length;
+  el('hk-say').textContent = g[1] + ': ' + a + ' / ' + liste.length + ' · Toplam: ' + t + ' / ' + uygun.length;
+}
+{
+  const cv = el('hk-kapak');
+  cv.addEventListener('pointerdown', e => { hk.cizim = true; try { cv.setPointerCapture(e.pointerId); } catch (e2) {} cv.getContext('2d').beginPath(); hkKazi(e); });
+  cv.addEventListener('pointermove', hkKazi);
+  cv.addEventListener('pointerup', () => { hk.cizim = false; cv.getContext('2d').beginPath(); if (!hk.kapakBitti) hkIlerleme(); });
+  cv.addEventListener('pointercancel', () => { hk.cizim = false; });
+  window.addEventListener('resize', () => { if (!hk.kapakBitti && !el('ekran-kart').classList.contains('hidden')) hkBoya(); });
+  el('hk-dinle').onclick = hkSoyle;
+  el('hk-tamam').onclick = () => { hkSus(); if (hk.kaynak === 'album') { hkAlbumCiz(); goster('ekran-album'); } else if (hk.kaynak === 'surpriz') goster('ekran-ana'); else rtAnaKur(); };
+  el('ana-surpriz').onclick = () => { const k = hkBekleyen(); if (k) hkAc(k, 'surpriz'); };
+  el('ana-album').onclick = hkAlbumAc;
+  el('hk-album-geri').onclick = () => goster('ekran-ana');
+  el('hk-ay-kazi').onclick = () => { lsYaz('hk-kazima', hkAyar('kazima') ? '0' : '1'); hkAyarYaz(); };
+  el('hk-ay-yoklama').onclick = () => { lsYaz('hk-yoklama', hkAyar('yoklama') ? '0' : '1'); hkAyarYaz(); };
+}
+
 // ================= Bugünün Rutini =================
 // Her gün: ısınma (metronom) + göz + dikkat + okuma + göz dinlendirme. Egzersiz havuzdan seçilir.
 const RT_KAT = { isinma:'Isınma', gorme:'Göz ve görme alanı', dikkat:'Dikkat ve hafıza', oku:'Okuma', dinlen:'Kapanış' };
@@ -6285,6 +6550,7 @@ function olcGecmisYaz(){
 }
 function rtYetKur(){
   olcGecmisYaz();
+  hkAyarYaz();
   el('rt-yet').classList.toggle('hidden', mod !== 'cocuk');
   if (mod !== 'cocuk') return;
   el('rt-yet-yazi').textContent = 'Şimdi: metronom ' + rtMetHizi(0) + ' vuruş/dk · Kayan Metin ' + rtWpm(rtIdx('km')) + ' kelime/dk';
@@ -6343,12 +6609,14 @@ function rtBitti(){
   rt.aktif = false; rt.adimda = false; rt.calis = false;
   const g = rtGecmis();
   const p = rt.plan;
+  let kart = null;
   if (p.ids.filter((id, i) => id !== 'din' && p.bit[i] === 'yapildi' && !(p.say && p.say[i] === false)).length >= 2) {
     if (!(g[p.t] && g[p.t].tamam)) lsYaz('rt-tamam-' + rtAnahtarMod(), String(rtTamamSay() + 1));
     g[p.t] = { ids: p.ids, tamam: true };
     rtGecmisYaz(g);
+    kart = hkHazirla();
   }
-  rtAnaKur();
+  if (kart) hkAc(kart, 'rutin'); else rtAnaKur();
 }
 function rtCik(){
   clearInterval(rt.iv); clearInterval(rt.dinIv);

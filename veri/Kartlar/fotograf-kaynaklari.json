@@ -1,0 +1,2402 @@
+[
+ {
+  "slug": "inek",
+  "en": "Cattle",
+  "dosya": "foto/inek.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Kim Hansen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg"
+ },
+ {
+  "slug": "at",
+  "en": "Horse",
+  "dosya": "foto/at.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Nokota_Horses.jpg: François Marchal derivative work: Dana boomer (talk)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Nokota_Horses_cropped.jpg"
+ },
+ {
+  "slug": "esek",
+  "en": "Donkey",
+  "dosya": "foto/esek.webp",
+  "lisans": "Public domain",
+  "yazar": "Adrian Pingstone",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Donkey_in_Clovelly%2C_North_Devon%2C_England.jpg"
+ },
+ {
+  "slug": "koyun",
+  "en": "Sheep",
+  "dosya": "foto/koyun.webp",
+  "lisans": "Public domain",
+  "yazar": "Keith Weller",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Flock_of_sheep.jpg"
+ },
+ {
+  "slug": "keci",
+  "en": "Goat",
+  "dosya": "foto/keci.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Kuebi = Armin Kübelbeck",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Hausziege_04.jpg"
+ },
+ {
+  "slug": "domuz",
+  "en": "Domestic pig",
+  "dosya": "foto/domuz.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "kallerna",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Pig_farm_Vampula_1.jpg"
+ },
+ {
+  "slug": "tavuk",
+  "en": "Chicken",
+  "dosya": "foto/tavuk.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Andrei Niemimäki from Turku, Finland",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Male_and_female_chicken_sitting_together.jpg"
+ },
+ {
+  "slug": "ordek_evcil",
+  "en": "Domestic duck",
+  "dosya": "foto/ordek_evcil.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Pat Hansen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:American%20Pekin%20Duck.jpg"
+ },
+ {
+  "slug": "kaz",
+  "en": "Domestic goose",
+  "dosya": "foto/kaz.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Tomás Del Coro from Las Vegas, Nevada, USA",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Sunset_Park_-_Las_Vegas_%2811044584144%29.jpg"
+ },
+ {
+  "slug": "hindi",
+  "en": "Domestic turkey",
+  "dosya": "foto/hindi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "photo taken by Lupin on en:Wikipedia",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Male_north_american_turkey_supersaturated.jpg"
+ },
+ {
+  "slug": "manda",
+  "en": "Water buffalo",
+  "dosya": "foto/manda.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Alexander Vasenin",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Water_buffalo_at_Rinca.jpg"
+ },
+ {
+  "slug": "lama",
+  "en": "Llama",
+  "dosya": "foto/lama.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Andrija12345678",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Llamas%2C_Vernagt-Stausee%2C_Italy.jpg"
+ },
+ {
+  "slug": "alpaka",
+  "en": "Alpaca",
+  "dosya": "foto/alpaka.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "KKPCW",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Alpaca_in_Higashiyama_Zoo_-_1.jpg"
+ },
+ {
+  "slug": "tavsan",
+  "en": "European rabbit",
+  "dosya": "foto/tavsan.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "euqirneto",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus_-_euqirneto_-_419737670_%28cropped%29.jpeg"
+ },
+ {
+  "slug": "kedi",
+  "en": "Cat",
+  "dosya": "foto/kedi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Karin Langner-Bahmann, upload von Martin Bahmann",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Siam_lilacpoint.jpg"
+ },
+ {
+  "slug": "kopek",
+  "en": "Dog",
+  "dosya": "foto/kopek.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "JOLLY-DOGS-JACK-RUSSELL",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Brooks%20Chase%20Ranger%20of%20Jolly%20Dogs%20Jack%20Russell.jpg"
+ },
+ {
+  "slug": "hamster",
+  "en": "Golden hamster",
+  "dosya": "foto/hamster.webp",
+  "lisans": "CC BY 2.5",
+  "yazar": "Adamjennison111 at English Wikipedia",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Golden_hamster_front_1.jpg"
+ },
+ {
+  "slug": "kobay",
+  "en": "Guinea pig",
+  "dosya": "foto/kobay.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:George_the_amazing_guinea_pig.jpg"
+ },
+ {
+  "slug": "muhabbet_kusu",
+  "en": "Budgerigar",
+  "dosya": "foto/muhabbet_kusu.webp",
+  "lisans": "GFDL 1.2",
+  "yazar": "Benjamint444",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Budgerigar-male-strzelecki-qld.jpg"
+ },
+ {
+  "slug": "kanarya",
+  "en": "Domestic canary",
+  "dosya": "foto/kanarya.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "NEWSchr",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:GelbA.JPG"
+ },
+ {
+  "slug": "japon_baligi",
+  "en": "Goldfish",
+  "dosya": "foto/japon_baligi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "לינה אבוגוש",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Gold_fish1.jpg"
+ },
+ {
+  "slug": "sican_evcil",
+  "en": "Fancy rat",
+  "dosya": "foto/sican_evcil.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dunpharlain",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Brown%20Rat%20%28Rattus%20norvegicus%29.jpg"
+ },
+ {
+  "slug": "gelincik_evcil",
+  "en": "Domestic ferret",
+  "dosya": "foto/gelincik_evcil.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Alfredo Gutiérrez",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Ferret_2008.png"
+ },
+ {
+  "slug": "sultan_papagani",
+  "en": "Cockatiel",
+  "dosya": "foto/sultan_papagani.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Photo by: Ganatron – paulweberphoto.com",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Cockatiel_3.jpg"
+ },
+ {
+  "slug": "gerbil",
+  "en": "Mongolian gerbil",
+  "dosya": "foto/gerbil.webp",
+  "lisans": "Public domain",
+  "yazar": "Alastair Rae from London, United Kingdom",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Meriones_unguiculatus_%28wild%29.jpg"
+ },
+ {
+  "slug": "kizil_tilki",
+  "en": "Red fox",
+  "dosya": "foto/kizil_tilki.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "ClaudiaTen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg"
+ },
+ {
+  "slug": "kurt",
+  "en": "Gray wolf",
+  "dosya": "foto/kurt.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "User:Mas3cf",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Eurasian_wolf_2.jpg"
+ },
+ {
+  "slug": "boz_ayi",
+  "en": "Brown bear",
+  "dosya": "foto/boz_ayi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Yathin S Krishnappa",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:2010-kodiak-bear-1.jpg"
+ },
+ {
+  "slug": "kizil_geyik",
+  "en": "Red deer",
+  "dosya": "foto/kizil_geyik.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Lviatour",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_6.jpg"
+ },
+ {
+  "slug": "karaca",
+  "en": "Roe deer",
+  "dosya": "foto/karaca.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Roe_deer_%28Capreolus_capreolus%29_young_male_Cumnor.jpg"
+ },
+ {
+  "slug": "yaban_domuzu",
+  "en": "Wild boar",
+  "dosya": "foto/yaban_domuzu.webp",
+  "lisans": "CC BY-SA 3.0 at",
+  "yazar": "Valentin Panzirsch",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg"
+ },
+ {
+  "slug": "sincap",
+  "en": "Red squirrel",
+  "dosya": "foto/sincap.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Peter Trimming",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Squirrel_posing.jpg"
+ },
+ {
+  "slug": "porsuk",
+  "en": "European badger",
+  "dosya": "foto/porsuk.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:European_badger_%28Meles_meles_taxus%29_Drenthe.jpg"
+ },
+ {
+  "slug": "kirpi",
+  "en": "European hedgehog",
+  "dosya": "foto/kirpi.webp",
+  "lisans": "CC BY-SA 2.0 de",
+  "yazar": "Jörg Hempel",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_LC0119.jpg"
+ },
+ {
+  "slug": "vasak",
+  "en": "Eurasian lynx",
+  "dosya": "foto/vasak.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Aconcagua (talk)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Lynx_Nationalpark_Bayerischer_Wald_01.jpg"
+ },
+ {
+  "slug": "yaban_kedisi",
+  "en": "European wildcat",
+  "dosya": "foto/yaban_kedisi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Lviatour",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_silvestris_Luc_Viatour.jpg"
+ },
+ {
+  "slug": "alp_kecisi",
+  "en": "Alpine ibex",
+  "dosya": "foto/alp_kecisi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "camgoz",
+  "en": "Chamois",
+  "dosya": "foto/camgoz.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:064_Wild_Chamois_Parc_r%C3%A9gional_Chasseral_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "mus",
+  "en": "Moose",
+  "dosya": "foto/mus.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Paxson Woelber",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Alaska_moose.jpg"
+ },
+ {
+  "slug": "panda",
+  "en": "Giant panda",
+  "dosya": "foto/panda.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "J. Patrick Fischer",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Grosser_Panda.JPG"
+ },
+ {
+  "slug": "kirmizi_panda",
+  "en": "Red panda",
+  "dosya": "foto/kirmizi_panda.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Sunuwargr",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Red_Panda%2C_Gentle_Tree-Dweller_of_the_Himalayas.jpg"
+ },
+ {
+  "slug": "koala",
+  "en": "Koala",
+  "dosya": "foto/koala.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Diliff",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg"
+ },
+ {
+  "slug": "kanguru",
+  "en": "Red kangaroo",
+  "dosya": "foto/kanguru.webp",
+  "lisans": "GFDL 1.2",
+  "yazar": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Canon 70-200mm f/2.8 L",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Red_kangaroo_-_melbourne_zoo.jpg"
+ },
+ {
+  "slug": "goril",
+  "en": "Gorilla",
+  "dosya": "foto/goril.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Thurundir",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg"
+ },
+ {
+  "slug": "orangutan",
+  "en": "Bornean orangutan",
+  "dosya": "foto/orangutan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Nanosanchez",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Tanjung_Puting30477.jpg"
+ },
+ {
+  "slug": "simpanze",
+  "en": "Chimpanzee",
+  "dosya": "foto/simpanze.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "lemur",
+  "en": "Ring-tailed lemur",
+  "dosya": "foto/lemur.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Ring-tailed_lemur_%28Lemur_catta%29.jpg"
+ },
+ {
+  "slug": "tembel_hayvan",
+  "en": "Brown-throated sloth",
+  "dosya": "foto/tembel_hayvan.webp",
+  "lisans": "Public domain",
+  "yazar": "Stefan Laube (Tauchgurke)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Bradypus.jpg"
+ },
+ {
+  "slug": "karincayiyen",
+  "en": "Giant anteater",
+  "dosya": "foto/karincayiyen.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Malene Thyssen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg"
+ },
+ {
+  "slug": "jaguar",
+  "en": "Jaguar",
+  "dosya": "foto/jaguar.webp",
+  "lisans": "Public domain",
+  "yazar": "USFWS",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Standing_jaguar.jpg"
+ },
+ {
+  "slug": "puma",
+  "en": "Cougar",
+  "dosya": "foto/puma.webp",
+  "lisans": "Public domain",
+  "yazar": "National Park Service",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Mountain_Lion_in_Glacier_National_Park.jpg"
+ },
+ {
+  "slug": "kar_leopari",
+  "en": "Snow leopard",
+  "dosya": "foto/kar_leopari.webp",
+  "lisans": "Public domain",
+  "yazar": "Irbis1983",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Irbis4.JPG"
+ },
+ {
+  "slug": "vombat",
+  "en": "Common wombat",
+  "dosya": "foto/vombat.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "JJ Harrison (jjharrison89@facebook.com)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Vombatus_ursinus_-Maria_Island_National_Park.jpg"
+ },
+ {
+  "slug": "armadillo",
+  "en": "Nine-banded armadillo",
+  "dosya": "foto/armadillo.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "Aramburu Carlos",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Dasypus_novemcinctus_en_Zool%C3%B3gico_de_Paraguan%C3%A1.jpg"
+ },
+ {
+  "slug": "rakun",
+  "en": "Raccoon",
+  "dosya": "foto/rakun.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Rhododendrites",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Raccoon_in_Central_Park_%2835264%29.jpg"
+ },
+ {
+  "slug": "kokarca",
+  "en": "Striped skunk",
+  "dosya": "foto/kokarca.webp",
+  "lisans": "Public domain",
+  "yazar": "Wallace Keck",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Skunk_about_to_spray.jpg"
+ },
+ {
+  "slug": "kara_ayi",
+  "en": "American black bear",
+  "dosya": "foto/kara_ayi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Vancouver_Island_black_bear_%28Ursus_americanus_vancouveri%29_Tofino_4.jpg"
+ },
+ {
+  "slug": "pangolin",
+  "en": "Chinese pangolin",
+  "dosya": "foto/pangolin.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "U.S. Fish and Wildlife Service Headquarters",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Manis_pentadactyla_%2829054818144%29.jpg"
+ },
+ {
+  "slug": "tapir",
+  "en": "Brazilian tapir",
+  "dosya": "foto/tapir.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:South_American_tapir_%28Tapirus_terrestris%29.JPG"
+ },
+ {
+  "slug": "okapi",
+  "en": "Okapi",
+  "dosya": "foto/okapi.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Daniel Jolivet",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Saint-Aignan_%28Loir-et-Cher%29._Okapi.jpg"
+ },
+ {
+  "slug": "tasmanya_seytani",
+  "en": "Tasmanian devil",
+  "dosya": "foto/tasmanya_seytani.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "JJ Harrison (https://www.jjharrison.com.au/)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Sarcophilus_harrisii_taranna.jpg"
+ },
+ {
+  "slug": "yak",
+  "en": "Yak",
+  "dosya": "foto/yak.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Alexandr frolov",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Sarlyk_Yak2.jpg"
+ },
+ {
+  "slug": "buyukboynuz",
+  "en": "Bighorn sheep",
+  "dosya": "foto/buyukboynuz.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Jwanamaker",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:New_Mexico_Bighorn_Sheep.JPG"
+ },
+ {
+  "slug": "kapuchin",
+  "en": "White-headed capuchin",
+  "dosya": "foto/kapuchin.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "David M. Jensen (Storkk)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Capuchin_Costa_Rica.jpg"
+ },
+ {
+  "slug": "havali_sincap",
+  "en": "Sugar glider",
+  "dosya": "foto/havali_sincap.webp",
+  "lisans": "CC0",
+  "yazar": "Inconnu(e)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Petaurus%20breviceps%20%28sugar%20glider%29.jpg"
+ },
+ {
+  "slug": "aslan",
+  "en": "Lion",
+  "dosya": "foto/aslan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "kaplan",
+  "en": "Tiger",
+  "dosya": "foto/kaplan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg"
+ },
+ {
+  "slug": "asya_fili",
+  "en": "Asian elephant",
+  "dosya": "foto/asya_fili.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Yathin S Krishnappa",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_%28Bandipur%29.jpg"
+ },
+ {
+  "slug": "afrika_fili",
+  "en": "African bush elephant",
+  "dosya": "foto/afrika_fili.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "zurafa",
+  "en": "Giraffe",
+  "dosya": "foto/zurafa.webp",
+  "lisans": "GFDL 1.2",
+  "yazar": "Muhammad Mahdi Karim Facebook The making of this document was supported by Wikim",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Giraffe_Mikumi_National_Park.jpg"
+ },
+ {
+  "slug": "zebra",
+  "en": "Plains zebra",
+  "dosya": "foto/zebra.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Yathin S Krishnappa",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Equus_quagga_burchellii_-_Etosha%2C_2014.jpg"
+ },
+ {
+  "slug": "beyaz_gergedan",
+  "en": "White rhinoceros",
+  "dosya": "foto/beyaz_gergedan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "hint_gergedani",
+  "en": "Indian rhinoceros",
+  "dosya": "foto/hint_gergedani.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Mayank1704",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg"
+ },
+ {
+  "slug": "leopar",
+  "en": "Leopard",
+  "dosya": "foto/leopar.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Sumeet Moghe",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:African_leopard_male_%28cropped%29.jpg"
+ },
+ {
+  "slug": "cita",
+  "en": "Cheetah",
+  "dosya": "foto/cita.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "AfricanConservation",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Male_cheetah_facing_left_in_South_Africa.jpg"
+ },
+ {
+  "slug": "benekli_sirtlan",
+  "en": "Spotted hyena",
+  "dosya": "foto/benekli_sirtlan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Spotted_hyena_%28Crocuta_crocuta%29.jpg"
+ },
+ {
+  "slug": "yaban_kopegi",
+  "en": "African wild dog",
+  "dosya": "foto/yaban_kopegi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "AfricanConservation",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:African_Wild_Dog_at_Working_with_Wildlife.jpg"
+ },
+ {
+  "slug": "impala",
+  "en": "Impala",
+  "dosya": "foto/impala.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Common_impala_%28Aepyceros_melampus_melampus%29_male_Serengeti.jpg"
+ },
+ {
+  "slug": "gnu",
+  "en": "Blue wildebeest",
+  "dosya": "foto/gnu.webp",
+  "lisans": "GFDL 1.2",
+  "yazar": "Muhammad Mahdi Karim",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Blue_Wildebeest%2C_Ngorongoro.jpg"
+ },
+ {
+  "slug": "afrika_bufalosu",
+  "en": "African buffalo",
+  "dosya": "foto/afrika_bufalosu.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:African_buffalo_%28Syncerus_caffer_caffer%29_male_with_cattle_egret.jpg"
+ },
+ {
+  "slug": "deve",
+  "en": "Dromedary",
+  "dosya": "foto/deve.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Florian Prischl",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Nuweiba.jpg"
+ },
+ {
+  "slug": "cift_horgucli_deve",
+  "en": "Bactrian camel",
+  "dosya": "foto/cift_horgucli_deve.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Christian Ursilva from Copenhagen, Denmark",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Camelus_bactrianus_%2855026866188%29.jpg"
+ },
+ {
+  "slug": "fennec",
+  "en": "Fennec fox",
+  "dosya": "foto/fennec.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Drew Avery",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_Vulpes_zerda.jpg"
+ },
+ {
+  "slug": "suricat",
+  "en": "Meerkat",
+  "dosya": "foto/suricat.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Meerkat_%28Suricata_suricatta%29_Tswalu.jpg"
+ },
+ {
+  "slug": "pumba",
+  "en": "Common warthog",
+  "dosya": "foto/pumba.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Southern_warthog_%28Phacochoerus_africanus_sundevallii%29_male.jpg"
+ },
+ {
+  "slug": "babun",
+  "en": "Olive baboon",
+  "dosya": "foto/babun.webp",
+  "lisans": "GFDL 1.2",
+  "yazar": "Muhammad Mahdi Karim",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Olive_baboon_Ngorongoro.jpg"
+ },
+ {
+  "slug": "mandril",
+  "en": "Mandrill",
+  "dosya": "foto/mandril.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Katma0601",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Mandrill_Albert_September_2015_Zoo_Berlin_%282%29.jpg"
+ },
+ {
+  "slug": "thomson_gazeli",
+  "en": "Thomson's gazelle",
+  "dosya": "foto/thomson_gazeli.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Diego Delso",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Gacela_de_Thomson_%28Eudorcas_thomsonii%29%2C_parque_nacional_de_Amboseli%2C_Kenia%2C_2024-05-23%2C_DD_11.jpg"
+ },
+ {
+  "slug": "oryks",
+  "en": "Gemsbok",
+  "dosya": "foto/oryks.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Gemsbok_%28Oryx_gazella%29_male.jpg"
+ },
+ {
+  "slug": "karakal",
+  "en": "Caracal",
+  "dosya": "foto/karakal.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Derek Keats",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Caracal_on_the_road%2C_early_morning_in_Kgalagadi_%2836173878220%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "serval",
+  "en": "Serval",
+  "dosya": "foto/serval.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Diego Delso",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Servalcropped.png"
+ },
+ {
+  "slug": "yerdomuzu",
+  "en": "Aardvark",
+  "dosya": "foto/yerdomuzu.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "Kelly Abram",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Orycteropus_afer_175359469.jpg"
+ },
+ {
+  "slug": "jelada",
+  "en": "Gelada",
+  "dosya": "foto/jelada.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Gelada_%28Theropithecus_gelada_gelada%29_male_2.jpg"
+ },
+ {
+  "slug": "tembel_ayi",
+  "en": "Sloth bear",
+  "dosya": "foto/tembel_ayi.webp",
+  "lisans": "Public domain",
+  "yazar": "Asiir",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Sloth_Bear_Washington_DC.JPG"
+ },
+ {
+  "slug": "kudu",
+  "en": "Greater kudu",
+  "dosya": "foto/kudu.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "L0k1m0nk33 at English Wikipedia",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Male_greater_kudu.jpg"
+ },
+ {
+  "slug": "kutup_ayisi",
+  "en": "Polar bear",
+  "dosya": "foto/kutup_ayisi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Alan Wilson",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska_%28cropped%29.jpg"
+ },
+ {
+  "slug": "imparator_penguen",
+  "en": "Emperor penguin",
+  "dosya": "foto/imparator_penguen.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Ian Duffy from UK",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg"
+ },
+ {
+  "slug": "adelie_penguen",
+  "en": "Adélie penguin",
+  "dosya": "foto/adelie_penguen.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Godot13",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_%28Pygoscelis_adeliae%29_04.jpg"
+ },
+ {
+  "slug": "kutup_tilkisi",
+  "en": "Arctic fox",
+  "dosya": "foto/kutup_tilkisi.webp",
+  "lisans": "CC0",
+  "yazar": "Jonatan Pie (unsplash.com/@r3dmax)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg"
+ },
+ {
+  "slug": "ren_geyigi",
+  "en": "Reindeer",
+  "dosya": "foto/ren_geyigi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Are G Nilsen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg"
+ },
+ {
+  "slug": "misk_okuzu",
+  "en": "Muskox",
+  "dosya": "foto/misk_okuzu.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_4.jpg"
+ },
+ {
+  "slug": "kar_baykusu",
+  "en": "Snowy owl",
+  "dosya": "foto/kar_baykusu.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Michael Gäbler",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Bubo%20scandiacus%20%28Linnaeus%2C%201758%29%20Male.jpg"
+ },
+ {
+  "slug": "kutup_tavsani",
+  "en": "Arctic hare",
+  "dosya": "foto/kutup_tavsani.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Steve Sayles from Rankin Inlet, Nunavut, Canada",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Arctic_Hare_1.jpg"
+ },
+ {
+  "slug": "mors",
+  "en": "Walrus",
+  "dosya": "foto/mors.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Nixette",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg"
+ },
+ {
+  "slug": "narval",
+  "en": "Narwhal",
+  "dosya": "foto/narval.webp",
+  "lisans": "Public domain",
+  "yazar": "Dr. Kristin Laidre, Polar Science Center, UW NOAA/OAR/OER",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Pod%20Monodon%20monoceros.jpg"
+ },
+ {
+  "slug": "beyaz_balina",
+  "en": "Beluga whale",
+  "dosya": "foto/beyaz_balina.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Javier Yaya Tur / CIUDAD DE LAS ARTES Y LAS CIENCIAS from Valencia, España",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Oceanogr%C3%A0fic_29102004.jpg"
+ },
+ {
+  "slug": "halkali_fok",
+  "en": "Ringed seal",
+  "dosya": "foto/halkali_fok.webp",
+  "lisans": "Public domain",
+  "yazar": "NOAA Seal Survey",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Pusa_hispida_hispida_NOAA_1.jpg"
+ },
+ {
+  "slug": "yunus",
+  "en": "Common bottlenose dolphin",
+  "dosya": "foto/yunus.webp",
+  "lisans": "Public domain",
+  "yazar": "NASA",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01-cropped.jpg"
+ },
+ {
+  "slug": "orka",
+  "en": "Killer whale",
+  "dosya": "foto/orka.webp",
+  "lisans": "Public domain",
+  "yazar": "Robert Pittman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Killerwhales_jumping.jpg"
+ },
+ {
+  "slug": "kambur_balina",
+  "en": "Humpback whale",
+  "dosya": "foto/kambur_balina.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "Juan Cruzado Cortés",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Humpback_whale_breaching_off_Cabo_San_Lucas.jpg"
+ },
+ {
+  "slug": "mavi_balina",
+  "en": "Blue whale",
+  "dosya": "foto/mavi_balina.webp",
+  "lisans": "Public domain",
+  "yazar": "NOAA",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Bluewhale1%20noaa%20crop.jpg"
+ },
+ {
+  "slug": "sperm_balinasi",
+  "en": "Sperm whale",
+  "dosya": "foto/sperm_balinasi.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Gabriel Barathieu",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Mother_and_baby_sperm_whale.jpg"
+ },
+ {
+  "slug": "deniz_aslani",
+  "en": "California sea lion",
+  "dosya": "foto/deniz_aslani.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "(c) Jonathan Eisen, some rights reserved (CC BY)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:California_Sea_Lion%2C_Monterey%2C_California%2C_United_States_imported_from_iNaturalist_photo_203598492.jpg"
+ },
+ {
+  "slug": "deniz_samuru",
+  "en": "Sea otter",
+  "dosya": "foto/deniz_samuru.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Marshal Hedin from San Diego",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg"
+ },
+ {
+  "slug": "manati",
+  "en": "West Indian manatee",
+  "dosya": "foto/manati.webp",
+  "lisans": "Public domain",
+  "yazar": "Galen Rathbun",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Manatee_with_calf.PD_-_colour_corrected.jpg"
+ },
+ {
+  "slug": "dugong",
+  "en": "Dugong",
+  "dosya": "foto/dugong.webp",
+  "lisans": "CC BY-SA 3.0 de",
+  "yazar": "Gejuni",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Dugong.JPG"
+ },
+ {
+  "slug": "beyaz_kopekbaligi",
+  "en": "Great white shark",
+  "dosya": "foto/beyaz_kopekbaligi.webp",
+  "lisans": "CC BY 2.5",
+  "yazar": "Pterantula (Terry Goss) at en.wikipedia",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:White_shark.jpg"
+ },
+ {
+  "slug": "balina_kopekbaligi",
+  "en": "Whale shark",
+  "dosya": "foto/balina_kopekbaligi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Abe Khao Lak",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Similan_Dive_Center_-_great_whale_shark.jpg"
+ },
+ {
+  "slug": "cekic_kopekbaligi",
+  "en": "Scalloped hammerhead",
+  "dosya": "foto/cekic_kopekbaligi.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Kris-Mikael Krister",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Scalloped_hammerhead_shark_%28Sphyrna_lewini%29_Costa_Rica_%28cropped%29.jpg"
+ },
+ {
+  "slug": "manta",
+  "en": "Giant oceanic manta ray",
+  "dosya": "foto/manta.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "jon hanson from london, UK",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Manta_birostris-Thailand4.jpg"
+ },
+ {
+  "slug": "vatoz",
+  "en": "Common stingray",
+  "dosya": "foto/vatoz.webp",
+  "lisans": "Public domain",
+  "yazar": "Florin DUMITRESCU",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Black_sea_fauna_stingray_01.jpg"
+ },
+ {
+  "slug": "palyaco_baligi",
+  "en": "Ocean clownfish",
+  "dosya": "foto/palyaco_baligi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Ritiks",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Clown_fish_in_the_Andaman_Coral_Reef.jpg"
+ },
+ {
+  "slug": "deniz_ati",
+  "en": "Seahorse",
+  "dosya": "foto/deniz_ati.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Hans Hillewaert",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg"
+ },
+ {
+  "slug": "deniz_yildizi",
+  "en": "Starfish",
+  "dosya": "foto/deniz_yildizi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Hans Hillewaert",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Asterias%20rubens.jpg"
+ },
+ {
+  "slug": "deniz_anasi",
+  "en": "Moon jellyfish",
+  "dosya": "foto/deniz_anasi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Luc Viatour",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Aurelia_aurita_%28Cnidaria%29_Luc_Viatour.jpg"
+ },
+ {
+  "slug": "ahtapot",
+  "en": "Common octopus",
+  "dosya": "foto/ahtapot.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "albert kok",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg"
+ },
+ {
+  "slug": "supya",
+  "en": "Common cuttlefish",
+  "dosya": "foto/supya.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Diego Delso",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2020-07-21%2C_DD_62.jpg"
+ },
+ {
+  "slug": "mavi_yengec",
+  "en": "Callinectes sapidus",
+  "dosya": "foto/mavi_yengec.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:The_Childrens_Museum_of_Indianapolis_-_Atlantic_blue_crab.jpg"
+ },
+ {
+  "slug": "istakoz",
+  "en": "European lobster",
+  "dosya": "foto/istakoz.webp",
+  "lisans": "Public domain",
+  "yazar": "Bart Braun",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:KreeftbijDenOsse.jpg"
+ },
+ {
+  "slug": "deniz_kestanesi",
+  "en": "Sea urchin",
+  "dosya": "foto/deniz_kestanesi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Nhobgood (talk) Nick Hobgood",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg"
+ },
+ {
+  "slug": "yesil_deniz_kaplumbagasi",
+  "en": "Green sea turtle",
+  "dosya": "foto/yesil_deniz_kaplumbagasi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg"
+ },
+ {
+  "slug": "balon_baligi",
+  "en": "Tetraodontidae",
+  "dosya": "foto/balon_baligi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Karelj",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Arothron%20hispidus%20Prague%202011%201.jpg"
+ },
+ {
+  "slug": "fil_foku",
+  "en": "Northern elephant seal",
+  "dosya": "foto/fil_foku.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Mike Baird",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Mating_scene_with_elevated_Alpha_Male._Elephant_Seals_of_Piedras_Blancas.jpg"
+ },
+ {
+  "slug": "deniz_lalesi",
+  "en": "Sea anemone",
+  "dosya": "foto/deniz_lalesi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Attrattorestrano at Italian Wikipedia",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Actinia%20equina2.JPG"
+ },
+ {
+  "slug": "murana",
+  "en": "Moray eel",
+  "dosya": "foto/murana.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "steven van tendeloo",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Muraena%20helena%20swimming%20v2.jpg"
+ },
+ {
+  "slug": "aslan_baligi",
+  "en": "Red lionfish",
+  "dosya": "foto/aslan_baligi.webp",
+  "lisans": "CC BY 2.5",
+  "yazar": "Photo by Jens Petersen, Edited by User:Olegiwit (cloned in part of fins) and Fir",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Pterois_volitans_Manado-e_edit.jpg"
+ },
+ {
+  "slug": "ay_baligi",
+  "en": "Ocean sunfish",
+  "dosya": "foto/ay_baligi.webp",
+  "lisans": "Public domain",
+  "yazar": "U.S. National Oceanic and Atmospheric Administration",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Mola_mola.jpg"
+ },
+ {
+  "slug": "nautilus",
+  "en": "Chambered nautilus",
+  "dosya": "foto/nautilus.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Hans Hillewaert",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_%28detail%29.jpg"
+ },
+ {
+  "slug": "mavi_tang",
+  "en": "Pacific blue tang",
+  "dosya": "foto/mavi_tang.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "DerHans04",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Paletten-Doktorfisch_M%C3%BCnster.JPG"
+ },
+ {
+  "slug": "melek_baligi",
+  "en": "Queen angelfish",
+  "dosya": "foto/melek_baligi.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Pedro Lastra",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Queen_Angelfish.jpg"
+ },
+ {
+  "slug": "deniz_salyangozu",
+  "en": "Nudibranch",
+  "dosya": "foto/deniz_salyangozu.webp",
+  "lisans": "Public domain",
+  "yazar": "Géry PARENT",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Berghia_coerulescens_%28Laurillard%2C_1830%29.jpg"
+ },
+ {
+  "slug": "yaprak_ejder",
+  "en": "Leafy seadragon",
+  "dosya": "foto/yaprak_ejder.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "James Rosindell",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Leafy_Seadragon_on_Kangaroo_Island.jpg"
+ },
+ {
+  "slug": "kesis_yengeci",
+  "en": "Hermit crab",
+  "dosya": "foto/kesis_yengeci.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "H. Zell",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Calliactis_and_Dardanus_001.JPG"
+ },
+ {
+  "slug": "dev_istiridye",
+  "en": "Giant clam",
+  "dosya": "foto/dev_istiridye.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Giant_clam_%28Tridacna_gigas%29_Michaelmas_Cay.jpg"
+ },
+ {
+  "slug": "gri_fok",
+  "en": "Harbor seal",
+  "dosya": "foto/gri_fok.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Common_seal_%28Phoca_vitulina%29_2.jpg"
+ },
+ {
+  "slug": "maymuncuk_baligi",
+  "en": "Moorish idol",
+  "dosya": "foto/maymuncuk_baligi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Diego Delso",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:%C3%8Ddolo_moro_%28Zanclus_cornutus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_233.jpg"
+ },
+ {
+  "slug": "sardalya",
+  "en": "European pilchard",
+  "dosya": "foto/sardalya.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "This illustration was made by Citron You must credit this : Citron / CC-BY-SA-3.",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Sardina_pilchardus_2011.jpg"
+ },
+ {
+  "slug": "su_aygiri",
+  "en": "Hippopotamus",
+  "dosya": "foto/su_aygiri.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Muhammad Mahdi Karim",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Portrait_Hippopotamus_in_the_water.jpg"
+ },
+ {
+  "slug": "kunduz",
+  "en": "European beaver",
+  "dosya": "foto/kunduz.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Per Harald Olsen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Beaver_pho34.jpg"
+ },
+ {
+  "slug": "kapibara",
+  "en": "Capybara",
+  "dosya": "foto/kapibara.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Capybaracropped.jpg"
+ },
+ {
+  "slug": "ornitorenk",
+  "en": "Platypus",
+  "dosya": "foto/ornitorenk.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg"
+ },
+ {
+  "slug": "su_samuru",
+  "en": "Eurasian otter",
+  "dosya": "foto/su_samuru.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Bernard Landgraf",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Fischotter%2C_Lutra_Lutra.JPG"
+ },
+ {
+  "slug": "nehir_yunusu",
+  "en": "Amazon river dolphin",
+  "dosya": "foto/nehir_yunusu.webp",
+  "lisans": "CC BY-SA 2.0 de",
+  "yazar": "Oceancetaceen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Amazonas-Flussdelfin_Orinoko3.jpg"
+ },
+ {
+  "slug": "pirana",
+  "en": "Red-bellied piranha",
+  "dosya": "foto/pirana.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "H. Zell",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg"
+ },
+ {
+  "slug": "elektrikli_balik",
+  "en": "Electric eel",
+  "dosya": "foto/elektrikli_balik.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Steven G. Johnson",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Electric-eel.jpg"
+ },
+ {
+  "slug": "alabalik",
+  "en": "Rainbow trout",
+  "dosya": "foto/alabalik.webp",
+  "lisans": "Public domain",
+  "yazar": "Engbretson Eric, U.S. Fish and Wildlife Service",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg"
+ },
+ {
+  "slug": "sazan",
+  "en": "Common carp",
+  "dosya": "foto/sazan.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "George Chernilevsky",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Cyprinus_carpio_2008_G1_%28cropped%29.jpg"
+ },
+ {
+  "slug": "vizon",
+  "en": "American mink",
+  "dosya": "foto/vizon.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Needsmoreritalin",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:MinkforWiki.jpg"
+ },
+ {
+  "slug": "turna_baligi",
+  "en": "Northern pike",
+  "dosya": "foto/turna_baligi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Jik jik",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Esox_lucius_ZOO_1.jpg"
+ },
+ {
+  "slug": "aksolotl",
+  "en": "Axolotl",
+  "dosya": "foto/aksolotl.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "LoKiLeCh",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Axolotl_ganz.jpg"
+ },
+ {
+  "slug": "misk_faresi",
+  "en": "Muskrat",
+  "dosya": "foto/misk_faresi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "D. Gordon E. Robertson",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Muskrat_swimming_Ottawa.jpg"
+ },
+ {
+  "slug": "nutria",
+  "en": "Nutria",
+  "dosya": "foto/nutria.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Petar Milošević",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Myocastor_coypus_02.jpg"
+ },
+ {
+  "slug": "altin_kartal",
+  "en": "Golden eagle",
+  "dosya": "foto/altin_kartal.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "kel_kartal",
+  "en": "Bald eagle",
+  "dosya": "foto/kel_kartal.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Andy Morffew from Itchen Abbas, Hampshire, UK",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg"
+ },
+ {
+  "slug": "sahin",
+  "en": "Peregrine falcon",
+  "dosya": "foto/sahin.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Mykola Swarnyk",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg"
+ },
+ {
+  "slug": "puhu",
+  "en": "Eurasian eagle-owl",
+  "dosya": "foto/puhu.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Martin Mecnarowski (http://www.photomecan.eu/)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg"
+ },
+ {
+  "slug": "alaca_baykus",
+  "en": "Barn owl",
+  "dosya": "foto/alaca_baykus.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:American_Barn_Owl_%28Tyto_furcata_guatemalae%29%2C_Orange_Walk.jpg"
+ },
+ {
+  "slug": "leylek",
+  "en": "White stork",
+  "dosya": "foto/leylek.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg"
+ },
+ {
+  "slug": "guvercin",
+  "en": "Rock dove",
+  "dosya": "foto/guvercin.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "william_stephens",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg"
+ },
+ {
+  "slug": "serce",
+  "en": "House sparrow",
+  "dosya": "foto/serce.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Rhododendrites",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_%2853532%29.jpg"
+ },
+ {
+  "slug": "kumru",
+  "en": "Eurasian collared dove",
+  "dosya": "foto/kumru.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "stevem4560",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:2022-04-06_Streptopelia_decaocto%2C_Plovdiv%2C_Bulgaria_1.jpg"
+ },
+ {
+  "slug": "karga",
+  "en": "Hooded crow",
+  "dosya": "foto/karga.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Hooded_crow_%28Corvus_cornix_cornix%29_Kemeri.jpg"
+ },
+ {
+  "slug": "saksagan",
+  "en": "Eurasian magpie",
+  "dosya": "foto/saksagan.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "Alexis Lours",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Eurasian_magpie_2024_03_03_02.jpg"
+ },
+ {
+  "slug": "guguk",
+  "en": "Common cuckoo",
+  "dosya": "foto/guguk.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Andy Morffew from Itchen Abbas, Hampshire, UK",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Cuckoo_%2851169010335%29.jpg"
+ },
+ {
+  "slug": "ibibik",
+  "en": "Eurasian hoopoe",
+  "dosya": "foto/ibibik.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Greg Schechter from San Francisco, USA",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Israel._Eurasian_Hoopoe_%286497645007%29.jpg"
+ },
+ {
+  "slug": "kirlangic",
+  "en": "Barn swallow",
+  "dosya": "foto/kirlangic.webp",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "Andreas Trepte",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg"
+ },
+ {
+  "slug": "yesilbas",
+  "en": "Mallard",
+  "dosya": "foto/yesilbas.webp",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "This picture was realized by Richard Bartz by using a Canon EF 70-300mm f/4-5.6 ",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female_quadrat.jpg"
+ },
+ {
+  "slug": "kugu",
+  "en": "Mute swan",
+  "dosya": "foto/kugu.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Sanchezn",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:CygneVaires.jpg"
+ },
+ {
+  "slug": "turna",
+  "en": "Common crane",
+  "dosya": "foto/turna.webp",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "Andreas Trepte",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Common_crane_grus_grus.jpg"
+ },
+ {
+  "slug": "marti",
+  "en": "European herring gull",
+  "dosya": "foto/marti.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Rhododendrites",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:European_herring_gull_vocalizing_%2800170%29.jpg"
+ },
+ {
+  "slug": "balikci_kusu",
+  "en": "Common kingfisher",
+  "dosya": "foto/balikci_kusu.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Tony Wood",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-England-8_%28cropped%29.jpg"
+ },
+ {
+  "slug": "agackakan",
+  "en": "Great spotted woodpecker",
+  "dosya": "foto/agackakan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg"
+ },
+ {
+  "slug": "ispinoz",
+  "en": "Common chaffinch",
+  "dosya": "foto/ispinoz.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "caroline legg",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Male_Chaffinch_-_Fringilla_coelebs.jpg"
+ },
+ {
+  "slug": "kirmizi_gerdan",
+  "en": "European robin",
+  "dosya": "foto/kirmizi_gerdan.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Francis C. Franklin",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Erithacus_rubecula_with_cocked_head.jpg"
+ },
+ {
+  "slug": "mavi_bastankara",
+  "en": "Eurasian blue tit",
+  "dosya": "foto/mavi_bastankara.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Francis Franklin",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Eurasian_blue_tit_Lancashire.jpg"
+ },
+ {
+  "slug": "buyuk_bastankara",
+  "en": "Great tit",
+  "dosya": "foto/buyuk_bastankara.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Frank Vassen from Brussels, Belgium",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Great_tit_%28Parus_major%29%2C_Parc_du_Rouge-Cloitre%2C_For%C3%AAt_de_Soignes%2C_Brussels_%2826194636951%29.jpg"
+ },
+ {
+  "slug": "saka",
+  "en": "European goldfinch",
+  "dosya": "foto/saka.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:072_Wild_European_goldfinch_at_the_Parc_Jura_vaudois_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "tavus",
+  "en": "Indian peafowl",
+  "dosya": "foto/tavus.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Kandukuru Nagarjun from Bangalore, India",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Peacock_on_tree_%2852077240794%29.jpg"
+ },
+ {
+  "slug": "devekusu",
+  "en": "Common ostrich",
+  "dosya": "foto/devekusu.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Yathin S Krishnappa",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_Etosha_2014_%283%29.jpg"
+ },
+ {
+  "slug": "emu",
+  "en": "Emu",
+  "dosya": "foto/emu.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "JJ Harrison (https://www.jjharrison.com.au/)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Emu_1_-_Tidbinbilla.jpg"
+ },
+ {
+  "slug": "kivi",
+  "en": "North Island brown kiwi",
+  "dosya": "foto/kivi.webp",
+  "lisans": "Public domain",
+  "yazar": "Maungatautari Ecological Island Trust",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:TeTuatahianui.jpg"
+ },
+ {
+  "slug": "kazuar",
+  "en": "Southern cassowary",
+  "dosya": "foto/kazuar.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Summerdrought",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Southern_Cassowary_7071.jpg"
+ },
+ {
+  "slug": "kirmizi_ara",
+  "en": "Scarlet macaw",
+  "dosya": "foto/kirmizi_ara.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg"
+ },
+ {
+  "slug": "gri_papagan",
+  "en": "African grey parrot",
+  "dosya": "foto/gri_papagan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Florettesokeng",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg"
+ },
+ {
+  "slug": "kakadu",
+  "en": "Sulphur-crested cockatoo",
+  "dosya": "foto/kakadu.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "JJ Harrison (https://www.jjharrison.com.au/)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Cacatua_galerita_Tas_2.jpg"
+ },
+ {
+  "slug": "tukan",
+  "en": "Toco toucan",
+  "dosya": "foto/tukan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "kolibri",
+  "en": "Ruby-throated hummingbird",
+  "dosya": "foto/kolibri.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "jeffreyw",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Archilochus_colubris_-flying_-male-8.jpg"
+ },
+ {
+  "slug": "puffin",
+  "en": "Atlantic puffin",
+  "dosya": "foto/puffin.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Puffin_%28Fratercula_arctica%29.jpg"
+ },
+ {
+  "slug": "albatros",
+  "en": "Wandering albatross",
+  "dosya": "foto/albatros.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "JJ Harrison (https://www.jjharrison.com.au/)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Diomedea_exulans_-_SE_Tasmania.jpg"
+ },
+ {
+  "slug": "nandu",
+  "en": "Greater rhea",
+  "dosya": "foto/nandu.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Rufus46",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Nandu_Rhea_americana_Tierpark_Hellabrunn-1.jpg"
+ },
+ {
+  "slug": "katip_kusu",
+  "en": "Secretarybird",
+  "dosya": "foto/katip_kusu.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Sumeet Moghe",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Secretary_bird_Mara_for_WC.jpg"
+ },
+ {
+  "slug": "boynuzgaga",
+  "en": "Great hornbill",
+  "dosya": "foto/boynuzgaga.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Shantanu Kuveskar",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Great_hornbill_Photograph_by_Shantanu_Kuveskar.jpg"
+ },
+ {
+  "slug": "kookaburra",
+  "en": "Laughing kookaburra",
+  "dosya": "foto/kookaburra.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "Photo by: Paulweberphoto - paulweberphoto.com",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Laughing_Kookaburra_1.jpg"
+ },
+ {
+  "slug": "cennet_kusu",
+  "en": "Greater bird-of-paradise",
+  "dosya": "foto/cennet_kusu.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Andrea Lawardi",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Paradisaea%20apoda%20-Bali%20Bird%20Park-6.jpg"
+ },
+ {
+  "slug": "kardinal",
+  "en": "Northern cardinal",
+  "dosya": "foto/kardinal.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Rhododendrites",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Male_northern_cardinal_in_Central_Park_%2852612%29.jpg"
+ },
+ {
+  "slug": "mavi_alakarga",
+  "en": "Blue jay",
+  "dosya": "foto/mavi_alakarga.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Rhododendrites",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Blue_jay_in_PP_%2830960%29.jpg"
+ },
+ {
+  "slug": "kuetzal",
+  "en": "Resplendent quetzal",
+  "dosya": "foto/kuetzal.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "lwolfartist",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Resplendent_quetzal_san_gerardo_de_dota_3.31.24_DSC_3989-topaz-denoiseraw.jpg"
+ },
+ {
+  "slug": "harpi_kartali",
+  "en": "Harpy eagle",
+  "dosya": "foto/harpi_kartali.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "derivative work: Snowmanradio (talk) Harpia_harpyja_-Belize_Zoo-8.jpg: Michael S",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Harpia%20harpyja%20-Belize%20Zoo-8-3c.jpg"
+ },
+ {
+  "slug": "ayakkabi_gagali",
+  "en": "Shoebill",
+  "dosya": "foto/ayakkabi_gagali.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Bob Owen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Balaeniceps_rex_-Ueno_Zoo%2C_Tokyo%2C_Japan-8a.jpg"
+ },
+ {
+  "slug": "tac_turna",
+  "en": "Grey crowned crane",
+  "dosya": "foto/tac_turna.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Grey_crowned_crane_%28Balearica_regulorum_gibbericeps%29.jpg"
+ },
+ {
+  "slug": "sevgi_kusu",
+  "en": "Rosy-faced lovebird",
+  "dosya": "foto/sevgi_kusu.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Rosy-faced_lovebird_%28Agapornis_roseicollis_roseicollis%29_2.jpg"
+ },
+ {
+  "slug": "kanada_kazi",
+  "en": "Canada goose",
+  "dosya": "foto/kanada_kazi.webp",
+  "lisans": "Public domain",
+  "yazar": "USFWS Mountain-Prairie",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg"
+ },
+ {
+  "slug": "karatavuk",
+  "en": "Common blackbird",
+  "dosya": "foto/karatavuk.webp",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "Andreas Trepte",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Common_Blackbird.jpg"
+ },
+ {
+  "slug": "bulbul",
+  "en": "Common nightingale",
+  "dosya": "foto/bulbul.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Warrieboy",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Luscinia_megarhynchos_-_Common_nightingale_-_Nachtegaal_%28cropped%29.jpg"
+ },
+ {
+  "slug": "sigircik",
+  "en": "Common starling",
+  "dosya": "foto/sigircik.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Common_starling_%28Sturnus_vulgaris%29_breeding_male_Marken.jpg"
+ },
+ {
+  "slug": "alakarga",
+  "en": "Eurasian jay",
+  "dosya": "foto/alakarga.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Luc Viatour",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_1_Luc_Viatour.jpg"
+ },
+ {
+  "slug": "calikusu",
+  "en": "Eurasian wren",
+  "dosya": "foto/calikusu.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "Alexis Lours",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Eurasian_wren_Franconville_02.jpg"
+ },
+ {
+  "slug": "bal_arisi",
+  "en": "Western honey bee",
+  "dosya": "foto/bal_arisi.webp",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "Andreas Trepte",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg"
+ },
+ {
+  "slug": "yaban_arisi",
+  "en": "Buff-tailed bumblebee",
+  "dosya": "foto/yaban_arisi.webp",
+  "lisans": "CC0",
+  "yazar": "Marco Almbauer",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Bombus_terrestris.jpg"
+ },
+ {
+  "slug": "karinca",
+  "en": "Lasius niger",
+  "dosya": "foto/karinca.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Katja Schulz from Washington, D. C., USA",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Black_Garden_Ant_tending_Citrus_Mealybug_%2816063538972%29.jpg"
+ },
+ {
+  "slug": "kirmizi_karinca",
+  "en": "Formica rufa",
+  "dosya": "foto/kirmizi_karinca.webp",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "Richard Bartz, Munich Makro Freak",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:A_Formica_rufa_sideview.jpg"
+ },
+ {
+  "slug": "monark",
+  "en": "Monarch butterfly",
+  "dosya": "foto/monark.webp",
+  "lisans": "GFDL 1.2",
+  "yazar": "Photo by and (c)2007 Derek Ramsey (Ram-Man)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg"
+ },
+ {
+  "slug": "lahana_kelebegi",
+  "en": "Large white",
+  "dosya": "foto/lahana_kelebegi.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "gailhampshire from Cradley, Malvern, U.K",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Large_White._Pieris_brassicae_-_Flickr_-_gailhampshire_%281%29.jpg"
+ },
+ {
+  "slug": "kuyruklu_kelebek",
+  "en": "Papilio machaon",
+  "dosya": "foto/kuyruklu_kelebek.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Entomolo",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:PapilioMachaon2016_001.JPG"
+ },
+ {
+  "slug": "tavus_kelebegi",
+  "en": "Aglais io",
+  "dosya": "foto/tavus_kelebegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Peacock_butterfly_%28Aglais_io%29_2.jpg"
+ },
+ {
+  "slug": "ugur_bocegi",
+  "en": "Coccinella septempunctata",
+  "dosya": "foto/ugur_bocegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Photographer: Dominik Stodulski Graphic Processing: User:MathKnight",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:7-Spotted-Ladybug-Coccinella-septempunctata-sq1.jpg"
+ },
+ {
+  "slug": "cekirge",
+  "en": "Migratory locust",
+  "dosya": "foto/cekirge.webp",
+  "lisans": "CC BY-SA 2.0 de",
+  "yazar": "Jonathan Hornung",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Wanderheuschrecke-03.jpg"
+ },
+ {
+  "slug": "circir_bocegi",
+  "en": "Gryllus campestris",
+  "dosya": "foto/circir_bocegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Roberto Zanon",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Gryllus_campestris_3.jpg"
+ },
+ {
+  "slug": "peygamber_devesi",
+  "en": "Mantis religiosa",
+  "dosya": "foto/peygamber_devesi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:European_praying_mantis_%28Mantis_religiosa%29_green_female_Dobruja.jpg"
+ },
+ {
+  "slug": "yusufcuk",
+  "en": "Emperor dragonfly",
+  "dosya": "foto/yusufcuk.webp",
+  "lisans": "CC BY 3.0",
+  "yazar": "Quartl",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Anax_imperator_qtl2.jpg"
+ },
+ {
+  "slug": "ipek_bocegi",
+  "en": "Bombyx mori",
+  "dosya": "foto/ipek_bocegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Amada44",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Bombyx%20mori%204520.jpg"
+ },
+ {
+  "slug": "ates_bocegi",
+  "en": "Lampyris noctiluca",
+  "dosya": "foto/ates_bocegi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Didier Descouens",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:%28MHNT%29%20Lampyris%20noctiluca%20%28female%29.jpg"
+ },
+ {
+  "slug": "gergedan_bocegi",
+  "en": "Oryctes nasicornis",
+  "dosya": "foto/gergedan_bocegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Hectonichus",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Oryctes_nasicornis-002.jpg"
+ },
+ {
+  "slug": "geyik_bocegi",
+  "en": "Lucanus cervus",
+  "dosya": "foto/geyik_bocegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "J.F. Gaffard",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Lucanus_cervus.jpg"
+ },
+ {
+  "slug": "tezek_bocegi",
+  "en": "Scarabaeus sacer",
+  "dosya": "foto/tezek_bocegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Sarefo",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Scarabaeus.sacer.jpg"
+ },
+ {
+  "slug": "cubuk_bocegi",
+  "en": "Carausius morosus",
+  "dosya": "foto/cubuk_bocegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "I, the copyright holder of this work, hereby publish it under the following lice",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Ctenomorpha%20chronus02.jpg"
+ },
+ {
+  "slug": "yaprak_bocegi",
+  "en": "Phyllium giganteum",
+  "dosya": "foto/yaprak_bocegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Drägüs",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Pulchriphyllium_giganteum%2C_adult_femal_from_dorsal.jpg"
+ },
+ {
+  "slug": "atlas_kelebegi",
+  "en": "Atlas moth",
+  "dosya": "foto/atlas_kelebegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Quartl",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Attacus_atlas_qtl3.jpg"
+ },
+ {
+  "slug": "ay_kelebegi",
+  "en": "Actias luna",
+  "dosya": "foto/ay_kelebegi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "David notMD",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Actias_luna-male.jpg"
+ },
+ {
+  "slug": "bahce_orumcegi",
+  "en": "European garden spider",
+  "dosya": "foto/bahce_orumcegi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Didier Descouens",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_MHNT_Femelle_Fronton.jpg"
+ },
+ {
+  "slug": "tarantula",
+  "en": "Mexican redknee tarantula",
+  "dosya": "foto/tarantula.webp",
+  "lisans": "Public domain",
+  "yazar": "George Chernilevsky",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Brachypelma%20smithi%202009%20G09.jpg"
+ },
+ {
+  "slug": "kara_dul",
+  "en": "Latrodectus mactans",
+  "dosya": "foto/kara_dul.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Shenrich91",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Adult%20Female%20Black%20Widow.jpg"
+ },
+ {
+  "slug": "imparator_akrep",
+  "en": "Emperor scorpion",
+  "dosya": "foto/imparator_akrep.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Rosa Pineda",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Female_Emperor_Scorpion.jpg"
+ },
+ {
+  "slug": "ziplayan_orumcek",
+  "en": "Phidippus audax",
+  "dosya": "foto/ziplayan_orumcek.webp",
+  "lisans": "CC0",
+  "yazar": "Kaldari",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Kaldari_Phidippus_audax_02.jpg"
+ },
+ {
+  "slug": "salyangoz",
+  "en": "Cornu aspersum",
+  "dosya": "foto/salyangoz.webp",
+  "lisans": "Public domain",
+  "yazar": "",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Snail1web.jpg"
+ },
+ {
+  "slug": "solucan",
+  "en": "Lumbricus terrestris",
+  "dosya": "foto/solucan.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Michael Linnenbach",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Regenwurm1.jpg"
+ },
+ {
+  "slug": "yaprak_kesen_karinca",
+  "en": "Atta cephalotes",
+  "dosya": "foto/yaprak_kesen_karinca.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Pjt56",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Atta_cephalotes-pjt.jpg"
+ },
+ {
+  "slug": "nil_timsahi",
+  "en": "Nile crocodile",
+  "dosya": "foto/nil_timsahi.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Dewet",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:NileCrocodile.jpg"
+ },
+ {
+  "slug": "alligator",
+  "en": "American alligator",
+  "dosya": "foto/alligator.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "User:Postdlf",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:American_Alligator.jpg"
+ },
+ {
+  "slug": "komodo",
+  "en": "Komodo dragon",
+  "dosya": "foto/komodo.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Komodo_dragon_Varanus_komodoensis_Ragunan_Zoo_2.JPG: Midori derivative work: Wol",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Komodo%20dragon%20Varanus%20komodoensis%20Ragunan%20Zoo%202b.jpg"
+ },
+ {
+  "slug": "kobra",
+  "en": "King cobra",
+  "dosya": "foto/kobra.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Michael Allen Smith from Seattle, USA",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg"
+ },
+ {
+  "slug": "anakonda",
+  "en": "Green anaconda",
+  "dosya": "foto/anakonda.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "MKAMPIS",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Sucuri_verde.jpg"
+ },
+ {
+  "slug": "piton",
+  "en": "Burmese python",
+  "dosya": "foto/piton.webp",
+  "lisans": "CC BY 3.0",
+  "yazar": "Tigerpython",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Brooding_female_Python_molurus_bivittatus.jpg"
+ },
+ {
+  "slug": "cingirakli_yilan",
+  "en": "Eastern diamondback rattlesnake",
+  "dosya": "foto/cingirakli_yilan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Caudatejake",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Adult_Crotalus_adamanteus.jpg"
+ },
+ {
+  "slug": "iguana",
+  "en": "Green iguana",
+  "dosya": "foto/iguana.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Hans Hillewaert",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Iguana_iguana_%28male_resting%29.jpg"
+ },
+ {
+  "slug": "bukalemun_perdeli",
+  "en": "Veiled chameleon",
+  "dosya": "foto/bukalemun_perdeli.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Kupos",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Yemen_Chameleon.jpg"
+ },
+ {
+  "slug": "tokay",
+  "en": "Tokay gecko",
+  "dosya": "foto/tokay.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "Gerard Chartier",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Gekko_gecko_192144834.jpg"
+ },
+ {
+  "slug": "galapagos_kaplumbagasi",
+  "en": "Galápagos tortoise",
+  "dosya": "foto/galapagos_kaplumbagasi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Galapagos_giant_tortoise_Geochelone_elephantopus.jpg"
+ },
+ {
+  "slug": "su_kaplumbagasi",
+  "en": "Red-eared slider",
+  "dosya": "foto/su_kaplumbagasi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Greg Hume",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:RedEaredSlider05.jpg"
+ },
+ {
+  "slug": "sakalli_ejder",
+  "en": "Central bearded dragon",
+  "dosya": "foto/sakalli_ejder.webp",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "Photograph: Frank C. Müller, Baden-Baden",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Bartagame_%28fcm%29.jpg"
+ },
+ {
+  "slug": "cuhali_kertenkele",
+  "en": "Frilled lizard",
+  "dosya": "foto/cuhali_kertenkele.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Matt from Melbourne, Australia",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Frill-necked_Lizard_%28Chlamydosaurus_kingii%29_%288692622586%29.jpg"
+ },
+ {
+  "slug": "deniz_iguanasi",
+  "en": "Marine iguana",
+  "dosya": "foto/deniz_iguanasi.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "RAF-YYC from Calgary, Canada",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Amblyrhynchus_cristatus_%283838137696%29.jpg"
+ },
+ {
+  "slug": "leopar_gecko",
+  "en": "Leopard gecko",
+  "dosya": "foto/leopar_gecko.webp",
+  "lisans": "Public domain",
+  "yazar": "George Chernilevsky",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Eublepharis_macularius_2009_G6.jpg"
+ },
+ {
+  "slug": "top_piton",
+  "en": "Ball python",
+  "dosya": "foto/top_piton.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "HCA (talk)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Ball_python_lucy.JPG"
+ },
+ {
+  "slug": "misir_yilani",
+  "en": "Corn snake",
+  "dosya": "foto/misir_yilani.webp",
+  "lisans": "CC0",
+  "yazar": "Ethan Porcaro",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:CornSnake.jpg"
+ },
+ {
+  "slug": "zehirli_ok_kurbagasi",
+  "en": "Dendrobates tinctorius",
+  "dosya": "foto/zehirli_ok_kurbagasi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "H. Zell",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Dendrobates_tinctorius_-_Karlsruhe_Zoo_05.jpg"
+ },
+ {
+  "slug": "agac_kurbagasi",
+  "en": "Red-eyed tree frog",
+  "dosya": "foto/agac_kurbagasi.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Red-eyed Tree Frog (Agalychnis callidryas) 3.jpg: Geoff Gallice from Gainesville",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Red-eyed_Tree_Frog_%28Agalychnis_callidryas%29_1.png"
+ },
+ {
+  "slug": "yesil_kurbaga",
+  "en": "Edible frog",
+  "dosya": "foto/yesil_kurbaga.webp",
+  "lisans": "CC BY 3.0",
+  "yazar": "Grand-Duc, Niabot (edit)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Rana_esculenta_on_Nymphaea_edit.JPG"
+ },
+ {
+  "slug": "boga_kurbagasi",
+  "en": "American bullfrog",
+  "dosya": "foto/boga_kurbagasi.webp",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "Carl D. Howe",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:North-American-bullfrog1.jpg"
+ },
+ {
+  "slug": "kara_kurbagasi",
+  "en": "Common toad",
+  "dosya": "foto/kara_kurbagasi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Tythatguy1312",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Common_Toad_Cornwall.jpeg"
+ },
+ {
+  "slug": "benekli_semender",
+  "en": "Fire salamander",
+  "dosya": "foto/benekli_semender.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Didier Descouens",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Salamandra_salamandra_MHNT_1.jpg"
+ },
+ {
+  "slug": "tuatara",
+  "en": "Tuatara",
+  "dosya": "foto/tuatara.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "Sid Mosdell from New Zealand",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Tuatara_%285205719005%29.jpg"
+ },
+ {
+  "slug": "kor_yilan",
+  "en": "Slow worm",
+  "dosya": "foto/kor_yilan.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Anguidae.jpg"
+ },
+ {
+  "slug": "basilisk",
+  "en": "Common basilisk",
+  "dosya": "foto/basilisk.webp",
+  "lisans": "CC BY 4.0",
+  "yazar": "Chloe and Trevor Van Loon",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Basiliscus%20basiliscus%20179710316.jpg"
+ },
+ {
+  "slug": "yesil_agac_pitonu",
+  "en": "Green tree python",
+  "dosya": "foto/yesil_agac_pitonu.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "TarnishedPath",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:M._viridis.jpg"
+ },
+ {
+  "slug": "kangal",
+  "en": "Kangal dog",
+  "dosya": "foto/kangal.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Kangalshepherddog",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Kangal_front_on.jpg"
+ },
+ {
+  "slug": "van_kedisi",
+  "en": "Turkish Van",
+  "dosya": "foto/van_kedisi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Matsu1024",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Turkish_Van_cat_transparent_%28cropped%29.png"
+ },
+ {
+  "slug": "ankara_kedisi",
+  "en": "Turkish Angora",
+  "dosya": "foto/ankara_kedisi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Ankarakediler",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Angora%20Cat%20%28White%29.jpg"
+ },
+ {
+  "slug": "ankara_kecisi",
+  "en": "Angora goat",
+  "dosya": "foto/ankara_kecisi.webp",
+  "lisans": "Public domain",
+  "yazar": "Ltshears - Trisha M Shears",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Angora_002.jpg"
+ },
+ {
+  "slug": "ankara_tavsani",
+  "en": "Angora rabbit",
+  "dosya": "foto/ankara_tavsani.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Ross Little",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Fluffy_white_bunny_rabbit.jpg"
+ },
+ {
+  "slug": "anadolu_yaban_koyunu",
+  "en": "Mouflon",
+  "dosya": "foto/anadolu_yaban_koyunu.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Cyprus_mouflon_%28Ovis_gmelini_ophion%29.jpg"
+ },
+ {
+  "slug": "yaban_kecisi",
+  "en": "Wild goat",
+  "dosya": "foto/yaban_kecisi.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Alexander Malkhasyan",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:6_Bezoar_Goat_%28cropped%29.jpg"
+ },
+ {
+  "slug": "akdeniz_foku",
+  "en": "Mediterranean monk seal",
+  "dosya": "foto/akdeniz_foku.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Marinko Babić",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Monachus_monachus_DSC_0274.jpg"
+ },
+ {
+  "slug": "caretta",
+  "en": "Loggerhead sea turtle",
+  "dosya": "foto/caretta.webp",
+  "lisans": "CC BY 2.0",
+  "yazar": "ukanda",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Loggerhead_sea_turtle.jpg"
+ },
+ {
+  "slug": "flamingo",
+  "en": "Greater flamingo",
+  "dosya": "foto/flamingo.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "kelaynak",
+  "en": "Northern bald ibis",
+  "dosya": "foto/kelaynak.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Len Worthington",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Northern_Bald_Ibis_Geronticus_eremita_%288470600428%29.jpg"
+ },
+ {
+  "slug": "cizgili_sirtlan",
+  "en": "Striped hyena",
+  "dosya": "foto/cizgili_sirtlan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Tisha Mukherjee",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Striped_hyena_in_Bhigwan_August_2025_by_Tisha_Mukherjee_07_%28cropped%29.jpg"
+ },
+ {
+  "slug": "anadolu_parsi",
+  "en": "Anatolian leopard",
+  "dosya": "foto/anadolu_parsi.webp",
+  "lisans": "Public domain",
+  "yazar": "Tamar Assaf",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Persian_Leopard_sitting.jpg"
+ },
+ {
+  "slug": "tali_pelikan",
+  "en": "Dalmatian pelican",
+  "dosya": "foto/tali_pelikan.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dr. Raju Kasambe",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_%283%29.jpg"
+ },
+ {
+  "slug": "kinali_keklik",
+  "en": "Chukar",
+  "dosya": "foto/kinali_keklik.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Olaf Oliviero Riemer",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Chukarhuhn_Weltvogelpark_Walsrode_2010.jpg"
+ },
+ {
+  "slug": "kizil_akbaba",
+  "en": "Griffon vulture",
+  "dosya": "foto/kizil_akbaba.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Pierre Dalous",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Gyps_fulvus_in_flight_-_Spain.jpg"
+ },
+ {
+  "slug": "hamsi",
+  "en": "European anchovy",
+  "dosya": "foto/hamsi.webp",
+  "lisans": "Public domain",
+  "yazar": "Etrusko25",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Acciughe%202.jpg"
+ },
+ {
+  "slug": "inci_kefali",
+  "en": "Alburnus tarichi",
+  "dosya": "foto/inci_kefali.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Rotadefterim",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Inci%20kefali%203.jpg"
+ },
+ {
+  "slug": "tosbaga",
+  "en": "Testudo graeca",
+  "dosya": "foto/tosbaga.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Tunisian_tortoise_%28Testudo_graeca_nabeulensis%29_male_Cap_Bon.jpg"
+ },
+ {
+  "slug": "bukalemun",
+  "en": "Common chameleon",
+  "dosya": "foto/bukalemun.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Charles J. Sharp",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Mediterranean_chameleon_%28Chamaeleo_chamaeleon_recticrista%29.jpg"
+ },
+ {
+  "slug": "kukumav",
+  "en": "Little owl",
+  "dosya": "foto/kukumav.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Максат79",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D1%8B%D1%87._%D0%A1%D0%BE%D0%B2%D0%B0_%D0%B2_%D0%BA%D0%B0%D0%BD%D1%8C%D0%BE%D0%BD%D0%B5_%D1%83%D1%80%D0%BE%D1%87%D0%B8%D1%89%D0%B0_%D0%91%D0%BE%D0%B7%D0%B6%D1%8B%D1%80%D0%B0._01.jpg"
+ },
+ {
+  "slug": "anadolu_sincabi",
+  "en": "Persian squirrel",
+  "dosya": "foto/anadolu_sincabi.webp",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Peripitus",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Sciurus_anomalus_-_Jeita_Grotto.jpg"
+ },
+ {
+  "slug": "cakal",
+  "en": "Golden jackal",
+  "dosya": "foto/cakal.webp",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Giles Laurent",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:033_Golden_jackal_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "slug": "benekli_geyik",
+  "en": "European fallow deer",
+  "dosya": "foto/benekli_geyik.webp",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Johann-Nikolaus Andreae",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Fallow_deer_in_field.jpg"
+ },
+ {
+  "slug": "kasikci",
+  "en": "Eurasian spoonbill",
+  "dosya": "foto/kasikci.webp",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "Andreas Trepte",
+  "kaynak": "https://commons.wikimedia.org/wiki/File:Eurasian_Spoonbill-2.jpg"
+ }
+]

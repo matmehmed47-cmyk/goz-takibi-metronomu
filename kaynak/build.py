@@ -37,7 +37,7 @@ trs.update(json.load(open(os.path.join(base,"Metinler/tekrarli-sorular-sinif.jso
 _ek = os.path.join(base,"Metinler/tekrarli-sorular-ek.json")
 trs2 = json.load(open(_ek, encoding="utf-8")) if os.path.exists(_ek) else {}
 js = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
-t = open(os.path.join(s,"sablon.html"), encoding="utf-8").read().replace("__METINLER__", js(liste)).replace("__KELIMELER__", js(kel)).replace("__DEGISEN__", js(dg)).replace("__TRSORU__", js(trs)).replace("__TRSORU2__", js(trs2))
+t = open(os.path.join(s,"sablon.html"), encoding="utf-8").read().replace("__METINLER__", js(liste)).replace("__KELIMELER__", js(kel)).replace("__DEGISEN__", js(dg)).replace("__TRSORU__", js(trs)).replace("__TRSORU2__", js(trs2)).replace("__KARTLAR__", js(json.load(open(os.path.join(base,"Kartlar/kartlar.json"), encoding="utf-8")) if os.path.exists(os.path.join(base,"Kartlar/kartlar.json")) else []))
 open(os.path.join(s,"metronom.html"), "w", encoding="utf-8").write(t)
 open(os.path.join(s,"metronom.html.js"),"w",encoding="utf-8").write(re.search(r"<script>(.*)</script>", t, re.S).group(1))
 print(dict(collections.Counter(m["seviye"] for m in liste)), "toplam", len(liste), "KB", len(t)//1024)

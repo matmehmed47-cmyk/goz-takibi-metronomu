@@ -16,6 +16,7 @@ Yüklendikten sonra tam ekran açılır, internet olmadan da çalışır (ilk a�
 - Okuma egzersizleri: Kayan Metin, Buğulu Okuma, Mavi Perde, Tekrarlı Okuma
 - Görme ve dikkat egzersizleri: Kelime Yakala, Yakaladın mı?, Sayıyı Yakala, Gözün Köprüsü, Sayı Avı, Hata Var mı?, Sırasıyla, Topları Takip Et, Değişeni Bul, N-Geri
 - Günlük rutin (A/B günleri), Hatırlama Soruları (aralıklı tekrar), aylık okuma ölçümü
+- Çocuklar için: rutin bitince kazıyarak açılan hayvan kartı (300 hayvan, gerçek fotoğraf, bilgi, mini soru) ve hayvan albümü
 - Gruplar: yetişkin ve çocuk 1-2, 3-4, 5-6, 7-8. sınıf
 
 İlerleme tarayıcının kendi hafızasında (localStorage) tutulur; başka cihaza taşınmaz.
@@ -28,7 +29,8 @@ Egzersizlerde kişinin o egzersizdeki başarısı artar. Bunun genel zekâya ya 
 - `manifest.webmanifest`, `sw.js`, `simge/`: uygulama gibi yükleme, çevrimdışı çalışma ve simgeler
 - `kaynak/sablon.html`: uygulamanın şablonu (kod)
 - `kaynak/build.py`: şablona metin, kelime ve soruları yerleştirir
-- `veri/`: metinler, sınıf atamaları, sorular, kelime listeleri (JSON)
+- `veri/`: metinler, sınıf atamaları, sorular, kelime listeleri (JSON); `veri/Kartlar/`: hayvan kartı bilgileri ve fotoğraf kaynakları
+- `kartlar/`: hayvan fotoğrafları (Vikipedi/Wikimedia Commons; fotoğrafçı ve lisans bilgisi `veri/Kartlar/fotograf-kaynaklari.json` içinde)
 
 Yeniden derlemek için (Python 3):
 
