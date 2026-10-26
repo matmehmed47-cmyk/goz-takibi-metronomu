@@ -128,7 +128,7 @@
   .dot.on { background:var(--accent); transform:translate(-50%,-50%) scale(1.25); opacity:1; }
   .hline { position:absolute; height:2px; background:var(--line); transform:translateY(-50%); }
 
-  .metin { position:relative; background:var(--card); border-radius:12px; padding:16px; height: 58vh; min-height: 280px; overflow-y:auto; font-size: 1.3rem; line-height: 2.1; }
+  .metin { position:relative; background:var(--card); border-radius:12px; padding:16px; height: 58vh; min-height: 280px; overflow-y:auto; font-size: 1.3rem; line-height: 2.1; contain: layout paint; }
   .metin h3 { margin:0 0 10px; font-size: 1rem; color:var(--muted); font-weight:600; }
   .metin p { margin: 0 0 14px; }
   .ipucu { color: var(--muted); font-size:.85rem; margin-top:8px; }
@@ -236,7 +236,7 @@
   .bg-ob.on { filter: none; opacity:1; }
   button:disabled { opacity:.4; cursor:not-allowed; }
   .kaynak { font-size: .75rem; line-height: 1.4; color: var(--muted); margin-top: 18px; word-break: break-all; }
-  .ob { padding: 2px 3px; border-radius: 6px; }
+  .ob { padding: 2px 3px; border-radius: 6px; transition: background-color .12s ease, color .12s ease; }
   .ob.on { background: var(--accent); color: var(--on-fg); }
 
   .note { color: var(--muted); font-size:.875rem; text-align:center; margin-top: 12px; }
@@ -1579,6 +1579,7 @@ function noktaSahnesiKur(ad){
   noktaSayisi = noktalar.length;
 }
 function metniYukle(){
+  obekOnceki = -1; kaydirIptal++;
   const m = metinSec(obekHavuz);
   obekAktifMetin = m;
   const sahne = el('sahne');
@@ -1633,13 +1634,27 @@ function yumusakKaydir(sahne, hedef){
   };
   kaydirRaf = requestAnimationFrame(adim);
 }
+let obekOnceki = -1, kaydirIptal = 0, mAralik = 1;
+// Vuruşlar arasında tek tween: durup kalkan üstel yumuşatma yerine süresi belli, iki uçta yumuşak geçiş
+function kaydirTween(sahne, hedef, sureMs){
+  const bas = sahne.scrollTop, t0 = performance.now(), id = ++kaydirIptal;
+  if (Math.abs(hedef - bas) < 1) return;
+  const f = t => {
+    if (id !== kaydirIptal) return;
+    const p = Math.min(1, Math.max(0, (t - t0) / sureMs)), e = p < .5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
+    sahne.scrollTop = bas + (hedef - bas) * e;
+    if (p < 1) requestAnimationFrame(f);
+  };
+  requestAnimationFrame(f);
+}
 function vurus(sayac){
   if (secili === 'obek') {
     if (obekIdx >= obekSpan.length) metniYukle();
     const sahne = el('sahne');
-    obekSpan.forEach((s, i) => s.classList.toggle('on', i === obekIdx));
     const s = obekSpan[obekIdx];
-    yumusakKaydir(sahne, Math.max(0, s.offsetTop + s.offsetHeight / 2 - sahne.clientHeight / 2));
+    if (obekOnceki >= 0 && obekSpan[obekOnceki]) obekSpan[obekOnceki].classList.remove('on');
+    s.classList.add('on'); obekOnceki = obekIdx;
+    kaydirTween(sahne, Math.max(0, s.offsetTop + s.offsetHeight / 2 - sahne.clientHeight / 2), Math.min(450, Math.max(180, mAralik * 600)));
     const ilk = obekIdx === 0;
     obekIdx++;
     return ilk;
@@ -1701,7 +1716,9 @@ function asamaCalistir(idx){
   const bpm = kuyruk[idx];
   el('bpm').textContent = bpm + ' vuruş/dk';
   const aralik = 60 / bpm;
+  mAralik = aralik;
   mBas = ctx.currentTime + 0.1;
+  let sonKalan = '';
   mSayac = 0;
   mBitis = mBas + sureSn;
   function kare(){
@@ -1720,8 +1737,9 @@ function asamaCalistir(idx){
       mSayac++;
     }
     const kalan = Math.max(0, Math.ceil(mBitis - simdi));
-    el('kalan').textContent = Math.floor(kalan / 60) + ':' + String(kalan % 60).padStart(2, '0');
-    zamanlayici = setTimeout(kare, 10);
+    const ks = Math.floor(kalan / 60) + ':' + String(kalan % 60).padStart(2, '0');
+    if (ks !== sonKalan) { sonKalan = ks; el('kalan').textContent = ks; }
+    zamanlayici = setTimeout(kare, 16);
   }
   kare();
 }
