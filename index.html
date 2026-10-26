@@ -242,6 +242,7 @@
   .ng-ayni.ng-basildi { filter:brightness(.8); }
   .yk-d { color:#2e9e5b; }
   .yk-y { color:var(--kirmizi); }
+  #yk-giris.kilit, #sy-giris.kilit { opacity:.55; background:var(--bg); }
   #yk-giris { flex:1 1 auto; min-width:0; font:inherit; font-size:1.1rem; padding:12px; border-radius:10px; border:2px solid var(--line); background:var(--card); color:var(--fg); }
   .dg-izgara { display:grid; gap:8px; width:100%; }
   .dg-hucre { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; text-align:center; font-weight:700; background:var(--card); color:var(--fg); border:2px solid var(--line); border-radius:12px; user-select:none; -webkit-tap-highlight-color:transparent; min-width:0; overflow:hidden; }
@@ -3713,6 +3714,7 @@ function ykBaslat(){
   ykSahneTemizle();
   goster('ekran-yk-calis');
   ykFaz = 'sayim';
+  ykGirisKilit(true);
   try { el('yk-giris').focus(); } catch(e){}
   ykGeriSay(3);
 }
@@ -3724,6 +3726,12 @@ function ykGeriSay(n){
   s.textContent = n;
   ykBekle(1000, () => ykGeriSay(n - 1));
 }
+// Kelime ekrandayken yazılanlar kabul edilmez (bakıp kopyalamayı önler); kelime kaybolunca kutu açılır
+function ykGirisKilit(k){
+  const g = el('yk-giris'); g.classList.toggle('kilit', k);
+  if (k) { g.value = ''; g.placeholder = 'Kelime kaybolunca yazabilirsin'; }
+}
+el('yk-giris').addEventListener('input', () => { if (ykFaz !== 'yaz') { el('yk-giris').value = ''; el('yk-giris').placeholder = 'Kelime kaybolunca yaz'; } });
 function ykTurBasla(){
   if (ykTur >= ykTurToplam) return ykBitir();
   ykTur++;
@@ -3732,8 +3740,8 @@ function ykTurBasla(){
   ykKelimeler = ykKelimeSec(ykSv.adet, ykSv.uzun, ykGorulenOturum);
   ykKelimeler.forEach(w => ykGorulenOturum.add(w));
   ykFaz = 'gor';
+  ykGirisKilit(true);
   el('yk-durum').textContent = 'Bak';
-  el('yk-giris').placeholder = 'Önce bak…';
   const ic = el('yk-sahne-ic');
   ic.innerHTML = '';
   const konum = ykKonumlar(ykSv);
@@ -3755,6 +3763,7 @@ function ykTurBasla(){
   ykBekle(ykSure(ykSv) * 1000, () => {
     ykSahneTemizle();
     ykFaz = 'yaz';
+    ykGirisKilit(false);
     el('yk-durum').textContent = 'Ne gördün? Yaz';
     el('yk-giris').placeholder = ykSv.adet > 1 ? 'Gördüklerini yaz (boşlukla ayır)' : 'Gördüğün kelimeyi yaz';
     el('yk-giris').value = '';
@@ -3979,6 +3988,7 @@ function syBaslat(){
   sySahneTemizle();
   goster('ekran-sy-calis');
   syFaz = 'sayim';
+  syGirisKilit(true);
   try { el('sy-giris').focus(); } catch(e){}
   syGeriSay(3);
 }
@@ -3990,6 +4000,12 @@ function syGeriSay(n){
   s.textContent = n;
   syBekle(1000, () => syGeriSay(n - 1));
 }
+// Sayı ekrandayken yazılan karakterler kabul edilmez (bakıp kopyalamayı önler); sayı kaybolunca kutu açılır
+function syGirisKilit(k){
+  const g = el('sy-giris'); g.classList.toggle('kilit', k);
+  if (k) { g.value = ''; g.placeholder = 'Sayı kaybolunca yazabilirsin'; }
+}
+el('sy-giris').addEventListener('input', () => { if (syFaz !== 'yaz') { el('sy-giris').value = ''; el('sy-giris').placeholder = 'Sayı kaybolunca yaz'; } });
 function syTurBasla(){
   if (syTur >= syTurToplam) return syBitir();
   syTur++;
@@ -3998,8 +4014,8 @@ function syTurBasla(){
   syKelimeler = sySayiSec(sySv.adet, sySv.hane, syGorulenOturum);
   syKelimeler.forEach(w => syGorulenOturum.add(w));
   syFaz = 'gor';
+  syGirisKilit(true);
   el('sy-durum').textContent = 'Bak';
-  el('sy-giris').placeholder = 'Önce bak…';
   const ic = el('sy-sahne-ic');
   ic.innerHTML = '';
   const konum = syKonumlar(sySv);
@@ -4021,6 +4037,7 @@ function syTurBasla(){
   syBekle(sySure(sySv) * 1000, () => {
     sySahneTemizle();
     syFaz = 'yaz';
+    syGirisKilit(false);
     el('sy-durum').textContent = 'Ne gördün? Yaz';
     el('sy-giris').placeholder = sySv.adet > 1 ? 'Gördüğün sayıları yaz' : 'Gördüğün sayıyı yaz';
     el('sy-giris').value = '';

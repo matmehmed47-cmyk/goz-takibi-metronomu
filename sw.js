@@ -1,5 +1,5 @@
 // Çevrimiçiyken her zaman en yeni sürümü getirir, çevrimdışıyken kayıtlı kopyayı kullanır.
-const ONBELLEK = 'goz-metronomu-v77';
+const ONBELLEK = 'goz-metronomu-v78';
 const DOSYALAR = ['./', 'index.html', 'manifest.webmanifest', 'simge/simge-192.png', 'simge/simge-512.png', 'simge/simge-180.png', 'simge/simge-32.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(ONBELLEK).then(c => c.addAll(DOSYALAR)).then(() => self.skipWaiting()));
