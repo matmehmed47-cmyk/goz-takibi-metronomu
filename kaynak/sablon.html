@@ -1602,7 +1602,7 @@ function noktaSahnesiKur(ad){
   noktaSayisi = noktalar.length;
 }
 function metniYukle(){
-  obekOnceki = -1; kaydirIptal++;
+  obekOnceki = -1; kaydirIptal++; obekGeoHazir = false; obekC = []; obekSatirY = [];
   const m = metinSec(obekHavuz);
   obekAktifMetin = m;
   const sahne = el('sahne');
@@ -1657,18 +1657,42 @@ function yumusakKaydir(sahne, hedef){
   };
   kaydirRaf = requestAnimationFrame(adim);
 }
-let obekOnceki = -1, kaydirIptal = 0, mAralik = 1;
-// Vuruşlar arasında tek tween: durup kalkan üstel yumuşatma yerine süresi belli, iki uçta yumuşak geçiş
-function kaydirTween(sahne, hedef, sureMs){
-  const bas = sahne.scrollTop, t0 = performance.now(), id = ++kaydirIptal;
-  if (Math.abs(hedef - bas) < 1) return;
-  const f = t => {
-    if (id !== kaydirIptal) return;
-    const p = Math.min(1, Math.max(0, (t - t0) / sureMs)), e = p < .5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
-    sahne.scrollTop = bas + (hedef - bas) * e;
-    if (p < 1) requestAnimationFrame(f);
-  };
-  requestAnimationFrame(f);
+let obekOnceki = -1, kaydirIptal = 0, mAralik = 1, mHedef = 0;
+// ---- Öbek okuma: metin okuma noktasıyla birlikte sürekli akar (kare kare), vuruşta yalnız vurgu değişir ----
+let obekC = [], obekSatirY = [], obekGeoW = 0, obekGeoHazir = false, obekVT = 0, obekRafId = 0;
+function obekGeoKur(){
+  const sahne = el('sahne'), cs = getComputedStyle(sahne);
+  const pl = parseFloat(cs.paddingLeft) || 0, pr = parseFloat(cs.paddingRight) || 0;
+  const iw = Math.max(1, sahne.clientWidth - pl - pr);
+  obekSatirY = []; obekC = [];
+  const anahtar = [];
+  obekSpan.forEach(sp => {
+    const top = Math.round(sp.offsetTop / 3) * 3;
+    let k = anahtar.indexOf(top);
+    if (k < 0) { anahtar.push(top); k = anahtar.length - 1; obekSatirY.push(Math.max(0, sp.offsetTop + sp.offsetHeight / 2 - sahne.clientHeight / 2)); }
+    const f = Math.min(1, Math.max(0, (sp.offsetLeft - pl + sp.offsetWidth / 2) / iw));
+    obekC.push(k + f);
+  });
+  // satır numarası azalmasın (sarmalı öbeklerde)
+  for (let i = 1; i < obekC.length; i++) if (obekC[i] < obekC[i - 1]) obekC[i] = obekC[i - 1];
+  obekGeoW = sahne.clientWidth; obekGeoHazir = true;
+}
+function obekY(c){
+  const L = obekSatirY.length; if (!L) return 0;
+  const k = Math.min(L - 1, Math.max(0, Math.floor(c))), f = Math.min(1, Math.max(0, c - k));
+  const y0 = obekSatirY[k], y1 = k + 1 < L ? obekSatirY[k + 1] : y0;
+  return y0 + (y1 - y0) * f;
+}
+function obekKare(){
+  if (!aktif || secili !== 'obek' || !ctx) { obekRafId = 0; return; }
+  const sahne = el('sahne');
+  if (obekGeoHazir && sahne.clientWidth !== obekGeoW) obekGeoKur();
+  if (!mDur && obekGeoHazir && obekIdx > 0 && obekIdx <= obekC.length) {
+    const i = obekIdx - 1, c0 = obekC[i], c1 = i + 1 < obekC.length ? obekC[i + 1] : c0;
+    const u = Math.min(1, Math.max(0, (ctx.currentTime - obekVT) / Math.max(0.05, mAralik)));
+    sahne.scrollTop = obekY(c0 + (c1 - c0) * u);
+  }
+  obekRafId = requestAnimationFrame(obekKare);
 }
 function vurus(sayac){
   if (secili === 'obek') {
@@ -1677,7 +1701,9 @@ function vurus(sayac){
     const s = obekSpan[obekIdx];
     if (obekOnceki >= 0 && obekSpan[obekOnceki]) obekSpan[obekOnceki].classList.remove('on');
     s.classList.add('on'); obekOnceki = obekIdx;
-    kaydirTween(sahne, Math.max(0, s.offsetTop + s.offsetHeight / 2 - sahne.clientHeight / 2), Math.min(450, Math.max(180, mAralik * 600)));
+    if (!obekGeoHazir) obekGeoKur();
+    obekVT = mHedef || (ctx ? ctx.currentTime : 0);
+    if (!obekRafId) obekRafId = requestAnimationFrame(obekKare);
     const ilk = obekIdx === 0;
     obekIdx++;
     return ilk;
@@ -1755,6 +1781,7 @@ function asamaCalistir(idx){
     }
     const hedef = mBas + mSayac * aralik;
     if (simdi >= hedef) {
+      mHedef = hedef;
       const vurgulu = vurus(mSayac);
       tik(vurgulu);
       mSayac++;
