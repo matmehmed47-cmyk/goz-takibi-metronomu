@@ -6613,7 +6613,15 @@ function rtAdimGoster(){
   const i = id === 'din' ? 0 : rtIdxEtkin(id);
   el('rt-adim-sev').textContent = id === 'din' ? '' : 'Bugünkü seviye: ' + rtSeviyeTanim(id, i);
   el('rt-adim-sure').textContent = 'En çok ' + rtSaat(rtSureTavan(id)) + ' sürer. Süre dolunca otomatik biter.';
-  rt.adimda = false; rt.calis = false;
+  rt.adimda = false; rt.calis = false; rt.acilamadi = false;
+  // çocuk: 'Bu adımı atla' yok (kolay kaçışı önler); yalnızca egzersiz açılamazsa görünür
+  el('rt-adim-atla').classList.toggle('hidden', mod === 'cocuk');
+  rtGoster0('ekran-rt-adim');
+}
+function rtAcilamadi(){
+  rt.adimda = false; rt.acilamadi = true;
+  el('rt-adim-sure').textContent = 'Bu adım açılamadı, atlayabilirsin.';
+  el('rt-adim-atla').classList.remove('hidden');
   rtGoster0('ekran-rt-adim');
 }
 function rtAdimBasla(){
@@ -6629,14 +6637,12 @@ function rtAdimBasla(){
       el(id + '-basla').click();
     }
   } catch(err){
-    rt.adimda = false;
-    el('rt-adim-sure').textContent = 'Bu adım açılamadı, atlayabilirsin.';
-    rtGoster0('ekran-rt-adim');
+    rtAcilamadi();
     return;
   }
   if (!rt.calis) {
     // Egzersiz çalışma ekranına geçmediyse (ör. açılamadı) adımı atlanabilir bırak
-    setTimeout(() => { if (rt.adimda && !rt.calis) { rt.adimda = false; el('rt-adim-sure').textContent = 'Bu adım açılamadı, atlayabilirsin.'; rtGoster0('ekran-rt-adim'); } }, 1500);
+    setTimeout(() => { if (rt.adimda && !rt.calis) rtAcilamadi(); }, 1500);
   }
 }
 function rtAtla(){
