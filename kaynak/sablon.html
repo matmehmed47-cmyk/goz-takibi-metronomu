@@ -84,6 +84,18 @@
   .tm-adim-ik svg { width:58%; height:58%; }
   .tm-gorunum { margin-top:10px; }
   @media (prefers-reduced-motion: no-preference) { body.tema-c button { transition:transform .12s; } body.tema-c button:active { transform:scale(.97); } }
+  /* Adım ilerleme şeridi, netleşen hayvan paneli, öğretmen notu */
+  .tm-mini { margin:42px 6px 10px; }
+  .tm-mini-yol { position:relative; display:flex; justify-content:space-between; align-items:center; gap:6px; padding:0 4px; }
+  .tm-mini-yol::before { content:''; position:absolute; left:12px; right:12px; top:50%; height:3px; background:var(--line); transform:translateY(-50%); }
+  .tm-nokta { position:relative; width:20px; height:20px; border-radius:50%; border:3px solid var(--gc, var(--line)); background:var(--card); flex:none; }
+  .tm-nokta.bit { background:var(--gc); }
+  .tm-nokta.atla { border-style:dashed; opacity:.6; }
+  .tm-nokta.simdi { box-shadow:0 0 0 4px color-mix(in srgb, var(--gc) 25%, transparent); }
+  .tm-mini-baykus { position:absolute; top:-40px; width:34px; height:34px; margin-left:-17px; pointer-events:none; }
+  @media (prefers-reduced-motion: no-preference) { .tm-mini-baykus { transition:left .6s ease-in-out; } }
+  .hk-not { margin-top:12px; padding:12px 14px; border:2px solid var(--line); border-radius:16px; background:var(--bg); }
+  .hk-not small { display:block; margin-top:6px; color:var(--muted); font-weight:700; }
   /* Hayvan kartları */
   .hk-kart { position:relative; background:var(--card); border:3px solid var(--line); border-radius:22px; overflow:hidden; box-shadow:0 6px 0 var(--line); margin-top:10px; }
   .hk-fotokap { position:relative; width:100%; aspect-ratio:4/3; overflow:hidden; background:var(--line); }
@@ -1214,6 +1226,7 @@
       <div class="hk-sik" id="hk-sik"></div>
       <div class="ipucu" id="hk-geri" style="text-align:center"></div>
     </div>
+    <div class="hk-not hidden" id="hk-not"></div>
     <div class="row" style="margin-top:12px">
       <button class="alt hidden" id="hk-dinle">🔊 Dinle</button>
       <button class="go" id="hk-tamam">Tamam</button>
@@ -1261,6 +1274,14 @@
       <div class="row" style="margin-top:8px">
         <button class="alt" id="hk-ay-dene">Hayvan kartını dene (sayılmaz)</button>
       </div>
+      <div class="row" style="margin-top:8px">
+        <button class="alt" id="ogr-ay">Öğretmen notu: kapalı</button>
+      </div>
+      <div id="ogr-alan" class="hidden" style="margin-top:8px">
+        <div class="ipucu">Rutin sonunda kart açılınca günde bir not gösterilir (sırayla). Her satıra bir not yaz.<br><b>Böyle yaz:</b> "Seni burada görmek güzel.", "Zorlandığın gün olursa bana söyle." (bağ ve ilgi).<br><b>Böyle yazma:</b> "Seninle gurur duyuyorum.", "Çok başarılısın.", "Her gün yapmalısın." (koşul, baskı, zekâ övgüsü). Kendine sor: çocuk bugün yapmasaydı bu cümle ona üzücü gelir miydi? Evet ise yazma. "Yaptığın için" ile başlama.</div>
+        <input id="ogr-imza-giris" type="text" maxlength="40" placeholder="İmza (örn. Mehmetnur Hoca)" style="width:100%; margin-top:6px; font:inherit; padding:10px; border-radius:10px; border:2px solid var(--line); background:var(--card); color:var(--fg)">
+        <textarea id="ogr-notlar-giris" rows="7" maxlength="1500" placeholder="Her satıra bir not yaz" style="width:100%; margin-top:6px; font:inherit; padding:10px; border-radius:10px; border:2px solid var(--line); background:var(--card); color:var(--fg)"></textarea>
+      </div>
     </details>
     <div class="row" style="margin-top:10px">
       <button class="alt" id="rt-geri">Geri</button>
@@ -1291,6 +1312,7 @@
 
   <section id="ekran-rt-adim" class="card hidden">
     <div class="tm-adim-ik hidden" id="rt-adim-ikon"></div>
+    <div class="tm-mini hidden" id="rt-mini-adim"></div>
     <div class="info lbl" id="rt-adim-no"></div>
     <div class="info big" id="rt-adim-ad" style="font-size:1.5rem"></div>
     <div class="ipucu" id="rt-adim-acik" style="text-align:center"></div>
@@ -1308,6 +1330,7 @@
   <section id="ekran-rt-fb" class="card hidden">
     <div class="info lbl">Adım bitti</div>
     <div class="info big" id="rt-fb-ad" style="font-size:1.3rem"></div>
+    <div class="tm-mini hidden" id="rt-mini-fb"></div>
     <div class="ipucu" id="rt-fb-sonuc" style="text-align:center"></div>
     <div class="grup" id="rt-fb-z">
       <h2>Nasıl geldi?</h2>
@@ -6058,7 +6081,78 @@ function tmCumle(id){
     if (rt.olc >= onc - 0.05) return 'Geçen seferle aynı, istikrarlı gidiyorsun!';
     return 'Bugün biraz zor geldi, yarın yine deneriz.';
   }
-  return rt.erken ? 'Tamam, yarın yine deneriz.' : 'Eline sağlık!';
+  return rt.erken ? 'Tamam, yarın yine deneriz.' : tmOvgu(id);
+}
+// ---- Adım sonu övgü (çaba/süreç övgüsü; zekâ övgüsü yok)
+const TM_OVGU = {
+  k: { goz: ['Gözünü hedefte tuttun.', 'Takip etmeyi sonuna kadar yaptın.', 'Göz antrenmanı bitti!'], dikkat: ['Dikkatini işe verdin.', 'Sonuna kadar yaptın.', 'Dikkat adımı bitti!'], oku: ['Metnin peşinden gittin.', 'Sabırla okudun.', 'Okuma adımı bitti!'], genel: ['Süreyi sonuna kadar yaptın!', 'Bir adım daha bitti.', 'Bu adım tamam!'] },
+  o: { goz: ['Gözünü hedefte tuttun.', 'Takip etmeyi sonuna kadar yaptın.'], dikkat: ['Dikkatini işe verdin.', 'Sonuna kadar yaptın.'], oku: ['Metnin peşinden gittin.', 'Sabırla okudun.'], genel: ['Süreyi sonuna kadar yaptın.', 'Adım tamam.'] }
+};
+function tmOvgu(id){
+  const kat = RT_EGZ[id] ? RT_EGZ[id].kat : '';
+  const grup = (kat === 'isinma' || kat === 'gorme') ? 'goz' : (kat === 'dikkat' ? 'dikkat' : (kat === 'oku' ? 'oku' : 'genel'));
+  const ton = temaYas() === 'k' ? TM_OVGU.k : TM_OVGU.o;
+  const say = parseInt(lsOku('tm-ovgu-say'), 10) || 0;
+  lsYaz('tm-ovgu-say', String(say + 1));
+  const tur = say % 3;   // 0: gruba özel çaba cümlesi, 1: yargısız gözlem, 2: genel
+  if (tur === 1) {
+    const p = rt.plan, n = p.ids.filter((x, i) => x !== 'din' && (p.bit[i] === 'yapildi' || i === rt.adim)).length;
+    return 'Bugün ' + n + ' adım tamam.';
+  }
+  const l = tur === 0 ? ton[grup] : ton.genel;
+  return l[Math.floor(say / 3) % l.length];
+}
+// ---- Adım ekranlarında ilerleme şeridi (baykuş sonuç ekranında bir sonraki taşa kısa zıplar)
+function tmMiniKur(kap, fb){
+  if (!kap) return;
+  if (!temaAktif() || temaYas() === 'b') { kap.classList.add('hidden'); kap.innerHTML = ''; return; }
+  const p = rt.plan, n = p.ids.length; kap.innerHTML = '';
+  const yol = document.createElement('div'); yol.className = 'tm-mini-yol';
+  p.ids.forEach((id, i) => {
+    const g = TM_GRUP[RT_EGZ[id].kat] || ['goz', '--g-goz'], d = document.createElement('span');
+    const bit = p.bit[i] === 'yapildi' || (fb && i === rt.adim);
+    d.className = 'tm-nokta' + (bit ? ' bit' : (p.bit[i] === 'atlandi' ? ' atla' : '')) + (!fb && i === rt.adim ? ' simdi' : '');
+    d.style.setProperty('--gc', 'var(' + g[1] + ')'); yol.appendChild(d);
+  });
+  const b = document.createElement('div'); b.className = 'tm-mini-baykus';
+  const konum = i => ((Math.min(i, n - 1) + 0.5) / n * 100) + '%';
+  b.innerHTML = tmBaykus(p.ids[rt.adim] === 'din' ? 'uyku' : 'normal', 34);
+  b.style.left = konum(rt.adim);
+  yol.appendChild(b); kap.appendChild(yol); kap.classList.remove('hidden');
+  if (fb && !rt.erken && rt.adim + 1 < n) requestAnimationFrame(() => requestAnimationFrame(() => { b.style.left = konum(rt.adim + 1); }));
+}
+// ---- Bugünün kartı (rutin sonunda kazımayla açılır; öncesinde gösterilmez)
+function hkGunKarti(){
+  if (mod !== 'cocuk' || !HK_VERI.length) return null;
+  const bek = hkBekleyen(); if (bek) return bek;
+  if (lsOku('kart-son-gun') === rtBugun()) return null;
+  return hkSonraki();
+}
+// ---- Öğretmen notu (varsayılan kapalı; yetişkin yazar)
+const OGR_ORNEK = ['Seni burada görmek güzel.', 'Bugün egzersizi yaptığını gördüm.', 'Zorlandığın bir gün olursa bana söyle.', 'Merak ettiğin bir şey olursa sor.', 'Bugünün hayvanı hangisiydi? Birlikte bakalım.', 'Seni düşündüm.', 'Okuduğun bir şeyi bana anlatmak ister misin?', 'Yarım bıraktığın gün olursa sorun değil, yarın yine bakarız.', 'Yarın yine görüşürüz.'];
+function ogrAcik(){ return lsOku('ogr-acik') === '1'; }
+function ogrNotlar(){ const t = lsOku('ogr-notlar'); return (t == null ? OGR_ORNEK.join('\n') : t).split(/\n+/).map(x => x.trim()).filter(Boolean); }
+function ogrNotSec(kalici){
+  const l = ogrNotlar(); if (!l.length) return null;
+  const t = rtBugun(); let i = parseInt(lsOku('ogr-idx'), 10) || 0;
+  if (kalici) { if (lsOku('ogr-son-gun') === t) i = (i - 1 + l.length) % l.length; else { lsYaz('ogr-son-gun', t); lsYaz('ogr-idx', String((i + 1) % l.length)); } }
+  return l[i % l.length];
+}
+function hkNotKur(kalici){
+  const k = el('hk-not');
+  if (!ogrAcik()) { k.classList.add('hidden'); return; }
+  const n = ogrNotSec(kalici); if (!n) { k.classList.add('hidden'); return; }
+  const imza = (lsOku('ogr-imza') || '').trim();
+  k.innerHTML = ''; const a = document.createElement('div'); a.textContent = n; k.appendChild(a);
+  if (imza) { const sm = document.createElement('small'); sm.textContent = '– ' + imza; k.appendChild(sm); }
+  k.classList.remove('hidden');
+}
+function ogrAyarYaz(){
+  const b = el('ogr-ay'); if (!b) return;
+  b.textContent = 'Öğretmen notu: ' + (ogrAcik() ? 'açık' : 'kapalı');
+  el('ogr-alan').classList.toggle('hidden', !ogrAcik());
+  const t = lsOku('ogr-notlar'); el('ogr-notlar-giris').value = t == null ? OGR_ORNEK.join('\n') : t;
+  el('ogr-imza-giris').value = lsOku('ogr-imza') || '';
 }
 function haftalikOzet(){
   const g = rtGecmis(), t = rtBugun(); let n = 0;
@@ -6099,7 +6193,7 @@ function hkHazirla(){
   const bek = hkBekleyen(); if (bek) return bek;
   const t = rtBugun();
   if (lsOku('kart-son-gun') === t) return null;
-  const k = hkSonraki(); if (!k) return null;
+  const k = hkGunKarti(); if (!k) return null;
   lsYaz('kart-bekleyen', JSON.stringify({ id: k.id, t }));
   lsYaz('kart-son-gun', t);
   return k;
@@ -6202,6 +6296,7 @@ function hkAcildi(sessiz){
       n.style.background = ['#e8590c', '#2f9e6e', '#f2b01e', '#4c6ef5'][i % 4]; p.appendChild(n); }
   }
   hkYoklamaKur(k);
+  hkNotKur(!hk.onizleme);
 }
 function hkYoklamaKur(k){
   const kutu = el('hk-yoklama');
@@ -6264,6 +6359,9 @@ function hkAlbumCiz(){
   el('tm-gorunum').onclick = () => { lsYaz('tema-sade', lsOku('tema-sade') === '1' ? '0' : '1'); temaUygula(); tmAnaKur(); };
   el('hk-album-geri').onclick = () => goster('ekran-ana');
   el('hk-ay-dene').onclick = () => { const acik = new Set(hkAcik()); const l = HK_VERI.filter(x => hkUygun(x) && !acik.has(x.id)); const k = (l.length ? l : HK_VERI)[Math.floor(Math.random() * (l.length || HK_VERI.length))]; if (k) hkAc(k, 'onizleme'); };
+  el('ogr-ay').onclick = () => { lsYaz('ogr-acik', ogrAcik() ? '0' : '1'); ogrAyarYaz(); };
+  el('ogr-notlar-giris').oninput = e => lsYaz('ogr-notlar', e.target.value);
+  el('ogr-imza-giris').oninput = e => lsYaz('ogr-imza', e.target.value);
   el('hk-ay-kazi').onclick = () => { lsYaz('hk-kazima', hkAyar('kazima') ? '0' : '1'); hkAyarYaz(); };
   el('hk-ay-yoklama').onclick = () => { lsYaz('hk-yoklama', hkAyar('yoklama') ? '0' : '1'); hkAyarYaz(); };
 }
@@ -6757,6 +6855,7 @@ function olcGecmisYaz(){
 function rtYetKur(){
   olcGecmisYaz();
   hkAyarYaz();
+  ogrAyarYaz();
   el('rt-yet').classList.toggle('hidden', mod !== 'cocuk');
   if (mod !== 'cocuk') return;
   el('rt-yet-yazi').textContent = 'Şimdi: metronom ' + rtMetHizi(0) + ' vuruş/dk · Kayan Metin ' + rtWpm(rtIdx('km')) + ' kelime/dk. ' + haftalikOzet();
@@ -6778,6 +6877,7 @@ function rtAdimGoster(){
   el('rt-adim-sev').textContent = id === 'din' ? '' : 'Bugünkü seviye: ' + rtSeviyeTanim(id, i);
   el('rt-adim-sure').textContent = 'En çok ' + rtSaat(rtSureTavan(id)) + ' sürer. Süre dolunca otomatik biter.';
   rt.adimda = false; rt.calis = false; rt.acilamadi = false;
+  tmMiniKur(el('rt-mini-adim'), false);
   // çocuk: 'Bu adımı atla' yok (kolay kaçışı önler); yalnızca egzersiz açılamazsa görünür
   el('rt-adim-atla').classList.toggle('hidden', mod === 'cocuk');
   rtGoster0('ekran-rt-adim');
@@ -6848,6 +6948,7 @@ function rtFbKur(id, sonuc){
   el('rt-fb-ad').textContent = RT_EGZ[id].ad;
   const oran = (mod === 'cocuk' && rt.olc != null && id !== 'tr') ? 'Başarı: %' + Math.round(rt.olc * 100) + ' · ' : (mod === 'cocuk' && id === 'tr' && rt.olc != null ? (rt.olc === 1 ? 'Soruyu doğru bildin. ' : 'Soru yanlıştı, olsun. ') : '');
   el('rt-fb-sonuc').textContent = temaAktif() ? tmCumle(id) : ((rt.sureDoldu ? 'Süre doldu. ' : '') + oran + sonuc);
+  tmMiniKur(el('rt-mini-fb'), true);
   const okuma = RT_EGZ[id].kat === 'oku' && id !== 'tr';
   el('rt-fb-z').classList.toggle('hidden', mod === 'cocuk');
   el('rt-fb-an').classList.toggle('hidden', mod === 'cocuk' ? !rtCocukAnla(id) : !okuma);
