@@ -1209,6 +1209,9 @@
         <button class="alt" id="hk-ay-kazi">Kazıma: açık</button>
         <button class="alt" id="hk-ay-yoklama">Hayvan sorusu: açık</button>
       </div>
+      <div class="row" style="margin-top:8px">
+        <button class="alt" id="hk-ay-dene">Hayvan kartını dene (sayılmaz)</button>
+      </div>
     </details>
     <div class="row" style="margin-top:10px">
       <button class="alt" id="rt-geri">Geri</button>
@@ -5957,7 +5960,8 @@ function hkKartYaz(k, yeni){
 }
 function hkAc(k, kaynak){
   hk.kart = k; hk.kaynak = kaynak;
-  const yeni = kaynak === 'rutin' || kaynak === 'surpriz';
+  const yeni = kaynak === 'rutin' || kaynak === 'surpriz' || kaynak === 'onizleme';
+  hk.onizleme = kaynak === 'onizleme';
   hk.yeni = yeni;
   hkKartYaz(k, yeni);
   el('hk-yoklama').classList.add('hidden'); el('hk-geri').textContent = '';
@@ -6006,8 +6010,10 @@ function hkAcildi(sessiz){
   if (!sessiz) { if (hk.kapakBitti) return; hkKapakKapat(); }
   const k = hk.kart; if (!k) return;
   const acik = hkAcik();
-  if (!acik.includes(k.id)) { acik.push(k.id); lsYaz('kart-acik', JSON.stringify(acik)); }
-  lsYaz('kart-bekleyen', JSON.stringify({ id: k.id, t: '', acildi: 1 }));
+  if (!hk.onizleme) {
+    if (!acik.includes(k.id)) { acik.push(k.id); lsYaz('kart-acik', JSON.stringify(acik)); }
+    lsYaz('kart-bekleyen', JSON.stringify({ id: k.id, t: '', acildi: 1 }));
+  }
   el('hk-metin').textContent = 'Merhaba ' + k.ad + '! Albümüne eklendi.';
   el('hk-tamam').classList.remove('hidden');
   if (!sessiz) {
@@ -6073,10 +6079,11 @@ function hkAlbumCiz(){
   cv.addEventListener('pointercancel', () => { hk.cizim = false; });
   window.addEventListener('resize', () => { if (!hk.kapakBitti && !el('ekran-kart').classList.contains('hidden')) hkBoya(); });
   el('hk-dinle').onclick = hkSoyle;
-  el('hk-tamam').onclick = () => { hkSus(); if (hk.kaynak === 'album') { hkAlbumCiz(); goster('ekran-album'); } else if (hk.kaynak === 'surpriz') goster('ekran-ana'); else rtAnaKur(); };
+  el('hk-tamam').onclick = () => { hkSus(); if (hk.kaynak === 'onizleme') { hk.onizleme = false; rtAnaKur(); } else if (hk.kaynak === 'album') { hkAlbumCiz(); goster('ekran-album'); } else if (hk.kaynak === 'surpriz') goster('ekran-ana'); else rtAnaKur(); };
   el('ana-surpriz').onclick = () => { const k = hkBekleyen(); if (k) hkAc(k, 'surpriz'); };
   el('ana-album').onclick = hkAlbumAc;
   el('hk-album-geri').onclick = () => goster('ekran-ana');
+  el('hk-ay-dene').onclick = () => { const acik = new Set(hkAcik()); const l = HK_VERI.filter(x => hkUygun(x) && !acik.has(x.id)); const k = (l.length ? l : HK_VERI)[Math.floor(Math.random() * (l.length || HK_VERI.length))]; if (k) hkAc(k, 'onizleme'); };
   el('hk-ay-kazi').onclick = () => { lsYaz('hk-kazima', hkAyar('kazima') ? '0' : '1'); hkAyarYaz(); };
   el('hk-ay-yoklama').onclick = () => { lsYaz('hk-yoklama', hkAyar('yoklama') ? '0' : '1'); hkAyarYaz(); };
 }
@@ -6474,7 +6481,21 @@ function rtAnaKur(){
     d.appendChild(n); d.appendChild(a); d.appendChild(c);
     k.appendChild(d);
   });
-  el('rt-durum').textContent = bitti ? 'Bugünkü rutin tamam. Eline sağlık!' : (rtHaftaGunu(t) === 0 ? 'Pazar dinlenme günü. İstersen kısa rutin yap.' : '');
+  // Çocuk: rutinin son satırı sürpriz hayvan kartı
+  const kartSatir = mod === 'cocuk' && HK_VERI.length > 0;
+  const bek = kartSatir ? hkBekleyen() : null, verildi = kartSatir && lsOku('kart-son-gun') === t;
+  if (kartSatir) {
+    const d = document.createElement('div');
+    d.className = 'rt-satir' + (verildi && !bek ? ' bit' : '');
+    const n = document.createElement('span'); n.className = 'rt-no'; n.textContent = '🎁';
+    const a = document.createElement('span'); a.style.flex = '1'; a.textContent = 'Sürpriz: hayvan kartı';
+    const c = document.createElement('small'); c.style.color = 'var(--muted)';
+    c.textContent = bek ? 'Kazımayı bekliyor, dokun' : (verildi ? 'Bugün açıldı ✓' : 'Rutini bitirince kazıyacaksın');
+    d.appendChild(n); d.appendChild(a); d.appendChild(c);
+    if (bek) { d.style.cursor = 'pointer'; d.onclick = () => hkAc(bek, 'rutin'); }
+    k.appendChild(d);
+  }
+  el('rt-durum').textContent = bitti ? ('Bugünkü rutin tamam. Eline sağlık!' + (kartSatir && !verildi ? ' Hayvan kartı için en az iki adımı baştan sona yapman gerekiyor.' : '')) : (rtHaftaGunu(t) === 0 ? 'Pazar dinlenme günü. İstersen kısa rutin yap.' : '');
   const bas = el('rt-basla');
   bas.textContent = bitti ? 'Bugünkü rutin bitti' : (yapilan || p.bit.some(x => x) ? 'Devam et' : 'Başla');
   bas.disabled = bitti;
