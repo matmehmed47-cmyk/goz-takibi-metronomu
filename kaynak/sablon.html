@@ -2114,7 +2114,10 @@ function kmButonlar(){
   el('km-dur').classList.toggle('hidden', kmDur);
   el('km-duraklat-satiri').classList.toggle('hidden', !kmDur);
 }
-function kmWpmYaz(){ el('km-wpm').textContent = kmWpm + ' kelime/dk'; }
+// Rutin sırasında hız sabit: − / + düğmeleri gizli ve işlemez (hız seviyeden gelir)
+function rtHizKilitli(){ return typeof rt !== 'undefined' && !!rt.aktif && !!rt.adimda; }
+function hizDugmeleri(on){ ['eksi', 'arti'].forEach(x => { const b = el(on + '-' + x); if (b) b.classList.toggle('hidden', rtHizKilitli()); }); }
+function kmWpmYaz(){ el('km-wpm').textContent = kmWpm + ' kelime/dk'; hizDugmeleri('km'); }
 let kmSonYazi = '';
 function kmDurumYaz(){
   let yazi;
@@ -2168,8 +2171,8 @@ function kmKare(t){
 }
 el('km-dur').onclick = () => { if (kmAktif && !kmDur) { kmDur = true; kmButonlar(); } };
 el('km-devam').onclick = () => { if (kmDur) { kmDur = false; kmButonlar(); } };
-el('km-eksi').onclick = () => { kmWpm = Math.max(hizAyar(KM_AYAR[mod], rtSinifZorunlu() ? sinif : kmSinif, 30, 70).min, kmWpm - hizAyar(KM_AYAR[mod], rtSinifZorunlu() ? sinif : kmSinif, 30, 70).adim); kmWpmYaz(); };
-el('km-arti').onclick = () => { kmWpm = Math.min(hizAyar(KM_AYAR[mod], rtSinifZorunlu() ? sinif : kmSinif, 30, 70).max, kmWpm + hizAyar(KM_AYAR[mod], rtSinifZorunlu() ? sinif : kmSinif, 30, 70).adim); kmWpmYaz(); };
+el('km-eksi').onclick = () => { if (rtHizKilitli()) return; kmWpm = Math.max(hizAyar(KM_AYAR[mod], rtSinifZorunlu() ? sinif : kmSinif, 30, 70).min, kmWpm - hizAyar(KM_AYAR[mod], rtSinifZorunlu() ? sinif : kmSinif, 30, 70).adim); kmWpmYaz(); };
+el('km-arti').onclick = () => { if (rtHizKilitli()) return; kmWpm = Math.min(hizAyar(KM_AYAR[mod], rtSinifZorunlu() ? sinif : kmSinif, 30, 70).max, kmWpm + hizAyar(KM_AYAR[mod], rtSinifZorunlu() ? sinif : kmSinif, 30, 70).adim); kmWpmYaz(); };
 const KM_GERI_HAK = 3;
 let kmHak = KM_GERI_HAK;
 function kmHakYaz(){
@@ -2260,7 +2263,7 @@ function bgHakYaz(){
   b.textContent = '3 sn geri (' + bgHak + ')';
   b.disabled = bgHak <= 0;
 }
-function bgWpmYaz(){ el('bg-wpm').textContent = bgWpm + ' kelime/dk'; }
+function bgWpmYaz(){ el('bg-wpm').textContent = bgWpm + ' kelime/dk'; hizDugmeleri('bg'); }
 function bgYukle(){
   const havuz = METINLER.filter(m => mod === 'cocuk' ? m.seviye === (rtSinifZorunlu() ? sinif : bgSinif) : m.seviye === 'yetiskin');
   const m = metinSec(havuz);
@@ -2407,8 +2410,8 @@ function bgKare(t){
 }
 el('bg-dur').onclick = () => { if (bgAktif && !bgDur) { bgDur = true; bgButonlar(); } };
 el('bg-devam').onclick = () => { if (bgDur) { bgDur = false; bgButonlar(); } };
-el('bg-eksi').onclick = () => { bgWpm = Math.max(hizAyar(BG_AYAR[mod], rtSinifZorunlu() ? sinif : bgSinif, 25, 60).min, bgWpm - hizAyar(BG_AYAR[mod], rtSinifZorunlu() ? sinif : bgSinif, 25, 60).adim); bgWpmYaz(); };
-el('bg-arti').onclick = () => { bgWpm = Math.min(hizAyar(BG_AYAR[mod], rtSinifZorunlu() ? sinif : bgSinif, 25, 60).max, bgWpm + hizAyar(BG_AYAR[mod], rtSinifZorunlu() ? sinif : bgSinif, 25, 60).adim); bgWpmYaz(); };
+el('bg-eksi').onclick = () => { if (rtHizKilitli()) return; bgWpm = Math.max(hizAyar(BG_AYAR[mod], rtSinifZorunlu() ? sinif : bgSinif, 25, 60).min, bgWpm - hizAyar(BG_AYAR[mod], rtSinifZorunlu() ? sinif : bgSinif, 25, 60).adim); bgWpmYaz(); };
+el('bg-arti').onclick = () => { if (rtHizKilitli()) return; bgWpm = Math.min(hizAyar(BG_AYAR[mod], rtSinifZorunlu() ? sinif : bgSinif, 25, 60).max, bgWpm + hizAyar(BG_AYAR[mod], rtSinifZorunlu() ? sinif : bgSinif, 25, 60).adim); bgWpmYaz(); };
 el('bg-geri-al').onclick = () => {
   if (bgHak <= 0 || !bgParcalar.length) return;
   bgHak--; bgHakYaz();
@@ -2461,7 +2464,7 @@ el('pd-hiz').oninput = e => { pdWpm = Number(e.target.value); pdArayuzKur(); };
 el('egz-perde').onclick = () => { pdWpm = hizAyar(PD_AYAR[mod], sinif, 25, 60).varsayilan; pdArayuzKur(); goster('ekran-pd'); };
 el('pd-geri').onclick = () => goster('ekran-egz');
 
-function pdWpmYaz(){ el('pd-wpm').textContent = pdWpm + ' kelime/dk'; }
+function pdWpmYaz(){ el('pd-wpm').textContent = pdWpm + ' kelime/dk'; hizDugmeleri('pd'); }
 function pdHakYaz(){
   const b = el('pd-geri-al');
   b.textContent = '1 satır geri (' + pdHak + ')';
@@ -2567,8 +2570,8 @@ function pdKare(t){
 }
 el('pd-dur').onclick = () => { if (pdAktif && !pdDur) { pdDur = true; pdButonlar(); } };
 el('pd-devam').onclick = () => { if (pdDur) { pdDur = false; pdButonlar(); } };
-el('pd-eksi').onclick = () => { pdWpm = Math.max(hizAyar(PD_AYAR[mod], sinif, 25, 60).min, pdWpm - hizAyar(PD_AYAR[mod], sinif, 25, 60).adim); pdWpmYaz(); };
-el('pd-arti').onclick = () => { pdWpm = Math.min(hizAyar(PD_AYAR[mod], sinif, 25, 60).max, pdWpm + hizAyar(PD_AYAR[mod], sinif, 25, 60).adim); pdWpmYaz(); };
+el('pd-eksi').onclick = () => { if (rtHizKilitli()) return; pdWpm = Math.max(hizAyar(PD_AYAR[mod], sinif, 25, 60).min, pdWpm - hizAyar(PD_AYAR[mod], sinif, 25, 60).adim); pdWpmYaz(); };
+el('pd-arti').onclick = () => { if (rtHizKilitli()) return; pdWpm = Math.min(hizAyar(PD_AYAR[mod], sinif, 25, 60).max, pdWpm + hizAyar(PD_AYAR[mod], sinif, 25, 60).adim); pdWpmYaz(); };
 el('pd-geri-al').onclick = () => {
   if (pdHak <= 0 || !pdToplam) return;
   const y = pdY();
