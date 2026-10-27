@@ -6783,14 +6783,12 @@ function rtSayacBasla(){
 }
 function rtTik(){
   const kalan = (rt.bitis - performance.now()) / 1000;
-  // çocuk: 'Adımı bitir' planlı sürenin yarısından sonra açılır; ilerleme çubuğu ne kadar kaldığını gösterir
+  // ilerleme çubuğu ne kadar kaldığını gösterir
   const id = rt.plan.ids[rt.adim], gec = (performance.now() - rt.bas) / 1000;
   const pn = rtPlanSn(id) || rtSureTavan(id);
   el('rt-ilerle-ic').style.width = Math.min(100, Math.max(0, (gec - 3) / pn * 100)) + '%';
-  const b = el('rt-bar-bitir');
-  const kilit = mod === 'cocuk' && gec < (rtPlanSn(id) || 40) / 2 + 3;
-  b.disabled = kilit;
-  b.textContent = kilit ? 'Birazdan açılır' : 'Adımı bitir';
+  // çocuk: 'Adımı bitir' hiç yok; adım süre dolunca kendiliğinden biter
+  el('rt-bar-bitir').classList.toggle('hidden', mod === 'cocuk');
   el('rt-bar-yazi').textContent = 'Rutin ' + (rt.adim + 1) + '/' + rt.plan.ids.length + ' · kalan ' + rtSaat(kalan);
   if (kalan <= 0) rtZorlaBitir(true);
 }
@@ -7305,5 +7303,5 @@ el('rt-din-atla').onclick = rtDinlenBitir;
 el('din-perde').onclick = dinKarartmaAtla;
 el('din-yagmur-btn').onclick = () => { lsYaz('din-yagmur', dinYagmurAcik() ? '0' : '1'); dinYagmurDugme(); if (!dinYagmurAcik()) dinYagmurDur(0.4); else dinYagmurHazirla().then(() => { const f = dinFaz(din.gecen); dinYagmurBasla(); dinYagmurSes((f === 'isik' || f === 'uzak') ? 0 : 1, 1); }); };
 el('rt-din-cik').onclick = rtCik;
-el('rt-bar-bitir').onclick = () => rtZorlaBitir(false);
+el('rt-bar-bitir').onclick = () => { if (mod === 'cocuk') return; rtZorlaBitir(false); };
 </script>
