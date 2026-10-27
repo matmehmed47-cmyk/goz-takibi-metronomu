@@ -1289,6 +1289,7 @@
     </div>
     <div class="row" style="margin-top:10px">
       <button class="alt" id="rt-kisa">Kısa rutine geç</button>
+      <button class="alt hidden" id="rt-ek">Bir tur daha yap</button>
     </div>
     <div class="ipucu" id="rt-olc-gecmis" style="text-align:center; margin-top:10px"></div>
     <div class="row hidden" id="rt-olc-satir" style="margin-top:10px">
@@ -6762,7 +6763,7 @@ function rtPlanAl(){
   if (p && p.t === rtBugun() && Array.isArray(p.ids)) return p;
   return rtPlanOlustur(rtVarsayilanKisa());
 }
-function rtPlanKaydet(){ lsYaz('rt-bugun-' + rtAnahtarMod(), JSON.stringify(rt.plan)); }
+function rtPlanKaydet(){ if (rt.ek) return; lsYaz('rt-bugun-' + rtAnahtarMod(), JSON.stringify(rt.plan)); }
 function rtSeri(){
   const g = rtGecmis(), t = rtBugun();
   const toplam = Object.keys(g).filter(d => g[d].tamam).length;
@@ -6779,7 +6780,7 @@ function rtSeri(){
 }
 
 // ---- durum
-const rt = { plan:null, aktif:false, adim:-1, adimda:false, calis:false, bitis:0, iv:null, dinIv:null, z:null, an:null, kalanSn:0 };
+const rt = { plan:null, ek:false, aktif:false, adim:-1, adimda:false, calis:false, bitis:0, iv:null, dinIv:null, z:null, an:null, kalanSn:0 };
 const rtGoster0 = goster;
 goster = function(id){
   if (rt.aktif && rt.adimda) {
@@ -6857,6 +6858,7 @@ function rtAdimBitti(){
 
 // ---- ekranlar
 function rtAnaKur(){
+  rt.ek = false;
   rt.plan = rtPlanAl();
   rtIlk();
   const t = rtBugun(), p = rt.plan;
@@ -6908,6 +6910,10 @@ function rtAnaKur(){
   const degis = el('rt-kisa');
   degis.classList.toggle('hidden', p.bit.some(x => x));
   degis.textContent = p.kisa ? 'Tam rutine geç' : 'Kısa rutine geç';
+  { const eb = el('rt-ek'), n = rtEkSay();
+    eb.classList.toggle('hidden', !bitti);
+    eb.disabled = n >= RT_EK_MAX;
+    eb.textContent = n >= RT_EK_MAX ? 'Bugünlük ek turlar bitti (' + n + '/' + RT_EK_MAX + ')' : 'Bir tur daha yap' + (n ? ' (ek tur ' + n + '/' + RT_EK_MAX + ' yapıldı)' : ''); }
   rtYetKur();
   goster('ekran-rt');
 }
@@ -6983,6 +6989,16 @@ function rtYetKur(){
   if (mod !== 'cocuk') return;
   el('rt-yet-yazi').textContent = 'Şimdi: metronom ' + rtMetHizi(0) + ' vuruş/dk · Kayan Metin ' + rtWpm(rtIdx('km')) + ' kelime/dk. ' + haftalikOzet();
 }
+// ---- ek tur: bitmiş rutini aynen tekrar yapma (günde en çok RT_EK_MAX). Ek tur kayda geçmez: seviye, seri, ölçüm, hayvan kartı değişmez.
+const RT_EK_MAX = 5;
+function rtEkSay(){ const o = rtJson('rt-ek-' + rtAnahtarMod(), null); return (o && o.t === rtBugun()) ? (o.n | 0) : 0; }
+function rtEkBasla(){
+  const p = rt.plan;
+  if (!p || !p.bit.every(x => x) || rtEkSay() >= RT_EK_MAX) return;
+  rt.ek = true;
+  rt.plan = { t: p.t, ids: p.ids.slice(), bit: p.ids.map(() => null), kisa: !!p.kisa };
+  rtBaslat();
+}
 function rtBaslat(){
   rt.aktif = true;
   rt.adim = rt.plan.bit.findIndex(x => !x);
@@ -6991,14 +7007,14 @@ function rtBaslat(){
 }
 function rtAdimGoster(){
   const id = rt.plan.ids[rt.adim], e = RT_EGZ[id], toplam = rt.plan.ids.length;
-  el('rt-adim-no').textContent = 'Adım ' + (rt.adim + 1) + '/' + toplam + ' · ' + RT_KAT[e.kat];
+  el('rt-adim-no').textContent = (rt.ek ? 'Ek tur · ' : '') + 'Adım ' + (rt.adim + 1) + '/' + toplam + ' · ' + RT_KAT[e.kat];
   { const ik = el('rt-adim-ikon'), g = TM_GRUP[e.kat] || ['goz', '--g-goz'];
     if (temaAktif()) { ik.innerHTML = TM_SVG[g[0]]; ik.style.setProperty('--gc', 'var(' + g[1] + ')'); ik.classList.remove('hidden'); } else { ik.classList.add('hidden'); ik.innerHTML = ''; } }
   el('rt-adim-ad').textContent = e.ad;
   const i = id === 'din' ? 0 : rtIdxEtkin(id);
   { const ya = el('rt-adim-acik'); ya.textContent = rtYonerge(id, i); ya.style.whiteSpace = 'pre-line'; }
   el('rt-adim-sev').textContent = id === 'din' ? '' : 'Bugünkü seviye: ' + rtSeviyeTanim(id, i);
-  el('rt-adim-sure').textContent = 'En çok ' + rtSaat(rtSureTavan(id)) + ' sürer. Süre dolunca otomatik biter.';
+  el('rt-adim-sure').textContent = 'En çok ' + rtSaat(rtSureTavan(id)) + ' sürer. Süre dolunca otomatik biter.' + (rt.ek ? ' Ek tur: seviye değişmez, kayda geçmez.' : '');
   rt.adimda = false; rt.calis = false; rt.acilamadi = false;
   tmMiniKur(el('rt-mini-adim'), false);
   // çocuk: 'Bu adımı atla' yok (kolay kaçışı önler); yalnızca egzersiz açılamazsa görünür
@@ -7044,6 +7060,7 @@ function rtSonraki(){
 }
 function rtBitti(){
   rt.aktif = false; rt.adimda = false; rt.calis = false;
+  if (rt.ek) { lsYaz('rt-ek-' + rtAnahtarMod(), JSON.stringify({ t: rtBugun(), n: rtEkSay() + 1 })); rtAnaKur(); return; }
   const g = rtGecmis();
   const p = rt.plan;
   let kart = null;
@@ -7081,6 +7098,7 @@ function rtFbKur(id, sonuc){
 }
 function rtFbHazir(){
   const id = rt.plan.ids[rt.adim];
+  if (rt.ek) { el('rt-fb-devam').disabled = false; return; }
   if (mod === 'cocuk') {
     el('rt-fb-devam').disabled = !((!rtCocukAnla(id) || rt.an) && (!rtCocukZor(id) || rt.zk));
     return;
@@ -7105,6 +7123,7 @@ document.querySelectorAll('[data-rtan]').forEach(b => b.onclick = () => {
 });
 el('rt-fb-devam').onclick = () => {
   const id = rt.plan.ids[rt.adim];
+  if (rt.ek) { rt.plan.bit[rt.adim] = 'yapildi'; rtSonraki(); return; }
   if (mod === 'cocuk') {
     if (id === 'met') rtMetBitir(rt.erken);
     else if (id === 'kw' || id === 'ob') rtSvBitir(id, rt.erken, false);
@@ -7291,6 +7310,7 @@ function rtDinlenBitir(){
 el('ana-rutin').onclick = rtAnaKur;
 el('rt-geri').onclick = () => goster('ekran-ana');
 el('rt-basla').onclick = rtBaslat;
+el('rt-ek').onclick = rtEkBasla;
 el('rt-kisa').onclick = () => { rtPlanOlustur(!rt.plan.kisa); rtAnaKur(); };
 el('rt-adim-basla').onclick = rtAdimBasla;
 el('rt-yet-met').onclick = () => {
