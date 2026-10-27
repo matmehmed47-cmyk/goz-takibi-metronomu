@@ -6449,13 +6449,49 @@ const RT_EGZ = {
   pd:  { ad:'Mavi Perde', kat:'oku', acik:'Satırlar tek tek mavi perdeyle kapanır. Anlayarak oku.' },
   ob:  { ad:'Öbek okuma', kat:'oku', acik:'Metin öbek öbek yanar, gözün yanan öbeği takip etsin. Anlayarak oku.' },
   tr:  { ad:'Tekrarlı Okuma', kat:'oku', acik:'Aynı metni 3 kez oku, sonunda tek soru var.' },
-  din: { ad:'Gözünü dinlendir', kat:'dinlen', acik:'Önce gözlerini kapat, sonra uzağa bak.' }
+  din: { ad:'Gözünü dinlendir', kat:'dinlen', acik:'Göz kır, yavaş nefes al ver, gözlerini kapatıp nefese devam et. Sonra gözünü aç, uzağa bak.' }
 };
 // Seçim ağırlıkları (belirtilmeyen egzersiz 1)
 const RT_AGIRLIK = { yk:3, pd:3, bg:3 };
 const RT_HAVUZ = { gorme:['kw','yk','sy','gk','sa'], dikkat:['hv','sr','tt','dg','ng'], oku:['km','bg','pd','tr'] };
 // Çocuk türleri: 'ilk' 1-4. sınıf, 'orta' 5-8. sınıf, 'yet' yetişkin
 function rtTur(){ return mod !== 'cocuk' ? 'yet' : (ortaMi(sinif) ? 'orta' : 'ilk'); }
+// Çocuk modu: adım ekranındaki açık yönergeler. Rutinde egzersizin kendi açıklama ekranı atlandığı için
+// çocuğun gördüğü tek anlatım bu. [1-4. sınıf, 5-8. sınıf]; ikincisi boşsa ilki kullanılır.
+const RT_YON_C = {
+  met: ['Ekranda bir nokta yanıp sönerek gidip gelir.\nBaşını hiç oynatma.\nSadece gözlerinle noktayı izle.', null],
+  ob:  ['Yazı küçük parçalar halinde sırayla yanar.\nGözün yanan parçayı izlesin.\nOkuduğunu anlamaya çalış. Bitince bir soru gelir.', null],
+  kw:  ['Ekranın ortasında kelimeler çıkar ve hemen kaybolur.\nGözünü hep ortada tut.\nKelimeyi bir bakışta okumaya çalış. Yetiştiremezsen sorun değil.', null],
+  yk:  ['Ekranda bir kelime çok kısa görünür.\nKelime kaybolunca gördüğünü yaz.\nYanlış yazarsan doğrusu gösterilir, sonra yeni kelime gelir.', null],
+  sy:  ['Ekranda bir sayı çok kısa görünür.\nKaybolunca gördüğün sayıyı yaz.\nBirden fazla sayı varsa hepsini yaz. Sırası önemli değil.', null],
+  gk:  ['Gözünü ekranın ortasında tut. İki yanda iki sayı çok kısa görünür.\nEkranda ne yazdığına bak: "TOPLA" ise iki sayıyı topla, "EN BÜYÜĞÜ SEÇ" ise büyük olanı bul.\nSonra cevabı altındaki düğmelerden seç.', null],
+  sa:  ['Karışık duran sayılar ya da harfler vardır.\nSırayla bul ve dokun: 1, 2, 3 ... ya da A, B, C ...\nYanlışa dokunursan bir şey olmaz, süre akar.', null],
+  hv:  ['Harflerden oluşan bir tablo görünür. Bazı kutular işaretlidir.\nSadece o kutulara bak. Hepsinde aynı harf varsa "Hata yok"a bas.\nBiri farklıysa "Hata var"a bas.', null],
+  sr:  ['Birkaç kelime ekranda kısa süre görünür.\nSonra aynı kelimeler karışık gelir.\nİlk gördüğün sıraya göre kelimelere dokun.', null],
+  tt:  ['Toplar önce renkli görünür. Renklerine iyi bak.\nSonra renkler kaybolur ve toplar ekranda gezinir.\nToplar durunca ekranda yazan renkteki topları bul ve dokun.', null],
+  dg:  ['Kelimelerden oluşan bir tablo bir an görünür.\nSonra tablo tekrar gelir ve bir kelime değişmiştir.\nDeğişen kelimeye dokun. Yanlışa dokunursan bir şey olmaz.', 'Kelimelerden oluşan bir tablo bir an görünür.\nSonra tablo tekrar gelir ve bir kelime değişmiştir (bazen iki kelime yer değiştirir).\nDeğişeni bul ve dokun. Yanlışa dokunursan bir şey olmaz.'],
+  km:  ['Yazı kendi kendine akar.\nGözünle akan yazıyı takip et ve oku.\nOkuduğunu anlamaya çalış. Bitince bir soru gelir.', null],
+  bg:  ['Yazının sadece okunan yeri net görünür, gerisi bulanıktır.\nNet olan yeri izleyerek oku.\nOkuduğunu anlamaya çalış. Bitince bir soru gelir.', null],
+  pd:  ['Okuduktan sonra satırlar mavi perdeyle tek tek kapanır.\nPerde kapatmadan önce satırı oku.\nOkuduğunu anlamaya çalış. Bitince bir soru gelir.', null],
+  tr:  ['Aynı metni üç kez okuyacaksın.\nHer seferinde biraz daha rahat okumaya çalış.\nBitirince "Bitirdim"e bas. En sonda tek bir soru gelir.', null],
+  din: ['Üç kere yavaşça göz kır.\nSonra ekrandaki şekle bakıp yavaş yavaş nefes al, nefes ver.\nSonra gözlerini kapat ve nefese devam et.\nEkran açılınca gözünü aç, odada uzaktaki bir şeye bak.', null]
+};
+function rtNGeriYon(id, i){
+  let n = 1, tur = 'harf';
+  try { const sv = RT_LIST[id].uygun()[i]; n = sv.n; tur = sv.tur; } catch(e){}
+  const once = n === 1 ? 'bir önceki' : n + ' tane önceki';
+  const ne = tur === 'harf' ? 'harf' : 'kutunun yeri';
+  const ornek = n === 1 ? (tur === 'harf' ? 'B, B → ikinci B bir öncekiyle aynı: bas.' : 'Yanan kutu iki kere aynı yerde yandı: bas.')
+    : (tur === 'harf' ? 'B, K, B → son B, ' + n + ' önceki B ile aynı: bas.' : 'Kutu aynı yerde ' + n + ' adım sonra tekrar yandı: bas.');
+  return 'Ekranda ' + (tur === 'harf' ? 'harfler' : 'kutular') + ' tek tek belirir.\nŞimdiki ' + ne + ', ' + once + ' ile aynıysa AYNI düğmesine bas.\nFarklıysa hiçbir şeye basma. Örnek: ' + ornek;
+}
+function rtYonerge(id, i){
+  if (mod !== 'cocuk') return RT_EGZ[id].acik;
+  if (id === 'ng') return rtNGeriYon(id, i);
+  const y = RT_YON_C[id];
+  if (!y) return RT_EGZ[id].acik;
+  return (ortaMi(sinif) && y[1]) ? y[1] : y[0];
+}
 function rtAnahtarMod(){ return mod === 'cocuk' ? 'cocuk-' + ({ '1-2':'1-2', '3-4':'ilkokul', '5-6':'ortaokul', '7-8':'7-8' }[sinif]) : 'yetiskin'; }
 // Rutin çalışırken çocukta yalnızca seçili sınıfın metinleri kullanılır
 function rtSinifZorunlu(){ return mod === 'cocuk' && typeof rt !== 'undefined' && rt.aktif && rt.adimda; }
@@ -6936,8 +6972,8 @@ function rtAdimGoster(){
   { const ik = el('rt-adim-ikon'), g = TM_GRUP[e.kat] || ['goz', '--g-goz'];
     if (temaAktif()) { ik.innerHTML = TM_SVG[g[0]]; ik.style.setProperty('--gc', 'var(' + g[1] + ')'); ik.classList.remove('hidden'); } else { ik.classList.add('hidden'); ik.innerHTML = ''; } }
   el('rt-adim-ad').textContent = e.ad;
-  el('rt-adim-acik').textContent = e.acik;
   const i = id === 'din' ? 0 : rtIdxEtkin(id);
+  { const ya = el('rt-adim-acik'); ya.textContent = rtYonerge(id, i); ya.style.whiteSpace = 'pre-line'; }
   el('rt-adim-sev').textContent = id === 'din' ? '' : 'Bugünkü seviye: ' + rtSeviyeTanim(id, i);
   el('rt-adim-sure').textContent = 'En çok ' + rtSaat(rtSureTavan(id)) + ' sürer. Süre dolunca otomatik biter.';
   rt.adimda = false; rt.calis = false; rt.acilamadi = false;
