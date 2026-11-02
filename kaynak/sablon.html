@@ -6225,9 +6225,9 @@ function tmMiniKur(kap, fb){
 }
 // ---- Bugünün kartı (rutin sonunda kazımayla açılır; öncesinde gösterilmez)
 function hkGunKarti(){
-  if (mod !== 'cocuk' || !HK_VERI.length) return null;
+  if (!HK_VERI.length) return null;
   const bek = hkBekleyen(); if (bek) return bek;
-  if (lsOku('kart-son-gun') === rtBugun()) return null;
+  if (lsOku(hkK('kart-son-gun')) === rtBugun()) return null;
   return hkSonraki();
 }
 // ---- Öğretmen notu (varsayılan kapalı; yetişkin yazar)
@@ -6265,18 +6265,22 @@ function haftalikOzet(){
 
 // ================= Hayvan kartları (çocuk: rutin sonunda kazıyarak açılan sürpriz) =================
 const HK_VERI = __KARTLAR__;
+// Eser kartları (il simgeleri): yetişkin rutini sonunda hayvanla birlikte kazılır
+const HE_VERI = __YERLER__.map(x => ({ id: x.id, ad: x.ad, yer: x.yer, bilgi: x.bilgi, yazar: x.yazar, lisans: x.lisans, eser: true }));
+function hkK(a){ return mod === 'cocuk' ? a : a + '-yet'; }
+function hkFoto(k){ return (k.eser ? 'yerler/' : 'kartlar/') + k.id + '.webp'; }
 const HK_GRUP = [['hepsi', 'Hepsi', null], ['cift', 'Çiftlik ve evde', ['ciftlik', 'evcil']], ['vahsi', 'Vahşi doğa', ['orman', 'dag', 'savan']], ['kutup', 'Kutuplar', ['kutup']], ['deniz', 'Denizler', ['deniz']], ['nehir', 'Nehir ve göller', ['nehir']], ['kus', 'Kuşlar', ['kus']], ['bocek', 'Böcekler', ['bocek']], ['surungen', 'Sürüngenler', ['surungen']], ['turkiye', 'Türkiye', ['turkiye']]];
 const HK_YE = { 'otçul': 'ot yer', 'etçil': 'et yer', 'hepçil': 'hem ot hem et yer', 'böcekçil': 'böcek yer', 'balıkçıl': 'balık yer', 'plankon ve küçük canlılar': 'plankton ve küçük canlılar yer', 'nektar ve polen': 'nektar ve polen yer', 'kan': 'kan emer' };
 const HK_SORU_HAVUZ = ['otçul', 'etçil', 'hepçil', 'böcekçil', 'balıkçıl'];
 const hk = { kart: null, kaynak: 'rutin', yeni: false, kapakBitti: true, cizim: false, sayac: 0, sekme: 'hepsi' };
 function hkBul(id){ return HK_VERI.find(x => x.id === id) || null; }
-function hkAcik(){ const a = rtJson('kart-acik', []); return Array.isArray(a) ? a : []; }
+function hkAcik(){ const a = rtJson(hkK('kart-acik'), []); return Array.isArray(a) ? a : []; }
 function hkUygun(k){ return !(k.u && mod === 'cocuk' && sinif === '1-2'); }   // 1-2. sınıfta ürkütücü hayvanlar çıkmaz
 function hkSira(){
-  let sira = rtJson('kart-sira', null);
+  let sira = rtJson(hkK('kart-sira'), null);
   if (!Array.isArray(sira) || !sira.length) { sira = HK_VERI.map(x => x.id); for (let i = sira.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [sira[i], sira[j]] = [sira[j], sira[i]]; } }
   const var_ = new Set(sira); HK_VERI.forEach(x => { if (!var_.has(x.id)) sira.push(x.id); });
-  lsYaz('kart-sira', JSON.stringify(sira));
+  lsYaz(hkK('kart-sira'), JSON.stringify(sira));
   return sira;
 }
 function hkSonraki(){
@@ -6285,22 +6289,55 @@ function hkSonraki(){
   return null;
 }
 function hkBekleyen(){
-  const b = rtJson('kart-bekleyen', null);
+  const b = rtJson(hkK('kart-bekleyen'), null);
   if (!b || !b.id || hkAcik().includes(b.id)) return null;
   return hkBul(b.id);
 }
 // Günün rutini tamamlanınca: bekleyen kart varsa onu ver; yoksa günde en çok 1 yeni kart ata
 function hkHazirla(){
-  if (mod !== 'cocuk' || !HK_VERI.length) return null;
+  if (!HK_VERI.length) return null;
   const bek = hkBekleyen(); if (bek) return bek;
   const t = rtBugun();
-  if (lsOku('kart-son-gun') === t) return null;
+  if (lsOku(hkK('kart-son-gun')) === t) return null;
   const k = hkGunKarti(); if (!k) return null;
-  lsYaz('kart-bekleyen', JSON.stringify({ id: k.id, t }));
-  lsYaz('kart-son-gun', t);
+  lsYaz(hkK('kart-bekleyen'), JSON.stringify({ id: k.id, t }));
+  lsYaz(hkK('kart-son-gun'), t);
   return k;
 }
-function hkBilgi(k){ return (mod === 'cocuk' && sinif === '1-2') ? k.b1 : k.b2; }
+// ---- Eser kartları (yetişkin): günde 1 eser, tekrarsız sıra
+function heAcik(){ const a = rtJson(hkK('eser-acik'), []); return Array.isArray(a) ? a : []; }
+function heBul(id){ return HE_VERI.find(x => x.id === id) || null; }
+function heSira(){
+  let sira = rtJson(hkK('eser-sira'), null);
+  if (!Array.isArray(sira) || !sira.length) { sira = HE_VERI.map(x => x.id); for (let i = sira.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [sira[i], sira[j]] = [sira[j], sira[i]]; } }
+  const v = new Set(sira); HE_VERI.forEach(x => { if (!v.has(x.id)) sira.push(x.id); });
+  lsYaz(hkK('eser-sira'), JSON.stringify(sira));
+  return sira;
+}
+function heBekleyen(){
+  if (mod === 'cocuk' || !HE_VERI.length) return null;
+  const b = rtJson(hkK('eser-bekleyen'), null);
+  if (!b || !b.id || heAcik().includes(b.id)) return null;
+  return heBul(b.id);
+}
+function heHazirla(){
+  if (mod === 'cocuk' || !HE_VERI.length) return null;
+  const bek = heBekleyen(); if (bek) return bek;
+  const t = rtBugun();
+  if (lsOku(hkK('eser-son-gun')) === t) return null;
+  const acik = new Set(heAcik()); let k = null;
+  for (const id of heSira()) { if (!acik.has(id)) { k = heBul(id); if (k) break; } }
+  if (!k) return null;
+  lsYaz(hkK('eser-bekleyen'), JSON.stringify({ id: k.id, t }));
+  lsYaz(hkK('eser-son-gun'), t);
+  return k;
+}
+function hkSurprizAc(kaynak){
+  const k = hkBekleyen(), e = heBekleyen();
+  if (k) { hk.sonraEser = e || null; hkAc(k, kaynak); }
+  else if (e) { hk.sonraEser = null; hkAc(e, kaynak); }
+}
+function hkBilgi(k){ if (k.eser) return k.bilgi; return (mod === 'cocuk' && sinif === '1-2') ? k.b1 : k.b2; }
 function hkYeYazi(ye){
   const acik = HK_YE[ye]; if (!acik) return '';
   if (mod === 'cocuk' && sinif === '1-2') return acik.charAt(0).toUpperCase() + acik.slice(1);
@@ -6315,20 +6352,20 @@ function hkAyarYaz(){
 function hkSus(){ try { if ('speechSynthesis' in window) window.speechSynthesis.cancel(); } catch (e) {} }
 function hkSusSus(){ hkSus(); }
 function hkAnaGuncelle(){
-  const cocuk = mod === 'cocuk' && HK_VERI.length > 0;
-  el('hk-ana-satir').classList.toggle('hidden', !(cocuk && hkBekleyen()));
+  const cocuk = HK_VERI.length > 0;
+  el('hk-ana-satir').classList.toggle('hidden', !(cocuk && (hkBekleyen() || heBekleyen())));
   el('ana-album').classList.toggle('hidden', !cocuk);
-  if (cocuk) { const u = HK_VERI.filter(hkUygun), a = hkAcik().filter(id => u.some(x => x.id === id)).length; el('ana-album-alt').textContent = a + ' / ' + u.length + ' hayvan'; }
+  if (cocuk) { const u = HK_VERI.filter(hkUygun), a = hkAcik().filter(id => u.some(x => x.id === id)).length; el('ana-album-alt').textContent = a + ' / ' + u.length + ' hayvan' + (mod !== 'cocuk' && HE_VERI.length ? ' · ' + heAcik().length + ' / ' + HE_VERI.length + ' eser' : ''); }
 }
 // ---- kart ekranı
 const hkCv = () => el('hk-kapak');
 function hkKartYaz(k, yeni){
-  el('hk-bulanik').style.backgroundImage = 'url(kartlar/' + k.id + '.webp)';
-  const f = el('hk-foto'); f.alt = k.ad; f.style.visibility = 'visible'; f.onerror = () => { f.style.visibility = 'hidden'; }; f.src = 'kartlar/' + k.id + '.webp';
+  el('hk-bulanik').style.backgroundImage = 'url(' + hkFoto(k) + ')';
+  const f = el('hk-foto'); f.alt = k.ad; f.style.visibility = 'visible'; f.onerror = () => { f.style.visibility = 'hidden'; }; f.src = hkFoto(k);
   el('hk-ad').textContent = k.ad; el('hk-bilgi').textContent = hkBilgi(k);
   el('hk-serit').hidden = !yeni;
   const c = el('hk-cipler'); c.innerHTML = '';
-  [['🍽', hkYeYazi(k.ye)], ['🏠', k.ya ? k.ya.charAt(0).toUpperCase() + k.ya.slice(1) : ''], ['⏳', k.om ? k.om.charAt(0).toUpperCase() + k.om.slice(1) : '']].forEach(([i, t]) => {
+  (k.eser ? [['📍', k.yer], ['📷', 'Fotoğraf: ' + k.yazar + ' · ' + k.lisans + ' · Wikimedia Commons']] : [['🍽', hkYeYazi(k.ye)], ['🏠', k.ya ? k.ya.charAt(0).toUpperCase() + k.ya.slice(1) : ''], ['⏳', k.om ? k.om.charAt(0).toUpperCase() + k.om.slice(1) : '']]).forEach(([i, t]) => {
     if (!t) return; const d = document.createElement('span'); d.className = 'hk-cip'; d.textContent = i + ' ' + t; c.appendChild(d);
   });
   el('hk-dinle').classList.toggle('hidden', !('speechSynthesis' in window));
@@ -6340,16 +6377,16 @@ function hkAc(k, kaynak){
   hk.yeni = yeni;
   hkKartYaz(k, yeni);
   el('hk-yoklama').classList.add('hidden'); el('hk-geri').textContent = '';
-  el('hk-baslik').textContent = yeni ? 'Bugünün hayvanı' : 'Hayvan albümüm';
+  el('hk-baslik').textContent = k.eser ? (yeni ? 'Bugünün eseri' : 'Eser albümüm') : (yeni ? 'Bugünün hayvanı' : 'Hayvan albümüm');
   goster('ekran-kart');
   let tuval = false;
   try { tuval = !!hkCv().getContext('2d'); } catch (e) { tuval = false; }
-  if (yeni && !hkAcik().includes(k.id) && hkAyar('kazima') && tuval) {
-    el('hk-metin').textContent = 'Rutini bitirdin! Parmağınla kazı, kim çıkacak?';
+  if (yeni && !(k.eser ? heAcik() : hkAcik()).includes(k.id) && hkAyar('kazima') && tuval) {
+    el('hk-metin').textContent = k.eser ? 'Parmağınla kazı: bugünün eseri hangisi?' : 'Rutini bitirdin! Parmağınla kazı, kim çıkacak?';
     el('hk-tamam').classList.add('hidden');
     requestAnimationFrame(hkBoya);
   } else {
-    el('hk-metin').textContent = yeni ? 'Rutini bitirdin! İşte bugünün hayvanı:' : '';
+    el('hk-metin').textContent = yeni ? (k.eser ? 'İşte bugünün eseri:' : 'Rutini bitirdin! İşte bugünün hayvanı:') : '';
     hkKapakKapat(); if (yeni) hkAcildi(true); else el('hk-tamam').classList.remove('hidden');
   }
 }
@@ -6386,10 +6423,13 @@ function hkAcildi(sessiz){
   const k = hk.kart; if (!k) return;
   const acik = hkAcik();
   if (!hk.onizleme) {
-    if (!acik.includes(k.id)) { acik.push(k.id); lsYaz('kart-acik', JSON.stringify(acik)); }
-    lsYaz('kart-bekleyen', JSON.stringify({ id: k.id, t: '', acildi: 1 }));
+    if (k.eser) { const ea = heAcik(); if (!ea.includes(k.id)) { ea.push(k.id); lsYaz(hkK('eser-acik'), JSON.stringify(ea)); } lsYaz(hkK('eser-bekleyen'), JSON.stringify({ id: k.id, t: '', acildi: 1 })); }
+    else {
+    if (!acik.includes(k.id)) { acik.push(k.id); lsYaz(hkK('kart-acik'), JSON.stringify(acik)); }
+    lsYaz(hkK('kart-bekleyen'), JSON.stringify({ id: k.id, t: '', acildi: 1 }));
+    }
   }
-  el('hk-metin').textContent = 'Merhaba ' + k.ad + '! Albümüne eklendi.';
+  el('hk-metin').textContent = k.eser ? k.ad + ' albümüne eklendi.' : 'Merhaba ' + k.ad + '! Albümüne eklendi.';
   el('hk-tamam').classList.remove('hidden');
   if (!sessiz) {
     const p = el('hk-parilti'); p.innerHTML = '';
@@ -6432,20 +6472,23 @@ function hkAlbumCiz(){
     b.onclick = () => { hk.sekme = id; hkAlbumCiz(); };
     sek.appendChild(b);
   });
-  const g = HK_GRUP.find(x => x[0] === hk.sekme), liste = uygun.filter(x => !g[2] || g[2].includes(x.k));
+  if (mod !== 'cocuk' && HE_VERI.length) { const b = document.createElement('button'); b.className = 'alt' + (hk.sekme === 'eser' ? ' sel' : ''); b.textContent = 'Eserler'; b.onclick = () => { hk.sekme = 'eser'; hkAlbumCiz(); }; sek.appendChild(b); }
+  const eserSekme = hk.sekme === 'eser';
+  const g = eserSekme ? ['eser', 'Eserler', null] : HK_GRUP.find(x => x[0] === hk.sekme), liste = eserSekme ? HE_VERI : uygun.filter(x => !g[2] || g[2].includes(x.k));
   const iz = el('hk-izgara'); iz.innerHTML = '';
+  const acikSet = eserSekme ? new Set(heAcik()) : acik;
   liste.forEach(k => {
     const b = document.createElement('button');
-    if (acik.has(k.id)) {
+    if (acikSet.has(k.id)) {
       b.className = 'hk-kare'; b.setAttribute('aria-label', k.ad);
-      const i = document.createElement('img'); i.loading = 'lazy'; i.alt = ''; i.src = 'kartlar/' + k.id + '.webp'; b.appendChild(i);
+      const i = document.createElement('img'); i.loading = 'lazy'; i.alt = ''; i.src = hkFoto(k); b.appendChild(i);
       const s2 = document.createElement('small'); s2.textContent = k.ad; b.appendChild(s2);
       b.onclick = () => hkAc(k, 'album');
     } else { b.className = 'hk-kare kilitli'; b.textContent = '?'; b.setAttribute('aria-label', 'Henüz açılmadı'); }
     iz.appendChild(b);
   });
-  const a = liste.filter(x => acik.has(x.id)).length, t = uygun.filter(x => acik.has(x.id)).length;
-  el('hk-say').textContent = g[1] + ': ' + a + ' / ' + liste.length + ' · Toplam: ' + t + ' / ' + uygun.length;
+  const a = liste.filter(x => acikSet.has(x.id)).length, t = uygun.filter(x => acik.has(x.id)).length;
+  el('hk-say').textContent = g[1] + ': ' + a + ' / ' + liste.length + (eserSekme ? '' : ' · Toplam: ' + t + ' / ' + uygun.length);
 }
 {
   const cv = el('hk-kapak');
@@ -6455,8 +6498,8 @@ function hkAlbumCiz(){
   cv.addEventListener('pointercancel', () => { hk.cizim = false; });
   window.addEventListener('resize', () => { if (!hk.kapakBitti && !el('ekran-kart').classList.contains('hidden')) hkBoya(); });
   el('hk-dinle').onclick = hkSoyle;
-  el('hk-tamam').onclick = () => { hkSus(); if (hk.kaynak === 'onizleme') { hk.onizleme = false; rtAnaKur(); } else if (hk.kaynak === 'album') { hkAlbumCiz(); goster('ekran-album'); } else if (hk.kaynak === 'surpriz') goster('ekran-ana'); else rtAnaKur(); };
-  el('ana-surpriz').onclick = () => { const k = hkBekleyen(); if (k) hkAc(k, 'surpriz'); };
+  el('hk-tamam').onclick = () => { hkSus(); if (hk.sonraEser && hk.kaynak !== 'album') { const e = hk.sonraEser; hk.sonraEser = null; hkAc(e, hk.kaynak); return; } if (hk.kaynak === 'onizleme') { hk.onizleme = false; rtAnaKur(); } else if (hk.kaynak === 'album') { hkAlbumCiz(); goster('ekran-album'); } else if (hk.kaynak === 'surpriz') goster('ekran-ana'); else rtAnaKur(); };
+  el('ana-surpriz').onclick = () => hkSurprizAc('surpriz');
   el('ana-album').onclick = hkAlbumAc;
   el('tm-gorunum').onclick = () => { lsYaz('tema-sade', lsOku('tema-sade') === '1' ? '0' : '1'); temaUygula(); tmAnaKur(); };
   el('hk-album-geri').onclick = () => goster('ekran-ana');
@@ -6980,17 +7023,17 @@ function rtAnaKur(){
     k.appendChild(d);
   });
   // Çocuk: rutinin son satırı sürpriz hayvan kartı
-  const kartSatir = mod === 'cocuk' && HK_VERI.length > 0;
-  const bek = kartSatir ? hkBekleyen() : null, verildi = kartSatir && lsOku('kart-son-gun') === t;
+  const kartSatir = HK_VERI.length > 0;
+  const bek = kartSatir ? (hkBekleyen() || heBekleyen()) : null, verildi = kartSatir && lsOku(hkK('kart-son-gun')) === t;
   if (kartSatir) {
     const d = document.createElement('div');
     d.className = 'rt-satir' + (verildi && !bek ? ' bit' : '');
     const n = document.createElement('span'); n.className = 'rt-no'; n.textContent = '🐾';
-    const a = document.createElement('span'); a.style.flex = '1'; a.textContent = 'Bugünün hayvanı';
+    const a = document.createElement('span'); a.style.flex = '1'; a.textContent = mod === 'cocuk' ? 'Bugünün hayvanı' : 'Bugünün hayvanı ve eseri';
     const c = document.createElement('small'); c.style.color = 'var(--muted)';
     c.textContent = bek ? 'Kazımayı bekliyor, dokun' : (verildi ? 'Bugün açıldı ✓' : 'Rutini bitirince kazıyacaksın');
     d.appendChild(n); d.appendChild(a); d.appendChild(c);
-    if (bek) { d.style.cursor = 'pointer'; d.onclick = () => hkAc(bek, 'rutin'); }
+    if (bek) { d.style.cursor = 'pointer'; d.onclick = () => hkSurprizAc('rutin'); }
     k.appendChild(d);
   }
   if (tema) tmYolCiz(p, bek, verildi, bitti);
@@ -7160,6 +7203,8 @@ function rtBitti(){
     g[p.t] = { ids: p.ids, tamam: true };
     rtGecmisYaz(g);
     kart = hkHazirla();
+    hk.sonraEser = mod === 'cocuk' ? null : heHazirla();
+    if (!kart && hk.sonraEser) { kart = hk.sonraEser; hk.sonraEser = null; }
   }
   if (kart) hkAc(kart, 'rutin'); else rtAnaKur();
 }

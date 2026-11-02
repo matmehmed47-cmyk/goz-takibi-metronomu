@@ -1,0 +1,902 @@
+[
+ {
+  "id": "tas-kopru",
+  "il": "Adana",
+  "ad": "Taşköprü",
+  "yer": "Adana · Seyhan / Yüreğir",
+  "bilgi": "Seyhan Nehri üzerindeki bu Roma köprüsü, büyük olasılıkla MS 2. yüzyılın ilk yarısında yapıldı. Adana'nın simgesi sayılır. Aslen 21 gözlüydü; nehir ıslah edilirken 7 gözü toprak altında kaldı, bugün 14 gözüyle hizmet veriyor. Uzunluğu 310 metredir.",
+  "lisans": "CC BY-SA 2.5",
+  "yazar": "MUSTAFA TOR",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ATa%C5%9Fk%C3%B6pr%C3%BC%27n%C3%BCn_Panoramik_Foto%C4%9Fraf%C4%B1.jpg"
+ },
+ {
+  "id": "sabanci-merkez-camii",
+  "il": "Adana",
+  "ad": "Sabancı Merkez Camii",
+  "yer": "Adana · Seyhan",
+  "bilgi": "1998'de hizmete açıldı. Seyhan Nehri kıyısında, yüksek minareleriyle uzaktan görülür; Adana'nın simgelerinden biridir. 6 minaresi ve 5 kubbesi vardır, yaklaşık 28.500 kişilik ibadet alanı sunar.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zeynel Cebeci",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ASabanc%C4%B1_Merkez_Camii%2C_Adana.jpg"
+ },
+ {
+  "id": "varda-kopru",
+  "il": "Adana",
+  "ad": "Varda Köprüsü",
+  "yer": "Adana · Karaisalı",
+  "bilgi": "Halk arasında \"Koca Köprü\" denir. İstanbul–Bağdat demiryolu hattı için 1907–1912 arasında Almanlar tarafından taşla örülerek yapıldı. 172 metre uzunluğunda, en yüksek ayağı yaklaşık 99 metredir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zeynel Cebeci",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AVarda_Railway_Viaduct%2C_Karaisal%C4%B1_01.JPG"
+ },
+ {
+  "id": "yilan-kalesi",
+  "il": "Adana",
+  "ad": "Yılan Kalesi",
+  "yer": "Adana · Ceyhan",
+  "bilgi": "Ceyhan Ovası'na hâkim sarp bir tepede, 12. yüzyılda Kilikya Ermeni Krallığı döneminde yapıldı. Kaleye üç kapıdan geçilerek çıkılır. Şahmeran efsanesi yüzünden \"Yılan Kalesi\" adını almıştır.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Klaus-Peter Simon",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AYilankale1.jpg"
+ },
+ {
+  "id": "nemrut-dagi",
+  "il": "Adıyaman",
+  "ad": "Nemrut Dağı",
+  "yer": "Adıyaman · Kâhta",
+  "bilgi": "Yüksekliği 2.150 metre olan dağın tepesinde, Kommagene Kralı I. Antiochos'un tümülüsü ve tanrı heykellerinin dev başları durur. 1987'de UNESCO Dünya Mirası ilan edildi; 1988'de millî park oldu.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Emrahuygun",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AGiant_Statues_of_Commagene_Kingdom.jpg"
+ },
+ {
+  "id": "cendere-koprusu",
+  "il": "Adıyaman",
+  "ad": "Cendere Köprüsü",
+  "yer": "Adıyaman · Kâhta / Sincik arası",
+  "bilgi": "Cendere Çayı üzerindeki köprü, Roma İmparatoru Septimius Severus adına yapıldı. Kemer açıklığı 34,2 metre, uzunluğu 120 metredir; Romalıların yaptığı en geniş kemerli köprüdür ve bugün hâlâ kullanılır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zorka Sojka",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ATurecko_most_Cendere_%2801%29.jpg"
+ },
+ {
+  "id": "perre-antik-kenti",
+  "il": "Adıyaman",
+  "ad": "Perre Antik Kenti",
+  "yer": "Adıyaman · Merkez",
+  "bilgi": "Adıyaman kentinin eski yerleşimi olan Perre, Kommagene Krallığı'na bağlıydı; sonra Roma ve Bizans dönemlerini yaşadı. Kayalara oyulmuş mezar odalarıyla bilinir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Vav",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3APerreAncientCity.jpg"
+ },
+ {
+  "id": "afyon-kalesi",
+  "il": "Afyonkarahisar",
+  "ad": "Afyonkarahisar Kalesi",
+  "yer": "Afyonkarahisar · Merkez",
+  "bilgi": "Şehrin ortasında, sönmüş bir volkanın üstündeki 226 metre yüksekliğinde bir kaya kütlesine kuruludur. Hititler zamanında (MÖ 1350 civarı) da kullanıldı. Selçuklular döneminde hazineler burada saklandığı için \"Hisar-ı Devlet\" de denildi.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Ingeborg Simon",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ABurgberg_Afyonkarahisar_01.jpg"
+ },
+ {
+  "id": "frig-vadisi",
+  "il": "Afyonkarahisar",
+  "ad": "Frig Vadisi",
+  "yer": "Afyonkarahisar · İhsaniye çevresi",
+  "bilgi": "Frigler, MÖ 12.–7. yüzyıllar arasında Orta Anadolu'nun batısına egemen olan eski bir halktır. İhsaniye çevresindeki bu vadide, kayalara oyulmuş yapıların ve mezarların izleri görülür.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Bitiryaki",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAfyon_Frig_Vadisi_Oyuk_Ta%C5%9Flar_ve_Evler_05.jpg"
+ },
+ {
+  "id": "ayazini",
+  "il": "Afyonkarahisar",
+  "ad": "Ayazini Kaya Yerleşimi",
+  "yer": "Afyonkarahisar · İhsaniye (Ayazini köyü)",
+  "bilgi": "Frig dönemine kadar uzanan bu yerleşim, sonra Romalılar, Selçuklular ve Osmanlılar tarafından da kullanıldı. Vadide kayaya oyulmuş barınaklar, mezarlar, bir şapel ve bir kilise bulunur. İl merkezine 32 km uzaktadır.",
+  "lisans": "CC0",
+  "yazar": "Raicem",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAyazini_village_and_the_ancient_settlements_in_the_background.jpg"
+ },
+ {
+  "id": "afyon-ulu-camii",
+  "il": "Afyonkarahisar",
+  "ad": "Afyonkarahisar Ulu Camii",
+  "yer": "Afyonkarahisar · Merkez",
+  "bilgi": "1272–1277 yılları arasında yapıldı; Anadolu Selçuklu ve Beylikler dönemi ahşap direkli cami mimarisinin önemli örneklerindendir. 2023'te UNESCO Dünya Mirası ilan edildi.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAfyonkarahisar_Ulu_Camii_Exterior_1881.jpg"
+ },
+ {
+  "id": "agri-dagi",
+  "il": "Ağrı",
+  "ad": "Ağrı Dağı",
+  "yer": "Ağrı / Iğdır",
+  "bilgi": "5.137 metrelik yüksekliğiyle Türkiye'nin en yüksek dağıdır. Dağın yüzde 65'i Iğdır, yüzde 35'i Ağrı sınırları içindedir. Kürtçedeki adı \"Ateşli Dağ\" anlamına gelir; Farsçada \"Nuh Dağı\" denir. Fotoğraf Ermenistan tarafından çekilmiştir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Սէրուժ Ուրիշեան (Serouj Ourishian)",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AMount_Ararat_and_the_Araratian_plain_%28cropped%29.jpg"
+ },
+ {
+  "id": "ishak-pasa-sarayi",
+  "il": "Ağrı",
+  "ad": "İshak Paşa Sarayı",
+  "yer": "Ağrı · Doğubayazıt",
+  "bilgi": "Yapımına 1685'te başlanan saray 1784'te tamamlandı; yapılması 99 yıl sürdü ve mimarları Ahıskalı ustalardır. Osmanlı döneminde yapılmasına rağmen Selçuklu mimarisinden izler taşır, barok, gotik ve rokoko etkileri de görülür.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "W. Bulach",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3A00_2405_%C4%B0shak_Pa%C5%9Fa_Saray%C4%B1.jpg"
+ },
+ {
+  "id": "kral-kaya-mezarlari",
+  "il": "Amasya",
+  "ad": "Kral Kaya Mezarları",
+  "yer": "Amasya",
+  "bilgi": "Amasya'da Harşena Dağı'nın sarp kayalıklarına oyulmuş Pontus kral mezarlarıdır. Kaynağa göre yerden yaklaşık 20-25 metre yükseklikte ve M.Ö. 3. yüzyıldan kalmadır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zeynel Cebeci",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AKral_Kaya_Mezarlar%C4%B1%2C_Amasya.jpg"
+ },
+ {
+  "id": "harsena-kalesi",
+  "il": "Amasya",
+  "ad": "Harşena (Amasya) Kalesi",
+  "yer": "Amasya",
+  "bilgi": "Yeşilırmak kıyısındaki Harşena Dağı'nın sarp kayalıkları üzerindedir. Kalenin ortasında kayaya oyulmuş, 150 basamaklı bir yeraltı merdiveni (Cilanbolu) bulunur. 1075'te Selçuklular tarafından büyük ölçüde onarılmış, 18. yüzyıla kadar kullanılmıştır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Michael F. Schönitzer",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAmasya-Castle-02.JPG"
+ },
+ {
+  "id": "anitkabir",
+  "il": "Ankara",
+  "ad": "Anıtkabir",
+  "yer": "Ankara · Çankaya",
+  "bilgi": "Mustafa Kemal Atatürk'ün anıt mezarını içeren komplekstir. Emin Onat ve Orhan Arda'nın projesidir; yapımına 9 Ekim 1944'te başlanmış, 1953'te tamamlanmıştır. Anıt mezarın yanı sıra Barış Parkı adlı ağaçlık bir alanı da içerir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Mehman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAn%C4%B1tkabir_in_November_2025.jpg"
+ },
+ {
+  "id": "gordion",
+  "il": "Ankara",
+  "ad": "Gordion",
+  "yer": "Ankara · Polatlı",
+  "bilgi": "Frigya'nın tarihî başkenti olan antik kenttir; Polatlı'nın 29 kilometre kuzeybatısındaki Yassıhüyük'tedir. Yerleşim yaklaşık MÖ 2300'den MS 4. yüzyıla kadar kesintisiz sürmüştür. Fotoğraf, kentteki dev tümülüslerden (mezar höyüklerinden) Midas Tümülüsü'nün girişini gösterir.",
+  "lisans": "CC BY 4.0",
+  "yazar": "Mark Landon",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AGordion_Midas_mound_entrance_%281993%29.jpg"
+ },
+ {
+  "id": "pamukkale",
+  "il": "Denizli",
+  "ad": "Pamukkale Travertenleri",
+  "yer": "Denizli · Pamukkale",
+  "bilgi": "Termal suyun bıraktığı kalsiyum karbonatla oluşan beyaz traverten teraslarıyla ünlüdür. Teraslar yaklaşık 2.700 metre uzunluğunda, 600 metre genişliğinde ve 160 metre yüksekliğindedir. Üstündeki antik Hierapolis ile birlikte 1988'de UNESCO Dünya Mirası Listesi'ne alındı.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Biologg",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3APamukkale%2C_Denizli_2026_74.jpg"
+ },
+ {
+  "id": "laodikeia",
+  "il": "Denizli",
+  "ad": "Laodikeia Antik Kenti",
+  "yer": "Denizli · Merkezefendi",
+  "bilgi": "Denizli'nin yaklaşık 6 km kuzeyindeki bu kent, MÖ 263-261 arasında II. Antiokhos tarafından kurulmuş ve eşi Laodike'nin adı verilmiştir. Hristiyanlığın Vahiy kitabında geçen Yedi Asya Kilisesi'nden birine sahiptir. 2013'te Dünya Mirası Geçici Listesi'ne girdi.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Biologg",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ALaodicea_Ancient_City_2026%2C_23.jpg"
+ },
+ {
+  "id": "cifte-minareli-medrese",
+  "il": "Erzurum",
+  "ad": "Çifte Minareli Medrese",
+  "yer": "Erzurum · Merkez",
+  "bilgi": "Anadolu Selçuklu Sultanı I. Alaeddin Keykubad'ın kızı Hüdâvent Hatun 1253'te yaptırdı, bu yüzden Hatuniye Medresesi de denir. Çinilerle süslü 26 metrelik iki minaresi adını verir. Açık avlulu medreselerin Anadolu'daki en büyük örneğidir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3A%C3%87ifte_Minareli_Medrese_%28Erzurum%29_Exterior_front_side_in_2006_3278_straightened.jpg"
+ },
+ {
+  "id": "tortum-selalesi",
+  "il": "Erzurum",
+  "ad": "Tortum Şelalesi",
+  "yer": "Erzurum · Uzundere",
+  "bilgi": "1700'lerin ortalarında bir dağın heyelanla Tortum Çayı'nın önünü kapatmasıyla oluştu. Su 22 metrelik genişlikten 48 metre yüksekliğe düşer. Halk ona \"sudökülen\" der.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Çelikcan",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AErzurum_tortum_%C5%9Felalesi.jpg"
+ },
+ {
+  "id": "odunpazari",
+  "il": "Eskişehir",
+  "ad": "Odunpazarı Tarihî Kent Merkezi",
+  "yer": "Eskişehir · Odunpazarı",
+  "bilgi": "Eskişehir'in ilk yerleşim yeri sayılır. Ahşap evleriyle ünlü tarihî merkez 2012'de UNESCO Dünya Mirası Geçici Listesi'ne alındı. Bölgede Kengo Kuma'nın tasarladığı Odunpazarı Modern Müze 2019'da açıldı.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Murat Özsoy 1958",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AOdunpazar%C4%B1%2C_Eski%C5%9Fehir%2C_Turkey_12.jpg"
+ },
+ {
+  "id": "midas-aniti",
+  "il": "Eskişehir",
+  "ad": "Midas Anıtı (Yazılıkaya)",
+  "yer": "Eskişehir · Han",
+  "bilgi": "MÖ 600'lerde yapılan, 17 metre yüksekliğindeki bu kaya anıtı Frig Vadisi'ndeki anıtların en görkemlisi sayılır. Antik Frigya'nın merkezinde olduğu kabul edilir. Anıt yüzünü kaplayan geometrik oymalarıyla tanınır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zeynel Cebeci",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AMidas_Monument%2C_Yaz%C4%B1l%C4%B1kaya.jpg"
+ },
+ {
+  "id": "cingene-kizi-mozaigi",
+  "il": "Gaziantep",
+  "ad": "Çingene Kızı Mozaiği",
+  "yer": "Gaziantep · Merkez (Zeugma Mozaik Müzesi)",
+  "bilgi": "Zeugma'dan gelen mozaiklerin en ünlüsüdür ve Gaziantep'teki Zeugma Mozaik Müzesi'nde sergilenir. Müze 2011'de açıldı; Zeugma mozaikleri on üç renk uyumundan oluşur.",
+  "lisans": "Public domain",
+  "yazar": "Made form the original imageof Nevit Dilmen (talk) by Manco Capac",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AThe_Gypsy_Girl_Mosaic_of_Zeugma_with_bg.jpg"
+ },
+ {
+  "id": "gaziantep-kalesi",
+  "il": "Gaziantep",
+  "ad": "Gaziantep Kalesi",
+  "yer": "Gaziantep · Merkez",
+  "bilgi": "Şehrin ortasındaki tepede yer alır; Hititler döneminde gözlem amaçlı kullanıldığı bilinir. Dairesel kalenin çevresi 1200 metre, 12 kulesi vardır. Bugün Gaziantep Savunması ve Kahramanlık Panoraması Müzesi olarak kullanılır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AGaziantep_Kalesi_4696.jpg"
+ },
+ {
+  "id": "giresun-adasi",
+  "il": "Giresun",
+  "ad": "Giresun Adası",
+  "yer": "Giresun · Merkez",
+  "bilgi": "Karadeniz'deki iki adadan biridir (diğeri Kefken Adası). Kıyıdan 1,6 km açıktadır, alanı 40.000 metrekaredir. Karabatak ve martıların doğal olarak ürediği ada, göçmen kuşların da dinlenme yeridir; Amazonlarla ilgili efsaneler anlatılır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Girtab2828",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AGiresun_Ada.jpg"
+ },
+ {
+  "id": "sebinkarahisar-kalesi",
+  "il": "Giresun",
+  "ad": "Şebinkarahisar Kalesi",
+  "yer": "Giresun · Şebinkarahisar",
+  "bilgi": "Hacıkayası denen kayalığın üzerine kurulmuş, iç ve dış kale olarak iki bölümlüdür. Dış kalenin girişine kayaya oyulmuş merdivenlerle çıkılır. İç kalede 11. yüzyıl Türk mimarisi özellikleri taşıyan sekizgen bir kule vardır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zeynel Cebeci",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ACastle_of_%C5%9Eebinkarahisar_2017-07-02_01-1.jpg"
+ },
+ {
+  "id": "karaca-magarasi",
+  "il": "Gümüşhane",
+  "ad": "Karaca Mağarası",
+  "yer": "Gümüşhane · Torul",
+  "bilgi": "Torul'un Cebeli köyündeki mağarada sarkıt, dikit, sütun, mağara çiçeği ve mağara incisi gibi damlataşı oluşumları bir arada görülür. Denizden 1550 m yüksektedir. 1983'te bir jeoloji mühendisi tarafından bulundu; 1996 civarında turizme açıldı.",
+  "lisans": "CC0",
+  "yazar": "En Merker",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AKaraca_Ma%C4%9Faras%C4%B1_%2809%29.jpg"
+ },
+ {
+  "id": "santa-harabeleri",
+  "il": "Gümüşhane",
+  "ad": "Santa Harabeleri",
+  "yer": "Gümüşhane · Merkez (Dumanlı köyü)",
+  "bilgi": "Osmanlı döneminde madencilikle öne çıkan eski bir yerleşimdir; bugün Dumanlı köyü ve mahallelerinden oluşur. Karadeniz kıyısından yaklaşık 47 km içeride, ortalama 1.600 m yüksekte, Yanbolu Vadisi'ndedir. Yılın en az altı ayı ağır kış koşulları yaşanır.",
+  "lisans": "CC BY 4.0",
+  "yazar": "Gümüşhane029",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ASANTA_HARABELER%C4%B0_%28G%C3%9CM%C3%9C%C5%9EHANE%29.jpg"
+ },
+ {
+  "id": "cilo-dagi",
+  "il": "Hakkâri",
+  "ad": "Cilo (Buzul) Dağı",
+  "yer": "Hakkâri · Merkez",
+  "bilgi": "4135 metreyle Türkiye'nin ikinci yüksek doruğudur. Güneydoğu Toroslar'ın en doğu uzantısını oluşturur; zirvesi dört mevsim erimeyen kar ve buzla kaplıdır. En yüksek zirvesi Uludoruk (Reşko) 4135 m'dir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Arcmem",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AHakk%C3%A2ri_Cilo_and_Sat_Mountains_jully_2023.jpg"
+ },
+ {
+  "id": "aziz-petrus-kilisesi",
+  "il": "Hatay",
+  "ad": "Aziz Petrus Kilisesi",
+  "yer": "Hatay · Antakya",
+  "bilgi": "Stauris Dağı'nın batısında, kayaya oyulmuş 13 metre derinliğinde bir mağara kilisedir. Hristiyan geleneğine göre Antakya'daki ilk Hristiyanlar gizli toplantıları için burayı kullandı; en eski kiliselerden biri sayılır. Mevcut kalıntılar esas olarak 4.-5. yüzyıla tarihlenir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Engin Mutlu 58",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AHatay_Antakya_St._Pierre_Kilisesi.jpg"
+ },
+ {
+  "id": "titus-tuneli",
+  "il": "Hatay",
+  "ad": "Titus (Vespasianus) Tüneli",
+  "yer": "Hatay · Samandağ",
+  "bilgi": "Roma döneminde, limanı dağdan gelen sel sularından korumak için dağın delinmesiyle yapıldı. Kapalı bölümü 130 m, açık alanıyla toplam uzunluğu 1380 metredir. 2014'te UNESCO Dünya Mirası Geçici Listesi'ne alındı.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Klaus-Peter Simon",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AVespasian-Titus-Tunnel.jpg"
+ },
+ {
+  "id": "egirdir-golu",
+  "il": "Isparta",
+  "ad": "Eğirdir Gölü",
+  "yer": "Isparta · Eğirdir",
+  "bilgi": "Tektonik ve karstik etkilerle oluşmuş bir tatlı su gölüdür; kıyı uzunluğu 150 km'dir. Kemer Boğazı'nın kuzeyi Hoyran, güneyi Eğirdir bölümü diye bilinir. 22 km'lik Kovada Kanalı onu Kovada Gölü'ne bağlar.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Calistemon",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ALake_E%C4%9Firdir_waterfront_in_E%C4%9Firdir%2C_March_2024_04.jpg"
+ },
+ {
+  "id": "yazili-kanyon",
+  "il": "Isparta",
+  "ad": "Yazılı Kanyon Tabiat Parkı",
+  "yer": "Isparta · Sütçüler",
+  "bilgi": "1989'da tabiat parkı ilan edildi. Adını, büyük bir kayada yer alan eski Yunan şairi Epiktetos'a ait 'Hür İnsan Üzerine' şiirinden alır. Bizans dönemine ait ibadet yerleri ve kaya yazıtları da vardır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Bahar.y180",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AYaz%C4%B1l%C4%B1_Kanyon_Park_2024.jpg"
+ },
+ {
+  "id": "ayasofya",
+  "il": "İstanbul",
+  "ad": "Ayasofya",
+  "yer": "İstanbul · Fatih",
+  "bilgi": "Bizans İmparatoru I. Justinianus tarafından 532-537 yılları arasında katedral olarak yaptırıldı. 1453'ten sonra camiye çevrildi, 1935'ten 2020'ye müze olarak hizmet verdi, 2020'de yeniden cami oldu. 'Aya' kutsal, 'Sofya' bilgelik demektir.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Arild Vågen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AHagia_Sophia_Mars_2013.jpg"
+ },
+ {
+  "id": "yerebatan-sarnici",
+  "il": "İstanbul",
+  "ad": "Yerebatan Sarnıcı",
+  "yer": "İstanbul · Fatih",
+  "bilgi": "İmparator Justinianus döneminde, şehrin su ihtiyacı için 526-527'de yaptırılan kapalı bir su sarnıcıdır. Ayasofya'nın güneybatısındadır. Suyun içinden yükselen çok sayıda mermer sütun yüzünden halk arasında 'Yerebatan Sarayı' diye anılır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Kurmanbek",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ABasilica_Cistern_after_restoration_2022_%287%29.jpg"
+ },
+ {
+  "id": "kiz-kulesi",
+  "il": "İstanbul",
+  "ad": "Kız Kulesi",
+  "yer": "İstanbul · Üsküdar",
+  "bilgi": "Boğaz'ın Marmara Denizi'ne yakın kısmında, Salacak açığındaki küçük bir adacıkta durur. Üsküdar'ın simgesidir ve Üsküdar'da Bizans'tan kalan tek eserdir. 1110'da Bizans İmparatoru I. Aleksios burada taş duvarla korunan ahşap bir kule yaptırdı.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Arild Vågen",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AK%C4%B1z_Kulesi_February_2013_01.jpg"
+ },
+ {
+  "id": "celsus-kutuphanesi",
+  "il": "İzmir",
+  "ad": "Efes · Celsus Kütüphanesi",
+  "yer": "İzmir · Selçuk",
+  "bilgi": "Efes'teki bu Roma yapısı MS 110'lu yıllarda, babası Celsus için anıt mezar olarak yaptırıldı. Antik dünyanın üçüncü büyük kütüphanesiydi ve yaklaşık 12.000 parşömen barındırdığı sanılır. Celsus'un mezarı kütüphanenin altındaki bir kriptadadır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Herbert Weber",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ALibrary_of_Celsus_6242.jpg"
+ },
+ {
+  "id": "cesme-kalesi",
+  "il": "İzmir",
+  "ad": "Çeşme Kalesi",
+  "yer": "İzmir · Çeşme",
+  "bilgi": "II. Bayezid döneminde 1508'de, Venediklilerin saldırılarından sonra yapıldı. Aslında sahil kalesiydi; deniz doldurulunca bugün iç kısımda kaldı. Kalede Çeşme Müzesi bulunur; 2020'de UNESCO Geçici Listesi'ne alındı.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Gargarapalvin",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3A%C3%87e%C5%9Fme_Kalesi%2C_%C4%B0zmir%2C_2020_07.jpg"
+ },
+ {
+  "id": "ani-harabeleri",
+  "il": "Kars",
+  "ad": "Ani Harabeleri",
+  "yer": "Kars · Ani Ören Yeri",
+  "bilgi": "Arpaçay boyundaki Ani, 961-1045 arasında Ermeni Bagratuni hanedanının başkentiydi. Ermeni yapılarının yanında 11. ve 12. yüzyıldan İslam eserleri de barındırır. 2016'da UNESCO Dünya Mirası olarak tescil edildi.",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Panegyrics of Granovetter",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAni_ruins_and_rainbow.jpg"
+ },
+ {
+  "id": "kars-kalesi",
+  "il": "Kars",
+  "ad": "Kars Kalesi",
+  "yer": "Kars · Merkez",
+  "bilgi": "Kitabesine göre 1152'de Saltuklu döneminde yapıldı. Timur 1386'da yıktı, 1579'da III. Murad'ın emriyle yeniden inşa edildi. 1877-1878 savaşında zarar gören kale onarılarak bugünkü halini aldı.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Armenmir",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AThe_castle_of_Kars.jpg"
+ },
+ {
+  "id": "mahmut-bey-camii",
+  "il": "Kastamonu",
+  "ad": "Mahmut Bey Camii (Çivisiz Cami)",
+  "yer": "Kastamonu · Kasaba Köyü",
+  "bilgi": "1366'da Candaroğulları döneminde yapıldı. Ahşap çatısında hiç metal çivi kullanılmadığı için Çivisiz Cami diye bilinir. 2023'te Anadolu'nun ahşap sütunlu camileri arasında UNESCO Dünya Mirası'na girdi.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AMahmut_Bey_Mosque_1359.jpg"
+ },
+ {
+  "id": "kastamonu-kalesi",
+  "il": "Kastamonu",
+  "ad": "Kastamonu Kalesi",
+  "yer": "Kastamonu · Merkez",
+  "bilgi": "Orta Çağ kalesi şehir merkezinin biraz güneybatısında, yaklaşık 860 metre yüksekliktedir. Kalede 15 burç ve dış kaleye giden gizli bir geçit vardır. 2005'te belediye tarafından kısmen restore edildi.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Acar54",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AKastamonu_Kalesi2.jpg"
+ },
+ {
+  "id": "erciyes-dagi",
+  "il": "Kayseri",
+  "ad": "Erciyes Dağı",
+  "yer": "Kayseri · Merkez",
+  "bilgi": "İç Anadolu'nun en yüksek dağı olan Erciyes, 3.917 metreye ulaşan sönmüş bir yanardağdır. Adı, antik Yunancadaki Argaeus adından gelir. Roma dönemi paralarındaki betimlemelere göre son olarak MÖ 253'te püskürdüğü söylenir.",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Carole Raddato from FRANKFURT, Germany",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AMount_Erciyes_%28Argaeus%29%2C_Turkey_%2831870998063%29.jpg"
+ },
+ {
+  "id": "sultan-sazligi",
+  "il": "Kayseri",
+  "ad": "Sultan Sazlığı",
+  "yer": "Kayseri · Develi / Yahyalı / Yeşilhisar",
+  "bilgi": "İç Anadolu'daki bu sazlık alan, Kayseri'de Develi, Yahyalı ve Yeşilhisar ilçelerinin oluşturduğu üçgenin içindedir. Kuzeyinde Erciyes Dağı, güneyinde Aladağlar yükselir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Endersenkaya",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ASultan_Sazligi_02.jpg"
+ },
+ {
+  "id": "aizanoi-zeus-tapinagi",
+  "il": "Kütahya",
+  "ad": "Aizanoi Antik Kenti",
+  "yer": "Kütahya · Çavdarhisar",
+  "bilgi": "Kütahya şehir merkezine 58 km uzaktaki Aizanoi, deniz seviyesinden yaklaşık 1.000 metre yükseklikte, Penkalas Nehri'nin iki yakasında kurulmuştur. İyi korunmuş Zeus Tapınağı, tiyatro-stadyum kompleksi ve bir macellum (kapalı pazar yeri) bugüne ulaşmıştır. 2012'den beri UNESCO Dünya Mirası Geçici Listesi'nde.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAizanoi_Zeus_temple_2232.jpg"
+ },
+ {
+  "id": "kutahya-kalesi",
+  "il": "Kütahya",
+  "ad": "Kütahya Kalesi",
+  "yer": "Kütahya · Merkez",
+  "bilgi": "Bizanslıların yüksek ve sarp bir tepe üzerine yaptırdığı kaledir; çevresi yaklaşık 3 bin metredir. Dört yanı yalçın kayalarla çevrilidir, surların altı uçurumdur. Kuzeydoğusunda Germiyan eseri Kale-i Bâlâ Camii bulunur.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AK%C3%BCtahya_castle_8813.jpg"
+ },
+ {
+  "id": "arslantepe-hoyugu",
+  "il": "Malatya",
+  "ad": "Arslantepe Höyüğü",
+  "yer": "Malatya · Orduzu",
+  "bilgi": "Malatya'nın 7 km kuzeydoğusundaki höyük, Türkiye'nin en büyük höyüklerinden biridir. Kültür dolgusu 30 metre yüksekliğindedir; MÖ 6 bin yıllarından MS 11. yüzyıla kadar yerleşim görmüştür. 26 Temmuz 2021'de UNESCO Dünya Mirası Listesi'ne alındı.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zeynel Cebeci",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AArslantepe_Ruins%2C_Malatya_08.jpg"
+ },
+ {
+  "id": "tohma-kanyonu",
+  "il": "Malatya",
+  "ad": "Tohma Kanyonu",
+  "yer": "Malatya · Darende",
+  "bilgi": "Darende'deki kanyonda selvi, çınar, söğüt ve incir ağaçları bulunur. Ahşap yaya köprüleri, küçük şelaleler, su çarkları ve yürüyüş yollarıyla gezginlerin uğrak yeridir.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Ahmet KAYNARPUNAR",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ATohma_kanyonu-_tohma_canyon_-_panoramio.jpg"
+ },
+ {
+  "id": "sardes-artemis-tapinagi",
+  "il": "Manisa",
+  "ad": "Sardes (Sart) Antik Kenti, Artemis Tapınağı",
+  "yer": "Manisa · Sart",
+  "bilgi": "Sardes, Lidya İmparatorluğu'nun başkentiydi ve en az 3500 yıl iskân gördü. Lidya'dan sonra Pers, Helenistik ve Bizans dönemlerinde de önemli bir merkez oldu. 2025'te UNESCO Dünya Mirası Listesi'ne girdi.",
+  "lisans": "CC BY 2.0",
+  "yazar": "Turkey Vision",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ASardis_Artemis_Temple.jpg"
+ },
+ {
+  "id": "aglayan-kaya",
+  "il": "Manisa",
+  "ad": "Ağlayan Kaya (Spil Dağı)",
+  "yer": "Manisa · Spil Dağı",
+  "bilgi": "Spil Dağı, Manisa merkezine 24 km uzaktadır; Karadağ zirvesinde 1517 metreye ulaşır. Dağ ormanlıktır, Manisa lalesi gibi endemik (yalnız burada yetişen) türleri barındırır. Burada yılkı atları yaşar.",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Carole Raddato",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AA%C4%9Flayan_Kaya%2C_Spil_Da%C4%9F%C4%B1.jpg"
+ },
+ {
+  "id": "kahramanmaras-ulu-cami",
+  "il": "Kahramanmaraş",
+  "ad": "Kahramanmaraş Ulu Camii",
+  "yer": "Kahramanmaraş · Dulkadiroğlu",
+  "bilgi": "Dulkadiroğulları döneminde yapılmıştır; taçkapıdaki yazıttan Ala Üd-Devle Bey'in 1496'da yaptırdığı düşünülür. Camiden bağımsız, kesme taştan minaresi yaklaşık 22 metre yüksekliğindedir ve Selçuklu ile Memlük izleri taşır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AKahramanmara%C5%9F_Ulu_Camii_066.jpg"
+ },
+ {
+  "id": "dara-antik-kenti",
+  "il": "Mardin",
+  "ad": "Dara Antik Kenti",
+  "yer": "Mardin · Dara",
+  "bilgi": "Dara, Sasani sınırındaki önemli bir Doğu Roma kalesiydi. İmparator Anastasius, Pers'e karşı ordu için bir üs olsun diye köyü MS 505'te yeniden kurdu. Bugün yerinde Mardin'in Dara köyü bulunur.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Mihrirojin",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ADara_ancient_city.jpg"
+ },
+ {
+  "id": "mor-gabriel-manastiri",
+  "il": "Mardin",
+  "ad": "Mor Gabriel Manastırı",
+  "yer": "Mardin · Midyat",
+  "bilgi": "Tur Abdin platosundaki manastır, ayakta duran en eski Süryani Ortodoks manastırı sayılır. 397'de bir Zerdüşt tapınağının kalıntıları üzerine kurulmuştur. Adını dönemin Tur Abdin metropoliti Mor Gabriel'den almıştır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "KediÇobanı",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AMor_Gabriel_Manast%C4%B1r%C4%B1_Kuleleri.jpg"
+ },
+ {
+  "id": "oludeniz",
+  "il": "Muğla",
+  "ad": "Ölüdeniz",
+  "yer": "Muğla · Fethiye",
+  "bilgi": "Fethiye'nin 14 km güneyindeki Ölüdeniz, sakin suyu yüzünden bu adı almıştır. Lagün milli tabiat koruma alanıdır ve orada yapılaşma yasaktır. Plajı Mavi Bayraklıdır; Babadağ'dan paraşütle atlayış ile ünlüdür.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Hsuparneeuq",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3A%C3%96l%C3%BCdeniz_lagoon.jpg"
+ },
+ {
+  "id": "kayakoy",
+  "il": "Muğla",
+  "ad": "Kayaköy (Livissi)",
+  "yer": "Muğla · Fethiye",
+  "bilgi": "Fethiye'nin 8 km güneyindeki Kayaköy'ün eski adı Livissi'dir. Rum nüfusu 3 bine ulaşan kasaba 1923 mübadelesiyle boşaltıldı; 1957 Fethiye Depremi evleri harabeye çevirdi ve bölge büyük ölçüde terk edilmiş kaldı.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Nikodem Nijaki",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AGhost_town_Kayakoy_IMGP8762.jpg"
+ },
+ {
+  "id": "mus-kalesi-haspet",
+  "il": "Muş",
+  "ad": "Muş (Haspet) Kalesi",
+  "yer": "Muş · Merkez",
+  "bilgi": "Kalenin kimler tarafından yaptırıldığı bilinmez. Hz. Ömer döneminde Müslümanların eline geçmiştir. Batı tarafında iç içe geçmiş Arap, Selçuklu ve Osmanlı mezarlıklarının kalıntıları görülebilir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AMu%C5%9F_Haspet_Kalesi_in_2006_0573.jpg"
+ },
+ {
+  "id": "peri-bacalari",
+  "il": "Nevşehir",
+  "ad": "Peri Bacaları",
+  "yer": "Nevşehir · Kapadokya",
+  "bilgi": "Peri bacasının gövdesi genelde yumuşak, tepesi sert ve zor aşınan kayadan oluşur; çapları 1 ile 15 metre arasındadır. Sel suları ve erozyon (aşınma) yüzeyi oyarak bu konik şekilleri meydana getirir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Meryemilknur",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ANev%C5%9Fehir_peri_bacalar%C4%B1.jpg"
+ },
+ {
+  "id": "uchisar-kalesi",
+  "il": "Nevşehir",
+  "ad": "Uçhisar Kalesi",
+  "yer": "Nevşehir · Uçhisar",
+  "bilgi": "Merkez ilçeye 6 km uzaktaki Uçhisar Kalesi, sarp kayalıkların doğal oluşumuyla meydana gelmiş bir kaledir. Kapadokya'nın en yüksek yerleşim noktasında yer alır.",
+  "lisans": "CC0",
+  "yazar": "Cobija",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AU%C3%A7hisar_Kalesi_%283%29.JPG"
+ },
+ {
+  "id": "aladaglar",
+  "il": "Niğde",
+  "ad": "Aladağlar Millî Parkı",
+  "yer": "Niğde · Çamardı",
+  "bilgi": "Toros Dağları'nın en yüksek zirvelerine sahip dağ sırası; Niğde, Kayseri ve Adana sınırları içindedir. 1995'te millî park ilan edildi. Endemik bitkileri çok zengindir; sakallı akbaba gibi kuşlar yaşar.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zeynel Cebeci",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3APeaks_of_Alada%C4%9Flar_Mts%2C_Ni%C4%9Fde_2017-08-05_02-6.jpg"
+ },
+ {
+  "id": "gumusler-manastiri",
+  "il": "Niğde",
+  "ad": "Gümüşler Manastırı",
+  "yer": "Niğde · Merkez (Gümüşler)",
+  "bilgi": "Büyük bir tüf kaya kitlesinin içine oyulmuş kaya manastırdır; 10. yüzyıl Bizans sanatının iyi korunmuş örneklerindendir. Freskleri arasında Anadolu'da tek örnek olduğu bilinen \"Gülen Meryem Ana\" vardır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AGumusler_Monastery_Courtyard_1202.jpg"
+ },
+ {
+  "id": "unye-kalesi",
+  "il": "Ordu",
+  "ad": "Ünye Kalesi",
+  "yer": "Ordu · Ünye",
+  "bilgi": "Büyük bölümü tek bir kayadan oluşan kale, ulaşılması zor bir yamaçta yükselir. Yaklaşık 2500 yıllık geçmişi olduğu tahmin edilir; Pontus, Roma, Bizans ve Osmanlı döneminde kullanıldığı düşünülür. Çaleoğlu Kalesi adıyla da bilinir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3A%C3%9Cnye_kalesi_3190.jpg"
+ },
+ {
+  "id": "yason-burnu",
+  "il": "Ordu",
+  "ad": "Yason Burnu",
+  "yer": "Ordu · Perşembe",
+  "bilgi": "Adını Yunan mitolojisindeki kahraman Iason'dan (Argonotlar) alır. Eskiden burada denizcileri koruyan bir Yason tapınağı vardı; sonra yerine bir kilise yapıldı. Kilise bugün deniz fenerinin yanında ayakta durur.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zeynel Cebeci",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ACape_Jason_-_Yason_Burnu%2C_Per%C5%9Fembe_-_Ordu_02.jpg"
+ },
+ {
+  "id": "tarakli-eski-evleri",
+  "il": "Sakarya",
+  "ad": "Taraklı Eski Evleri",
+  "yer": "Sakarya · Taraklı",
+  "bilgi": "Sakarya'nın güneydoğusundaki Taraklı, 1987'de ilçe oldu. Eski evleriyle tanınan bu yer, 2011'de \"Sakin Kent\" unvanı aldı; ancak 2022'de aidat borcu nedeniyle sakin şehirler listesinden çıkarıldı.",
+  "lisans": "CC0",
+  "yazar": "Hamdigumus",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ATarakl%C4%B1_Eski_Evleri%2C_Sakarya_2014-13.jpg"
+ },
+ {
+  "id": "acarlar-longozu",
+  "il": "Sakarya",
+  "ad": "Acarlar Longozu",
+  "yer": "Sakarya · Karasu",
+  "bilgi": "Türkiye'nin tek parça halindeki en büyük longoz (subasar) ormanıdır; 7,5 km uzunluğundadır. Kıyı set gölü kökenlidir. Nadir görülen subasar orman ekosistemi nedeniyle 1998'de 1. derece doğal sit alanı ilan edilmiştir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Murat Özsoy 1958",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAcarlar_Floodplain_Forest_%28Acarlar_G%C3%B6l%C3%BC_Longozu%29%2C_Karasu%2C_Sakarya%2C_Turkey_11.jpg"
+ },
+ {
+  "id": "kizilirmak-deltasi",
+  "il": "Samsun",
+  "ad": "Kızılırmak Deltası",
+  "yer": "Samsun · Bafra / Ondokuzmayıs / Alaçam",
+  "bilgi": "Kızılırmak'ın Karadeniz'e döküldüğü yerde oluşan delta, Türkiye'nin en büyük deltalarındandır; 56.000 hektarlık alanın yaklaşık 11.600 hektarı sulak alandır. Deniz, ırmak, göl, sazlık, orman ve kumul gibi birçok yaşam alanını bir arada barındırdığı için biyolojik çeşitliliği çok zengindir.",
+  "lisans": "CC BY 3.0",
+  "yazar": "sami yılmaz",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AK%C4%B1z%C4%B1l%C4%B1rmak_Deltas%C4%B1_Ku%C5%9F_Cenneti_-_panoramio_%281%29.jpg"
+ },
+ {
+  "id": "sinop-kalesi",
+  "il": "Sinop",
+  "ad": "Sinop Kalesi",
+  "yer": "Sinop · Merkez",
+  "bilgi": "Sinop yarımadasını çevreleyen kale, MÖ 7. yüzyılda kenti korumak için kuruldu. Duvarları 2.050 metre uzunluğunda ve 25 metre yüksekliğindedir. Roma, Bizans ve Selçuklu dönemlerinde onarıldı; UNESCO 2013'te kaleyi Dünya Mirası Geçici Listesi'ne aldı.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ASinop_Castle_southern_wall_9181.jpg"
+ },
+ {
+  "id": "sinop-tarihi-cezaevi",
+  "il": "Sinop",
+  "ad": "Tarihî Sinop Cezaevi",
+  "yer": "Sinop · Merkez",
+  "bilgi": "Sinop Kalesi'nin duvarları içinde, üç yanı denizle çevrili bu cezaevi bir dönem \"Anadolu'nun Alcatraz'ı\" diye anıldı. 1999'da kapatıldı, 2000'de müzeye çevrildi. İki katlı, U planlı yapıda 28 koğuş bulunur.",
+  "lisans": "CC BY-SA 2.0",
+  "yazar": "Panegyrics of Granovetter from Toronto, Ontario, Canada",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AS%C4%B0nop_tarih%C3%AE_cezaevi_14425.jpg"
+ },
+ {
+  "id": "gok-medrese",
+  "il": "Sivas",
+  "ad": "Gök Medrese",
+  "yer": "Sivas · Merkez",
+  "bilgi": "Selçuklu dönemi medresesi, 1271'de vezir Sahip Ata Fahreddin Ali'nin vakfı olarak yapıldı; mimarı Konyalı Kaluyan'dır. Adını turkuaz renkli çinilerinden alır. Çifte minareli taç kapısı ve üzerindeki süslemeler yapının en görkemli bölümüdür.",
+  "lisans": "CC0",
+  "yazar": "Alexjes98",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AG%C3%B6k_medrese_-_Sivas_-_Turquie.jpg"
+ },
+ {
+  "id": "sivas-kongre-binasi",
+  "il": "Sivas",
+  "ad": "Sivas Kongresi Binası (Atatürk ve Kongre Müzesi)",
+  "yer": "Sivas · Merkez",
+  "bilgi": "1887'de lise olarak öğretime açılan bu binada 4-12 Eylül 1919'da Sivas Kongresi toplandı; Atatürk ve Temsil Heyeti bir süre burayı karargâh olarak kullandı. Bugün Sivas Atatürk ve Kongre Müzesi olarak hizmet veriyor.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "altungd",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ABuruciye_taraf%C4%B1ndan_kongre_binas%C4%B1_-_panoramio.jpg"
+ },
+ {
+  "id": "ballica-magarasi",
+  "il": "Tokat",
+  "ad": "Ballıca Mağarası",
+  "yer": "Tokat · Pazar",
+  "bilgi": "İndere adıyla da bilinen mağara yaklaşık 680 metre uzunluğunda, 9 salondan oluşur. Türkiye'de soğan sarkıtların bulunduğu tek mağaradır. 1995'ten beri ziyarete açıktır; 2019'da UNESCO Dünya Mirası Geçici Listesi'ne alınmıştır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Aybike Kaplan",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ATokat_Ball%C4%B1ca_Ma%C4%9Faras%C4%B1.jpg"
+ },
+ {
+  "id": "ulubey-kanyonu",
+  "il": "Uşak",
+  "ad": "Ulubey Kanyonu",
+  "yer": "Uşak · Ulubey",
+  "bilgi": "Ulubey Deresi ve Banaz Çayı'nın yıllar boyu aşındırmasıyla oluşan derin bir kanyon. 27 Haziran 2013'te tabiat parkı ilan edildi. Kaynaklarda ABD'deki Büyük Kanyon'dan sonra dünyanın en büyük ikinci kanyonu olarak anılır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "EmrahAyvali",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AUlubeyKanyonu.jpg"
+ },
+ {
+  "id": "sarikaya-roma-hamami",
+  "il": "Yozgat",
+  "ad": "Sarıkaya Roma Hamamı (Basilica Therma)",
+  "yer": "Yozgat · Sarıkaya",
+  "bilgi": "2. yüzyılda yapılan bu Roma halk hamamı Terzili Hamam ve Kral Hamamı gibi adlarla da bilinir. Altındaki sıcak su kaynağı (jeotermal etki) hâlâ canlıdır. Anadolu'daki Roma hamamları arasında benzersiz bir örnek sayılır.",
+  "lisans": "CC BY 4.0",
+  "yazar": "Leonphotograpy",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ARoma_Sar%C4%B1kaya_Hamam%C4%B1_%28Basilica_Therma%29.jpg"
+ },
+ {
+  "id": "capanoglu-camii",
+  "il": "Yozgat",
+  "ad": "Çapanoğlu Camii",
+  "yer": "Yozgat · Merkez",
+  "bilgi": "Bozok Sancağı valisi Çapanoğlu Mustafa Bey 1779'da yaptırdı; halk arasında Büyük Cami diye bilinir. Türk barokunun Anadolu'daki en önemli örneklerinden sayılır. 54 pencereyle aydınlanır; doğu yanındaki türbede 18 sanduka vardır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Aslanakbey0066",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AYozgat.66.300.11.jpg"
+ },
+ {
+  "id": "yozgat-camligi-milli-parki",
+  "il": "Yozgat",
+  "ad": "Yozgat Çamlığı Millî Parkı",
+  "yer": "Yozgat · Merkez",
+  "bilgi": "1958'de millî park ilan edilen Çamlık, Türkiye'nin ilk millî parkıdır. Step içinde kalmış sayılı kalıntı ormanlardan biridir. İçindeki çam çeşidinin bir benzeri yalnızca Kafkaslar'da bulunur.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "D.Songül",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AYozgat_%C3%87aml%C4%B1k_Milli_Park%C4%B1.jpg"
+ },
+ {
+  "id": "gokgol-magarasi",
+  "il": "Zonguldak",
+  "ad": "Gökgöl Mağarası",
+  "yer": "Zonguldak · Üzülmez",
+  "bilgi": "Yaklaşık 350 milyon yaşında, hâlâ oluşmaya devam eden bir damlataş mağarası. Kollarıyla birlikte 3350 metre uzunluğundadır; 875 metrelik yürüyüş yoluyla Türkiye'nin gezi alanı en büyük mağarası sayılır. Turizme 2001'den beri açıktır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "İncelemeelemani",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AZonguldak_G%C3%B6kg%C3%B6l_Ma%C4%9Faras%C4%B1_%2810%29.jpg"
+ },
+ {
+  "id": "uzun-mehmet-aniti",
+  "il": "Zonguldak",
+  "ad": "Uzun Mehmet Anıtı",
+  "yer": "Zonguldak · Karadeniz Ereğli",
+  "bilgi": "Türkiye'de taş kömürü madenciliği, Uzun Mehmet'in 1829'da Karadeniz Ereğli'de kömürü bulmasıyla başladı. Madenci heykeli, kömür havzasının bu ilk keşfini anıyor ve sahilde yer alıyor.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Dosseman",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AKaradeniz_Ere%C4%9Fli_Uzun_Mehmet_Statue_7760.jpg"
+ },
+ {
+  "id": "hasankeyf",
+  "il": "Batman",
+  "ad": "Hasankeyf",
+  "yer": "Batman · Hasankeyf",
+  "bilgi": "Dicle'nin iki yakasına yayılan tarihî bir yerleşimdir. Höyükte 3.500 ile 12.000 yıl öncesine kadar uzanan buluntulara rastlanmıştır. Kayalara oyulmuş konutları yüzünden “Mağaralar Şehri” diye anılmış; adı, Süryanice “kaya” sözcüğünden türetilmiştir. 2020'de Ilısu Barajı'nın suyu altında kalmıştır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Zorka Sojka",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AHasankeyf_%2803%29.jpg"
+ },
+ {
+  "id": "zeynel-bey-turbesi",
+  "il": "Batman",
+  "ad": "Zeynel Bey Türbesi",
+  "yer": "Batman · Hasankeyf",
+  "bilgi": "Akkoyunlu hükümdarı Uzun Hasan'ın oğlu Zeynel Bey için yapıldı; Zeynel Bey 1473'teki Otlukbeli Savaşı'nda ölmüştü. Dicle'nin kuzey kıyısındaki türbe, dıştan daire içten sekizgen planlıdır. Alt kısmı taş, üstü tuğladan örülmüştür.",
+  "lisans": "CC0",
+  "yazar": "Hamdigumus",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AZeynel_Bey_T%C3%BCrbesi.jpg"
+ },
+ {
+  "id": "cudi-dagi",
+  "il": "Şırnak",
+  "ad": "Cudi Dağı",
+  "yer": "Şırnak · Silopi",
+  "bilgi": "2.144 metre yüksekliğindeki dağ, Silopi ilçesindedir. Hristiyan ve İslam geleneklerine göre Tufan'dan sonra Nuh'un Gemisi'nin indiği yer olduğuna inanılır; Kur'an'da gemi \"Cûdî\"ye oturur. Asur yazıtlarında da adı geçer.",
+  "lisans": "CC BY 3.0",
+  "yazar": "Timo Roller",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ACudi-dagh-tr-1829.jpg"
+ },
+ {
+  "id": "cizre-ulu-camii",
+  "il": "Şırnak",
+  "ad": "Cizre Ulu Camii",
+  "yer": "Şırnak · Cizre",
+  "bilgi": "Cizre merkezde, Dağkapı Mahallesi'ndeki tarihî camidir. İlk yapının 7. yüzyılda kiliseden camiye çevrildiği düşünülür. Ejder figürlü bronz kapı tokmakları en önemli özelliğidir; 13. yüzyıla ait bir tokmak İstanbul'daki Türk ve İslam Eserleri Müzesi'ndedir.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "MikaelF",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AMizgefta_Mezin_a_Ciz%C3%AEra_Botan_2009_2.JPG"
+ },
+ {
+  "id": "amasra",
+  "il": "Bartın",
+  "ad": "Amasra",
+  "yer": "Bartın · Amasra",
+  "bilgi": "Karadeniz kıyısında, denize uzanan bir burun üzerinde kurulu; burnun iki yanında limanlık işi gören iki koy ve Büyük Ada ile Tavşan Adası vardır. Antik dönemde Amastris adıyla bilinen yerleşimin yaklaşık 3.000 yıllık tarihi vardır.",
+  "lisans": "CC BY-SA 3.0",
+  "yazar": "Babbsack",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAmasra%2C_Turkey%2C_Castle%2C_view_from_the_island.jpg"
+ },
+ {
+  "id": "cildir-golu",
+  "il": "Ardahan",
+  "ad": "Çıldır Gölü",
+  "yer": "Ardahan · Çıldır",
+  "bilgi": "123 km² alanıyla Doğu Anadolu'nun en büyük tatlı su gölüdür; 1959 metre yüksekliktedir ve en derin yeri 42 metredir. Kışın buz tutar, balıkçılar kalın buzu kırarak balık avlar. Eskiden adı Palakatsio Gölü'ydü.",
+  "lisans": "CC0",
+  "yazar": "Redlabubu",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AKars_%C3%87%C4%B1ld%C4%B1r_G%C3%B6l%C3%BC.jpg"
+ },
+ {
+  "id": "ardahan-kalesi",
+  "il": "Ardahan",
+  "ad": "Ardahan Kalesi",
+  "yer": "Ardahan · Merkez",
+  "bilgi": "Kent merkezinde, Orta Çağ'da Gürcülerden kalma bir kaledir; Osmanlı kayıtlarında Parakan Kalesi diye geçer. Osmanlılar 1556'da onarmış, o sırada içindeki Gürcü kilisesini yıkıp taşlarını duvarlarda kullanmıştır. Duvarlarda Gürcüce yazılı taşlar hâlâ görülür.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Volker Höhfeld",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AArdahan_2011_Ardahan_Kalesi_%C3%BCber_der_Kura_084.jpg"
+ },
+ {
+  "id": "tuzluca-tuz-magarasi",
+  "il": "Iğdır",
+  "ad": "Tuzluca Tuz Mağarası",
+  "yer": "Iğdır · Tuzluca",
+  "bilgi": "Tuzluca'nın adı, buradaki kaya tuzu madenlerinden gelir; ilçenin eski adı Kulp'tu. Yıllarca işlenen madenden oluşan tuz mağaraları 35 dönümlük bir alanı kaplar. Mağaralarda astım hastalarına hizmet veren bir şifa merkezi vardır.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Özlemcoskunoktav",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AI%C4%9Fd%C4%B1r_Tuzluca_Tuz_Ma%C4%9Faras%C4%B1_20221213.jpg"
+ },
+ {
+  "id": "yuruyen-kosk",
+  "il": "Yalova",
+  "ad": "Yürüyen Köşk",
+  "yer": "Yalova · Merkez",
+  "bilgi": "Atatürk'ün emriyle 1929'da yalnızca 22 günde yapıldı. 1930'da büyük çınarın dalı çatıya zarar verince, çınar kesilmesin diye bütün köşk tramvay rayları üzerinde biraz ileri kaydırıldı. Adı da buradan gelir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "vlyalcin",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AAtat%C3%BCrk_Y%C3%BCr%C3%BCyen_K%C3%B6%C5%9Fk%2C_Yalova%2C_T%C3%BCrkiye.jpg"
+ },
+ {
+  "id": "termal-kaplicalari",
+  "il": "Yalova",
+  "ad": "Termal Kaplıcaları",
+  "yer": "Yalova · Termal",
+  "bilgi": "Termal ilçesi adını buradaki sıcak su kaynaklarından alır. Kasaba, Yalova kentine 12 km uzaklıkta, Marmara Denizi kıyısındadır. Dünyaca ünlü kaplıcalarıyla çok sayıda turist ağırlayan önemli bir turizm merkezidir.",
+  "lisans": "CC BY 4.0",
+  "yazar": "Chapultepec",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AYalova_Thermal_Baths.jpg"
+ },
+ {
+  "id": "safranbolu-evleri",
+  "il": "Karabük",
+  "ad": "Safranbolu Evleri",
+  "yer": "Karabük · Safranbolu",
+  "bilgi": "Klasik Osmanlı kent mimarisini yansıtan Safranbolu evleri sayesinde şehir, 17 Aralık 1994'ten beri Dünya Mirası listesinde yer alıyor. Şehir adını, bölgede yetişen nadir bir bitki olan safrandan alır.",
+  "lisans": "CC0",
+  "yazar": "Hamdigumus",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3ASafranbolu_Evleri_2014-7.jpg"
+ },
+ {
+  "id": "incekaya-su-kemeri",
+  "il": "Karabük",
+  "ad": "İncekaya Su Kemeri",
+  "yer": "Karabük · Safranbolu",
+  "bilgi": "Safranbolu'ya su taşımak için yapılan 18. yüzyıldan kalma kemerdir. Moloz taşı ve Horasan harcıyla yapılmış, bir ana kemeri ve beş destek kemeri vardır. Uzunluğu 116 metre, kanyon üzerindeki yüksekliği en çok 60 metredir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Muhammet Dilmaç",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3A%C4%B0ncekaya_Su_Kemeri.jpg"
+ },
+ {
+  "id": "karatepe-aslantas",
+  "il": "Osmaniye",
+  "ad": "Karatepe-Aslantaş Açık Hava Müzesi",
+  "yer": "Osmaniye · Kadirli",
+  "bilgi": "M.Ö. 8. yüzyıla uzanan eski bir kalenin kalıntılarını barındıran açık hava müzesidir. Adını taş aslan heykellerinden alır. Üç tarafı Aslantaş Baraj Gölü ile çevrili ormanlık bir yarımada üzerindedir.",
+  "lisans": "CC BY-SA 4.0",
+  "yazar": "Panorama66",
+  "kaynak": "https://commons.wikimedia.org/wiki/File%3AKaratepe-Aslanta%C5%9F_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi-1.jpg"
+ }
+]
