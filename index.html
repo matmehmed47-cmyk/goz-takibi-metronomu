@@ -171,6 +171,8 @@
   .hline { position:absolute; height:2px; background:var(--line); transform:translateY(-50%); }
 
   .metin { position:relative; background:var(--card); border-radius:12px; padding:16px; height: 58vh; min-height: 280px; overflow-y:auto; font-size: 1.3rem; line-height: 2.1; contain: layout paint; }
+  .metin.obek { overflow:hidden; }
+  .obek-ic { position:relative; will-change: transform; padding-bottom: 60vh; }
   .metin h3 { margin:0 0 10px; font-size: 1rem; color:var(--muted); font-weight:600; }
   .metin p { margin: 0 0 14px; }
   .ipucu { color: var(--muted); font-size:.85rem; margin-top:8px; }
@@ -1643,16 +1645,20 @@ function noktaSahnesiKur(ad){
   noktaSayisi = noktalar.length;
 }
 function metniYukle(){
-  obekOnceki = -1; kaydirIptal++; obekGeoHazir = false; obekC = []; obekSatirY = [];
+  obekOnceki = -1; kaydirIptal++; obekGeoHazir = false; obekC = []; obekCs = []; obekSatirY = [];
   const m = metinSec(obekHavuz);
   obekAktifMetin = m;
   const sahne = el('sahne');
   sahne.innerHTML = '';
-  sahne.className = 'metin';
+  sahne.className = 'metin obek';
+  const ic = document.createElement('div');
+  ic.className = 'obek-ic';
+  ic.id = 'obek-ic';
+  sahne.appendChild(ic);
   const hedef = (m.seviye === '1-2' || m.seviye === '3-4') ? 2 : 3;
   const h = document.createElement('h3');
   h.textContent = m.baslik;
-  sahne.appendChild(h);
+  ic.appendChild(h);
   obekSpan = [];
   m.metin.split(/\n\n+/).forEach(par => {
     const p = document.createElement('p');
@@ -1664,17 +1670,17 @@ function metniYukle(){
       if (i < arr.length - 1) p.appendChild(document.createTextNode(' '));
       obekSpan.push(s);
     });
-    sahne.appendChild(p);
+    ic.appendChild(p);
   });
   if (m.kaynak) {
     const k = document.createElement('div');
     k.className = 'kaynak';
     k.textContent = 'Kaynak: ' + (m.yazar ? m.yazar + ' · ' : '') + m.kaynak + ' · ' + m.lisans;
-    sahne.appendChild(k);
+    ic.appendChild(k);
   }
   obekIdx = 0;
   if (kaydirRaf) { cancelAnimationFrame(kaydirRaf); kaydirRaf = 0; }
-  sahne.scrollTop = 0;
+  ic.style.transform = 'translate3d(0,0,0)';
 }
 function obekSahnesiKur(){
   obekHavuz = METINLER.filter(m => mod === 'cocuk' ? m.seviye === sinif : m.seviye === 'yetiskin');
@@ -1700,22 +1706,35 @@ function yumusakKaydir(sahne, hedef){
 }
 let obekOnceki = -1, kaydirIptal = 0, mAralik = 1, mHedef = 0;
 // ---- Öbek okuma: metin okuma noktasıyla birlikte sürekli akar (kare kare), vuruşta yalnız vurgu değişir ----
-let obekC = [], obekSatirY = [], obekGeoW = 0, obekGeoHazir = false, obekVT = 0, obekRafId = 0;
+let obekC = [], obekCs = [], obekSatirY = [], obekGeoW = 0, obekGeoHazir = false, obekVT = 0, obekRafId = 0;
 function obekGeoKur(){
-  const sahne = el('sahne'), cs = getComputedStyle(sahne);
-  const pl = parseFloat(cs.paddingLeft) || 0, pr = parseFloat(cs.paddingRight) || 0;
-  const iw = Math.max(1, sahne.clientWidth - pl - pr);
+  const sahne = el('sahne'), ic = el('obek-ic');
+  const iw = Math.max(1, ic.clientWidth);
   obekSatirY = []; obekC = [];
   const anahtar = [];
   obekSpan.forEach(sp => {
     const top = Math.round(sp.offsetTop / 3) * 3;
     let k = anahtar.indexOf(top);
-    if (k < 0) { anahtar.push(top); k = anahtar.length - 1; obekSatirY.push(Math.max(0, sp.offsetTop + sp.offsetHeight / 2 - sahne.clientHeight / 2)); }
-    const f = Math.min(1, Math.max(0, (sp.offsetLeft - pl + sp.offsetWidth / 2) / iw));
+    if (k < 0) { anahtar.push(top); k = anahtar.length - 1; obekSatirY.push(sp.offsetTop + sp.offsetHeight / 2); }
+    const f = Math.min(1, Math.max(0, (sp.offsetLeft + sp.offsetWidth / 2) / iw));
     obekC.push(k + f);
   });
   // satır numarası azalmasın (sarmalı öbeklerde)
   for (let i = 1; i < obekC.length; i++) if (obekC[i] < obekC[i - 1]) obekC[i] = obekC[i - 1];
+  // Akıcılık: öbek genişlikleri farklı olduğundan ham konum adım adım hızlanıp yavaşlar;
+  // komşu öbeklerle ortalayarak hızı yumuşat (satır sonu/başı sıçramaları da yumuşar)
+  const n = obekC.length, W = [0.1, 0.2, 0.4, 0.2, 0.1];
+  obekCs = obekC.map((_, i) => {
+    let t = 0;
+    for (let d = -2; d <= 2; d++) {
+      const j = i + d;
+      const v = j < 0 ? obekC[0] + (obekC[Math.min(n - 1, 1)] - obekC[0]) * j
+              : j >= n ? obekC[n - 1] + (obekC[n - 1] - obekC[Math.max(0, n - 2)]) * (j - n + 1)
+              : obekC[j];
+      t += v * W[d + 2];
+    }
+    return t;
+  });
   obekGeoW = sahne.clientWidth; obekGeoHazir = true;
 }
 function obekY(c){
@@ -1724,14 +1743,21 @@ function obekY(c){
   const y0 = obekSatirY[k], y1 = k + 1 < L ? obekSatirY[k + 1] : y0;
   return y0 + (y1 - y0) * f;
 }
+function obekKaydir(c){
+  const sahne = el('sahne'), ic = el('obek-ic');
+  if (!ic) return;
+  // transform ile kaydır: scrollTop tam piksele yuvarlanır, yavaş hızda takılma yapardı
+  const ty = Math.min(0, sahne.clientHeight / 2 - obekY(c));
+  ic.style.transform = 'translate3d(0,' + ty.toFixed(2) + 'px,0)';
+}
 function obekKare(){
   if (!aktif || secili !== 'obek' || !ctx) { obekRafId = 0; return; }
   const sahne = el('sahne');
   if (obekGeoHazir && sahne.clientWidth !== obekGeoW) obekGeoKur();
-  if (!mDur && obekGeoHazir && obekIdx > 0 && obekIdx <= obekC.length) {
-    const i = obekIdx - 1, c0 = obekC[i], c1 = i + 1 < obekC.length ? obekC[i + 1] : c0;
+  if (!mDur && obekGeoHazir && obekIdx > 0 && obekIdx <= obekCs.length) {
+    const i = obekIdx - 1, c0 = obekCs[i], c1 = i + 1 < obekCs.length ? obekCs[i + 1] : c0;
     const u = Math.min(1, Math.max(0, (ctx.currentTime - obekVT) / Math.max(0.05, mAralik)));
-    sahne.scrollTop = obekY(c0 + (c1 - c0) * u);
+    obekKaydir(c0 + (c1 - c0) * u);
   }
   obekRafId = requestAnimationFrame(obekKare);
 }
