@@ -7377,7 +7377,7 @@ function rtDinlenBasla(){
   { const u = el('tm-dinlen'); if (temaAktif() && temaYas() !== 'b') { u.innerHTML = tmBaykus(cocuk ? 'normal' : 'uyku', 72); u.classList.remove('hidden'); } else { u.classList.add('hidden'); u.innerHTML = ''; } }
   const nefes = el('rt-din-nefes');
   nefes.classList.toggle('hidden', !cocuk); el('rt-din-not').classList.add('hidden');
-  el('din-yagmur-satir').classList.toggle('hidden', !(cocuk && DIN_YAGMUR));
+  el('din-yagmur-satir').classList.toggle('hidden', !DIN_YAGMUR);
   clearInterval(rt.dinIv);
   if (cocuk) {
     din.gecen = 0; din.sonFaz = ''; din.perde = ''; din.gorsel = dinGorselAd();
@@ -7402,6 +7402,9 @@ function rtDinlenBasla(){
   let gecen = 0;
   el('rt-din-sayi').style.fontSize = '3rem'; el('rt-din-yazi').style.minHeight = '';
   nefes.classList.remove('hidden');
+  din.yetSessiz = false;
+  dinYagmurDugme();
+  if (dinYagmurAcik()) dinYagmurHazirla().then(() => { dinYagmurBasla(); dinYagmurSes(din.yetSessiz ? 0 : 1, 3); });
   { const gs = el('rt-din-gorsel'); gs.style.transition = 'none'; gs.style.transform = 'none';
     gs.innerHTML = '<div id="rt-din-daire" style="width:120px;height:120px;margin:0 auto;border-radius:50%;background:var(--accent);opacity:.45;transform:scale(.55)"></div>'; }
   rtGoster0('ekran-rt-dinlen');
@@ -7415,7 +7418,7 @@ function rtDinlenBasla(){
       else { sayi = CEV - p; yazi = 'Ver'; bay = 'uyku'; if (p === AL + TUT) daire(0.55, VER); }
     } else {
       sayi = toplam - gecen; yazi = 'Şimdi gözlerini aç. Odanın en uzak yerine bak.'; bay = 'normal';
-      if (gecen === NEF) { nefes.classList.add('hidden'); }
+      if (gecen === NEF) { nefes.classList.add('hidden'); din.yetSessiz = true; dinYagmurSes(0, UZ - 1); }
     }
     el('rt-din-sayi').textContent = sayi;
     el('rt-din-yazi').textContent = yazi;
@@ -7450,7 +7453,7 @@ el('rt-adim-cik').onclick = rtCik;
 el('rt-fb-cik').onclick = rtCik;
 el('rt-din-atla').onclick = rtDinlenBitir;
 el('din-perde').onclick = dinKarartmaAtla;
-el('din-yagmur-btn').onclick = () => { lsYaz('din-yagmur', dinYagmurAcik() ? '0' : '1'); dinYagmurDugme(); if (!dinYagmurAcik()) dinYagmurDur(0.4); else dinYagmurHazirla().then(() => { const f = dinFaz(din.gecen); dinYagmurBasla(); dinYagmurSes((f === 'isik' || f === 'uzak') ? 0 : 1, 1); }); };
+el('din-yagmur-btn').onclick = () => { lsYaz('din-yagmur', dinYagmurAcik() ? '0' : '1'); dinYagmurDugme(); if (!dinYagmurAcik()) dinYagmurDur(0.4); else dinYagmurHazirla().then(() => { const f = mod === 'cocuk' ? dinFaz(din.gecen) : (din.yetSessiz ? 'uzak' : 'al'); dinYagmurBasla(); dinYagmurSes((f === 'isik' || f === 'uzak') ? 0 : 1, 1); }); };
 el('rt-din-cik').onclick = rtCik;
 el('rt-bar-bitir').onclick = () => { if (mod === 'cocuk') return; rtZorlaBitir(false); };
 </script>
