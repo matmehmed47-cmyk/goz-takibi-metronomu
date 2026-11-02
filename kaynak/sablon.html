@@ -6768,7 +6768,7 @@ function rtSureTavan(id){
   if (t === 'ilk') return id === 'tr' ? 210 : { isinma: sinif === '1-2' ? 80 : 60, gorme: 100, dikkat: 120, oku: 150, dinlen: 30 }[k];
   if (t === 'orta') return id === 'tr' ? 270 : { isinma: 90, gorme: 120, dikkat: 150, oku: 210, dinlen: 30 }[k];
   if (id === 'tr') return 330;
-  return { isinma: 120, gorme: 150, dikkat: 180, oku: 240, dinlen: 120 }[k];
+  return { isinma: 120, gorme: 150, dikkat: 180, oku: 240, dinlen: 170 }[k];
 }
 function rtN(id){ return RT_LIST[id] ? RT_LIST[id].uygun().length : RT_OZEL[id].n; }
 
@@ -7380,6 +7380,7 @@ function rtDinlenBasla(){
   el('din-yagmur-satir').classList.toggle('hidden', !DIN_YAGMUR);
   clearInterval(rt.dinIv);
   if (cocuk) {
+    el('rt-din-not').textContent = 'Yorulursan normal nefes al.'; el('rt-din-yazi').style.whiteSpace = '';
     din.gecen = 0; din.sonFaz = ''; din.perde = ''; din.gorsel = dinGorselAd();
     const gs = el('rt-din-gorsel'), S = DIN_SVG[din.gorsel];
     gs.innerHTML = S.svg; gs.style.transition = 'none'; gs.style.transform = S.kucuk;
@@ -7397,7 +7398,8 @@ function rtDinlenBasla(){
     return;
   }
   // yetişkin: rehberli nefes (al 4 sn, tut 4 sn, ver 6 sn; 3 tur) + uzağa bakma
-  const NB = rtNefesBasamak(), [AL, TUT, VER, TUR] = RT_NEFES[NB], CEV = AL + TUT + VER, NEF = CEV * TUR, UZ = 15, toplam = NEF + UZ;
+  const NB = rtNefesBasamak(), [AL, TUT, VER, TUR] = RT_NEFES[NB], CEV = AL + TUT + VER, NEF = CEV * TUR, UZ = 15, GOZ = 45, toplam = NEF + GOZ + UZ;
+  const GOZ_ADIM = [[10, 'Göz kırp', 'Hızlı hızlı 10 kez göz kırp.'], [15, 'Yakın ve uzak', 'Parmağını yüzüne yakın tut. 3 sn ona bak, sonra uzaktaki bir şeye 3 sn bak. Tekrarla.'], [10, 'Yavaş göz hareketi', 'Başını oynatma. Gözünle yukarı, aşağı, sağa, sola yavaşça bak.'], [10, 'Gözlerini dinlendir', 'Avuçlarını sürterek ısıt, kapalı gözlerinin üstüne koy. Karanlığa bak.']];
   { const n = el('rt-din-not'); n.textContent = 'Basamak ' + (NB + 1) + '/' + RT_NEFES.length + ' · al ' + AL + ' · tut ' + TUT + ' · ver ' + VER + ' sn · ' + TUR + ' tur. Yorulursan normal nefes al.'; n.classList.remove('hidden'); }
   let gecen = 0;
   el('rt-din-sayi').style.fontSize = '3rem'; el('rt-din-yazi').style.minHeight = '';
@@ -7416,9 +7418,17 @@ function rtDinlenBasla(){
       if (p < AL) { sayi = AL - p; yazi = 'Nefes al'; bay = 'uyku'; if (p === 0) daire(1, AL); }
       else if (p < AL + TUT) { sayi = AL + TUT - p; yazi = 'Tut'; bay = 'uyku'; }
       else { sayi = CEV - p; yazi = 'Ver'; bay = 'uyku'; if (p === AL + TUT) daire(0.55, VER); }
+    } else if (gecen < NEF + GOZ) {
+      let q = gecen - NEF, b = 0;
+      while (b < GOZ_ADIM.length - 1 && q >= GOZ_ADIM[b][0]) { q -= GOZ_ADIM[b][0]; b++; }
+      sayi = GOZ_ADIM[b][0] - q; yazi = GOZ_ADIM[b][1] + '\n' + GOZ_ADIM[b][2]; bay = 'normal';
+      if (gecen === NEF) {
+        nefes.classList.add('hidden'); el('rt-din-yazi').style.whiteSpace = 'pre-line';
+        const n = el('rt-din-not'); n.textContent = 'Gözünde ağrı, bulanıklık ya da kızarıklık sürerse bir göz doktoruna git. Rahatsız olursan bırak.'; n.classList.remove('hidden');
+      }
     } else {
       sayi = toplam - gecen; yazi = 'Şimdi gözlerini aç. Odanın en uzak yerine bak.'; bay = 'normal';
-      if (gecen === NEF) { nefes.classList.add('hidden'); din.yetSessiz = true; dinYagmurSes(0, UZ - 1); }
+      if (gecen === NEF + GOZ) { din.yetSessiz = true; dinYagmurSes(0, UZ - 1); }
     }
     el('rt-din-sayi').textContent = sayi;
     el('rt-din-yazi').textContent = yazi;
