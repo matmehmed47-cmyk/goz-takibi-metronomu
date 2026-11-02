@@ -6768,7 +6768,7 @@ function rtSureTavan(id){
   if (t === 'ilk') return id === 'tr' ? 210 : { isinma: sinif === '1-2' ? 80 : 60, gorme: 100, dikkat: 120, oku: 150, dinlen: 30 }[k];
   if (t === 'orta') return id === 'tr' ? 270 : { isinma: 90, gorme: 120, dikkat: 150, oku: 210, dinlen: 30 }[k];
   if (id === 'tr') return 330;
-  return { isinma: 120, gorme: 150, dikkat: 180, oku: 240, dinlen: 57 }[k];
+  return { isinma: 120, gorme: 150, dikkat: 180, oku: 240, dinlen: 120 }[k];
 }
 function rtN(id){ return RT_LIST[id] ? RT_LIST[id].uygun().length : RT_OZEL[id].n; }
 
@@ -7362,6 +7362,16 @@ function dinCiz(){
 }
 function dinKarartmaAtla(){ if (din.perde === 'koyu') { din.gecen = dinZaman().k1; dinCiz(); } }
 function dinYagmurDugme(){ const b = el('din-yagmur-btn'); if (b) b.textContent = 'Yağmur sesi: ' + (dinYagmurAcik() ? 'açık' : 'kapalı'); }
+// Yetişkin nefes merdiveni: [al, tut, ver, tur]; her basamak 21 takvim günü (ara verince en çok +3 gün sayılır)
+const RT_NEFES = [[4, 4, 6, 3], [4, 4, 7, 3], [5, 4, 7, 4], [5, 5, 8, 4], [5, 5, 8, 5], [6, 5, 9, 5]];
+function rtNefesBasamak(){
+  const k = 'rt-nefes-' + rtAnahtarMod(), t = rtBugun();
+  let s = rtJson(k, null);
+  if (!s || !isFinite(s.z)) { s = { z: 0, son: t }; lsYaz(k, JSON.stringify(s)); }
+  const fark = s.son ? rtGunFark(t, s.son) : 0;
+  if (fark > 0) { s.z += Math.min(3, fark); s.son = t; lsYaz(k, JSON.stringify(s)); }
+  return Math.min(RT_NEFES.length - 1, Math.floor(s.z / 21));
+}
 function rtDinlenBasla(){
   const cocuk = mod === 'cocuk';
   { const u = el('tm-dinlen'); if (temaAktif() && temaYas() !== 'b') { u.innerHTML = tmBaykus(cocuk ? 'normal' : 'uyku', 72); u.classList.remove('hidden'); } else { u.classList.add('hidden'); u.innerHTML = ''; } }
@@ -7387,7 +7397,8 @@ function rtDinlenBasla(){
     return;
   }
   // yetişkin: rehberli nefes (al 4 sn, tut 4 sn, ver 6 sn; 3 tur) + uzağa bakma
-  const AL = 4, TUT = 4, VER = 6, TUR = 3, CEV = AL + TUT + VER, NEF = CEV * TUR, UZ = 15, toplam = NEF + UZ;
+  const NB = rtNefesBasamak(), [AL, TUT, VER, TUR] = RT_NEFES[NB], CEV = AL + TUT + VER, NEF = CEV * TUR, UZ = 15, toplam = NEF + UZ;
+  { const n = el('rt-din-not'); n.textContent = 'Basamak ' + (NB + 1) + '/' + RT_NEFES.length + ' · al ' + AL + ' · tut ' + TUT + ' · ver ' + VER + ' sn · ' + TUR + ' tur. Yorulursan normal nefes al.'; n.classList.remove('hidden'); }
   let gecen = 0;
   el('rt-din-sayi').style.fontSize = '3rem'; el('rt-din-yazi').style.minHeight = '';
   nefes.classList.remove('hidden');
