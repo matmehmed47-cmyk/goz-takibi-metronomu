@@ -6791,7 +6791,7 @@ function rtSureTavan(id){
   if (t === 'ilk') return id === 'tr' ? 210 : { isinma: sinif === '1-2' ? 80 : 60, gorme: 100, dikkat: 120, oku: 150, dinlen: 30 }[k];
   if (t === 'orta') return id === 'tr' ? 270 : { isinma: 90, gorme: 120, dikkat: 150, oku: 210, dinlen: 30 }[k];
   if (id === 'tr') return 330;
-  return { isinma: 120, gorme: 150, dikkat: 180, oku: 240, dinlen: 40 }[k];
+  return { isinma: 120, gorme: 150, dikkat: 180, oku: 240, dinlen: 57 }[k];
 }
 function rtN(id){ return RT_LIST[id] ? RT_LIST[id].uygun().length : RT_OZEL[id].n; }
 
@@ -7409,15 +7409,29 @@ function rtDinlenBasla(){
     }, 1000);
     return;
   }
-  // yetişkin: eski dinlendirme
-  const toplam = rtSureTavan('din'), yarim = Math.round(toplam / 2);
+  // yetişkin: rehberli nefes (al 4 sn, tut 4 sn, ver 6 sn; 3 tur) + uzağa bakma
+  const AL = 4, TUT = 4, VER = 6, TUR = 3, CEV = AL + TUT + VER, NEF = CEV * TUR, UZ = 15, toplam = NEF + UZ;
   let gecen = 0;
   el('rt-din-sayi').style.fontSize = '3rem'; el('rt-din-yazi').style.minHeight = '';
+  nefes.classList.remove('hidden');
+  { const gs = el('rt-din-gorsel'); gs.style.transition = 'none'; gs.style.transform = 'none';
+    gs.innerHTML = '<div id="rt-din-daire" style="width:120px;height:120px;margin:0 auto;border-radius:50%;background:var(--accent);opacity:.45;transform:scale(.55)"></div>'; }
   rtGoster0('ekran-rt-dinlen');
+  const daire = (olcek, sn) => { const d = el('rt-din-daire'); if (!d) return; void d.offsetWidth; d.style.transition = 'transform ' + sn + 's ease-in-out'; d.style.transform = 'scale(' + olcek + ')'; };
   const yaz = () => {
-    el('rt-din-sayi').textContent = toplam - gecen;
-    el('rt-din-yazi').textContent = gecen < yarim ? 'Gözlerini kapat. Rahat nefes al.' : 'Şimdi gözlerini aç. Odanın en uzak yerine bak.';
-    { const u = el('tm-dinlen'); if (!u.classList.contains('hidden')) u.innerHTML = tmBaykus(gecen < yarim ? 'uyku' : 'normal', 72); }
+    let sayi, yazi, bay;
+    if (gecen < NEF) {
+      const p = gecen % CEV;
+      if (p < AL) { sayi = AL - p; yazi = 'Nefes al'; bay = 'uyku'; if (p === 0) daire(1, AL); }
+      else if (p < AL + TUT) { sayi = AL + TUT - p; yazi = 'Tut'; bay = 'uyku'; }
+      else { sayi = CEV - p; yazi = 'Ver'; bay = 'uyku'; if (p === AL + TUT) daire(0.55, VER); }
+    } else {
+      sayi = toplam - gecen; yazi = 'Şimdi gözlerini aç. Odanın en uzak yerine bak.'; bay = 'normal';
+      if (gecen === NEF) { nefes.classList.add('hidden'); }
+    }
+    el('rt-din-sayi').textContent = sayi;
+    el('rt-din-yazi').textContent = yazi;
+    { const u = el('tm-dinlen'); if (!u.classList.contains('hidden')) u.innerHTML = tmBaykus(bay, 72); }
   };
   yaz();
   rt.dinIv = setInterval(() => { gecen++; if (gecen >= toplam) return rtDinlenBitir(); yaz(); }, 1000);
